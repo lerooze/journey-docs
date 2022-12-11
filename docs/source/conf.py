@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "IFDat"
+project = "Journey"
 copyright = "2022"
-author = "Antonis Loumiotis, Bank of Greece"
+author = "Antonis Loumiotis"
 
 # # The full version, including alpha/beta/rc tags
 # release = "0.1"
