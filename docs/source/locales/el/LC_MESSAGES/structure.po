@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/structure.rst:2 916c6b60133c4aa8b6181ad4147f377b
+msgid "Δομή Δεδομένων"
+msgstr ""
+
+#: ../../source/structure.rst:4 09630ff9723340219c9dec5208e88684
+msgid ""
+"Κάθε τομές δεδομένων αποτελείται από ``πίνακες δεδομένων`` και κάθε "
+"πίνακας δεδομένων βασίζεται σε μία ``δομή δεδομένων`` που ακολουθεί τις "
+"βασικές αρχές του πρότυπο πληροφοριών ``SDMX``."
+msgstr ""
+
+#: ../../source/structure.rst:8 64a16bc1249e42b58a9fe969c650122f
+msgid ""
+"Συνοπτικά κάθε πίνακας αποτελείται από ``παρατηρήσεις`` και κάθε "
+"παρατήρηση αποτελείται από ``τιμές`` για μερικές ή όλες τις "
+"``διαστάσεις``, τις ``μεταβλητές``,  και τα ``χαρακτηριστικά`` των "
+"μεταβλητών ανάλογα με την υποχρεωτικότητά τους και ανάλογα με το αν "
+"λαμβάνουν μια προεπιλεγμένη τιμή στην περίπτωση που δεν συμπληρωθούν."
+msgstr ""
+
+#: ../../source/structure.rst:13 94836ad255ff4b4bb4ff241b4827ea15
+msgid ""
+"Οι τιμές των διαστάσεων ορίζουν το ``κλειδί`` της παρατήρησης και οι "
+"τιμές των μεταβλητών περιγράφουν το ``κλειδί``.  Οι τιμές των "
+"χαρακτηριστικών περιγράφουν τις τιμές των μεταβλητών με τις οποίες είναι "
+"συνδεδεμένες."
+msgstr ""
+

@@ -1,0 +1,1208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/domain/ifdat/categories/bsi.rst:2
+#: 4a1231c7cdad471ca4b5e0e46bf721c6
+msgid "BSI: Λογαριασμοί Ισολογισμού"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:4
+#: dc33b7ad33e64d61a8c61a3594c6d6d3
+msgid ""
+"Χρησιμοποιείται για την παροχή στοιχείων λογαριασμών ισολογισμού των "
+"``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:6
+#: a2eee074dd714bc494e1917ef09c57ba
+msgid ""
+"Στις παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι "
+"διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:10
+#: f42a991e96db407789258d3c8b383afd
+msgid "CASH"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:12
+#: e62513dbbc0f4d7e8f0a6e3a826d7368
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρηματικών "
+"διαθέσιμων των ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:15
+#: ../../source/domain/ifdat/categories/bsi.rst:48
+#: ../../source/domain/ifdat/categories/bsi.rst:89
+#: ../../source/domain/ifdat/categories/bsi.rst:119
+#: ../../source/domain/ifdat/categories/bsi.rst:187
+#: ../../source/domain/ifdat/categories/bsi.rst:253
+#: ../../source/domain/ifdat/categories/bsi.rst:313
+#: ../../source/domain/ifdat/categories/bsi.rst:358
+#: ../../source/domain/ifdat/categories/bsi.rst:410
+#: ../../source/domain/ifdat/categories/bsi.rst:461
+#: ../../source/domain/ifdat/categories/bsi.rst:513
+#: ../../source/domain/ifdat/categories/bsi.rst:554
+#: ../../source/domain/ifdat/categories/bsi.rst:584
+#: ../../source/domain/ifdat/categories/bsi.rst:636
+#: ../../source/domain/ifdat/categories/bsi.rst:679
+#: ../../source/domain/ifdat/categories/bsi.rst:719
+#: 1362d7cac92d44fc875e87a96228c46d 2bf3a9e40dc34ae09e1797d61d7f5c0e
+#: 442a40ec8d7b42a2816e061b8baca3c0 52af2671bb444b2ba0b7b72e6cb114c5
+#: 65fb957ee72547d0983d8fca41311598 8367dd438338493d902cda8545a5f83c
+#: 86f6c53d679e48fbbaa1d195a8c83f0f 924e672b48b2480ab216bf62f28b3a22
+#: 984ab58f2ea8440a8666548fc00fdb65 992a3cc82073401ea1e2387afbeb38dd
+#: a12801be41ff4da99a262c26727c0037 ad60e23005db4363984aa05ef7c43267
+#: b58fa4df16de4c7bb6ccc9a78b48b7de d665c6d9dcbd45478a0e6dc3d8388243
+#: e9b1ff0ad7c7467ca3a465e8a94a4f41 f8a857c567a94dbdb78e313f97b9cee7
+msgid "ΔΙΑΣΤΑΣΕΙΣ"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:18
+#: a5a2dde629874669bad8caeb152cdf9a
+msgid "CRRNCY (CURRENCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:18
+#: 675e46ea97c4432987515249424dcceb
+msgid "Το νόμισμα επιλέγοντας από τη λίστα τιμών ``GEN_CRRNCY_ENUM``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:21
+#: ../../source/domain/ifdat/categories/bsi.rst:125
+#: ../../source/domain/ifdat/categories/bsi.rst:193
+#: ../../source/domain/ifdat/categories/bsi.rst:259
+#: ../../source/domain/ifdat/categories/bsi.rst:470
+#: ../../source/domain/ifdat/categories/bsi.rst:516
+#: ../../source/domain/ifdat/categories/bsi.rst:590
+#: ../../source/domain/ifdat/categories/bsi.rst:682
+#: ../../source/domain/ifdat/categories/bsi.rst:725
+#: 028cb5a119af40fa86a2bb93d9064359 4545fb43a08e4ab9a773a0709ac664c6
+#: 4ec429388efa4125b8875a09a5496ea9 5c57524cf57748e9958b42690d99001c
+#: 5e4c3a2c0c714649bce2495a99026bfa 68064f9ccf9d431d95a5d7390e7a4fb0
+#: a2282833e24a4ac99a8493e6c2cd738f e65416858b994c7a955ecd46beed4774
+#: f5031fe09038404f8ab7e1092d291734
+msgid "ID"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:21
+#: ../../source/domain/ifdat/categories/bsi.rst:125
+#: ../../source/domain/ifdat/categories/bsi.rst:193
+#: ../../source/domain/ifdat/categories/bsi.rst:259
+#: ../../source/domain/ifdat/categories/bsi.rst:470
+#: ../../source/domain/ifdat/categories/bsi.rst:516
+#: ../../source/domain/ifdat/categories/bsi.rst:682
+#: 2d8cde3b881c447cbfba425097aa371a 2e8387de780c48c38abf282ec04398f0
+#: 843df5676bae4d7184989355756d840f 9894fbbe62fb444faafd3da88248f83c
+#: bbe5139a6b50486a841d9c027093da35 db565c64bfad4e32a185a46f3e39710c
+#: e31b8cb703024866af6532e2a581cc12
+msgid "Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:25
+#: ../../source/domain/ifdat/categories/bsi.rst:55
+#: ../../source/domain/ifdat/categories/bsi.rst:96
+#: ../../source/domain/ifdat/categories/bsi.rst:131
+#: ../../source/domain/ifdat/categories/bsi.rst:199
+#: ../../source/domain/ifdat/categories/bsi.rst:265
+#: ../../source/domain/ifdat/categories/bsi.rst:322
+#: ../../source/domain/ifdat/categories/bsi.rst:367
+#: ../../source/domain/ifdat/categories/bsi.rst:419
+#: ../../source/domain/ifdat/categories/bsi.rst:476
+#: ../../source/domain/ifdat/categories/bsi.rst:529
+#: ../../source/domain/ifdat/categories/bsi.rst:561
+#: ../../source/domain/ifdat/categories/bsi.rst:596
+#: ../../source/domain/ifdat/categories/bsi.rst:644
+#: ../../source/domain/ifdat/categories/bsi.rst:696
+#: ../../source/domain/ifdat/categories/bsi.rst:731
+#: 0564fb122d2544dc97e12b2218a79dcb 09e8b19db5d74f05888d3d8502b66c9e
+#: 1595cf028aca4cfba1b2aa8b2fd98a12 2a99f63f7c7a46dab9711d3dfe2e740b
+#: 4a8bdd42eff24b7d9b8885a1da4e317b 6f3a38af66b54b9b834c177d3b283da8
+#: 779c8cd0835a49d4880e1dc40b87aa8b a2cd46b6632a428c9f024327cf5a00cd
+#: ab84be243dce4a459e021a35894358df b7ffef01e7434ff5aef72de54fab23d9
+#: b89da12e81534f628de1f6571eb6a86b d7b91bd723054fbdb38a4fa0f488665f
+#: d84784eca6c040d1891d9b8a3f709bc6 da7be0f179c2447ca265db6dd2b4328f
+#: e8b74fafb8c445219ec20c46332a6024 eb3b266cbe4a4c0dbb1c5e78c1ee1b7b
+msgid "DATE (DT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:24
+#: ../../source/domain/ifdat/categories/bsi.rst:54
+#: ../../source/domain/ifdat/categories/bsi.rst:95
+#: ../../source/domain/ifdat/categories/bsi.rst:528
+#: ../../source/domain/ifdat/categories/bsi.rst:560
+#: ../../source/domain/ifdat/categories/bsi.rst:642
+#: ../../source/domain/ifdat/categories/bsi.rst:694
+#: 1114cea5d6094922aaa3da814a88f4f6 1ab24cb275084c6193aca57a648fb2fc
+#: 1def7da0195245618eecbd19c3857804 305897fe5bc749d19728f9eb9e639c81
+#: 3d2274bc74384849bd787b01d8db019f 68473558db6543dd8b77d82dbb488c2e
+#: e3ca55217d2c446799133170a0eb7b66
+msgid ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
+"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:28
+#: ../../source/domain/ifdat/categories/bsi.rst:58
+#: ../../source/domain/ifdat/categories/bsi.rst:99
+#: ../../source/domain/ifdat/categories/bsi.rst:138
+#: ../../source/domain/ifdat/categories/bsi.rst:206
+#: ../../source/domain/ifdat/categories/bsi.rst:272
+#: ../../source/domain/ifdat/categories/bsi.rst:329
+#: ../../source/domain/ifdat/categories/bsi.rst:374
+#: ../../source/domain/ifdat/categories/bsi.rst:426
+#: ../../source/domain/ifdat/categories/bsi.rst:484
+#: ../../source/domain/ifdat/categories/bsi.rst:532
+#: ../../source/domain/ifdat/categories/bsi.rst:564
+#: ../../source/domain/ifdat/categories/bsi.rst:603
+#: ../../source/domain/ifdat/categories/bsi.rst:647
+#: ../../source/domain/ifdat/categories/bsi.rst:699
+#: ../../source/domain/ifdat/categories/bsi.rst:739
+#: 0943de4802c84cb79008672154287222 0fde91c510a94c9c876c75b244e763dc
+#: 267e546044db4346a655cc392844a217 391d9b0136744e9dbe7f401688c2c83b
+#: 3fc9121179d14149964bfd1d12ef9be6 8bc98e7b3d954dcaa065c0becf6dda71
+#: 8bcf55f55cca42278e41b0d2ea017619 8cc3e5be9e72483d8e2b62dd717f6a32
+#: 8df6ad0dee62440faff81b222222b996 93213574217f4037a28bb0c00a460bd8
+#: a03e494aa75148a295a5a2a03d3586ee a16211ff557841b9a11fafccbcd31052
+#: a830730e11544a5595cca953004d9e1a cb92297bb3f6418894071c7d3af67d42
+#: db373e9d9fe64aa6a37434da4ee9ef32 f27ffc30ec7946b6ad667ad63ca5044f
+msgid "ΜΕΤΑΒΛΗΤΕΣ"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:33
+#: ../../source/domain/ifdat/categories/bsi.rst:65
+#: ../../source/domain/ifdat/categories/bsi.rst:104
+#: ../../source/domain/ifdat/categories/bsi.rst:144
+#: ../../source/domain/ifdat/categories/bsi.rst:216
+#: ../../source/domain/ifdat/categories/bsi.rst:284
+#: ../../source/domain/ifdat/categories/bsi.rst:337
+#: ../../source/domain/ifdat/categories/bsi.rst:383
+#: ../../source/domain/ifdat/categories/bsi.rst:435
+#: ../../source/domain/ifdat/categories/bsi.rst:489
+#: ../../source/domain/ifdat/categories/bsi.rst:537
+#: ../../source/domain/ifdat/categories/bsi.rst:569
+#: ../../source/domain/ifdat/categories/bsi.rst:609
+#: ../../source/domain/ifdat/categories/bsi.rst:652
+#: ../../source/domain/ifdat/categories/bsi.rst:704
+#: 1207cf383e844c49beff233b36eb402e 15f8f2a0b4cf4849a5e8acd4a5cec3b1
+#: 1f4f2bcfb1c34b20916cc6b76405a96d 46535fb8e9684e84817f60598f38d15e
+#: 49a479c2b81245b6968dbba145c275f2 4e77c568373d4c468aa7dc6c00e4db0a
+#: 6c519f8c55c44b0982d8fe68ae4177b0 6dadbac1b5144eafb96af9b64fa3b70b
+#: 742e4649c1af475d8391b8b4e4e67a1f 7a4d21f0c34941aeb3a144a343f5a0a4
+#: 7f1da33cb6e146679d8c0b1f11be56d1 d09d5ca597bf434d9bbff61a4d39cf85
+#: dcd5dab3abca470c89d92dd94d8cfa96 e489eebd463b48d3a7247c3990a35cf3
+#: eb406ddbf51642a3b02474659c6ebe16
+msgid "STOCK (STCK)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:33
+#: ../../source/domain/ifdat/categories/bsi.rst:155
+#: ../../source/domain/ifdat/categories/bsi.rst:618
+#: ../../source/domain/ifdat/categories/bsi.rst:652
+#: 3b766b2ab197488a9984369ce99bc18c 56b59ee77dac488cbc042b72f5cd0cad
+#: 72533a159c4b420c88e1f294a9b0193f a88c387e97e24fe69e105c49955b9c58
+msgid "Ονομαστική αξία·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:37
+#: ../../source/domain/ifdat/categories/bsi.rst:68
+#: ../../source/domain/ifdat/categories/bsi.rst:108
+#: ../../source/domain/ifdat/categories/bsi.rst:147
+#: ../../source/domain/ifdat/categories/bsi.rst:219
+#: ../../source/domain/ifdat/categories/bsi.rst:287
+#: ../../source/domain/ifdat/categories/bsi.rst:340
+#: ../../source/domain/ifdat/categories/bsi.rst:386
+#: ../../source/domain/ifdat/categories/bsi.rst:438
+#: ../../source/domain/ifdat/categories/bsi.rst:492
+#: ../../source/domain/ifdat/categories/bsi.rst:542
+#: ../../source/domain/ifdat/categories/bsi.rst:573
+#: ../../source/domain/ifdat/categories/bsi.rst:612
+#: ../../source/domain/ifdat/categories/bsi.rst:655
+#: ../../source/domain/ifdat/categories/bsi.rst:708
+#: 043503554fed47da99a8258eeca2c2fc 239067d525c545108757884b35540a53
+#: 25a419490bc6409daa1b93022310f8a4 3d9e6f6abd204477be92aa807486164b
+#: 4a6e66f638984f76820941a7274d1483 69872665ddcc49dc988a1a550812db2f
+#: 750f7e7ca0e14ac98aa1582953090f31 9589b292f8b3426b977abafc08c85311
+#: ad081c8e8efc49db971a085f82853634 b2e5e9246a3d49ee8fe6f3a71b77e983
+#: d092e1735f574bad8f8453e261ab4e3a d11a9cf8039e4d49ac3f15b259974dc8
+#: f15e0dba99464b7791f35b972e19538f f1d9abbd8f8d4506baa757bb5a414398
+#: fabc1083c6d24004b55d47aa9da3b98e
+msgid "STOCK IN EURO (EUR_STCK)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:36
+#: 2a3688ddea0240bdb19b6cb556ae7a03
+msgid "Η cashstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:40
+#: 8590206b2ff14d0b805a69b3f1893b70
+msgid "DEPOSIT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:42
+#: fad54ef542cc4c2ab90379302fbf2e1a
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των καταθέσεων των "
+"``ΥΕΟ``. Για τον ορισμό της κατάθεσης δείτε :ref:`εδώ <dep>`.  Οι τιμές "
+"των μεταβλητών εκφράζονται στο :ref:`νόμισμα <depcurrency>` της κατάθεσης"
+" εκτός και αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:51
+#: ../../source/domain/ifdat/categories/bsi.rst:92
+#: ../../source/domain/ifdat/categories/bsi.rst:122
+#: ../../source/domain/ifdat/categories/bsi.rst:190
+#: ../../source/domain/ifdat/categories/bsi.rst:256
+#: ../../source/domain/ifdat/categories/bsi.rst:316
+#: ../../source/domain/ifdat/categories/bsi.rst:361
+#: ../../source/domain/ifdat/categories/bsi.rst:413
+#: ../../source/domain/ifdat/categories/bsi.rst:557
+#: ../../source/domain/ifdat/categories/bsi.rst:587
+#: ../../source/domain/ifdat/categories/bsi.rst:639
+#: ../../source/domain/ifdat/categories/bsi.rst:722
+#: 13fa579463b44a9ab3679793fcd962c0 32c305257372429aa37896b623556c1b
+#: 4c258536b52c470e9eb73dff0d88db80 569345c9e08e448eb93e4a9d4beece18
+#: 612e254dfb0047efa622ad1e7709e8ef 7059b39570e44136acabdeb1302071e4
+#: 8019c23aaf9d45cca2210bd5cf458dda 95bfa86249c44a3ea626250a7133ecd8
+#: a99350907eb043898906a951a53fc032 ad15ba87628147ca83f3b4d3ebeda9de
+#: b549e3bdf87046b0889628af7520a7ca ca7a80d4468c4b88ab2ad6eb967f60fb
+msgid "IID"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:51
+#: 23817650709345f6a1f75afda4110ca6
+msgid "Ο αναγνωριστικός κωδικός της κατάθεσης (:ref:`dep`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:63
+#: 14d2d75655344e63b078b64f04b6b1c0
+msgid ""
+"Υπόλοιπο περιλαμβάνοντας τους δεδουλευμένους τόκους καθώς και τους "
+"εκπρόθεσμους/απλήρωτους τόκους αλλά χωρίς να περιλαμβάνει αφαιρετικά "
+"τυχόν διαγραφές/περικοπές/απομειώσεις (μεταβλητή υπολοίπου)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:68
+#: c333d2636af9499394acb1ec25ed73e3
+msgid "Η depstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:71
+#: ../../source/domain/ifdat/categories/bsi.rst:171
+#: ../../source/domain/ifdat/categories/bsi.rst:392
+#: ../../source/domain/ifdat/categories/bsi.rst:444
+#: ../../source/domain/ifdat/categories/bsi.rst:498
+#: ../../source/domain/ifdat/categories/bsi.rst:621
+#: ../../source/domain/ifdat/categories/bsi.rst:664
+#: 03ad5936223145449de3038dbfdc589b 15bcd42448354b1db5a6e8aa0c05a386
+#: 3c02929a762c4c92937abc704741aa20 51133759595a4a74bb55e45d20e85bc8
+#: d8eb297fc1d24194b7a5920660bf872f e9e977560ad04f71a6064ab63258b782
+#: ea20f8950b3d48888a1b1894794f7d45
+msgid "ACCRUALS (ACCRLS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:71
+#: ../../source/domain/ifdat/categories/bsi.rst:171
+#: ../../source/domain/ifdat/categories/bsi.rst:621
+#: ../../source/domain/ifdat/categories/bsi.rst:664
+#: 3bd76a105bc7433f978881746716904d 486b2fff215543d5a23f6a247d14fda6
+#: f9f476e2316b4f108fb62853196442e6 fd242fda4b7e4598971ae600ffbef43e
+msgid "Δεδουλευμένοι τόκοι·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:74
+#: ../../source/domain/ifdat/categories/bsi.rst:175
+#: ../../source/domain/ifdat/categories/bsi.rst:395
+#: ../../source/domain/ifdat/categories/bsi.rst:447
+#: ../../source/domain/ifdat/categories/bsi.rst:501
+#: ../../source/domain/ifdat/categories/bsi.rst:625
+#: ../../source/domain/ifdat/categories/bsi.rst:670
+#: 25ff5aefa33048f68e0c53df0eadd220 3fd07f10be6d4931a3b8fc72e0381699
+#: 405dceb6e08049f793a7c0113442000b 494f1fbe90404a5e9b794cd3a164ebc3
+#: 4f405a3da72a4421a944cad5b8978988 a43e88dd313a4f46b8eedffc5b876d2d
+#: ecf8e3bbf1b74c448a32377cae5b0ab4
+msgid "ARREARS (ARRRS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:74
+#: d4f085bc7bc9480a91b51c62a44ca02b
+msgid "Εκπρόθεσμοι/απλήρωτοι τόκοι·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:77
+#: ../../source/domain/ifdat/categories/bsi.rst:399
+#: ../../source/domain/ifdat/categories/bsi.rst:450
+#: ../../source/domain/ifdat/categories/bsi.rst:504
+#: ../../source/domain/ifdat/categories/bsi.rst:661
+#: 2d0a1dff3add467b8e173d4dc0e36026 3f59c5e21cca42548dcc40c8c9bf8a14
+#: c46f5109e9f5497ca42844db4d2a4dda cf62203c226d41e5876ca3e03571d2d6
+#: ece1f5fb1d6c4c8fbe6a81a4b8ec4456
+msgid "WRITE-OFFS (WRT_OFFS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:77
+#: ac21569a622043c1a2a05624f7dc7846
+msgid "Ποσό περικοπών/διαγραφών/απομειώσεων·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:80
+#: 57197fca11ee4fc0bc92d47619161aec
+msgid "ASSET_SFT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:82
+#: 6b46167e28be4414a359cdd0b5f420ec
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων συναλλαγών "
+"χρηματοδότησης χρεογράφων όπου ο ``ΥΕΟ`` έχει δανείσει χρηματικά "
+"διαθέσιμα . Για τον ορισμό των πράξεων χρηματοδότησης χρεογράφων δείτε "
+":ref:`εδώ <sft>`.  Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα "
+"<sftcurrency>` της συναλλαγής εκτός και αν αναφέρεται κάτι διαφορετικό "
+"στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:92
+#: ../../source/domain/ifdat/categories/bsi.rst:557
+#: 482d03106c914ec0bc53bbf600574572 4a1532037ee949eb8dcd2ab1d1de97d1
+msgid "Ο αναγνωριστικός κωδικός της πράξης χρηματοδότησης τίτλων (:ref:`sft`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:104
+#: fad6302e62244615843f6fd829153eb5
+msgid "Συμπληρώνεται το ποσό των χρηματικών διαθέσιμων που δάνεισε ο ``ΥΕΟ`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:107
+#: 9010a07eb4f64f849f329d84c953e9a2
+msgid "Η asftstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:111
+#: c522155b0f904a0991ae44b518d4c2d4
+msgid "ASSET_DEBT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:113
+#: db55e9fc364446dcacd431bc0a6c4822
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρεογράφων που "
+"κατέχουν οι ``ΥΕΟ``. Για τον ορισμό του χρεογράφου δείτε :ref:`εδώ "
+"<dbt>`.  Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα "
+"<dbtcurrency>` του χρεογράφου εκτός και αν αναφέρεται κάτι διαφορετικό "
+"στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:122
+#: ../../source/domain/ifdat/categories/bsi.rst:587
+#: ae234e7e96c846af91117cc7ee1e2958 f0304569ad5041998186be0c05d01f9b
+msgid "Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`dbt`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:128
+#: ../../source/domain/ifdat/categories/bsi.rst:196
+#: ../../source/domain/ifdat/categories/bsi.rst:262
+#: ../../source/domain/ifdat/categories/bsi.rst:319
+#: ../../source/domain/ifdat/categories/bsi.rst:364
+#: ../../source/domain/ifdat/categories/bsi.rst:416
+#: ../../source/domain/ifdat/categories/bsi.rst:473
+#: ../../source/domain/ifdat/categories/bsi.rst:593
+#: 111ecdb09a2f4a8585df4d39c26ffd48 11f6571f947b44aa83e5ba30451410cf
+#: 33845e9f90f64d80a4cdfdea29efbce2 815433c10f4a4fbda791a2071ac864b6
+#: 8fb4113426d84be5becd7ef423971875 e6d625bd09cc4375a5acd6dd8369c24d
+#: eaa3fe2015ea43cebbe563e3e47622bc ebfc0e06ba994ddbb71ef0f7d8a6d494
+msgid ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών "
+"υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι "
+"παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών "
+"σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες "
+":doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:135
+#: ../../source/domain/ifdat/categories/bsi.rst:203
+#: ../../source/domain/ifdat/categories/bsi.rst:269
+#: ../../source/domain/ifdat/categories/bsi.rst:326
+#: 8c38f34754544e4ca101a4c982b31c28 b4ea44e6b46d46bb803f633abf7e69b7
+#: e942049e6d884e52ba45fc0ac89deecd f89174da5e6f4db89ade7b10863dcb25
+msgid "FRQNCY (FREQUENCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:134
+#: ../../source/domain/ifdat/categories/bsi.rst:268
+#: ../../source/domain/ifdat/categories/bsi.rst:325
+#: ../../source/domain/ifdat/categories/bsi.rst:370
+#: ../../source/domain/ifdat/categories/bsi.rst:422
+#: ../../source/domain/ifdat/categories/bsi.rst:479
+#: ../../source/domain/ifdat/categories/bsi.rst:599
+#: 190c4622806e4e019a1cb41cdcce1509 2e4db3fbd7554ae7908ce0e0c1e8ee56
+#: 34ff5367a54a4dc4becc0b11e77dacf3 43b0a0749d4d4447afbeafc16ef188f7
+#: 68862150a1104f94abbf59436a26a362 fd047c5350084af89dcf6c10b686bd5a
+#: fd71974416704df3a372da16e7bf08b1
+msgid ""
+"Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς "
+"που ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες "
+"πληροφορίες :doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:143
+#: ../../source/domain/ifdat/categories/bsi.rst:608
+#: a5ea0b3aea024f1096e29a5d3a60f429 e90edca4c48449bfa43e9253f88bd43a
+msgid ""
+"Αγοραία αξία περιλαμβάνοντας τους δεδουλευμένους τόκους αλλά χωρίς τους "
+"εκπρόθεσμους/απλήρωτους τόκους·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:147
+#: 54b7f2c4b9fd41818191976cd4c86705
+msgid "Η adbtstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:150
+#: ../../source/domain/ifdat/categories/bsi.rst:222
+#: ../../source/domain/ifdat/categories/bsi.rst:295
+#: ../../source/domain/ifdat/categories/bsi.rst:343
+#: ../../source/domain/ifdat/categories/bsi.rst:389
+#: ../../source/domain/ifdat/categories/bsi.rst:441
+#: ../../source/domain/ifdat/categories/bsi.rst:495
+#: ../../source/domain/ifdat/categories/bsi.rst:615
+#: 4258f0e4af4e493d8e95c7e4db5ed206 67257820b1794d9cac07770b18c2351c
+#: 717f6e138fbd40d4bc536ca435784bf0 98f7a8dff3bb4af1806e3a2bb5eb3091
+#: c85649268fc84e8e9e4c9a0b3529ae43 d82de01ffdee4e96969c7d4640ae7821
+#: ee50e753efd64d62a23c571060054da1 f3e1099974b84e2f86169612bc2193fd
+msgid "TRANSACTIONS (TRNSCTNS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:150
+#: ../../source/domain/ifdat/categories/bsi.rst:222
+#: ../../source/domain/ifdat/categories/bsi.rst:615
+#: 4b2558e38e71473b89bd48c4c85af936 a7f9058c0bf14c45a67403dce0ae3160
+#: c207dddafb6a41a3b87fff0f7555a4d7
+msgid ""
+"Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητή "
+"ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:155
+#: 4cf4e5638e37491fb5239ba3b593be36
+msgid "NOMINAL_STOCK (NMNL STCK)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:158
+#: ../../source/domain/ifdat/categories/bsi.rst:230
+#: 31df8187c493425993f509a09ffcb31a 723eb187226c4273ae01c2cbcbb26a0e
+msgid "LOANED_FOR_REPOS (LND_FR_RPS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:158
+#: 8d08c25e7ee74e20ae4837f18a5643e6
+msgid ""
+"Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές "
+"``REPOS`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:162
+#: ../../source/domain/ifdat/categories/bsi.rst:234
+#: 3cef279af2704bed90e61a2a22c411a9 3ee916fcec9643febafe73d9b666bd43
+msgid "LOANED_FOR_SCLB (LND_FR_SCLB)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:161
+#: 7fa4299ebd9f425fa7ee1df2d486b057
+msgid ""
+"Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές "
+"δανειοληψίας τίτλων (securities or commodities lending/borrowing) ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:165
+#: 5ff7a19aba254515b5ae9e1fdfe8b41a
+msgid "LOANED FOR BSBT (LND_FR_BSBT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:165
+#: 159ad7cd445e424e90eeb1346ed3c98c
+msgid ""
+"Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``sell-"
+"buy back`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:168
+#: 7cfa2544c53b45e1bcdc6220bf955ed0
+msgid "LOANED FOR MLT (LND_FOR_MLT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:168
+#: 070ef3d91f2246bab38c7a53cbad80c4
+msgid ""
+"Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές "
+"``margin`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:174
+#: ../../source/domain/ifdat/categories/bsi.rst:624
+#: ../../source/domain/ifdat/categories/bsi.rst:667
+#: 2bd91bc32ee443f285db72ca4929355e 5273c67e780f4090a1d069e12f134b36
+#: 79a5b05fa6a34331a1ab5ede2d5a25f5
+msgid "Εκπρόθεσμοι/απλήρωτοι τόκοι."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:178
+#: 59cb034c0023403aa6f8955b746e5b09
+msgid "SHARE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:180
+#: 2bcb72b00e0d47a5847d00507e565a67
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των συμμετοχικών "
+"τίτλων ή/και μετοχές/μερίδια επενδυτικών οργανισμών που κατέχουν οι "
+"``ΥΕΟ``. Για τον ορισμό των παραπάνω τίτλων δείτε :ref:`εδώ <shr>`.  Οι "
+"τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα <shrcurrency>` των "
+"τίτλων εκτός και αν αναφέρεται κάτι διαφορετικό στον ορισμό της "
+"μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:190
+#: a65b0cf6af7b40c3a1687b65ef155d2f
+msgid "Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου (:ref:`shr`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:202
+#: ../../source/domain/ifdat/categories/bsi.rst:734
+#: c2f0e8e24eac4d33b662b304681af385 d3ff4520f97c46c989b9d13316d1d6b3
+msgid ""
+"Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς "
+"που ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες "
+"πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:211
+#: 1df95525b6bf41b68d07a1d8ff313b92
+msgid ""
+"Αγοραία αξία για διαπραγματεύσιμα αξιόγραφα, αξία εξαγοράς για μη "
+"διαπραγματεύσιμα μερίδια αμοιβαίων κεφαλαίων, ή εύλογη αξία για τα "
+"υπόλοιπα.  Η εύλογη αξία εκτιμάται με έναν από τους ακόλουθους τρόπους:"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:213
+#: 196321f80cd7447bbb2f113cb1e71ef5
+msgid "βάση την αξία των εισηγμένων μετοχών κατά περίπτωση·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:214
+#: d601b22739b0491980d8454a439eaedc
+msgid "βάση την αξία των ιδίων κεφαλαίων·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:215
+#: 05a102a73d7d49fcb61dfaf4e316b2ca
+msgid ""
+"προεξοφλώντας μελλοντικά κέρδη εφαρμόζοντας τον κατάλληλο λόγο αγοραίας "
+"τιμής / κερδών στα εξομαλυμένα πρόσφατα κέρδη."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:219
+#: 00f94091c30a4c4c8a73781c44120faa
+msgid "Η shrstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:227
+#: 6151c06eb7a54995a6c87775f83f445d
+msgid "QNTTY (QUANTITY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:227
+#: 03a815a3665d42be859009b84b2ef18d
+msgid "Αριθμός μονάδων του αξιόγραφου που κατέχει Ο ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:230
+#: a004a74c9a3a43f4982b02c8916ba3ed
+msgid ""
+"Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε "
+"συναλλαγές ``REPOS`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:233
+#: 083176a5616540198551c9cb94c93c8f
+msgid ""
+"Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε "
+"συναλλαγές δανειοληψίας τίτλων (securities or commodities "
+"lending/borrowing) ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:237
+#: 056d1d0eae434cb3972cf242ab019067
+msgid "LND_FR_BSBT (LOANED FOR BSBT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:237
+#: d77349e67c534e4ea1390877cd540a8b
+msgid ""
+"Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε "
+"συναλλαγές ``sell-buy back`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:241
+#: 07883ad0e09c4af09930bdae11e4b384
+msgid "LND_FOR_MLT (LOANED (LND_FOR_MLT)FOR MLT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:240
+#: c3ef69c3762c47eb97b6ccc4c40ebcf1
+msgid ""
+"Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε "
+"συναλλαγές ``margin``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:244
+#: 313781fbebc0410bbcdc20152460c5db
+msgid "EXT_DERIVATIVE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:246
+#: 534e66dede9e4aa1b17720c5c18f2dba
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων διαπραγματεύσιμων "
+"χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Για τον ορισμό των "
+"παραγώγων δείτε :ref:`εδώ <edr>`.  Οι τιμές των μεταβλητών εκφράζονται "
+"στο :ref:`νόμισμα <edrcurrency>` των παραγώγων εκτός και αν αναφέρεται "
+"κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:256
+#: f87712e6a4484ac1a58ab0128c68a439
+msgid ""
+"Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου χρηματοοικονομικού "
+"παραγώγου (:ref:`edr`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:277
+#: 6572f6ce1fab4440adffad08d4cfa973
+msgid ""
+"Τρέχουσα αγοραία αξία.  Η αξία των δικαιωμάτων προαίρεσης και των "
+"προθεσμιακών συμβολαίων μπορεί να αλλάζει μεταξύ θετικής και αρνητικής "
+"ανάλογα με τις μεταβολές της τιμής των υποκείμενων στοιχείων και κατά "
+"συνέπεια τα εν λόγω προϊόντα μπορεί να είναι άλλοτε περιουσιακά στοιχεία "
+"και άλλοτε υποχρεώσεις για τους εκδότες και τους κατόχους. Ορισμένα από "
+"τα δικαιώματα προαίρεσης και τα προθεσμιακά συμβόλαια λειτουργούν με "
+"κατάθεση περιθωρίου, όπου τα κέρδη και οι ζημιές καταγράφονται "
+"καθημερινά.  Στις περιπτώσεις αυτές η αξία τους είναι μηδενική."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:287
+#: 418edf50e7504a67bdf457bce7c60e77
+msgid "Η edrstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:292
+#: 7d8408d182044ea9ada9ce24fbc93961
+msgid "GRSS_STCK (GROSS STOCK)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:290
+#: 77fa9fc5d3a54e8e906e224563faefe3
+msgid ""
+"Η edrstock_ προσθέτοντας και τα σωρευτικά καθαρά κέρδη από δικαιώματα "
+"προαίρεσης και προθεσμιακά συμβόλαια που λειτουργούν με κατάθεση "
+"περιθωρίου και το edrstock_ σε αυτές τις περιπτώσεις είναι μηδενικό."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:295
+#: 310fe92972d24dc4b3e32864f6d119fc
+msgid ""
+"Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (μεταβλητή "
+"ροής)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:298
+#: ../../source/domain/ifdat/categories/bsi.rst:742
+#: 8da6a6fed3e440ceafdf232eac44c77a cff328c657ac44159509481a17866d08
+msgid "QUANTITY (QNTTY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:298
+#: ff28570edd0142129b255c621a26a8eb
+msgid "Αριθμός μονάδων του παραγώγου."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:301
+#: ../../source/domain/ifdat/categories/bsi.rst:347
+#: 53caf71f7a4f4181861a908d66c30295 93543cedc186455bb0003a4c57d7dc01
+msgid "STRATEGY (STRTGY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:301
+#: ../../source/domain/ifdat/categories/bsi.rst:346
+#: abce0dbe3e4c4500b5075d6c9046ae2f da5443f2544b4160b5b14bbdcd20dee2
+msgid "Στρατηγική με επιλογή από τη λίστα τιμών ``DRVTV_STRTGY_ENUM``"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:304
+#: 1dc3ee828d104204a032f6c6d4fc6905
+msgid "OTC_DERIVATIVE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:306
+#: b68b1484a7f641e9a22111add684125c
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων εξωχρηματιστηριακών "
+"χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Για τον ορισμό των "
+"παραγώγων δείτε :ref:`εδώ <odr>`.  Οι τιμές των μεταβλητών εκφράζονται "
+"στο :ref:`νόμισμα <odrcurrency>` των παραγώγων εκτός και αν αναφέρεται "
+"κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:316
+#: e4864f28e127430d857dd27f3241cf9e
+msgid ""
+"Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού χρηματοοικονομικού "
+"παραγώγου (:ref:`odr`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:334
+#: f2a04677547d422a988b4af62120b3df
+msgid ""
+"Τρέχουσα αγοραία αξία.  Αν δεν υπάρχουν δεδομένα σχετικά με την αγοραία "
+"αξία τους τότε θα πρέπει να αποτιμώνται με βάση το ποσό που απαιτείται "
+"για την εξαγορά ή την αντιστάθμιση της σύμβασης είτε με βάση το ύψος της "
+"τιμής που καταβάλλεται."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:340
+#: d09417fa36104414889a8b36b006138b
+msgid "Η odrstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:343
+#: 6f9ebb388dfd45eba2ec3404e65e6db5
+msgid ""
+"Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητής "
+"ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:350
+#: 60fed23a1e674ad8a38506ce39baebc2
+msgid "RESIDENTIAL_RE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:352
+#: 3937be4f5f9e4c47804d8b87b3ceef37
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων οικιστικών ακινήτων "
+"που κατέχουν οι ``ΥΕΟ``. Οι τιμές των μεταβλητών εκφράζονται στο "
+":ref:`νόμισμα αναφοράς <fscurrency>` του ισολογισμού εκτός και αν "
+"αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:361
+#: 031ead57d91e424094dffa92ddbf2f21
+msgid "Ο αναγνωριστικός κωδικός του οικιστικού ακινήτου (:ref:`rre`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:371
+#: b89c6a27f11246a285a4b06674020553
+msgid "FRQNCY"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:379
+#: ../../source/domain/ifdat/categories/bsi.rst:431
+#: 237f9fd2488e4f62bbbfba35262c5619 385e31b235564469a5b3ee021fb353a2
+msgid ""
+"Αγοραία τιμή αν αυτό είναι δυνατόν, ή σε βασικές τιμές στην περίπτωση "
+"παραγωγή νέων ακινήτων για ίδιο λογαριασμό, ή αν αυτό δεν είναι δυνατόν, "
+"σε τρέχουσες τιμές αγοραστή κατά την απόκτηση, μειωμένες κατά τη "
+"συσσωρευμένη ανάλωση παγίου κεφαλαίου.  Το κόστος αγοραστή για τη "
+"μεταβίβαση της κυριότητας του ακινήτου περιλαμβάνεται."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:386
+#: a30022faef934dfaac1b0c56c4297d36
+msgid "Η rrestock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:389
+#: 4e716d199292418f93aefe46752b2292
+msgid "Ποσό βελτιώσεων (**μεταβλητή ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:392
+#: ../../source/domain/ifdat/categories/bsi.rst:444
+#: ../../source/domain/ifdat/categories/bsi.rst:498
+#: 4d77af61bec84333bc31a01267aa8470 a3121ce364804fbfa7f75406cfebf8bb
+#: dd863659cfc445da9684d0a352ac8d14
+msgid "Δεδουλευμένα ενοίκια·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:395
+#: ../../source/domain/ifdat/categories/bsi.rst:447
+#: ../../source/domain/ifdat/categories/bsi.rst:501
+#: 50c26812581c43b7957ba8e8ea547d90 6ed7b129a04e46979220ba53f24a61d6
+#: eed470c6784a4b568baee840114872a1
+msgid "Εκπρόθεσμα/απλήρωτα ενοίκια·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:398
+#: 669a4f90e20944bb8d65263c440dfb98
+msgid "Ποσό περικοπών/διαγραφών/απομειώσεων ενοικίων·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:402
+#: 0ddaf0d9d9af4bb89689a407ec1e85a7
+msgid "COMMERCIAL_RE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:404
+#: 5bb1f56bdaa0400782631aee6cbecdc1
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων επαγγελματικών "
+"ακινήτων που κατέχουν οι ``ΥΕΟ``. Οι τιμές των μεταβλητών εκφράζονται στο"
+" :ref:`νόμισμα αναφοράς <fscurrency>` του ισολογισμού εκτός και αν "
+"αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:413
+#: ee2cd7b8624e416aa076df64381131c1
+msgid "Ο αναγνωριστικός κωδικός του επαγγελματικού ακινήτου (:ref:`cre`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:423
+#: ../../source/domain/ifdat/categories/bsi.rst:481
+#: 24868c10be8e4ac39fc1f3ab0735cd56 8330158a4f77492baf3fdbea60f53abf
+msgid "FREQ"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:438
+#: 9a4aeaea2b1f4e4087bebd6b6331469b
+msgid "Η crestock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:441
+#: ../../source/domain/ifdat/categories/bsi.rst:495
+#: bd75002778cc46d083d72619f3e3e653 ee84ad6c7f7444caa888a2edaf3b8f36
+msgid "Ποσό βελτιώσεων (μεταβλητή ροής)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:450
+#: ../../source/domain/ifdat/categories/bsi.rst:504
+#: 45eed7743abc4f969fa395f93b6d571c eee8536597974878adf2838604327ee5
+msgid "Ποσό περικοπών/διαγραφών/απομειώσεων ενοικίων."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:453
+#: feec145bad61492eac57c1e56ebefae4
+msgid "REM_FIXED"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:455
+#: fab0e94795184d97b1f346a4066943bf
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών μη "
+"χρηματοοικονομικών περιουσιακών στοιχείων των ``ΥΕΟ``.  Οι τιμές των "
+"μεταβλητών εκφράζονται στο :ref:`νόμισμα αναφοράς <fscurrency>` του "
+"ισολογισμού εκτός και αν αναφέρεται κάτι διαφορετικό στον ορισμό της "
+"μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:464
+#: d4a86807f8cf46b9aad2c7aa68e891db
+msgid "TYPE (TYP)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:464
+#: 704b49553ec94ef0b2ce26e7d3fec91d
+msgid "Είδος στοιχείου με επιλογή από τη λίστα τιμών ``BSI_RMNG_FXD_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:467
+#: c5adc6a44e424777a38bed5e25a4f26c
+msgid "COUNTRY (CNTRY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:467
+#: 0f1b1345f1ce41f49a4762fbbf3b1b12
+msgid ""
+"Χώρα τοποθεσίας του στοιχείου με επιλογή από τη λίστα τιμών "
+"``GEN_CNTRY_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:489
+#: 2cfad76e80554aa8a6b947809ede3a82
+msgid ""
+"Αξία σύμφωνα με τους κανόνες αποτίμησης που περιγράφονται στο κεφάλαιο 7 "
+"του ``ESA2010`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:492
+#: 675629849b6e4c8db0289642399d3469
+msgid "Η remstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:507
+#: 671068109b2743c5a7bdef9b028f4c84
+msgid "ASSET_REM"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:509
+#: 19a95872c5704ef8942b974f4ecbed91
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών εισπρακτέων "
+"λογαριασμών των ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:520
+#: ../../source/domain/ifdat/categories/bsi.rst:686
+#: 1484d656d9674851aa44cb03a287f3e4 444b0d65c3c24154828c759e58f651c8
+msgid "COUNTERGROUP (CNTRGRP)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:519
+#: ../../source/domain/ifdat/categories/bsi.rst:685
+#: 0ebba2b4bc0447f19f44453a0c304a3f 6a7cacf9eabd4bf6811d36b953bf4420
+msgid ""
+"Ομαδοποίηση αντισυμβαλλόμενων με επιλογή από τη λίστα τιμών "
+"``GRP_CNTRGRP_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:525
+#: ../../source/domain/ifdat/categories/bsi.rst:691
+#: 90fd0fc7509b42bc9fd914463e0ad63b bd3a76e08be54439a3e948e15deec0e7
+msgid "CURRENCY (CRRNCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:525
+#: ../../source/domain/ifdat/categories/bsi.rst:691
+#: 05103c9122fc40c0824a82a0443400d1 884a4542801948c89a323d32dc204cce
+msgid ""
+"Ομαδοποίηση με βάση το νόμισμα με επιλογή από τη λίστα τιμών "
+"``GEN_CRRNCY_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:537
+#: eedda879e8594bd09ae9d7ecac461dec
+msgid "Ονομαστική αξία εκφρασμένο στο aremcurrency_·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:540
+#: 4b49d90a19a74f62b70f144f33cdc039
+msgid "Η aremstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:545
+#: 36e9c794224348c68501ec3bbed124ae
+msgid "LIAB_SFT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:547
+#: 4c305ab9bd7f46d99dd4bf0fae508d04
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων συναλλαγών "
+"χρηματοδότησης χρεογράφων όπου ο ``ΥΕΟ`` έχει δανειστεί χρηματικά "
+"διαθέσιμα . Για τον ορισμό των πράξεων χρηματοδότησης χρεογράφων δείτε "
+":ref:`εδώ <sft>`.  Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα "
+"<sftcurrency>` της συναλλαγής εκτός και αν αναφέρεται κάτι διαφορετικό "
+"στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:569
+#: 458091f90e3c4120b08b436092db3ebe
+msgid "Συμπληρώνεται το ποσό των χρηματικών διαθέσιμων που δανείστηκε ο ``ΥΕΟ`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:572
+#: 7d45894c6fbf4533b5eae6bfa508a3b8
+msgid "Η lsftstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:576
+#: fdcde253e5c742dd8ae0239f04644f32
+msgid "L_DEBT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:578
+#: 9e708acb86124298a18c6ebd816e979b
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρεογράφων που "
+"έχουν εκδώσει οι ``ΥΕΟ``. Για τον ορισμό του χρεογράφου δείτε :ref:`εδώ "
+"<dbt>`.  Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα "
+"<sidbtcurrency>` του χρεογράφου εκτός και αν αναφέρεται κάτι διαφορετικό "
+"στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:590
+#: ../../source/domain/ifdat/categories/bsi.rst:725
+#: 9bbeb5d67c264cf9aa97e3d07c11df3e a370aea8be6145d794dbdb1404f6f851
+msgid "Ο αναγνωριστικός κωδικός του κατόχου (:ref:`org`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:600
+#: ../../source/domain/ifdat/categories/bsi.rst:736
+#: 18686002b78e4e329597e082d4b12389 66216ad734f6499dabfc68bc009ff9c5
+msgid "FREQUENCY (FRQNCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:612
+#: dc4f87989b974076a5a93e0199d71c70
+msgid "Η ldbtstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:618
+#: 2fd955d90a7a4f9d9b64f833b79466b5
+msgid "NOMINAL"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:628
+#: a9bd477d6a904536b9fc55908fc195b1
+msgid "LOAN"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:630
+#: 30a2f716b9354c378754cf4e35da6cf5
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων δανείων που έχουν "
+"λάβει οι ``ΥΕΟ``. Για τον ορισμό του δανείου δείτε :ref:`εδώ <lon>`.  Οι "
+"τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα <loncurrency>` του "
+"δανείου εκτός και αν αναφέρεται κάτι διαφορετικό στον ορισμό της "
+"μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:639
+#: f917782b0d974f95a891f37856491c16
+msgid "Ο αναγνωριστικός κωδικός του δανείου (:ref:`lon`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:655
+#: eef016a0618e46f9b161b2d39d6926aa
+msgid "Η lonstock_ σε Ευρώ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:658
+#: e58a5514007746118a180d581712ae52
+msgid "UNDRAWN AMOUNT (UNDRN_AMNT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:658
+#: e2f3e97c77304e209b9ca1e64e25e531
+msgid "Μη ληφθέν ποσό·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:661
+#: cc3e91796fa74b80bd713796383eab13
+msgid "Ποσό διαγραφών κατόπιν αμοιβαίας συμφωνίας·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:673
+#: 505888fe40fe4fbf8f23ff75f72d1899
+msgid "LIAB_REM"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:675
+#: 6db032ce7f9d4f35828f0ed46b3e7a18
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών πληρωτέων "
+"λογαριασμών των ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:704
+#: 3ac21753c775411e9438343f43a2e94e
+msgid "Ονομαστική αξία εκφρασμένο στο lremcurrency_·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:707
+#: af631042ebe6482abe9ff100880477f9
+msgid "Η lremstock_ σε Ευρώ."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:711
+#: d4c166ca1aab4bacb6508a38c77c99b4
+msgid "HOLDER"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:713
+#: af1f491c686d4c5ba09b240e3e1ece5e
+msgid ""
+"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των μετοχών/μεριδίων "
+"που έχουν εκδώσει οι ``ΥΕΟ``.  Οι τιμές των μεταβλητών εκφράζονται στο "
+":ref:`νόμισμα <sishrcurrency>` της μετοχής/μεριδίου εκτός και αν "
+"αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:722
+#: ee3120f99e2b447aa4dcb5e5f3ff8037
+msgid "Ο αναγνωριστικός κωδικός της μετοχής/μεριδίου (:ref:`shr`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:728
+#: 2cca95dd48db45bfa63911b2d670b816
+msgid ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών "
+"υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι "
+"παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών "
+"σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες στις "
+":doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:742
+#: fbe04064ae594c32aebeb35ae7f20252
+msgid "Αριθμός μονάδων (μετοχών/μεριδίων)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:746
+#: 422220e490254c48bb5c57e669bc8cf7
+msgid "SUBSCRIPTIONS (SBSCRPTNS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:745
+#: 53050ac819e0419ba5b5664c74aa14f6
+msgid ""
+"Συμμετοχές.  Στο ποσό περιλαμβάνονται όλες οι προμήθειες προς την "
+"διαχειρίστρια εταιρεία (**μεταβλητή ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:749
+#: 35b3c2629b924e13875e66dd3746a4c2
+msgid "SUBSCRIPTION CHARGES (SUB_CHRGS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:749
+#: 6719dfd9aa51417ab93c4b0f660ab29a
+msgid "Προμήθειες συμμετοχών (**μεταβλητή ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:752
+#: 01ae7486f0c941658403ed7bf7f80e61
+msgid "REDEMPTIONS (RDMPTNS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:752
+#: 0d7a9e70fb944d5a9cd9513620ae4555
+msgid "Εξαγορές.  Από το ποσό αφαιρούνται οι προμήθειες (**μεταβλητή ροής**)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:754
+#: 836a5785ca8e47af8297a9d61b1701c5
+msgid "REDEMPTION CHARGES (RED_CHRGS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/bsi.rst:755
+#: a40621c77c8045cfab594b1b1dd04dc1
+msgid "Προμήθειες εξαγορών (**μεταβλητή ροής**)·"
+msgstr ""
+

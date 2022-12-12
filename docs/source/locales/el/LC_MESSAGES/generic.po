@@ -1,0 +1,593 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/generic.rst:2 15327163fc06483dbb8eca6cbeab9593
+msgid "Γενικές Οδηγίες"
+msgstr ""
+
+#: ../../source/generic.rst:7 a831e3340d99415e8bb649950a5cc26c
+msgid "Αλφαριθμητικές τιμές"
+msgstr ""
+
+#: ../../source/generic.rst:9 c36e47d4434a42479c259944ae834daf
+msgid ""
+"Για την μορφοποίηση μίας αλφαριθμητικής τιμής χρησιμοποιείται το ``{x}``,"
+" όπου ``x`` είναι η ονομασία μιας θέσης που αντικαθίσταται μαζί με τις "
+"αγκύλες όταν διαμορφώνεται η τελική τιμή."
+msgstr ""
+
+#: ../../source/generic.rst:13 377011c5c38b481bbb0da88ba59f4e55
+msgid ""
+"Για παράδειγμα το αλφαριθμητικό ``{YYYY}-{MM}-{DD}`` έχει τρεις θέσεις: "
+"``ΥΥΥΥ`` για το έτος, ``MM`` για τον μήνα και ``DD`` για την ημέρα.  Αν "
+"``YYYY=2022``, ``MM=03`` και ``DD=25`` τότε το αλφαριθμητικό είναι ίσο με"
+" ``2022-03-25``."
+msgstr ""
+
+#: ../../source/generic.rst:18 d8af68a90ebc4ca6a6a8a20b5700fcf5
+msgid ""
+"Για παράδειγμα το αλφαριθμητικό ``Γεια σου {name}`` έχει μια θέση: "
+"``name`` για το όνομα.  Αν το ``name=Άννα`` τότε το αλφαριθμητικό είναι "
+"ίσο με ``Γεια σου Άννα``."
+msgstr ""
+
+#: ../../source/generic.rst:23 552af12d7da54cea868a5c8cd392a3dc
+msgid "Ποσά σε ξένο νόμισμα"
+msgstr ""
+
+#: ../../source/generic.rst:25 b49e6f8bc3f940f2afe597852af46a98
+msgid ""
+"Τα ποσά σε ξένο νόμισμα μετατρέπονται σε Ευρώ με βάση τις συναλλαγματικές"
+" ισοτιμίες της `ΕΚΤ "
+"<https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html>`_"
+msgstr ""
+
+#: ../../source/generic.rst:28 0ab18b8bd9ec4bcd9302be5a57ee32f7
+msgid "Διάσταση DATE"
+msgstr ""
+
+#: ../../source/generic.rst:30 ffb29a1fbee74b8ebd001fd7cd0b0369
+msgid ""
+"Σε περίπτωση που στις διαστάσεις ενός πίνακα περιλαμβάνεται η διάσταση "
+"``DATE`` τότε για κάθε υποβαλλόμενη παρατήρηση θα πρέπει να "
+"συμπληρώνονται υποχρεωτικά όλες οι μεταβλητές του πίνακα."
+msgstr ""
+
+#: ../../source/generic.rst:34 77572203b4b74a8c8fd808e72e6f266c
+msgid ""
+"Σε περίπτωση που στις διαστάσεις ενός πίνακα δεν περιλαμβάνεται η "
+"διάσταση ``DATE`` δεν είναι υποχρεωτική η συμπλήρωση όλων των μεταβλητών."
+"  Στην περίπτωση που κάποια μεταβλητή δεν έχει συμπληρωθεί στα παρεχόμενα"
+" στοιχεία τότε η τιμή της παραμένει κενή εάν ποτέ δεν έχει υποβληθεί ή "
+"διατηρεί την τιμή καθώς και τα χαρακτηριστικά της από την τελευταία "
+"υποβολή που έχει συμπληρωθεί η τιμής της και προαιρετικά τα "
+"χαρακτηριστικά της."
+msgstr ""
+
+#: ../../source/generic.rst:42 30437e9394a849b2ab6da39c5dd4a06a
+msgid "Συνδυασμός διαστάσεων DATE και FREQUENCY"
+msgstr ""
+
+#: ../../source/generic.rst:44 08e680e960d3465fb35d3ce0d8d82fe1
+msgid ""
+"Κάποιοι πίνακες περιέχουν τόσο ``μεταβλητές υπολοίπων`` όσο και "
+"``μεταβλητές ροών``.  Σε αυτή την περίπτωση στις διαστάσεις του πίνακα "
+"περιλαμβάνονται τόσο η διάσταση ``DATE`` όσο και η διάσταση "
+"``FREQUENCY``.  Για τις ``μεταβλητές υπολοίπων`` μόνο η διάσταση ``DATE``"
+" είναι σχετική και δίνει την ακριβής ημερομηνία που ισχύουν οι τιμές των "
+"μεταβλητών.  Για τις μεταβλητές ροών είναι αναγκαία τόσο η διάσταση "
+"``DATE`` όσο και η διάσταση ``FREQUENCY`` και οι τιμές τους καθορίζουν "
+"την περίοδο αναφοράς που ισχύουν οι τιμές των μεταβλητών ροής."
+msgstr ""
+
+#: ../../source/generic.rst:53 3f001a31b0f74e1a89e9efc409357e4c
+msgid "Παραδοχές"
+msgstr ""
+
+#: ../../source/generic.rst:54 41b4988b80f444bda0374bf5f5eabf20
+msgid ""
+"Για τις μεταβλητές υπολοίπων η τιμή ``{YYYΥ}-{MM}-{DD}`` της ``DATE`` "
+"είναι ίση με ``{YYYΥ}-{MM}-{DD} 23:59:59``.  Σε περίπτωση που οι "
+"μεταβλητές αφορούν στοιχεία που καθορίζονται σε χρηματιστηριακές αγορές η"
+" τιμή ``{YYYΥ}-{MM}-{DD}`` είναι ίση με τις χρηματιστηριακές τιμές "
+"κλεισίματος της συγκεκριμένης ημερομηνίας αν πρόκειται για εργάσιμη ημέρα"
+" αλλιώς αφορά τις τιμές κλεισίματος της πιο πρόσφατης εργάσιμης ημέρας."
+msgstr ""
+
+#: ../../source/generic.rst:61 66dafe7ccf254f3db49ef61a20dec7ed
+msgid ""
+"Ο συνδυασμός ``DATE`` και ``FREQUENCY`` ορίζει πάντα ένα **κλειστό** "
+"διάστημα που ισχύουν οι τιμές μεταβλητών ροής.  Η αρχική ημερομηνία του "
+"διαστήματος ορίζεται από την τιμή της ``FREQ``.  Όταν ``FREQUNCY=M`` η "
+"αρχική ημερομηνία είναι η πρώτη μέρα του μήνα.  Όταν ``FREQUENCY=Q`` η "
+"αρχική ημερομηνία είναι η πρώτη μέρα ενός από τα τέσσερα τρίμηνα του "
+"έτους.  Όταν ``FREQUENCY=S`` η αρχική ημερομηνία είναι η πρώτη μέρα ενός "
+"από τα δύο εξάμηνα του έτους.  Όταν ``FREQUENCY=A`` η αρχική ημερομηνία "
+"είναι η πρώτη μέρα του έτους. Η τελική τιμή του διαστήματος ορίζεται από "
+"την τιμή της ``DATE`` και αφορά πάντα το τέλος της ημέρας, δηλαδή η τιμή "
+"``{YYYΥ}-{MM}-{DD}`` είναι ίση με ``{YYYΥ}-{MM}-{DD} 23:59:59``"
+msgstr ""
+
+#: ../../source/generic.rst:74 edc0d6516687439d8e6df075cdfc9989
+msgid "Παραδείγματα μεταβλητών υπολοίπων"
+msgstr ""
+
+#: ../../source/generic.rst:75 b9e072342e58449db2e2cb6d3abb0e24
+msgid ""
+"Οι τιμές των μεταβλητών υπολοίπων για ``DATE=2022-01-31`` αφορούν τις "
+"τιμές των μεταβλητών υπολοίπων που ισχύουν την ``2022-01-31 "
+"23:59:59.999`` ανεξάρτητα από την τιμή της ``FREQUENCY``."
+msgstr ""
+
+#: ../../source/generic.rst:79 f5e0524c9b084a8f8eb7d77a410523d9
+msgid ""
+"Οι τιμές των μεταβλητών υπολοίπων για ``DATE=2022-01-15`` αφορούν τις "
+"τιμές των μεταβλητών υπολοίπων που ισχύουν την ``2022-01-15 "
+"23:59:59.999`` ανεξάρτητα από την τιμή της ``FREQUENCY``."
+msgstr ""
+
+#: ../../source/generic.rst:85 76dd76e038f6417c88b169d55bc4b767
+msgid "Παραδείγματα μεταβλητών ροών"
+msgstr ""
+
+#: ../../source/generic.rst:86 86861163f9ae49b6ab8e883f801b63a7
+msgid ""
+"``DATE=2022-01-31`` και ``FREQUENCY=M`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-01-31 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:90 5c83d6903a4f4f50b2db702c98af81b1
+msgid ""
+"``DATE=2022-02-17`` και ``FREQUENCY=M`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-02-17 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:94 81432fc2139246d0814b36ef7431e64a
+msgid ""
+"``DATE=2022-03-31`` και ``FREQUENCY=Q`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-03-31 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:98 1266cc5903654286a64e5d710690fd9c
+msgid ""
+"``DATE=2022-02-17`` και ``FREQUENCY=Q`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-02-17 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:102 a68c2fef2503404bb50f6e848c19d146
+msgid ""
+"``DATE=2022-06-30`` και ``FREQUENCY=S`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-06-30 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:106 dbd9550c43264ffea8a2d20cbc8511f1
+msgid ""
+"``DATE=2022-04-17`` και ``FREQUENCY=S`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-04-17 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:110 86b7bc4b95704c39bfa9f6b3f2fc73ea
+msgid ""
+"``DATE=2022-12-31`` και ``FREQUENCY=A`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-12-31 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:114 0ba9f82baf1a42c1b44ea627ce75f6d2
+msgid ""
+"``DATE=2022-09-17`` και ``FREQUENCY=A`` ορίζουν ως κλειστή περίοδο "
+"αναφοράς που ισχύουν οι τιμές των μεταβλητών ροών την [2022-01-01 "
+"00:00:00.000, 2022-09-17 23:59:59.999]"
+msgstr ""
+
+#: ../../source/generic.rst:121 82ab5154c48f40b3a9f0d5eb73f78d82
+msgid "Συνδυασμός διαστάσεων VALID FROM και VALID TO"
+msgstr ""
+
+#: ../../source/generic.rst:122 c52c79f5ef38491db83d8f17a61a8bd7
+msgid ""
+"Οι διαστάσεις ``VALID FROM`` και ``VALID TO`` ορίζουν ένα χρονικό "
+"διάστημα για το οποίο ισχύουν οι τιμές των παρεχόμενων μεταβλητών. Το "
+"χρονικό διάστημα είναι στην αρχή του κλειστό και στο τέλος του ανοιχτό.  "
+"Οι ημερομηνίες αναφέρονται πάντα στην αρχή της ημέρας.  Για παράδειγμα "
+"εάν ``VALID FROM=2022-01-10`` και ``VALID TO=2022-02-17`` τότε το "
+"διάστημα είναι το ``[2022-01-10 00:00:000, 2022-02-17 00:00:000)``."
+msgstr ""
+
+#: ../../source/generic.rst:129 ebb3904411ff45f19ee33d7dbf0b9d48
+msgid ""
+"Σε περίπτωση που η τιμή της διάστασης ``VALID FROM`` είναι κενή τότε "
+"θεωρείται ότι η αρχή του χρονικού διαστήματος είναι η ημερομηνία "
+"δημιουργίας της μονάδας στην οποία η παρατήρηση αναφέρεται ή η πιο "
+"πρόσφατη ημερομηνία δημιουργίας αν η παρατήρηση αναφέρεται σε πάνω από "
+"μία μονάδα."
+msgstr ""
+
+#: ../../source/generic.rst:134 dd2eda7703864f5cbced45dfd091e4e2
+msgid ""
+"Σε περίπτωση που η τιμή της διάστασης ``VALID TO`` είναι κενή τότε "
+"θεωρείται ότι το τέλος του χρονικού διαστήματος είναι η σημερινή "
+"ημερομηνία αν η μονάδα που αναφέρεται η παρατήρηση είναι ακόμη ανοιχτή "
+"αλλιώς η ημερομηνία που έχει κλείσει η μονάδα ή η νωρίτερη ημερομηνία "
+"κλεισίματος μονάδας αν η παρατήρηση αναφέρεται σε πάνω από μία μονάδα ή η"
+" σημερινή ημερομηνία αν όλες οι μονάδες που αναφέρεται η παρατήρηση είναι"
+" ακόμη ανοιχτές."
+msgstr ""
+
+#: ../../source/generic.rst:142 f75d854e38ab4c0fa3dda71b9a5ffebe
+msgid "Αλληλοεπικαλυπτόμενες Παρατηρήσεις"
+msgstr ""
+
+#: ../../source/generic.rst:145 55ef4d50ece14d90aface339393a0248
+msgid "Περίπτωση Α"
+msgstr ""
+
+#: ../../source/generic.rst:146 c34b436111794dd58a361898aabb881b
+msgid ""
+"Οι παρατηρήσεις ενός πίνακα που περιέχει τις διαστάσεις ``VALID FROM`` "
+"και ``VALID TO`` θεωρούνται αλληλοεπικαλυπτόμενες αν όλες οι τιμές των "
+"διαστάσεων εκτός των ``VALID FROM`` και ``VALID TO`` είναι οι ίδιες και "
+"τα χρονικά διαστήματα που ορίζονται από τις διαστάσεις ``VALID FROM`` και"
+" ``VALID TO`` αλληλοεπικαλύπτονται. Σε αυτή την περίπτωση με εσωτερική "
+"διαδικασία η Τράπεζα της Ελλάδος δημιουργεί μη αλληλοεπικαλυπτόμενες "
+"παρατηρήσεις από τις αλληλοεπικαλυπτόμενες παρατηρήσεις χρησιμοποιώντας "
+"τις πιο τελευταίες τιμές των μεταβλητών και των χαρακτηριστικών στην "
+"περίπτωση μη όμοιων τιμών."
+msgstr ""
+
+#: ../../source/generic.rst:156 ../../source/generic.rst:215
+#: ../../source/generic.rst:264 1276c696227246f885e15ae2c9ca11c6
+#: 156127b10e6e465fa8277b80ff686f41 e54ab3410ea64d8b8bbbe46b187b03df
+msgid "Υποθετικό παράδειγμα"
+msgstr ""
+
+#: ../../source/generic.rst:157 a8bd45e1282c48e3a13252f28a902f90
+msgid ""
+"Στο παρόν παράδειγμα οι διαστάσεις είναι οι: ``ID``, ``VALID FROM``, "
+"``VALID TO`` και οι μεταβλητές οι: ``NAME``, ``SECTOR``."
+msgstr ""
+
+#: ../../source/generic.rst:160 ../../source/generic.rst:219
+#: ../../source/generic.rst:269 3a863c4d562f4c829ea9749a44f0bb75
+#: e0c00c966f2f4692887442f5c9743d7f e1c481908f4248d5af28096c08dcaea2
+msgid "Αρχική κατάσταση:"
+msgstr ""
+
+#: ../../source/generic.rst:163 ../../source/generic.rst:171
+#: ../../source/generic.rst:183 ../../source/generic.rst:195
+#: ../../source/generic.rst:222 ../../source/generic.rst:230
+#: ../../source/generic.rst:240 ../../source/generic.rst:248
+#: ../../source/generic.rst:272 ../../source/generic.rst:280
+#: ../../source/generic.rst:290 ../../source/generic.rst:298
+#: 06c68281fe1a4c7f90d23a6f54a84097 12c8e680b0ef4946a8aae5aac29fcd25
+#: 6b484404e324424ab0ec574f0e6979e3 7657e43e2dbc45499cb7015186ad97b7
+#: 91e129b128854a0b803ea41beaafa92b ae4ee434dc6c4c34853a8edb303c95ac
+#: b14eb315c36b4359abc221fb819a9ca3 bbd93460d4594bfa884fd5a39c9779cf
+#: c6bb9629ea8840cdb9bbdd1e914cfb8d cbfa74fe696148f6a2d75d462f14bffc
+#: eda4a842dcdc4462b09ff305e582cb94 f076d1b1f31840c6ade5114505765cf6
+msgid "ID"
+msgstr ""
+
+#: ../../source/generic.rst:163 ../../source/generic.rst:171
+#: ../../source/generic.rst:183 ../../source/generic.rst:195
+#: 4b659b5bda85495d92dc8e9d738f9f87 56455b0582a8484ea27aa7634521a1e6
+#: 807c316fad2e4669ace75fc26021ab3d a46640fe11b24e9bb3a70921e99e81c2
+msgid "VALID FROM"
+msgstr ""
+
+#: ../../source/generic.rst:163 ../../source/generic.rst:171
+#: ../../source/generic.rst:183 ../../source/generic.rst:195
+#: 1950089d792a43a69b2134d75edb1b0d 5793ac684eed4b83956d947b1712ebfa
+#: 86fbbc7dd7194e388a79e9cd9d3561e1 c27dab95bd6d4a0b9f2e28a8b63a723b
+msgid "VALID TO"
+msgstr ""
+
+#: ../../source/generic.rst:163 ../../source/generic.rst:171
+#: ../../source/generic.rst:183 ../../source/generic.rst:195
+#: 1a9ed07557da4b69a506a14327924139 ace000c9b56d4fd5b8989785165d39e3
+#: be16a87666a04d69882e911988ca5879 f129caa224ea4a29af95327a692d0894
+msgid "NAME"
+msgstr ""
+
+#: ../../source/generic.rst:163 ../../source/generic.rst:171
+#: ../../source/generic.rst:183 ../../source/generic.rst:195
+#: 3233e8f11a95487dac7adbaadc451590 4386399da66c427fbec773fa7509d45c
+#: a37dfdc5cb6e421b90b3bd9153e39610 ca86cf91a9704adea4a73d8cf08a94d5
+msgid "SECTOR"
+msgstr ""
+
+#: ../../source/generic.rst:165 ../../source/generic.rst:173
+#: ../../source/generic.rst:175 ../../source/generic.rst:177
+#: ../../source/generic.rst:185 ../../source/generic.rst:187
+#: ../../source/generic.rst:189 ../../source/generic.rst:197
+#: ../../source/generic.rst:199 ../../source/generic.rst:201
+#: ../../source/generic.rst:274 ../../source/generic.rst:282
+#: ../../source/generic.rst:284 ../../source/generic.rst:292
+#: ../../source/generic.rst:300 038ca750aff34e9f99a333a1d47a2bc8
+#: 084ea91a96784a41943efa7be582f07c 2883373b1ba4420ab341788c82b88edc
+#: 3f2b74e186cd49a99e41b7b37f66bf13 56f95f283a754ab3b2d7a2d3e3cc5426
+#: 62de7dc0e9574bd296f8e48e1393b0a7 7241408bd7154bb9aa0f98bd5a311d92
+#: 79907a537f974a3cae02af6e5c7dd94d c43178aa96c447d58fdb9ad4bbeca6b9
+#: d862719513aa4b0c89613938871b0c9f df0b5de7ab7f4f9fa5cd28b5d7b0bd03
+#: e8ba578f5b0b465f882ec2fd17ffc725 ea98098430854ed3879fbbd55d345c86
+#: edef370b64bd479d93b914b1e3ca05de f3ca910b9164466dae100267f4249ec6
+msgid "GRFOO"
+msgstr ""
+
+#: ../../source/generic.rst:165 c3dbf6f5e4a44ba79e6f09bf5742a5e8
+msgid "FOO"
+msgstr ""
+
+#: ../../source/generic.rst:165 ../../source/generic.rst:197
+#: 38340c4391fb4668b206928f3ccb4ed0 868da77ec978424698fd1ca9c8ba957d
+msgid "S11"
+msgstr ""
+
+#: ../../source/generic.rst:168 ../../source/generic.rst:227
+#: 3ffd109b99744218b773ac46781fe270 ea18c9b5c50f49359e61b75fc0ddfd11
+msgid "Υποβολή αλληλοεπικαλυπτόμενων παρατηρήσεων:"
+msgstr ""
+
+#: ../../source/generic.rst:173 ../../source/generic.rst:185
+#: ../../source/generic.rst:197 0ec5276b22534257bedc56d447a4fd09
+#: 919b9cfc1ee64d7c90c9dbdbeb950c44 be6425dde8804927a4c88489d990feb9
+msgid "FOO PLC"
+msgstr ""
+
+#: ../../source/generic.rst:175 ../../source/generic.rst:185
+#: ../../source/generic.rst:187 ../../source/generic.rst:197
+#: ../../source/generic.rst:199 0f3723b739e1466bb490287d701d6826
+#: 1ec2296b185c48fda790be7ffb000f86 76ac57a0a9464a199c97f1367acedc9c
+#: 9eada50b0fd441b2af680ad381493f3b d772daecb2624a8e9889774bee2f8ebb
+msgid "2000-01-01"
+msgstr ""
+
+#: ../../source/generic.rst:175 3a9e00f6e13545648e0c24752c67e038
+msgid "2010-11-24"
+msgstr ""
+
+#: ../../source/generic.rst:175 ../../source/generic.rst:187
+#: ../../source/generic.rst:199 835c4b7815a94fb9913f51615bddbd53
+#: 84e8910f6cd64d3d881c6f2e4f071e46 870fe1b3da4a44be93a1ee04929375a4
+msgid "FOO IC"
+msgstr ""
+
+#: ../../source/generic.rst:175 ../../source/generic.rst:187
+#: ../../source/generic.rst:199 5647ea413eb641e9b6af4ac1c67c6d2f
+#: 7753ce9ad1cb475da3259fe5a4bf83b7 cd2b4980272140c698564b4d86ead2fa
+msgid "S128"
+msgstr ""
+
+#: ../../source/generic.rst:177 ../../source/generic.rst:187
+#: ../../source/generic.rst:189 ../../source/generic.rst:199
+#: ../../source/generic.rst:201 2ab41576407e4655a86d28f22deebeed
+#: 58dd2590c84d468ebbc7f12b60fd6416 ddcca498a9ad4ef3a80cc0d5187bb550
+#: e52caa9139864d57998aae7edbb2826f ff4ff921f70a42b8a3bace81577d1c1c
+msgid "2009-01-25"
+msgstr ""
+
+#: ../../source/generic.rst:177 ../../source/generic.rst:189
+#: ../../source/generic.rst:201 7e103e375e5646748c5444877539b6f4
+#: 868401b8102a4e4c9af8390938ee481e b2173054f7394d99a1b43592b5c2c3bf
+msgid "FOO MFMC"
+msgstr ""
+
+#: ../../source/generic.rst:177 ../../source/generic.rst:189
+#: ../../source/generic.rst:201 662c4ab4787f4b749365e90efd666433
+#: cf0cc3a44126455291be5f049a7c4db9 daade546f03e42aa821e8157926d3aae
+msgid "S126"
+msgstr ""
+
+#: ../../source/generic.rst:180 36bc564234224ae2975a5541063c3446
+msgid "Μεταμόρφωση υποβολής σε μη αλληλοεπικαλυπτόμενες παρατηρήσεις:"
+msgstr ""
+
+#: ../../source/generic.rst:192 ../../source/generic.rst:245
+#: ../../source/generic.rst:295 1965f14d23334d67b210fdcedcab6f29
+#: cfbd8387c1f24a7e80f26f9ac2a90f84 fbebe289e345496b9212907e7d0fa520
+msgid "Τελική κατάσταση:"
+msgstr ""
+
+#: ../../source/generic.rst:206 bf5256e5501a4f74a2fee219c1b3e331
+msgid "Περίπτωση Β"
+msgstr ""
+
+#: ../../source/generic.rst:207 a16abdf553b0420f888dfc85f62bf061
+msgid ""
+"Οι παρατηρήσεις ενός πίνακα που περιέχει τις διαστάσεις ``DATE`` και "
+"``FREQUENCY`` θεωρούνται αλληλοεπικαλυπτόμενες αν όλες οι τιμές των "
+"διαστάσεων εκτός των ``DATE`` και ``FREQUENCY`` είναι οι ίδιες και τα "
+"χρονικά διαστήματα που ορίζονται από τις διαστάσεις ``DATE`` και "
+"``FREQUENCY`` αλληλοεπικαλύπτονται. Σε αυτή την περίπτωση με εσωτερική "
+"διαδικασία η Τράπεζα της Ελλάδος διατηρεί την παρατήρηση με την "
+"μεγαλύτερη διάρκεια."
+msgstr ""
+
+#: ../../source/generic.rst:216 2cca92e915094fa5a6733a7b5dee77e3
+msgid ""
+"Στο παρόν παράδειγμα οι διαστάσεις είναι οι: ``ID``, ``DATE``, "
+"``FREQUENCY`` και οι μεταβλητές οι: ``PRICE``, ``SUBSCRIPTIONS``."
+msgstr ""
+
+#: ../../source/generic.rst:222 ../../source/generic.rst:230
+#: ../../source/generic.rst:240 ../../source/generic.rst:248
+#: b64a47d3b1a940ab99fcf670c974c105 b6ccc960d04f43a4956aa6d279acec6f
+#: dffe7d3920954803ad50c30a44d011af f9527086fedd4289ad46d2cad5ed7f2e
+msgid "DATE"
+msgstr ""
+
+#: ../../source/generic.rst:222 ../../source/generic.rst:230
+#: ../../source/generic.rst:240 ../../source/generic.rst:248
+#: 2d1fc595571f4f18b95bcb9f99e77810 4aeb1e1dae5c4b5b8081a6f331d370f4
+#: b3d50eae948140909acf83870f7931ec cd0b7306ba1c420eb123dbf1ff4c7184
+msgid "FREQUENCY"
+msgstr ""
+
+#: ../../source/generic.rst:222 ../../source/generic.rst:230
+#: ../../source/generic.rst:240 ../../source/generic.rst:248
+#: 2a19a567521b45e9ba050ea8010bd669 708ddcab8e47447691e046d6d90f1484
+#: afaa3f9253c64637b6b77d54fc41410c da302b97319f4991a9f31bc2760a0006
+msgid "PRICE"
+msgstr ""
+
+#: ../../source/generic.rst:222 ../../source/generic.rst:230
+#: ../../source/generic.rst:240 ../../source/generic.rst:248
+#: 5eb8005a307147368f06f1d61dfd41e4 9dc6c3dfa6904607a1af87395bfedace
+#: a4f504ce8f38435ebfddbe0b5b280e42 c61dadafd7a740a4825fe2f040c42b69
+msgid "SUBSCRIPTIONS"
+msgstr ""
+
+#: ../../source/generic.rst:224 ../../source/generic.rst:232
+#: ../../source/generic.rst:234 ../../source/generic.rst:242
+#: ../../source/generic.rst:250 4668ad77ab664c6aad974fdc172212bd
+#: 4ff544d2a9c942e6bfe7fc594467eed1 83628c3b688c4b99a33a0b4e8a306a5d
+#: 92403d52d17f4eb59edc38326695c145 a8b48d038c6741f7b1880ac4c6be67ee
+msgid "GRF000000000"
+msgstr ""
+
+#: ../../source/generic.rst:224 ../../source/generic.rst:232
+#: ../../source/generic.rst:234 ../../source/generic.rst:242
+#: ../../source/generic.rst:250 0fe07e4a0ddf42c0bc5870ce62e03915
+#: 2a1e41f9de4246ba9114a706f97883c9 8ba9fa52415f4661bd6a947971eeab37
+#: abb34f4492244c388a4a13b2f3bb37a4 d481d0751cfd4095a73bb34fb1b74a20
+msgid "2022-03-31"
+msgstr ""
+
+#: ../../source/generic.rst:224 ../../source/generic.rst:234
+#: 140b3d824b8b4fb49934e07f2bcacf71 4fb8334287304e9487bd144cbb057d50
+msgid "M"
+msgstr ""
+
+#: ../../source/generic.rst:224 ../../source/generic.rst:234
+#: 63cf7b604c5c4cc89f3e9502ac483689 b955149dc3eb4177a229323cf4bf0564
+msgid "10.24"
+msgstr ""
+
+#: ../../source/generic.rst:224 a0666b97b10a43e0be8017d0648c111c
+msgid "500,000"
+msgstr ""
+
+#: ../../source/generic.rst:232 ../../source/generic.rst:242
+#: ../../source/generic.rst:250 7dd77b3168f14f5d88cbe5c75b885176
+#: c2b864b1839b47c3864c14ff5e89dceb f1325ff5b09d41a6aef8e3eb68d26142
+msgid "Q"
+msgstr ""
+
+#: ../../source/generic.rst:232 ../../source/generic.rst:242
+#: ../../source/generic.rst:250 3fba8692b246439584ee7f3dbf0b7ec7
+#: 45f4e66c60254781b59515a1c8434a4f c7df56fa08ea43f5825ba443622ce036
+msgid "10.11"
+msgstr ""
+
+#: ../../source/generic.rst:232 ../../source/generic.rst:242
+#: ../../source/generic.rst:250 02d74b26e8e44b9082ba3731dea0354e
+#: 49082e6a132e4a36a9adb3f697436e60 e918e43f24804c94a296dfbf12ac3ecb
+msgid "700,000"
+msgstr ""
+
+#: ../../source/generic.rst:234 97c85fa8673b48f587ce16b79a21a528
+msgid "400,000"
+msgstr ""
+
+#: ../../source/generic.rst:237 058cbe1794fd453988df39dd0c29b3fc
+msgid "Μεταμόρφωση υποβολής σε μη αλληλοεπικαλυπτόμενη παρατηρήση:"
+msgstr ""
+
+#: ../../source/generic.rst:255 b1519b2f83084cf3b2ad0a0f0e4636fd
+msgid "Παρόμοιες Παρατηρήσεις"
+msgstr ""
+
+#: ../../source/generic.rst:256 f796b7f8c4234a4e9d923f2ad4cbb060
+msgid ""
+"Οι παρατηρήσεις ενός πίνακα που δεν περιέχει τις διαστάσεις ``VALID "
+"FROM`` και ``VALID TO`` ή τις διαστάσεις ``DATE`` και ``FREQUENCY`` "
+"θεωρούνται παρόμοιες εάν το κλειδί της κάθε παρατήρησης είναι το ίδιο.  "
+"Σε αυτή την περίπτωση με εσωτερική διαδικασία η Τράπεζα της Ελλάδος "
+"δημιουργεί μία παρατήρηση από τις παρόμοιες παρατηρήσεις χρησιμοποιώντας "
+"τις πιο πρόσφατες τιμές των μεταβλητών και των χαρακτηριστικών των "
+"μεταβλητών."
+msgstr ""
+
+#: ../../source/generic.rst:266 07696404af6f43a399ab169b375fa86c
+msgid ""
+"Στο παρόν παράδειγμα ``ID`` είναι η διάσταση, και οι μεταβλητές είναι οι:"
+" ``BIRTH``, ``CLOSE``, ``COUNTRY OF BIRTH``."
+msgstr ""
+
+#: ../../source/generic.rst:272 ../../source/generic.rst:280
+#: ../../source/generic.rst:290 ../../source/generic.rst:298
+#: 40bdcf71bd344a75a4090423560cf8d2 48bc527a53d14a089f73f1f499529092
+#: 7c899965b3a045ce9226dbc715cf1838 ee34141f31b841ad9b3ad27462af0aa0
+msgid "BIRTH"
+msgstr ""
+
+#: ../../source/generic.rst:272 ../../source/generic.rst:280
+#: ../../source/generic.rst:290 ../../source/generic.rst:298
+#: 5c3ce735228e4f7e9bcbdac42d064b49 95bf27c1a07e4e8998bf716a6f5fb482
+#: a3c33294d87c43fe91cdece65f0327d1 af85cc8999944ef4b092bede9005e7b6
+msgid "CLOSE"
+msgstr ""
+
+#: ../../source/generic.rst:272 ../../source/generic.rst:280
+#: ../../source/generic.rst:290 ../../source/generic.rst:298
+#: 26de22c582f64ad08dd1fbcf32bd8137 2a3e5ae3c72e4e8db2165f2a985795a1
+#: 3bcd0229936346d589509f227d6784ed cf6bf1aeb7fe4243ad658744b75ff65e
+msgid "COUNTRY OF BIRTH"
+msgstr ""
+
+#: ../../source/generic.rst:274 0a9ba0aa98334784ae34386d70731c5f
+msgid "1985-01-17"
+msgstr ""
+
+#: ../../source/generic.rst:277 d7e6024042ad41089d8e41e4cdc3588c
+msgid "Υποβολή παρόμοιων παρατηρήσεων:"
+msgstr ""
+
+#: ../../source/generic.rst:282 81c7b61c6b9a4942b7fb5f202feac6e6
+msgid "1985-01-01"
+msgstr ""
+
+#: ../../source/generic.rst:282 ../../source/generic.rst:292
+#: ../../source/generic.rst:300 086bc6a6cfd94e6fb574bbed0842d804
+#: 51e52120dbbc465ca6fd7311c8892102 9b8261352a5145719ae57e13895291be
+msgid "2022-09-21"
+msgstr ""
+
+#: ../../source/generic.rst:284 ../../source/generic.rst:292
+#: ../../source/generic.rst:300 37a7de037e084e5b910eaa6729b0afba
+#: e28b5e4237da42a3b186b9273ef0228a e46951b39eac468abd9c2e0a9f6ae72d
+msgid "1985-01-21"
+msgstr ""
+
+#: ../../source/generic.rst:284 ../../source/generic.rst:292
+#: ../../source/generic.rst:300 4a31105b1f004b30a8b6cc6bb6ee23b3
+#: a5360f79ce514978b60241b1f130e1b0 fbccc78751ca4b87a39627c6e682f2e5
+msgid "GR"
+msgstr ""
+
+#: ../../source/generic.rst:287 3d29d2c2dd5a48dd99cb4dfa4f0faac0
+msgid "Μεταμόρφωση παρόμοιων παρατηρήσεων:"
+msgstr ""
+

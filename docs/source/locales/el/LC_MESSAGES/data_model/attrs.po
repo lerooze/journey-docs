@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/data_model/attrs.rst:2 faa102a41081462fb7f13456d2133b25
+msgid "ATTRS"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:3 27f713e6454d4eae8387dd2b8d97668b
+msgid ""
+"Το φύλλο ``ATTRS`` του ``Data Model`` περιγράφει τις ιδιότητες που "
+"περιγράφουν τις τιμές των μεταβλητών του κάθε πίνακα.  Για κάθε ιδιότητα "
+"δίνονται:"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:7 2237d1747c8e4580b701f2f5f21c0f27
+msgid "TABLE"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:6 b9f4d2371c484d6caafa6ea4ff2c4c23
+msgid ""
+"Ονομασία του πίνακα της μεταβλητής που αποτελεί ταυτόχρονα και σύνδεσμο "
+"με τη σχετική εγγραφή του πίνακα στο φύλλο ``DSDS`` ·"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:10 dc0d394ad86b4385a2014edd81e6105c
+msgid "MEASURE"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:10 d6ffc4925c164551a3e78e44a598c539
+msgid "Ονομασία της μεταβλητής που τις τιμές του περιγράφει η ιδιότητα·"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:13 3342518b5faf472da269f6e53a8bc026
+msgid "ATTRIBUTE"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:13 bc80870dda6242729e7ea528823a6d4a
+msgid "Ονομασία της ιδιότητας·"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:16 b4d3754c01b44e7db870838a8537de5c
+msgid "TYPE"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:16 2f4b46ca407a4b79a65204682d75d2d8
+msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της ιδιότητας."
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:18 e61b4faa0da04e7d932b2f37bd409e22
+msgid "DEFAULT"
+msgstr ""
+
+#: ../../source/data_model/attrs.rst:19 cdd3484591ac4215b85ea0da101c53a2
+msgid "Προκαθορισμένη τιμή της ιδιότητας σε περίπτωση που δεν συμπληρώνεται τιμή."
+msgstr ""
+

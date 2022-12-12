@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/domain.rst:2 2e5030cc1abd48419d907681cac4d47c
+msgid "DATA DOMAINS"
+msgstr ""
+
+#: ../../source/domain.rst:4 306a322c192c468e9b4d0db1b19543aa
+msgid "The data domains that :mod:`Journey` can handle are the following:"
+msgstr ""
+
+#: ../../source/domain.rst:6 20ffaebd246846ee99b25e1e3d2ab958
+msgid ""
+"`DBDat` handles data that are stored directly into :mod:`Journey` "
+"database tables.  Details are described in the section "
+":doc:`domain/dbdat/index`"
+msgstr ""
+
+#: ../../source/domain.rst:8 6e294dc68f5246bd9ee1496c17b2fab0
+msgid ""
+"`IFDat` handles data coming from Investment Fund units.  Details are "
+"described in the following section :doc:`domain/ifdat/index`"
+msgstr ""
+

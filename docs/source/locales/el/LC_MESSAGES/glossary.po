@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/glossary.rst:2 c3bfec7ffc384a5dbe7bae6251f3f7f5
+msgid "Ευρετήριο"
+msgstr ""
+
+#: ../../source/glossary.rst:6 3fb7d6501668432d9d0b73ca0f0c98de
+msgid "Dataset"
+msgstr ""
+
+#: ../../source/glossary.rst:7 7b45f2c67b29433bbde2daaa6766c3c6
+msgid "Πίνακας δεδομένων"
+msgstr ""
+
+#: ../../source/glossary.rst:9 0e60897026654f47914712f2f2b9f05d
+msgid ""
+"Χρησιμοποιείται στο SDMX για την μεταβίβαση στοιχείων που η δομή τους "
+"ορίζονται από ένα DSD."
+msgstr ""
+
+#: ../../source/glossary.rst:11 a5c785676ae3425c8592ad4ec9fb7af7
+msgid "DSD"
+msgstr ""
+
+#: ../../source/glossary.rst:12 08496eabc94b4900b7a7b444e037be75
+msgid "Data Structure Definition"
+msgstr ""
+
+#: ../../source/glossary.rst:13 55e80b4a0ec34c039176ced5e2781d19
+msgid "Δομή Δεδομένων"
+msgstr ""
+
+#: ../../source/glossary.rst:15 958ea7482a4a4079a5f469134f697478
+msgid ""
+"Χρησιμοποιείται στο SDMX για να ορίσει τη μορφή και δομή μεταβιβαζόμενων "
+"στοιχείων."
+msgstr ""
+
+#: ../../source/glossary.rst:17 f6a8ebfa3a2945439462795a4ec9c7c0
+msgid "SDMX"
+msgstr ""
+
+#: ../../source/glossary.rst:19 7056382bfbd743e680b4fb410095ee8d
+msgid ""
+"Πρότυπο πληροφοριών που o βασικός του σκοπός είναι η ανταλλαγή με "
+"δομημένο τρόπο.  Περισσότερες πληρορίες υπάρχουν `εδώ "
+"<http://www.sdmx.org>`_"
+msgstr ""
+
+#: ../../source/glossary.rst:22 8bf553dc91ea47fda1a0139203e9ec30
+msgid "ΜΠΣ"
+msgstr ""
+
+#: ../../source/glossary.rst:23 dc44c047b2824fa88555885039890197
+msgid "Μονάδα Παροχής Στοιχείων"
+msgstr ""
+
+#: ../../source/glossary.rst:24 7d5751d94b234b859e80cbf5484856b4
+msgid "RA"
+msgstr ""
+
+#: ../../source/glossary.rst:25 7e97e16bb8f048b2adceff416c47be29
+msgid "Reporting Agent"
+msgstr ""
+
+#: ../../source/glossary.rst:27 c82d3e04b3074e739e374caef288cbb4
+msgid "Η μονάδα που παρέχει στοιχεία IFDat στην ΤτΕ."
+msgstr ""
+
+#: ../../source/glossary.rst:28 8d74150493124f3293295bf5d0efbb5b
+msgid "ΥΕΟ"
+msgstr ""
+
+#: ../../source/glossary.rst:29 19135937549e4072b9e1ab246753d91d
+msgid "Υπόχρεος Επενδυτικός Οργανισμός"
+msgstr ""
+
+#: ../../source/glossary.rst:30 40c8d3c2d00149349b00f57f3528d19e
+msgid "OA"
+msgstr ""
+
+#: ../../source/glossary.rst:31 05c34da0a55a459fbddb6a7dae0e3fb5
+msgid "Observed Agent"
+msgstr ""
+
+#: ../../source/glossary.rst:33 6e177cc1e55042249f50b834244ee993
+msgid ""
+"Η μονάδα που υποχρεούται να παρέχει στοιχεία IFDat είτε απευθείας είτε "
+"μέσω διαχειρίεστριας εταιρείας."
+msgstr ""
+

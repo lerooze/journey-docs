@@ -70,4 +70,7 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 latex_engine = "xelatex"
-language = "el"
+# language = "el"
+locale_dirs = ["locale/"]
+gettext_uuid = True
+gettext_compact = False

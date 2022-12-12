@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/domain/ifdat/categories/self_key.rst:2
+#: 02aadc75c3d54b33bf5b67d8ca13c079
+msgid "SELF_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων ιδίου λογαραριασμού"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:4
+#: ec11500f8e164835afd4820d13f34855
+msgid ""
+"Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που"
+" έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:7
+#: 56892df73c07456ba397a8e4bdd67d5c
+msgid ""
+"Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι "
+"διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:11
+#: a6fa47df2f954cd799f7e4115c3ddbb8
+msgid "SHARE"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:13
+#: 58d796e51cfd4e968a26f0930fe29330
+msgid ""
+"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων "
+"που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:17
+#: ../../source/domain/ifdat/categories/self_key.rst:58
+#: ../../source/domain/ifdat/categories/self_key.rst:104
+#: ../../source/domain/ifdat/categories/self_key.rst:127
+#: ../../source/domain/ifdat/categories/self_key.rst:164
+#: 1aa47b5aaf3347309f3d4ba36f55a342 595b12e3b3f14abdb73ec55a005e4c11
+#: 5f13df4be06245dc865a5dc307b15698 c2cd2e65cd974871b40175260c333967
+#: d5dc0c19b26b4ecab8b19d753f71f3aa
+msgid "ΔΙΑΣΤΑΣΕΙΣ"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:21
+#: ../../source/domain/ifdat/categories/self_key.rst:60
+#: ../../source/domain/ifdat/categories/self_key.rst:107
+#: ../../source/domain/ifdat/categories/self_key.rst:130
+#: ../../source/domain/ifdat/categories/self_key.rst:167
+#: 84e2561090a748d59e9e2a55a5582d78 93deec34c6914e2abc9684099e08682a
+#: a909669865f7445aa20b30be4f457a37 f7dbceb9cb744e3b9557c65251a78989
+#: f9b2a00343134cdc8a31a2ded021b9e3
+msgid "ID"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:20
+#: ../../source/domain/ifdat/categories/self_key.rst:60
+#: 7c22d4bbb12f4d89bad538244467fe3e e7c4b0bd765a4f278d93f057b746eb33
+msgid ""
+"Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο "
+"``ΥΕΟ`` (:ref:`shr`)."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:27
+#: ../../source/domain/ifdat/categories/self_key.rst:65
+#: ../../source/domain/ifdat/categories/self_key.rst:110
+#: ../../source/domain/ifdat/categories/self_key.rst:135
+#: ../../source/domain/ifdat/categories/self_key.rst:171
+#: 05b17885e0a844f6be8e6823db9542c8 45f0e1d098c44ca6b69de4cc2601882b
+#: 6170386f555841f181003f03256a2286 9e839281aa0c4821b83e97eafde1e6d5
+#: a75141bf5a2740058fcfed2dc4738890
+msgid "DATE (DT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:24
+#: 34c2bd637e5044629b30fdf31ebc2c66
+msgid ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών "
+"υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι "
+"παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών "
+"σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες στις "
+":doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:32
+#: ../../source/domain/ifdat/categories/self_key.rst:82
+#: 01a08ccedc3f4966abfaa8b357bf4502 4797eea814144f7f9719d5c7e2cfa0e8
+msgid "FREQUENCY (FRQNCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:30
+#: 7ea03c034af640219ca79cde21e91190
+msgid ""
+"Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς "
+"που ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες "
+"πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:35
+#: ../../source/domain/ifdat/categories/self_key.rst:68
+#: ../../source/domain/ifdat/categories/self_key.rst:113
+#: ../../source/domain/ifdat/categories/self_key.rst:138
+#: ../../source/domain/ifdat/categories/self_key.rst:174
+#: 20e87a69ee28428c9f5f304a4f6351be 4d783726af8446fea2de685dcd3d5e4b
+#: 9aceff6e8c4b45838168aed1b626c94a ff12f018115548a99e28fc7e7b4bc913
+#: ff91520aca8448f1a911bad10c12e737
+msgid "ΜΕΤΑΒΛΗΤΕΣ"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:39
+#: ../../source/domain/ifdat/categories/self_key.rst:144
+#: 6384e9ae6c9b483aa091876c6fa0f6cc bd9fa659cce2480a9ae60cb4998148b5
+msgid "PRICE (PRC)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:38
+#: 125c64cb19c742dcb51bd155e1091583
+msgid ""
+"Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος "
+"(closing price)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:42
+#: aeea3daa38da4fe49c447ed1579a7328
+msgid "OUTSTANDING (OTSTNDNG)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:42
+#: 27b894ea2ee74ac79bd43f52c2cb852e
+msgid "Αριθμός μετοχών/μεριδίων σε κυκλοφορία·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:45
+#: 97b68eae90bd4449af2c403c75def30f
+msgid "SUBSCRIPTIONS (SBSCRIPTNS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:45
+#: 3a800e2b33264d0c94af930280d8b301
+msgid ""
+"Εισροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει "
+"(προσθετικά) και τις προμήθειες·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:49
+#: 98321f9ed63743a2bf9e2d738f0659c9
+msgid "REDEMPTIONS (RDMPTNS)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:48
+#: fe20beed958e4f3ba9a55b29440b79d2
+msgid ""
+"Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει "
+"(αφαιρετικά) και τις προμήθειες·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:52
+#: 2b2a31579b3a4dca9e50d9f2b86c4921
+msgid "DIVIDEND"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:54
+#: 8fad0e06aa3f431f828dcfd2c05ef8de
+msgid ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των "
+"τίτλων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:63
+#: 10cc2dfb8c9e497897033ba08c98d701
+msgid ""
+"Ημερομηνία καταγραφής που ο ``ΥΕΟ`` ελέγχει τα βιβλία του για να "
+"εντοπίσει τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι"
+" δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του "
+"μερίσματος."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:72
+#: 31f451cae02a45b3b72fca75170c1617
+msgid "EX DATE (EX_DT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:71
+#: cc47bae4296c411b982e3320cf06dc0d
+msgid ""
+"Ημερομηνία από την οποία το μέρισμα δεν οφείλεται σε νέους κατόχους των "
+"μετοχών/μεριδίων·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:75
+#: 2f1b693846244af0861d384ff2655455
+msgid "DECLARATION DATE (DCLRTN_DT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:75
+#: d14e28d7728743a786fc31c1668857a0
+msgid "Ημερομηνία αναγγελίας·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:78
+#: b812a3308e164fc7a5bfb448974c7d91
+msgid "PAYMENT DATE (PMNT_DT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:78
+#: 4aea40b25e8f4914891965f04bbe8b06
+msgid "Ημερομηνία πληρωμής·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:81
+#: 749a5a9b4d3642e182aedc068566f559
+msgid ""
+"Συχνότητα διανομής μεριδίου με επιλογή από τη λίστα τιμών "
+"``DVDND_CSTM_FRQNCY_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:85
+#: a5c0506cf1004a9db76edd866fae3c5c
+msgid "TYPE (TYP)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:85
+#: cde9fd7cb09948a7918baf42c70e6ed4
+msgid "Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:90
+#: 59835d07a037427b88258106be9d89c4
+msgid "CRRNCY (CURRENCY)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:90
+#: 75d6e6d492034f8999accc6deac40871
+msgid ""
+"Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` "
+"(κατά περίπτωση)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:95
+#: d8838c5a48864ec9988dd1eee8ccdac3
+msgid "AMOUNT (AMNT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:93
+#: 791c64f870384e6696bc5981613533fd
+msgid "Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:98
+#: ce7b95529a4c4436b9d3c0b0460acc25
+msgid "SPLIT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:100
+#: f8b1cce2d9f44851b1e61cce158aac5a
+msgid ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις "
+"και συμπτύξεις μετοχών/μεριδίων που έχουν εκδώσει οι ``ΥΕΟ`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:107
+#: 4d55eeb323594830ae4733a823d126da
+msgid ""
+"Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο "
+"``ΥΕΟ`` (:ref:`shr`)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:110
+#: d23c1940d85e4a5faa2478180233187d
+msgid "Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:118
+#: 20d3353307e74900abf7926dab6fc2a5
+msgid "FACTOR (FCTR)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:116
+#: dc350d7d8dc54a2a8ff1d505a6a82132
+msgid ""
+"Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη"
+" διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη"
+" διάσπαση/σύμπτυξη."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:121
+#: 185c4a8bf8364ca5bca7e44c0b17a9d2
+msgid "DEBT"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:123
+#: d6050e735a5d4d449574dc019754db90
+msgid ""
+"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που "
+"έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:130
+#: ../../source/domain/ifdat/categories/self_key.rst:167
+#: 17238b692a494b629e0f813f163c7890 b3aa03651110465cb2d06a268d193ab2
+msgid ""
+"Ο αναγνωριστικός κωδικός του χρεόγραφου που έχει εκδόσει ο ``ΥΕΟ`` "
+"(:ref:`dbt`)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:133
+#: c71945ff1fdd497983164d55573708b2
+msgid ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
+"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:141
+#: a4ccc75b106148b7abc8bb26fd0d4cf8
+msgid ""
+"Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής "
+"τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται οι "
+"δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του "
+"ομολόγου (clean price)·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:149
+#: 306081642fff435e9025f736d574f8ad
+msgid "ACCRUED INTEREST (ACCRD_INTRST)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:147
+#: f159a9d2a7d242c491f1e80736ee8890
+msgid ""
+"Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της "
+"ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή "
+"τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:155
+#: 26808b3c447949a5818ea84782189bd9
+msgid "OUTSTANDING (OSTNDNG)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:152
+#: 246a0fcc08964c318a5248c7c089e8d5
+msgid ""
+"Συνολική ονομαστική ανεξόφλητη αξία της έκδοσης.  Για εκδόσεις ομολόγων "
+"σε δόσεις (tranches) δίδεται το σωρευτικό ποσό καθαρό από τυχόν "
+"εξοφλήσεις."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:158
+#: cad106c059bf42f19dc909d49b9a051a
+msgid "COUPON"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:160
+#: 7c82cf19d27644888066be3c7cdf9ef6
+msgid ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από "
+"χρεόγραφα που έχουν εκδώσει οι ``ΥΕΟ`` ·"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:170
+#: 30ddf837f9864eac809905cba9efeef5
+msgid "Ημερομηνία πληρωμής τοκομεριδίου."
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:176
+#: 5ac7c2dbc3d84f08928a7c4e7eb762cd
+msgid "RATE (RT)"
+msgstr ""
+
+#: ../../source/domain/ifdat/categories/self_key.rst:177
+#: 2e37cb2c9baa4d4899f61c1845df4284
+msgid "Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate)."
+msgstr ""
+
