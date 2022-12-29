@@ -71,6 +71,6 @@ html_theme_options = {
 html_static_path = ["_static"]
 latex_engine = "xelatex"
 # language = "el"
-locale_dirs = ["locale/"]
+locale_dirs = ["locales/"]
 gettext_uuid = True
 gettext_compact = False
