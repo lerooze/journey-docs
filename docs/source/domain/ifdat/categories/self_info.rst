@@ -1,524 +1,495 @@
-SELF_INFO: Πληροφοριακά στοιχεία ίδιου λογαριασμού
-==================================================
+SELF_INFO: Self Information Data 
+================================
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των χρηματοοικονομικών
-μέσων που έχουν εκδώσει οι ``ΥΕΟ``, της ``ΜΠΣ`` σε περίπτωση που τα στοιχεία
-υποβάλλονται από διαχειρίστρια εταιρεία και των προσώπων επικοινωνίας που είναι
-υπεύθυνα για την παροχή των στοιχείων εκ μέρους της ``ΜΠΣ``. 
+It is used for the submission of information data regarding the ``OA``, the
+instruments issued by the ``OA``, the ``RA`` in case it is different from the
+``OA`` and the contact person responsible for submitting data on behalf of the
+``RA``.
 
-Στις παρακάτω ενότητες περιγράφονται οι διαστάσεις και οι μεταβλητές του κάθε
-πίνακα.
+Below the dimensions and the measures are provided for each table of the data category.
 
 MANAGEMENT
 ----------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΜΠΣ`` σε περίπτωση
-που η ``ΜΠΣ`` είναι διαχειρίστρια εταιρεία.  Τα στοιχεία αυτά είτε ορίζονται
-μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής της
-διαχειρίστριας εταιρείας.
+Used to submit information data regarding the ``RA`` in case the ``RA`` and the
+``OA`` are not the same entities.  The measures of this table can take at most one
+value during the lifecycle of the ``RA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της διαχειρίστριας εταιρείας (:ref:`org`).
+    Identifier code of the ``RA`` (:ref:`org`).
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία σύστασης·
+    Birth date.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης (κατά περίπτωση)·
+    Close date (if applicable).
 
 COUNTRY OF BIRTH (CNTRY_BRTH)
-    Χώρα σύστασης με επιλογή από τη λίστα τιμών `GEN_CNTRY_ENUM`` ·
+    Country of incorporation choosing from ``GEN_CNTRY_ENUM``.
 
 ESCB ID (ESCB_ID)
-    Αναγνωριστικός κωδικός που αποδίδεται από το ``ΕΣΚΤ``.  Είναι γνωστός και
-    ως ``RIAD code`` ·
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
 
 LEI ID (LEI_ID)
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·
+    Identifier code based on the ISO-17442 standard.
 
 TAX ID (TAX_ID)
-    Ο αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` όπου
-    η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
 
 NBR ID (NBR_ID)
-    Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου η
-    θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
 
 SPLIT FROM (SPLT_FRM)
-    Σε περίπτωση που η διαχειρίστρια εταιρεία δημιουργήθηκε από διάσπαση δίδεται ο
-    αναγνωριστικός κωδικός της εταιρείας από την οποία διασπάστηκε·
+    In case the ``RA`` was created by a corporate split the identifier code of
+    the entity that it was split from is provided (:ref:`org`). 
 
 MERGED WITH (MRGD_WTH)
-    Σε περίπτωση συγχώνευσης της διαχειρίστριας εταιρείας δίδεται ο
-    αναγνωριστικός κωδικός της εταιρείας με την οποία συγχωνεύτηκε.
+    In case of closure of the ``RA`` via a merger event the identifier code of
+    the entity that the ``RA`` merged with is provided.
 
 STATIC_MANAGEMNT
 ----------------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΜΠΣ`` σε περίπτωση
-που η ``ΜΠΣ`` είναι διαχειρίστρια εταιρεία. Τα στοιχεία αυτά δύναται να
-μεταβληθούν κατά τη διάρκεια του κύκλου ζωής της διαχειρίστριας εταιρείας.
+Used to submit information data regarding the ``RA`` in case the ``RA`` and the
+``OA`` are not the same entities.  The measures of this table can change during
+the lifecycle of the entity.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της διαχειρίστριας εταιρείας (:ref:`org`).
+    Identifier code of the ``RA`` (:ref:`org`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Επωνυμία·
+    Official name.
 
 LATIN NAME (NM_LTN)
-    Επωνυμία με λατινικούς χαρακτήρες·
+    Official name using latin characters.
 
 SHORT NAME (NM_SHRT)
-    Διακριτικό όνομα·
+    Short name.
 
 STREET (STRT)
-    Οδός, αριθμός και περιοχή·
+    Street address, street number and area.
 
 LATIN STREET (STRT_LTN)
-    Οδός, αριθμός και περιοχή με λατινικούς χαρακτήρες·
+    Street address, street number and area in latin characters.
 
 CITY (CTY)
-    Πόλη, χωριό·
+    City, village.
 
 LATIN CITY (CTY_LTN)
-    Πόλη, χωριό με λατινικούς χαρακτήρες· 
+    City, village in latin characters.
 
 POSTAL CODE (PSTL_CD)
-    Ταχυδρομικός κώδικας·
+    Postal code.
 
 POSTAL BOX (PSTL_BX)
-    Ταχυδρομική θυρίδα·
+    Postal box.
 
 URL
-    Διεύθυνση στο διαδίκτυο·
+    Web address.
 
 EMAIL
-    Ηλεκτρονική διεύθυνση αλληλογραφίας·
+    Email address.
 
 COUNTRY OF RESIDENCE (CNTRY_RSDNC)
-    Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
     
 LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
-    Νομική κατάσταση με επιλογή από τη λίστα τιμών ``ORG_LGL_PRCDNG_STTS_ENUM`` ·
+    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
 
 
 
 FUND
 ----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων του ``ΥΕΟ``.  Τα
-στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθερά κατά τη διάρκεια
-του κύκλου ζωής του ``ΥΕΟ``.
+Used to submit information data regarding the ``OA``.  The measures of this table have at most one
+value during the lifecycle of the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    Identifier code of the ``OA`` (:ref:`org`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία σύστασης·
+    Birth date.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης (κατά περίπτωση)·
+    Close date (if applicable).
 
 COUNTRY OF BIRTH (CNTRY_BRTH)
-    Χώρα σύστασης με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Country of incorporation choosing from ``GEN_CNTRY_ENUM``.
 
 ESCB ID (ESCB_ID)
-    Αναγνωριστικός κωδικός που αποδίδεται από το ``ΕΣΚΤ``.  Είναι γνωστός και
-    ως ``RIAD code`` ·
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
 
 LEI ID (LEI_ID)
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·
+    Identifier code based on the ISO-17442 standard.
 
 TAX ID (TAX_ID)
-    Ο αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` όπου
-    η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν (κατά περίπτωση)·
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
 
 NBR ID (NBR_ID)
-    Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου η
-    θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν (κατά περίπτωση)·
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
 
 SPLIT FROM (SPLT_FRM)
-    Σε περίπτωση που ο ``ΥΕΟ`` δημιουργήθηκε από διάσπαση δίδεται ο
-    αναγνωριστικός κωδικός της θεσμικής μονάδας από την οποία διασπάστηκε·
+    In case the ``OA`` was created by a corporate split the identifier code of
+    the entity that it was split from is provided (:ref:`org`). 
 
 MERGED WITH (MRGD_WTH)
-    Σε περίπτωση συγχώνευσης του ``ΥΕΟ`` δίδεται ο αναγνωριστικός κωδικός της
-    θεσμικής μονάδας με την οποία έγινε η συγχώνευση.
+    In case of closure of the ``OA`` via a merger event the identifier code of
+    the entity that the ``OA`` merged with is provided (:ref:`org`).
 
 
 STATIC_FUND
 -----------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων του ``ΥΕΟ``. Τα στοιχεία
-αυτά δύναται μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του ``ΥΕΟ`` ·
+Used to submit information data regarding the ``OA``.  The measures of this table can change during
+the lifecycle of the entity.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    Identifier code of the ``OA`` (:ref:`org`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Επωνυμία·
+    Official name·
 
 LATIN NAME (NM_LTN)
-    Επωνυμία με λατινικούς χαρακτήρες·
+    Official name using latin characters.
 
 SHORT NAME (NM_SHRT)
-    Διακριτικό όνομα·
+    Short name.
 
 STREET (STRT)
-    Ταχυδρομική διεύθυνση.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·
+    Street address, street number and area.  Applicable for ``OA`` that do not
+    have a management company.
 
 LATIN STREET (STRT_LTN)
-    Ταχυδρομική διεύθυνση με λατινικούς χαρακτήρες.  Αφορά ``ΥΕΟ`` χωρίς 
-    διαχειρίστρια εταιρεία·
+    Street address, street number and area using latin characters.  Applicable
+    for ``OA`` that do not have a management company.
 
 CITY (CTY)
-    Πόλη κατοικίας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·
+    City, village.  Applicable for ``OA`` that do not have a management company.
 
 LATIN CITY (CTY_LTN)
-    Πόλη κατοικίας με λατινικούς χαρακτήρες.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια
-    εταιρεία·
+    City, village using latin characters.  Applicable for ``OA`` that do not
+    have a management company.
 
 POSTAL CODE (PSTL_CD)
-    Ταχυδρομικός κώδικας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·
+    Postal code.  Applicable for ``OA`` that do not have a management company.
 
 POSTAL BOX (PSTL_BX)
-    Ταχυδρομική θυρίδα·
+    Postal box.  Applicable for ``OA`` that do not have a management company.
 
 URL
-    Διεύθυνση στο διαδίκτυο·
+    Web address (if applicable).
 
 EMAIL
-    Ηλεκτρονική διεύθυνση αλληλογραφίας (κατά περίπτωση)·
+    Email (if applicable).
 
 COUNTRY OF RESIDENCE (CNTRY_RSDNC)
-    Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
 
 IS LISTED (IS_LSTD)
-    Ένδειξη περί εισηγμένου·
+    Listed flag.
 
 IS INVESTMENT GRADED (IS_INVSTMNT_GRDD)
-    Ένδειξη επενδυτικής βαθμίδας.  Αφορά ``ΥΕΟ`` που είναι νομικές
-    οντότητες·
+    Investment graded flag.  Applicable for legal entities ``OA``.
 
 IS INACTIVE (IS_INCTV)
-    Ένδειξη κατάστασης αδράνειας·
+    Inactivity flag.
 
 IS UNDER LIQUIDATION (IS_UNDR_LQDTN)
-    Ένδειξη καθεστώς εκκαθάρισης·
+    Liquidation flag.
     
 LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
-    Νομική κατάσταση με επιλογή από τη λίστα τιμών ``ORG_LGL_PRCDNG_STTS_ENUM`` ·
+    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
 
 ACCOUNTS CURRENCY (ACCNTS_CRRNCY)
-    Νόμισμα στο οποίο εκφράζονται οι χρηματοοικονομικές καταστάσεις με επιλογή
-    από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Financial statements currency choosing from ``GEN_CNTRY_ENUM``.
 
 INSTITUTIONAL SECTOR CONTROL (INSTTTNL_SCTR_CNTRL)
-    Είδος θεσμικού ελέγχου με επιλογή από τη λίστα τιμών
-    ``ORG_INSTTTNL_SCTR_CNTRL_ENUM`` που προκύπτει από το Κεφάλαιο 2 του
-    ESA2010·
+    Institutional sector control choosing from ``ORG_INSTTTNL_SCTR_CNTRL_ENUM``
+    as defined in ESA2010 Chapter 2.
     
 SIZE (SZ)
-    Μέγεθος με επιλογή από τη λίστα τιμών ``ORG_SZ_ENUM`` σύμφωνα με το ``Annex
-    to Commission Recommendation 2033/361/EC`` ·  Αφορά νομικές οντότητες.
+    Entity size choosing from ``ORG_SZ_ENUM`` according to ``Annex
+    to Commission Recommendation 2033/361/EC``.
         
 LEGAL FORM (LGL_FRM)
-    Νομική μορφή με επιλογή από τη λίστα τιμών ``ORG_LGL_FRM_ENUM`` ·
+    Legal form choosign from ``ORG_LGL_FRM_ENUM``.
 
 TYPE OF SUPERVISION (TYP_SPRVSN)
-    Είδος εποπτείας με επιλογή από τη λίστα τιμών ``ORG_SPRVSN_TYP_ENUM`` ·
+    Type of supervision choosing from ``ORG_SPRVSN_TYP_ENUM`` ·
 
 .. _fscurrency:
 
 MANAGED BY (MNGD_BY)
-    Αναγνωριστικός κωδικός διαχειρίστριας εταιρείας (κατά περίπτωση) (:ref:`org`)·
+    Management company identifier code (if applicable) (:ref:`org`)·
 
 UNDER UMBRELLA BY (UNDR_UMBRLL_BY)
-    Αναγνωριστικός κωδικός οντότητας τύπου μανδύα (umbrella fund) στο οποίο
-    περιλαμβάνεται ο ``ΥΕΟ`` (κατά περίπτωση), (:ref:`org`)·
+    Identifier code of the umbrella fund that the ``OA`` is contained in (if
+    applicable) (:ref:`org`).  
 
 TYPE (TYP)
-    Είδος επενδυτικού οργανισμού με επιλογή από τη λίστα τιμών ``FND_TYP_ENUM`` ·
+    Investment fund type choosing from ``FND_TYP_ENUM``. 
 
 INVESTMENT POLICY (INVSTMNT_PLCY)
-    Επενδυτική πολιτική με επιλογή από τη λίστα τιμών ``FND_INVSTMNT_PLCY_ENUM`` ·
+    Investment policy choosing from ``FND_INVSTMNT_PLCY_ENUM``.
 
 SUBTYPE (SBTYP)
-    Υποείδος με επιλογή από τη λίστα τιμών ``FND_SBTYP_ENUM`` ·
+    Investment fund subtype choosing from ``FND_SBTYP_ENUM``.
 
 DISTRIBUTION TYPE (DSTRBTN_TYP)
-    Μερισματική πολιτική με επιλογή από τη λίστα τιμών
-    ``FND_DSTRBTN_TYP_ENUM`` ·
+    Dividend distribution type choosing from ``FND_DSTRBTN_TYP_ENUM``.  
 
 INVESTOR TYPE (INVSTR_TYP)
-    Είδος μετόχων/μεριδιούχων με επιλογή από τη λίστα τιμών
-    ``FND_INVSTR_TYP_ENUM`` ·
+    Investor type choosing from ``FND_INVSTR_TYP_ENUM``.
 
 GREEN TYPE (GRN_TYP)
-    Πράσινη κατηγορία με επιλογή από τη λίστα τιμών ``FND_GRN_ENUM`` (κατά
-    περίπτωση)·
+    Green type choosing from ``FND_GRN_ENUM`` (if applicable).
 
 STRATEGY (STRTGY)
-    Επενδυτική στρατηγική με επιλογή από τη λίστα τιμών ``FND_STRTGY_ENUM`` ·
+    Investment strategy choosing from ``FND_STRTGY_ENUM``. 
     
-
 GEOGRAPHICAL FOCUS (GGPHCL_FCS)
-    Γεωγραφική περιοχή της πλειοψηφίας των περιουσιακών στοιχείων με βάση την
-    αξίας τους με επιλογή από τη λίστα τιμών ``FND_GGRPHCL_FCS_ENUM`` ·
+    Asset main geographical focus choosing from ``FND_GGRPHCL_FCS_ENUM``.
 
 BOND FUND FOCUS (BND_FCS)
-    Κλαδική εστίαση χαρτοφυλακίου με επιλογή από τη λίστα τιμών
-    ``FND_BND_FCS_ENUM``.  Αφορά ομολογιακούς ``ΥΕΟ`` ·
+    Bond fund sector focus choosing from ``FND_BND_FCS_ENUM``.  It is
+    applicable only for investment funds with a bond policy type.
 
 BOND FUND GRADE (BND_GRD)
-    Επενδυτική βαθμίδα των περιουσιακών στοιχείων με επιλογή από τη λίστα
-    τιμών ``FND_BND_GRD_ENUM``.  Αφορά ομολογιακούς ``ΥΕΟ`` ·
+    Bond fund asset grade choosing from ``FND_BND_GRD_ENUM``. It is applicable
+    only for investment funds with a bond policy type.
 
 REAL ESTATE FUND TYPE (RL_ESTT_TYP)
-    Είδος χαρτοφυλακίου ακίνητης περιουσίας με επιλογή από τη λίστα τιμών
-    ``FND_RL_ESTT_TYP_ENUM``.  Αφορά ``ΥΕΟ`` ακίνητης περιουσίας·
+    Type of real estate fund choosing from ``FND_RL_ESTT_TYP_ENUM``.
 
 IS FUND OF FUND (IS_FOF)
-    Ένδειξη περί επενδύσεων κυρίως σε άλλους ``ΕΟ`` ·
+    Fund of fund flag.
 
 IS EXCHANGE TRADED FUND (IS_ETF)
-    Ένδειξη περί διαπραγματεύσιμο αμοιβαίου κεφαλαίου όπως ορίζεται στην Κατευθυντήρια Γραμμή ΕΚΤ/2014/5 ·
+    Exchange traded fund flag as defined in ECB/2014/5. 
 
 IS PRIVATE EQUITY FUND (IS_PEF)
-    Ένδειξη ότι πρόκειται για ιδιωτικό επενδυτικό κεφάλαιο όπως ορίζεται στις
-    Κατευθυντήρια Γραμμή ΕΚΤ/2014/5·
+    Private equity fund as defined in ECB/2014/5.
 
 DEBT
 ----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων που έχει
-εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν
-σταθεϱά κατά τη διάρκεια του κύκλου ζωής του χρεογράφου. 
+Used to submit information data regarding debt instruments issued by the
+``OA``.  The measures of this table can take at most one value during the
+lifecycle of the debt instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρέογραφου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`dbt`).
+    Debt instrument identifier code (:ref:`dbt`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _self_debt_birth:
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης·
+    Issue date.
 
 .. _self_debt_close:
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·
+    Maturity or redemption date (if applicable).
 
 ORIGINAL MATURITY (ORGNL_MTRTY)
-    Αρχική ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·
+    Original maturity or redemption date (if applicable).
 
 ISIN ID (ISIN_ID)
-    Αναγνωριστικός κωδικός του χρεογράφου ο οποίος αποδίδεται με
-    βάση το πρότυπο ISO-6166·
+    Debt identifier based on the ISIN ISO-6166 standard.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο χρεόγραφο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the debt
+    instrument.
 
 .. _sidbtcurrency:
 
 CURRENCY (CRRNCY)
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 ISSUE PRICE (ISS_PRC)
-    Τιμή έκδοσης εκφραζόμενη ως ποσοστό της ονομαστικής τιμής του·
+    Issue price given as a percentage of its nominal price.
 
 REDEMPTION PRICE (RDMPTN_PRC)
-    Τιμή τελικής εξόφλησης εκφραζόμενη ως ποσοστό της ονομαστικής αξίας του·
+    Redemption price given as a percentage of its nominal price.
 
 MARKET (MRKT)
-    Η χρηματιστηριακή αγορά διαπραγμάτευσης με επιλογή από τη λίστα τιμών
-    ``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383·
+    Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 standard.
 
 ACCRUAL STARTDATE (ACCRL_STRTDT)
-    Αρχική ημερομηνία συσσώρευσης τοκομεριδίου.  Σε περίπτωση χρεογράφου δίχως 
-    τοκομερίδια συμπληρώνεται η τιμή της μεταβλητής self_debt_birth_ ·
+    Accrual start date.  In case of a couponless debt instrument the value of 
+    self_debt_birth_ is provided.
 
 PRIMARY CLASS (PRMRY_CLSS)
-    Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``DBT_PRMRY_ENUM`` ·
+    Primary class choosing from ``DBT_PRMRY_ENUM``.
 
 GUARANTEE LEVEL (GRNT_LVL)
-    Επίπεδο εγγύησης με επιλογή από τη λίστα τιμών ``DBT_GRNT_LVL_ENUM`` ·
+    Guarantee level choosing from ``DBT_GRNT_LVL_ENUM``.
     
 RANK LEVEL (RNK_LVL)
-    Ταξινόμηση με επιλογή από τη λίστα τιμών ``DBT_RNK_LVL_ENUM`` ·
+    Rank level choosing from ``DBT_RNK_LVL_ENUM``.
 
 SECURITY LEVEL (SCRTY_LVL)
-    Επίπεδο ασφάλειας με επιλογή από τη λίστα τιμών ``DBT_SCRTY_LVL_ENUM`` ·
+    Security level choosing from ``DBT_SCRTY_LVL_ENUM``.
 
 IS SECURITIZATION (IS_SCRTZTN)
-    Ένδειξη τιτλοποίησης όπως ορίζεται στην Κατευθυντήρια Γραμμή ΕΚΤ/2015/15·
+    Securitization flag as defined in ECB/2015/15.
 
 SECURITIZATION TYPE (SCRTZTN_TYP)
-    Είδος τιτλοποίησης με επιλογή από τη λίστα τιμών ``DBT_SCRTZTN_TYP_ENUM`` ·
+    Securitization type choosing from ``DBT_SCRTZTN_TYP_ENUM``.
 
 IS COVERED (IS_CVRD)
-    Ένδειξη καλυμμένης ομολογίας όπως ορίζεται στην
-    Κατευθυντήρια Γραμμή ΕΚΤ/2014/60·
+    Covered flag as defined in ECB/2014/60.
 
 COVERED TYPE (CVRD_TYP)
-    Είδος καλυμμένης ομολογίας με επιλογή από τη λίστα τιμών ``DBT_CVRD_TYP_ENUM`` ·
+    Covered type choosing from ``DBT_CVRD_TYP_ENUM``.
 
 COUPON TYPE (CPN_TYP)
-    Είδος τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_TYP_ENUM`` ·
+    Coupon type choosing from ``DBT_CVRD_TYP_ENUM``.
 
 COUPON CURRENCY (CPN_CRRNCY)
-    Νόμισμα πληρωμής των τοκομεριδίων με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Coupon currency choosing from ``GEN_CRRNCY_ENUM`` ·
 
 COUPON FREQUENCY (CPN_FRQNCY)
-    Συχνότητα πληρωμής τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_FRQNCY_ENUM`` ·
+    Coupon payment frequency choosing from ``DBT_CPN_FRQNCY_ENUM``.
 
 COUPON RATE SPREAD (CPN_SPRD)
-    Περιθώριο επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια εκφραζόμενο
-    σε μονάδες βάσης (basis points) ·
-
+    Coupon rate spread given in basis points.
+    
 COUPON RATE MULTIPLIER (CPN_MLTPLR)
-    Πολλαπλασιαστής επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια.  Για
-    παράδειγμα ένα κυμαινόμενο τοκομερίδιο με επιτόκιο 3 φορές το εξαμηνιαίο
-    EURIBOR συν 20 μονάδες βάσης ο πολλαπλασιαστής είναι ο 3·
+    Coupon rate multiplier.
 
 COUPON RATE CAP (CPN_CP)
-    Μέγιστη τιμή του κυμαινόμενου τοκομεριδίου·
+    Maximum coupon rate.
 
 COUPON RATE FLOOR (CPN_FLR)
-    Ελάχιστη τιμή του κυμαινόμενου τοκομεριδίου·
+    Minimum coupon rate.
 
 FIRST COUPON DATE (FRST_CPN_DT)
-    Ημερομηνία πληρωμής του πρώτου τοκομεριδίου·
+    Date of first coupon payment.
 
 LAST COUPON DATE (LST_CPN_DT)
-    Ημερομηνία πληρωμής του τελικού τοκομεριδίου·
+    Date of last coupon payment.
 
 UNDERLYING INSTRUMENT (UNDRLYNG)
-    Αναγνωριστικός κωδικός χρεογράφου από το οποίο προκύπτει το κυμαινόμενο
-    τοκομερίδιο (:ref:`dbt`)·
+    Underlying debt instrument that the coupon payment depends on (:ref:`dbt`).
 
 MINIMUM LEVEL OF INVESTMENT (MNMM_INVSTMNT)
-    Ελάχιστο ονομαστικό ποσό επένδυσης εκφραζόμενο στο νόμισμα συναλλαγής του χρεογράφου·
+    Minimum level of investment given in the currency of the debt instument.
 
 IS PRIVATE PLACEMENT (PRVT)
-    Ένδειξη περί ιδιωτικής τοποθέτησης·
+    Private placement flag.
 
 RESTRUCTURED TO (RSTRCTRD_T)
-    Σε περίπτωση αναδιάρθρωσης σε νέο χρεόγραφο συμπληρώνεται ο αναγνωριστικός
-    κωδικός του νέου χρεογράφου καθώς και η self_debt_close_ με την ημερομηνία
-    αναδιάρθρωσης·
+    In case of restructure to a new debt instrument the identifier code of the
+    new debt instrument is provided and self_debt_close_ is filled with the
+    date of restructure (:ref:`dbt`).
 
 RESTRUCTURED FROM (RSTRCTRD_FRM)
-    Σε περίπτωση που το χρεόγραφο προήλθε από αναδιάρθρωση δανείου
-    συμπληρώνεται ο αναγνωριστικός κωδικός του δανείου από το οποίο προήλθε το
-    χρεόγραφο·
-
+    In case that the debt instrument originated from a loan restructure the
+    identifier code of the loan is provided (:ref:`lon`).
 
 STATIC_DEBT
 -----------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των χρεογράφων που
-έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη
-διάρκεια του κύκλου ζωής του χρεογράφου.
+Used to submit information data regarding debt instruments issued by the
+``OA``.  The measures of this table can change during the
+lifecycle of the debt instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεογράφου που έχει εκδώσει ο ``ΥΕΟ`` (:ref:`shr`).
+    Debt instrument identifier code (:ref:`dbt`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Ονομασία·
+    Name.
 
 LATIN NAME (NM_LTN)
-    Ονομασία με λατινικούς χαρακτήρες·
+    Name using latin characters.
 
 SHORT NAME (NM_SHRT)
-    Διακριτικός τίτλος·
+    Short name. 
 
 STATUS (STTS)
-    Κατάσταση με επιλογή από τη λίστα τιμών ``DBT_STTS_ENUM`` ·
+    Instrument status choosing from ``DBT_STTS_ENUM``.
     
 MATURITY DATE (MTRTY_DT)
-    Ημερομηνία λήξης ή εξόφλησης (κατά περίπτωση).  Είναι δυνατό αυτή η
-    ημερομηνία να τροποποιηθεί κατά τη διάρκεια του κύκλου ζωής του χρεογράφου.
-    Σε αυτή τη περίπτωση αναθεωρείται η τιμή της self_debt_close_ ·
+    Maturity or redumption date (if applicable).  In some rare circumstances this date can change during the lifecycle of the instrument and in this case self_debt_close_ is updated.
 
 ISSUED BY (ISSD_BY)
-    Αναγνωριστικός κωδικός του εκδότη· 
+    Issuer identification code (:ref:`org`).
 
 CFI
-    Κατηγοριοποίηση με βάση το πρότυπο ISO-10962·
+    Instrument category based on ISO-10962 standard.
 
 
 
@@ -526,174 +497,173 @@ CFI
 SHARE
 -----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των μετοχών/μεριδίων που
-έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε
-παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής της μετοχής/μεριδίου.
+Used to submit information data regarding equity/investment fund shares issued
+by the ``OA``.  The measures of this table can take at most one value during
+the lifecycle of the debt instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδώσει ο ``ΥΕΟ`` (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·
+    Issue date, activation date, initialization date.
 
 .. _sishareclose:
     
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης (κατά περίπτωση)·
+    Close date (if applicable).
 
 ISIN ID (ISIN_ID)
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166· 
+    Instrument identifier based on the ISIN ISO-6166 standard.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στη μετοχή/μερίδιο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the instrument.
 
 .. _sishrcurrency:
 
 CURRENCY (CRRNCY)
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 MARKET (MRKT)
-    Η χρηματιστηριακή αγορά διαπραγμάτευσης με επιλογή από τη λίστα τιμών
-    ``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383·
+    Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 standard.
 
 RESTRUCTURED TO (RESTRUCTURED_TO)
-    Σε περίπτωση αναδιάρθρωσης σε νέα μετοχή/μερίδιο συμπληρώνεται ο
-    αναγνωριστικός κωδικός της νέας μετοχής/μεριδίου καθώς και η sishareclose_
-    με την ημερομηνία αναδιάρθρωσης. 
+    In case of restructure to a new share/investment fund instrument the identifier code of the
+    new instrument is provided and sishareclose_ is filled with the
+    date of restructure (:ref:`shr`).
     
 
 STATIC_SHARE
 ------------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των μετοχών/μεριδίων που
-έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη
-διάρκεια του κύκλου ζωής της μετοχής/μεριδίου.
+Used to submit information data regarding equity/investment fund shares issued
+by the ``OA``.  The measures of this table can change during the
+lifecycle of the instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Ονομασία·
+    Name. 
 
 LATIN NAME (NM_LTN)
-    Ονομασία με λατινικούς χαρακτήρες·
+    Name using latin characters. 
 
 SHORT NAME (NM_SHRT)
-    Διακριτικός τίτλος·
+    Short name.
 
 ISSUED BY (ISSD_BY)
-    Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)·
+    Issuer identification code (:ref:`org`).
 
 NOMINAL_PRICE (NMNL_PRC)
-    Ονομαστική τιμή·
+    Nominal price.
 
 CFI
-    Κατηγοριοποίηση με βάση το πρότυπο ISO-10962·
+    Instrument category based on ISO-10962 standard.
 
 REDEMPTION FREQUENCY (RDMPTN_FRQNCY)
-    Συχνότητα εξαγοράς με επιλογή από τη λίστα τιμών ``SHR_FND_RDMPTN_FRQNCY_ENUM`` ·
+    Redemption frequency choosing from ``SHR_FND_RDMPTN_FRQNCY_ENUM``.
 
 MINIMUM AMOUNT (MNMM_AMNT)
-    Ελάχιστο ποσό συμμετοχής (κατά περίπτωση)·
+    Minimum investment amount (if applicable).
 
 
 
 CONTACT
 -------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των προσώπων
-επικοινωνίας που παρέχουν στοιχεία εκ μέρους της ``ΜΠΣ``.
+It is used for the submission of information data regarding the contact persons
+that submit data on behalf of the ``RA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του προσώπου επικοινωνίας (:ref:`psn`).
+    Contact person identifier code (:ref:`psn`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 EMAIL
-    Διεύθυνση ηλεκτρονικού ταχυδρομείου (email)·
+    Email address
 
 FIRST NAME (FRST)
-    Όνομα·
+    First name. 
 
 SALUTATION OF FIRST NAME (FRST_SLTTN)
-    Προσφώνηση ονόματος·
+    Salutation of first name. 
 
 LAST NAME (LST)
-    Επώνυμο· 
+    Last name.
 
 SALUTATION OF LAST NAME (LST_SLTTN)
-    Προσφώνηση επωνύμου·
+    Last name salutation.
 
 GENDER (GNDR)
-    Φύλλο με επιλογή από τη λίστα τιμών ``GEN_GNDR_ENUM`` ·
+    Gender choosing from ``GEN_GNDR_ENUM``.
 
 PHONE (PHN)
-    Τηλέφωνο επικοινωνίας·
+    Phone.
     
 
 CONTACT_TO_RA
 -------------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων σε σχέση με την
-εργασιακή σχέση μεταξύ του προσώπου επικοινωνίας και της ``ΜΠΣ`` ·
+Used to provide information data regarging the labor relationship between the
+contact person and the ``RA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 LID
-    Ο αναγνωριστικός κωδικός του προσώπου επικοινωνίας (:ref:`psn`).
+    Contact person identifier code (:ref:`psn`).
 
 RID
-    Ο αναγνωριστικός κωδικός της ``ΜΠΣ`` (:ref:`org`).
+    ``RA`` identifier code (:ref:`org`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 ASSOCIATED_WITH (ASSCTD_WTH)
-    Ένδειξη περί εργασιακής σχέσης·
+    Association flag
 
 IS EMPLOYEE OF (IS_EMPLY_OF)
-    Ένδειξη περί μισθωτού εργαζόμενου·
+    Employee flag.
 
 IS CONTRACTOR OF (IS_CNTRCTR_OF)
-    Ένδειξη περί εξωτερικού συνεργάτη.
+    Contractor flag.
 
 WORKS FOR (WRKS_FR)
-    Διεύθυνση στην ``ΜΠΣ`` με την οποία σχετίζεται το πρόσωπο επικοινωνίας
+    Department within the ``RA`` with which the contact person works for. 
 
 RESPONSIBLE FOR IFDAT (RSPNSBL_FR_IFDAT)
-    Υπεύθυνος για τα στοιχεία ``IFDAT`` της ``ΜΠΣ``.
+    Flag if responsible for disseminating ``IFDAT`` data.

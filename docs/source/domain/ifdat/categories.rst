@@ -1,8 +1,8 @@
-Κατηγορίες Δεδομένων
-====================
+Data Categories
+===============
 
 +-------------------------------------------+-------------------------+------------------------+-----------------------+
-| Κατηγορία Δεδομένων                       | Data Model              | Υπόδειγμα Excel        | JSON Schema           |
+| Data Category                             | Data Model              | Excel Template         | JSON Schema           |
 +===========================================+=========================+========================+=======================+
 | :doc:`SELF_INFO <categories/self_info>`   | `SELF_INFO_DATAMODEL`_  | `SELF_INFO_TEMPLATE`_  | `SELF_INFO_SCHEMA`_   |
 +-------------------------------------------+-------------------------+------------------------+-----------------------+
@@ -17,38 +17,31 @@
 |  :doc:`INCOME <categories/income>`        | `INCOME_DATAMODEL`_     | `INCOME_TEMPLATE`_     | `INCOME_SCHEMA`_      |
 +-------------------------------------------+-------------------------+------------------------+-----------------------+
 
-Η κάθε σειρά του παραπάνω πίνακα δίνει πληροφορίες για κάθε μία από τις έξι
-κατηγορίες δεδομένων του :mod:`IFDat` και περιλαμβάνει τις ακόλουθες στήλες:
+For each of the six data categories of ``IFDat`` the table above gives the following:
 
-Κατηγορία Δεδομένων
-    Ονομασία και σύνδεσμος με το κεφάλαιο που περιγράφει τα ακόλουθα για κάθε
-    πίνακα της κατηγορίας δεδομένων:
+Data Category
+    Name and link to the section that describes the following for each table of the data category:
 
-    * Τις διαστάσεις του πίνακα 
+    * Table dimensions
 
-    * Τις μεταβλητές του πίνακα
+    * Table measures
 
-    * Τα χαρακτηριστικά της κάθε μεταβλητής του πίνακα σε περίπτωση που υπάρχει
-      διαφοροποίηση σε σχέση με τις οδηγίες στο :doc:`../../generic`.
+    * The attributes for each measure in case of deviations with what is discussed in  
+      :doc:`../../generic` regarding attributes.
     
-    Στον τίτλο της κάθε διάστασης, μεταβλητής και χαρακτηριστικού δίνεται η
-    ονομασία καθώς και σε παρένθεση ο κωδικός της ονομασίας σε περίπτωση που
-    διαφέρει από την ονομασία.
+    In the title of each dimension, measure and attribute the name is provided
+    and in parenthesis the code name if it is different from the name.
 
 Data Model
-    Η ονομασία του αρχείου που περιγράφει το ``Data Model`` του τομέα δεδομένων
-    (:doc:`../../data_model`).  Το αρχείο βρίσκεται στον φάκελο :file:`model`.
+    Link to download the corresponding ``Data Model``.
     
     
-Υπόδειγμα Excel
-    Η ονομασία του ``Excel`` υποδείγματος που χρησιμοποιείται για την αποστολή
-    στοιχείων σε μορφή Excel.  Το αρχείο βρίσκεται στον φάκελο
-    :file:`template`.
+Excel Template
+    Link to download the excel template for data submission in in excel format.
 
 JSON Schema
-    Η ονομασία του σχήματος ``json`` το οποίο πρέπει να ακολουθούν τα αρχεία που
-    αποστέλλονται σε μορφή :file:`json`.  Το αρχείο βρίσκεται στον φάκελο
-    :file:`schema`.
+    Link to download the corresponding ``json`` schema that data submitted
+    using ``json`` format must follow. 
 
 .. _SELF_INFO_DATAMODEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/model/SELF_INFO_DATAMODEL.xlsx
 

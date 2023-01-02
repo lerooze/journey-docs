@@ -1,755 +1,636 @@
-BSI: Λογαριασμοί Ισολογισμού 
-============================
+BSI: Balance Sheet Items
+========================
 
-Χρησιμοποιείται για την παροχή στοιχείων λογαριασμών ισολογισμού των ``ΥΕΟ``.
+Used to submit analytic data on balance sheet items of the ``OA``.
 
-Στις παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι
-διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα. 
+Below the dimensions, measures and if needed the attributes of the measures for each table:
 
 CASH
 ----
 
 Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρηματικών διαθέσιμων των ``ΥΕΟ``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
-CRRNCY (CURRENCY)
-    Το νόμισμα επιλέγοντας από τη λίστα τιμών ``GEN_CRRNCY_ENUM``.
+CURRENCY (CRRNCY)
+    Cash currency choosing from ``GEN_CRRNCY_ENUM``.
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _cashstock:
 
 STOCK (STCK)
-    Ονομαστική αξία·
+    Nominal value·
 
 STOCK IN EURO (EUR_STCK)
-    Η cashstock_ σε Ευρώ·
+    Η cashstock_ in euro·
     
 
 DEPOSIT
 -------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των καταθέσεων των ``ΥΕΟ``.
-Για τον ορισμό της κατάθεσης δείτε :ref:`εδώ <dep>`.  Οι τιμές των μεταβλητών
-εκφράζονται στο :ref:`νόμισμα <depcurrency>` της κατάθεσης εκτός και αναφέρεται
-κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit deposit account data of ``OA``.  For the definition of a deposit see :ref:`here <dep>`.  Measure values are expressed in :ref:`currency <depcurrency>` of the deposit except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της κατάθεσης (:ref:`dep`).
+    Deposit identifier code (:ref:`dep`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _depstock:
 
 STOCK (STCK)
-    Υπόλοιπο περιλαμβάνοντας τους δεδουλευμένους τόκους καθώς και τους
-    εκπρόθεσμους/απλήρωτους τόκους αλλά χωρίς να περιλαμβάνει αφαιρετικά τυχόν
-    διαγραφές/περικοπές/απομειώσεις (μεταβλητή υπολοίπου)·
+    Outstanding amount including accrued interest as well as interest arrears and not excluding any haircuts/writeoff/writedowns.
 
 STOCK IN EURO (EUR_STCK)
-    Η depstock_ σε Ευρώ·
+    depstock_ in euro.
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένοι τόκοι·
+    Accrued interest.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμοι/απλήρωτοι τόκοι·
+    Interest arrears.
     
 WRITE-OFFS (WRT_OFFS)
-    Ποσό περικοπών/διαγραφών/απομειώσεων·
+    Write offs, writedowns, haircuts.
 
 ASSET_SFT
 ---------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων συναλλαγών χρηματοδότησης
-χρεογράφων όπου ο ``ΥΕΟ`` έχει δανείσει χρηματικά διαθέσιμα . Για τον ορισμό
-των πράξεων χρηματοδότησης χρεογράφων δείτε :ref:`εδώ <sft>`.  Οι τιμές των
-μεταβλητών εκφράζονται στο :ref:`νόμισμα <sftcurrency>` της συναλλαγής εκτός
-και αν αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit account data of security financing transaction in which the ``OA`` has loaned cash.  For the definition of a security financing transaction see :ref:`here <sft>`.  Measure values are expressed in :ref:`currency <sftcurrency>` of the transaction except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της πράξης χρηματοδότησης τίτλων (:ref:`sft`).
+    Identifier code of the security financing transaction (:ref:`sft`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _asftstock:
 
 STOCK (STCK)
-    Συμπληρώνεται το ποσό των χρηματικών διαθέσιμων που δάνεισε ο ``ΥΕΟ`` ·
+    Amount of cash that the ``OA`` has loaned in the transaction.
 
 STOCK IN EURO (EUR_STCK)
-    Η asftstock_ σε Ευρώ.
+    asftstock_ in euro. 
     
     
 ASSET_DEBT
 ----------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρεογράφων που κατέχουν οι ``ΥΕΟ``.
-Για τον ορισμό του χρεογράφου δείτε :ref:`εδώ <dbt>`.  Οι τιμές των μεταβλητών
-εκφράζονται στο :ref:`νόμισμα <dbtcurrency>` του χρεογράφου εκτός και αν αναφέρεται
-κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit account data of debt instruments owned by the ``OA``.  For the definition of a debt instrument see :ref:`here <dbt>`.  Measure values are expressed in :ref:`currency <dbtcurrency>` of the debt instrument except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`dbt`).
+    Debt instrument identifier code (:ref:`dbt`).
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FRQNCY (FREQUENCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _adbtstock:
 
 STOCK (STCK)
-    Αγοραία αξία περιλαμβάνοντας τους δεδουλευμένους τόκους αλλά χωρίς τους
-    εκπρόθεσμους/απλήρωτους τόκους·
+    Market value including accrued interest but not including interest arrears.
 
 STOCK IN EURO (EUR_STCK)
-    Η adbtstock_ σε Ευρώ.
+    adbtstock_ in euro.
 
 TRANSACTIONS (TRNSCTNS)
-    Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητή ροής**)·
+    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
 
 .. _debt_nominal:
 
-NOMINAL_STOCK (NMNL STCK)
-    Ονομαστική αξία·
+NOMINAL STOCK (NMNL_STCK)
+    Nominal value.
 
-LOANED_FOR_REPOS (LND_FR_RPS)
-    Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``REPOS`` ·
+LOANED FOR REPOS (LND_FR_RPS)
+    Amount of debt_nominal_ that the ``OA`` has lent to ``REPOS`` transactions.
 
-LOANED_FOR_SCLB (LND_FR_SCLB)
-    Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές δανειοληψίας
-    τίτλων (securities or commodities lending/borrowing) ·
+LOANED FOR SCLB (LND_FR_SCLB)
+    Amount of debt_nominal_ that the ``OA`` has lent to securities or commodities lending/borrowing transactions.
 
 LOANED FOR BSBT (LND_FR_BSBT)
-    Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``sell-buy back`` ·
+    Amount of debt_nominal_ that the ``OA`` has lent to ``sell-buy back`` transactions.
 
 LOANED FOR MLT (LND_FOR_MLT)
-    Ποσό του debt_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``margin`` ·
+    Amount of debt_nominal_ that the ``OA`` has lent to ``margin`` transactions.
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένοι τόκοι·
+    Accrued interest.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμοι/απλήρωτοι τόκοι.
+    Interest arrears.
 
 
 SHARE
 -----
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των συμμετοχικών τίτλων
-ή/και μετοχές/μερίδια επενδυτικών οργανισμών που κατέχουν οι ``ΥΕΟ``. Για τον
-ορισμό των παραπάνω τίτλων δείτε :ref:`εδώ <shr>`.  Οι τιμές των μεταβλητών
-εκφράζονται στο :ref:`νόμισμα <shrcurrency>` των τίτλων εκτός και αν αναφέρεται
-κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data of share/investment fund units owned by the ``OA``.  For the definition of a share/investment fund unit instrument see :ref:`here <shr>`.  Measure values are expressed in :ref:`currency <shrcurrency>` of the debt instrument except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FRQNCY (FREQUENCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _shrstock:
 
 STOCK (STCK)
-    Αγοραία αξία για διαπραγματεύσιμα αξιόγραφα, αξία εξαγοράς για μη διαπραγματεύσιμα μερίδια αμοιβαίων κεφαλαίων, ή εύλογη αξία για τα υπόλοιπα.  Η εύλογη αξία εκτιμάται με έναν από τους ακόλουθους τρόπους:
+    Market value or fair value if not available.  Fair value is estimated by one of the following ways:
 
-    * βάση την αξία των εισηγμένων μετοχών κατά περίπτωση·
-    * βάση την αξία των ιδίων κεφαλαίων·
-    * προεξοφλώντας μελλοντικά κέρδη εφαρμόζοντας τον κατάλληλο λόγο αγοραίας
-      τιμής / κερδών στα εξομαλυμένα πρόσφατα κέρδη.
+    * based on the value of listed shares;
+    * based on equity capital value;
+    * based on discounting of future profits.
     
 STOCK IN EURO (EUR_STCK)
-    Η shrstock_ σε Ευρώ·
+    shrstock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητή ροής**)·
+    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
 
 .. _share_nominal:
 
-QNTTY (QUANTITY)
-    Αριθμός μονάδων του αξιόγραφου που κατέχει Ο ``ΥΕΟ``.
+QUANTITY (QNTTY)
+    Number of shares/investment fund units owned by the ``OA``.
 
 LOANED_FOR_REPOS (LND_FR_RPS)
-    Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``REPOS`` ·
+    Quantity of share_nominal_ that the ``OA`` has lent to ``REPOS`` transactions.
 
 LOANED_FOR_SCLB (LND_FR_SCLB)
-    Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές 
-    δανειοληψίας τίτλων (securities or commodities lending/borrowing) ·
+    Quantity of share_nominal_ that the ``OA`` has lent to securities or commodities lending/borrowing transactions.
 
-LND_FR_BSBT (LOANED FOR BSBT)
-    Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``sell-buy back`` ·
+LOANED FOR BSBT (LND_FR_BSBT)
+    Quantity of share_nominal_ that the ``OA`` has lent to ``sell-buy back`` transactions.
 
-LND_FOR_MLT (LOANED (LND_FOR_MLT)FOR MLT)
-    Αριθμός μονάδων του share_nominal_ που έχει δανείσει ο ``ΥΕΟ`` σε συναλλαγές ``margin``.
+LOANED FOR MLT (LND_FOR_MLT)
+    Quantity of share_nominal_ that the ``OA`` has lent to ``margin`` transactions.
 
 
 EXT_DERIVATIVE
 --------------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων διαπραγματεύσιμων
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Για τον ορισμό των
-παραγώγων δείτε :ref:`εδώ <edr>`.  Οι τιμές των μεταβλητών εκφράζονται στο
-:ref:`νόμισμα <edrcurrency>` των παραγώγων εκτός και αν αναφέρεται κάτι
-διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data of exchange traded derivatives traded by the ``OA``.  For the definition of an exchange traded derivative see :ref:`here <edr>`.  Measure values are expressed in :ref:`currency <edrcurrency>` of the debt instrument except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου χρηματοοικονομικού παραγώγου (:ref:`edr`).
+    Identifier code of the exchange traded derivative (:ref:`edr`)·
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FRQNCY (FREQUENCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _edrstock:
 
 STOCK (STCK)
-    Τρέχουσα αγοραία αξία.  Η αξία των δικαιωμάτων προαίρεσης και των
-    προθεσμιακών συμβολαίων μπορεί να αλλάζει μεταξύ θετικής και αρνητικής
-    ανάλογα με τις μεταβολές της τιμής των υποκείμενων στοιχείων και κατά
-    συνέπεια τα εν λόγω προϊόντα μπορεί να είναι άλλοτε περιουσιακά στοιχεία
-    και άλλοτε υποχρεώσεις για τους εκδότες και τους κατόχους. Ορισμένα από τα
-    δικαιώματα προαίρεσης και τα προθεσμιακά συμβόλαια λειτουργούν με κατάθεση
-    περιθωρίου, όπου τα κέρδη και οι ζημιές καταγράφονται καθημερινά.  Στις
-    περιπτώσεις αυτές η αξία τους είναι μηδενική.
+    Market value which could fluctuate from positive to negative for futures and forward contracts.
+    Some of the call/put options and future products work with a margin account in which profit and losses are recorded daily and in this case their market value is always zero. 
     
 STOCK IN EURO (EUR_STCK)
-    Η edrstock_ σε Ευρώ·
+    edrstock_ in euro. 
 
 GRSS_STCK (GROSS STOCK)
-    Η edrstock_ προσθέτοντας και τα σωρευτικά καθαρά κέρδη από δικαιώματα
-    προαίρεσης και προθεσμιακά συμβόλαια που λειτουργούν με κατάθεση περιθωρίου
-    και το edrstock_ σε αυτές τις περιπτώσεις είναι μηδενικό.
+    edrstock_ adding to it any net cumulative profits of call/put options, forward contracts that work with a margin account and in those cases edrstock_ is zero.
 
 TRANSACTIONS (TRNSCTNS)
-    Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (μεταβλητή ροής)·
+    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
 
 QUANTITY (QNTTY)
-    Αριθμός μονάδων του παραγώγου.
+    Quantity held of the derivative.
 
 STRATEGY (STRTGY)
-    Στρατηγική με επιλογή από τη λίστα τιμών ``DRVTV_STRTGY_ENUM`` 
+    Investment strategy for the derivative transaction choosing from ``DRVTV_STRTGY_ENUM``.
 
 OTC_DERIVATIVE
 --------------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων εξωχρηματιστηριακών  
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Για τον ορισμό των
-παραγώγων δείτε :ref:`εδώ <odr>`.  Οι τιμές των μεταβλητών εκφράζονται στο
-:ref:`νόμισμα <odrcurrency>` των παραγώγων εκτός και αν αναφέρεται κάτι
-διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data of over the counter derivatives traded by the ``OA``.  For the definition of an over the counter derivative see :ref:`here <odr>`.  Measure values are expressed in :ref:`currency <odrcurrency>` of the debt instrument except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού χρηματοοικονομικού παραγώγου (:ref:`odr`).
+    Identifier code of the over the counter derivative (:ref:`odr`)·
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FRQNCY (FREQUENCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _odrstock:
 
 STOCK (STCK)
-    Τρέχουσα αγοραία αξία.  Αν δεν υπάρχουν δεδομένα σχετικά με την αγοραία
-    αξία τους τότε θα πρέπει να αποτιμώνται με βάση το ποσό που απαιτείται για
-    την εξαγορά ή την αντιστάθμιση της σύμβασης είτε με βάση το ύψος της τιμής
-    που καταβάλλεται.
+    Market or fair value of the over the counter derivative.
     
 STOCK IN EURO (EUR_STCK)
-    Η odrstock_ σε Ευρώ·
+    odrstock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητής ροής**)·
+    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
 
 STRATEGY (STRTGY)
-    Στρατηγική με επιλογή από τη λίστα τιμών ``DRVTV_STRTGY_ENUM`` 
+    Investment strategy for the derivative transaction choosing from ``DRVTV_STRTGY_ENUM``.
 
 
 RESIDENTIAL_RE
 --------------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων οικιστικών ακινήτων που
-κατέχουν οι ``ΥΕΟ``. Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα αναφοράς
-<fscurrency>` του ισολογισμού εκτός και αν αναφέρεται κάτι διαφορετικό στον
-ορισμό της μεταβλητής. 
+Used to submit accounting data of residential real estate owned by the ``OA``.  Measure values are expressed in :ref:`currency <fscurrency>` except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του οικιστικού ακινήτου (:ref:`rre`).
+    Identifier code of the residential real estate (:ref:`rre`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+FRQNCY (FREQUENCY)
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _rrestock:
 
 STOCK (STCK)
-    Αγοραία τιμή αν αυτό είναι δυνατόν, ή σε βασικές τιμές στην
-    περίπτωση παραγωγή νέων ακινήτων για ίδιο λογαριασμό, ή αν αυτό δεν είναι
-    δυνατόν, σε τρέχουσες τιμές αγοραστή κατά την απόκτηση, μειωμένες κατά τη
-    συσσωρευμένη ανάλωση παγίου κεφαλαίου.  Το κόστος αγοραστή για τη
-    μεταβίβαση της κυριότητας του ακινήτου περιλαμβάνεται.
+    Market value or purchase value for residential real estate.
 
 STOCK IN EURO (EUR_STCK)
-    Η rrestock_ σε Ευρώ·
+    rrestock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Ποσό βελτιώσεων (**μεταβλητή ροής**)·
+    Amount for renovations (**flow variable**)·
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένα ενοίκια·
+    Accrued rents.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμα/απλήρωτα ενοίκια·
+    Rents in arrears.
 
 WRITE-OFFS (WRT_OFFS)
-    Ποσό περικοπών/διαγραφών/απομειώσεων ενοικίων·
+    Rent write-offs
 
 
 COMMERCIAL_RE
 -------------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων επαγγελματικών ακινήτων που
-κατέχουν οι ``ΥΕΟ``. Οι τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα αναφοράς
-<fscurrency>` του ισολογισμού εκτός και αν αναφέρεται κάτι διαφορετικό στον
-ορισμό της μεταβλητής. 
+Used to submit accounting data of commercial real estate owned by the ``OA``.  Measure values are expressed in :ref:`currency <fscurrency>` except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
-
 IID
-    Ο αναγνωριστικός κωδικός του επαγγελματικού ακινήτου (:ref:`cre`).
+    Identifier code of the residential real estate (:ref:`cre`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-FREQ
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+FRQNCY (FREQUENCY)
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _crestock:
 
 STOCK (STCK)
-    Αγοραία τιμή αν αυτό είναι δυνατόν, ή σε βασικές τιμές στην
-    περίπτωση παραγωγή νέων ακινήτων για ίδιο λογαριασμό, ή αν αυτό δεν είναι
-    δυνατόν, σε τρέχουσες τιμές αγοραστή κατά την απόκτηση, μειωμένες κατά τη
-    συσσωρευμένη ανάλωση παγίου κεφαλαίου.  Το κόστος αγοραστή για τη
-    μεταβίβαση της κυριότητας του ακινήτου περιλαμβάνεται.
+    Market value or purchase value for commercial real estate.
 
 STOCK IN EURO (EUR_STCK)
-    Η crestock_ σε Ευρώ·
+    crestock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Ποσό βελτιώσεων (μεταβλητή ροής)·
+    Amount for renovations (**flow variable**)
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένα ενοίκια·
+    Accrued rents.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμα/απλήρωτα ενοίκια·
+    Rents in arrears.
 
 WRITE-OFFS (WRT_OFFS)
-    Ποσό περικοπών/διαγραφών/απομειώσεων ενοικίων.
+    Rent write-offs
 
 REM_FIXED
 ---------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών μη
-χρηματοοικονομικών περιουσιακών στοιχείων των ``ΥΕΟ``.  Οι τιμές των μεταβλητών
-εκφράζονται στο :ref:`νόμισμα αναφοράς <fscurrency>` του ισολογισμού εκτός και
-αν αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data of remaining non financial assets owned by the ``OA``.  Measure values are expressed in :ref:`currency <fscurrency>` except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 TYPE (TYP)
-    Είδος στοιχείου με επιλογή από τη λίστα τιμών ``BSI_RMNG_FXD_ENUM`` ·
+    Type of remaining non financial asset choosing from ``BSI_RMNG_FXD_ENUM`` ·
 
 COUNTRY (CNTRY)
-    Χώρα τοποθεσίας του στοιχείου με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Location country of the non-financial asset choosing from ``GEN_CNTRY_ENUM`` ·
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-FREQ
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+FRQNCY (FREQUENCY)
+    Reference period. For further details see :doc:`../../../generic`.
 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _remstock:
 
 STOCK (STCK)
-    Αξία σύμφωνα με τους κανόνες αποτίμησης που περιγράφονται στο κεφάλαιο 7 του ``ESA2010`` ·
+    Value according to the valuation rules as described chapter 7 of ``ESA2010``.
 
 STOCK IN EURO (EUR_STCK)
-    Η remstock_ σε Ευρώ·
+    remstock_ in euro.
 
 TRANSACTIONS (TRNSCTNS)
-    Ποσό βελτιώσεων (μεταβλητή ροής)·
+    Amount for renovations (**flow variable**)·
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένα ενοίκια·
+    Accrued rents.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμα/απλήρωτα ενοίκια·
+    Rents in arrears.
 
 WRITE-OFFS (WRT_OFFS)
-    Ποσό περικοπών/διαγραφών/απομειώσεων ενοικίων.
+    Rent write-offs
 
 ASSET_REM
 ---------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών εισπρακτέων
-λογαριασμών των ``ΥΕΟ``.
+Used to submit accounting data of remaining financial assets owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 COUNTERGROUP (CNTRGRP)
-    Ομαδοποίηση αντισυμβαλλόμενων με επιλογή από τη λίστα τιμών
-    ``GRP_CNTRGRP_ENUM`` ·
+    Counterparty group choosing from ``GRP_CNTRGRP_ENUM`` ·
 
 .. _aremcurrency:
 
 CURRENCY (CRRNCY) 
-    Ομαδοποίηση με βάση το νόμισμα με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Grouped by currency of the remaining financial asset choosing from ``GEN_CNTRY_ENUM``.
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _aremstock:
 
 STOCK (STCK)
-    Ονομαστική αξία εκφρασμένο στο aremcurrency_·
+    Nominal value expressed in aremcurrency_·
 
 STOCK IN EURO (EUR_STCK)
-    Η aremstock_ σε Ευρώ.
+    aremstock_ in euro.
 
 
 
 LIAB_SFT
 --------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων συναλλαγών χρηματοδότησης
-χρεογράφων όπου ο ``ΥΕΟ`` έχει δανειστεί χρηματικά διαθέσιμα . Για τον ορισμό
-των πράξεων χρηματοδότησης χρεογράφων δείτε :ref:`εδώ <sft>`.  Οι τιμές των
-μεταβλητών εκφράζονται στο :ref:`νόμισμα <sftcurrency>` της συναλλαγής εκτός
-και αν αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit account data of security financing transaction in which the ``OA`` has borrowed cash.  For the definition of a security financing transaction see :ref:`here <sft>`.  Measure values are expressed in :ref:`currency <sftcurrency>` of the transaction except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της πράξης χρηματοδότησης τίτλων (:ref:`sft`).
+    Identifier code of the security financing transaction (:ref:`sft`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _lsftstock:
 
 STOCK (STCK)
-    Συμπληρώνεται το ποσό των χρηματικών διαθέσιμων που δανείστηκε ο ``ΥΕΟ`` ·
+    Amount of cash that the ``OA`` has borrowed in the transaction.
 
 STOCK IN EURO (EUR_STCK)
-    Η lsftstock_ σε Ευρώ.
+    lsftstock_ in euro.
     
 
 L_DEBT
 ------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρεογράφων που έχουν
-εκδώσει οι ``ΥΕΟ``. Για τον ορισμό του χρεογράφου δείτε :ref:`εδώ <dbt>`.  Οι
-τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα <sidbtcurrency>` του
-χρεογράφου εκτός και αν αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit account data of debt instruments issued by the ``OA``.  For the definition of a debt instrument see :ref:`here <dbt>`.  Measure values are expressed in :ref:`currency <dbtcurrency>` of the debt instrument except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`dbt`).
+    Debt instrument identifier code (:ref:`dbt`).
 
 ID
-    Ο αναγνωριστικός κωδικός του κατόχου (:ref:`org`).
+    Holder identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-FREQUENCY (FRQNCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες :doc:`../../../generic`. 
+FRQNCY (FREQUENCY)
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _ldbtstock:
 
 STOCK (STCK)
-    Αγοραία αξία περιλαμβάνοντας τους δεδουλευμένους τόκους αλλά χωρίς τους
-    εκπρόθεσμους/απλήρωτους τόκους·
+    Market value including accrued interest but not including interest arrears.
 
 STOCK IN EURO (EUR_STCK)
-    Η ldbtstock_ σε Ευρώ.
+    ldbtstock_ in euro.
 
 TRANSACTIONS (TRNSCTNS)
-    Συναλλαγές χωρίς τις προμήθειες ή/και φόρους αγοροπωλησίας (**μεταβλητή ροής**)·
+    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
 
-NOMINAL
-    Ονομαστική αξία·
+NOMINAL STOCK (NMNL_STCK)
+    Nominal value.
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένοι τόκοι·
+    Accrued interest
 
 ARREARS (ARRRS)
-    Εκπρόθεσμοι/απλήρωτοι τόκοι.
+    Interest arrears.
 
 
 LOAN
 ----
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων δανείων που έχουν
-λάβει οι ``ΥΕΟ``. Για τον ορισμό του δανείου δείτε :ref:`εδώ <lon>`.  Οι
-τιμές των μεταβλητών εκφράζονται στο :ref:`νόμισμα <loncurrency>` του
-δανείου εκτός και αν αναφέρεται κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data of loans received by the.  Measure values are expressed in :ref:`currency <loncurrency>` except stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός του δανείου (:ref:`lon`).
+    Identifier code of the loan (:ref:`lon`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _lonstock:
 
 STOCK (STCK)
-    Ονομαστική αξία·
+    Nominal value.
 
 STOCK IN EURO (EUR_STCK)
-    Η lonstock_ σε Ευρώ·
+    lonstock_ in euro·
 
 UNDRAWN AMOUNT (UNDRN_AMNT)
-    Μη ληφθέν ποσό·
+    Undrawn amount.
 
 WRITE-OFFS (WRT_OFFS)
-    Ποσό διαγραφών κατόπιν αμοιβαίας συμφωνίας·
+    Write-offs by mutual agreement.
 
 ACCRUALS (ACCRLS)
-    Δεδουλευμένοι τόκοι·
+    Accrued interest.
 
 ARREARS (ARRRS)
-    Εκπρόθεσμοι/απλήρωτοι τόκοι.
-
-    
+    Interest in arrears.
 
 
 LIAB_REM
 --------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων λοιπών πληρωτέων
-λογαριασμών των ``ΥΕΟ``.
+Used to submit accounting data of remaining financial liabilities owed by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`).
+    ``OA`` identifier code (:ref:`org`).
 
 COUNTERGROUP (CNTRGRP)
-    Ομαδοποίηση αντισυμβαλλόμενων με επιλογή από τη λίστα τιμών
-    ``GRP_CNTRGRP_ENUM`` ·
+    Counterparty group choosing from ``GRP_CNTRGRP_ENUM`` ·
 
 .. _lremcurrency:
 
 CURRENCY (CRRNCY) 
-    Ομαδοποίηση με βάση το νόμισμα με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Grouped by currency of the remaining financial liability choosing from ``GEN_CNTRY_ENUM``.
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _lremstock:
 
 STOCK (STCK)
-    Ονομαστική αξία εκφρασμένο στο lremcurrency_·
+    Nominal value expressed in lremcurrency_·
 
 STOCK IN EURO (EUR_STCK)
-    Η lremstock_ σε Ευρώ.
+    lremstock_ in euro.
 
 
 HOLDER
 ------
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των μετοχών/μεριδίων που
-έχουν εκδώσει οι ``ΥΕΟ``.  Οι τιμές των μεταβλητών εκφράζονται στο
-:ref:`νόμισμα <sishrcurrency>` της μετοχής/μεριδίου εκτός και αν αναφέρεται
-κάτι διαφορετικό στον ορισμό της μεταβλητής. 
+Used to submit accounting data regarding shares/investment fund units issued by the ``OA``.
+Measure values are expressed in :ref:`currency <sishrcurrency>` of the share/investment fund unit unless stated otherwise in the measure definition.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της μετοχής/μεριδίου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 ID
-    Ο αναγνωριστικός κωδικός του κατόχου (:ref:`org`).
+    Holder identifier code (:ref:`org`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-FREQUENCY (FRQNCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+FRQNCY (FREQUENCY)
+    Reference period. For further details see :doc:`../../../generic`.
 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 QUANTITY (QNTTY)
-    Αριθμός μονάδων (μετοχών/μεριδίων)·
+    Number of shares/investment fund units. 
 
 SUBSCRIPTIONS (SBSCRPTNS)
-    Συμμετοχές.  Στο ποσό περιλαμβάνονται όλες οι προμήθειες προς την
-    διαχειρίστρια εταιρεία (**μεταβλητή ροής**)·
+    Subscriptions gross of any commissions (**flow variable**).
 
 SUBSCRIPTION CHARGES (SUB_CHRGS)
-    Προμήθειες συμμετοχών (**μεταβλητή ροής**)·
+    Subscription commissions (**flow variable**).
     
 REDEMPTIONS (RDMPTNS)
-    Εξαγορές.  Από το ποσό αφαιρούνται οι προμήθειες (**μεταβλητή ροής**)·
+    Redemptions net of any commissions (**flow variable**).
 
 REDEMPTION CHARGES (RED_CHRGS)
-    Προμήθειες εξαγορών (**μεταβλητή ροής**)·
+    Redemption commissions (**flow variable**).

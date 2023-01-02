@@ -3,9 +3,11 @@ DATA DOMAINS
 
 The data domains that :mod:`Journey` can handle are the following:
     
-    * `DBDat` handles data that are stored directly into :mod:`Journey` database tables.  Details are described in the section :doc:`domain/dbdat/index`
+    * `DBDat` handles data that are stored directly into :mod:`Journey`
+      database tables.  For details see section :doc:`domain/dbdat/index`.
 
-    * `IFDat` handles data coming from Investment Fund units.  Details are described in the following section :doc:`domain/ifdat/index`
+    * `IFDat` handles data coming from Investment Fund units.  For details see
+      section :doc:`domain/ifdat/index`.
 
 .. toctree::
    :maxdepth: 1 

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2022-12-31 02:28+0200\n"
+"PO-Revision-Date: 2022-12-31 20:32+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,34 @@ msgstr ""
 
 #: ../../source/domain.rst:2 2e5030cc1abd48419d907681cac4d47c
 msgid "DATA DOMAINS"
-msgstr ""
+msgstr "Τομείς Δεδομένων"
 
 #: ../../source/domain.rst:4 306a322c192c468e9b4d0db1b19543aa
 msgid "The data domains that :mod:`Journey` can handle are the following:"
-msgstr ""
+msgstr "Οι τομείς δεδομένων που διαχειρίζεται η πλατφόρμα :mod:`Journey` είναι οι εξής:"
 
 #: ../../source/domain.rst:6 20ffaebd246846ee99b25e1e3d2ab958
 msgid ""
 "`DBDat` handles data that are stored directly into :mod:`Journey` "
-"database tables.  Details are described in the section "
-":doc:`domain/dbdat/index`"
-msgstr ""
+"database tables.  For details see section :doc:`domain/dbdat/index`."
+msgstr "`DBDat` που περιλαμβάνει στοιχεία τα οποία αποθηκεύονται απευθείας στη βάση δεδομένων της πλατφόρμας :mod:`Journey`.  Για λεπτομέρειες δείτε :doc:`domain/dbdat/index`."
 
-#: ../../source/domain.rst:8 6e294dc68f5246bd9ee1496c17b2fab0
+#: ../../source/domain.rst:9 6e294dc68f5246bd9ee1496c17b2fab0
 msgid ""
-"`IFDat` handles data coming from Investment Fund units.  Details are "
-"described in the following section :doc:`domain/ifdat/index`"
-msgstr ""
+"`IFDat` handles data coming from Investment Fund units.  For details see "
+"section :doc:`domain/ifdat/index`."
+msgstr "`IFDat` που περιλαμβάνει στοιχεία επενδυτικών οργανισμών.  Για λεπτομέρειες δείτε :doc:`domain/ifdat/index`."
 
+#~ msgid ""
+#~ "`DBDat` handles data that are stored "
+#~ "directly into :mod:`Journey` database tables."
+#~ "  Details are described in the "
+#~ "section :doc:`domain/dbdat/index`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`IFDat` handles data coming from "
+#~ "Investment Fund units.  Details are "
+#~ "described in the following section "
+#~ ":doc:`domain/ifdat/index`"
+#~ msgstr ""

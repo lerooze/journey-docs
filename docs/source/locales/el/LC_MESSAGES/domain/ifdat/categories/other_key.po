@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2023-01-02 18:57+0200\n"
+"PO-Revision-Date: 2023-01-02 18:11+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,321 +18,520 @@ msgstr ""
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/domain/ifdat/categories/other_key.rst:2
-#: 4b4a9c02067a450f8c7775ab3d1bffc2
-msgid "OTHER_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων που κατέχουν οι ΥΕΟ"
-msgstr ""
+#: c5976f838c164614aea12ee0aa6368e8
+msgid "OTHER_KEY: Key Financial Data of Instruments owned by the OA"
+msgstr "OTHER_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων που κατέχουν οι ΥΕΟ"
 
 #: ../../source/domain/ifdat/categories/other_key.rst:4
-#: aa9caf0ad28944188f957284a79fd889
-msgid ""
+#: 8dd02aafa36f4adf935c57f0dcbb9005
+msgid "Used to submit key financial data of instruments owned by the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων "
 "χρηματοοικονομικών μέσων που κατέχουν οι ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:7
-#: 9198532a75b94e87b51af7a3741c1028
+#: ../../source/domain/ifdat/categories/other_key.rst:6
+#: 098004ece2574007b27883a75789e295
 msgid ""
+"Below the dimensions and the measures are described and if needed the "
+"attributes of the measures for each table of the data category."
+msgstr ""
 "Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι "
 "διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:11
+#: ../../source/domain/ifdat/categories/other_key.rst:9
 #: bef775bae9a549709c9ef93012cb7296
 msgid "SHARE"
-msgstr ""
+msgstr "SHARE"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:13
-#: 8c3887c4189747f29aa71b7db4dc16cf
+#: ../../source/domain/ifdat/categories/other_key.rst:11
+#: 4d8cea35ed574231952d82e1941ed4dc
 msgid ""
+"Used to submit periodic key financial data of shares/investment fund "
+"units owned by the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των συμμετοχικών "
 "τίτλων ή/και των  μετοχών/μεριδίων επενδυτικών οργανισμών  που κατέχουν "
 "οι ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:16
-#: ../../source/domain/ifdat/categories/other_key.rst:42
-#: ../../source/domain/ifdat/categories/other_key.rst:73
-#: ../../source/domain/ifdat/categories/other_key.rst:95
-#: ../../source/domain/ifdat/categories/other_key.rst:124
-#: ../../source/domain/ifdat/categories/other_key.rst:145
-#: ../../source/domain/ifdat/categories/other_key.rst:167
-#: 2e93b49058144e14b0b56c11e23cd9e6 42dee009afce4ef9a50406441026d38a
-#: 7493697e9aed40cd88ff8f88ed7beb6d c3ce1bc8c9a844dda26c952c2825adad
-#: c53a97727f5d41489ed784251b0b5555 e212c298e16c404784d596d2e22579ce
-#: e33a4df5b61144fe91e66fb859222c7e
-msgid "ΔΙΑΣΤΑΣΕΙΣ"
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:14
+#: ../../source/domain/ifdat/categories/other_key.rst:36
+#: ../../source/domain/ifdat/categories/other_key.rst:62
+#: ../../source/domain/ifdat/categories/other_key.rst:82
+#: ../../source/domain/ifdat/categories/other_key.rst:106
+#: ../../source/domain/ifdat/categories/other_key.rst:126
+#: ../../source/domain/ifdat/categories/other_key.rst:146
+#: 12eea7c2b69e4b2694dbce41b84451d6 4d7f965dacb94741aee7ccb2e1c90402
+#: ac6a8b1a65d64df6903a953ca671782b b88f3f4fd392431eb9e61fa72becea54
+#: c39987d2da3d43da876b3101ef9dc9f9 cfa15c4698a94550ba4d4ec1b72c36fa
+#: dd06793935544d0aa3b497d850b7a0a5
+msgid "DIMENSIONS"
+msgstr "ΔΙΑΣΤΑΣΕΙΣ"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:19
-#: ../../source/domain/ifdat/categories/other_key.rst:44
-#: ../../source/domain/ifdat/categories/other_key.rst:75
-#: ../../source/domain/ifdat/categories/other_key.rst:97
-#: ../../source/domain/ifdat/categories/other_key.rst:127
-#: ../../source/domain/ifdat/categories/other_key.rst:147
-#: ../../source/domain/ifdat/categories/other_key.rst:169
+#: ../../source/domain/ifdat/categories/other_key.rst:17
+#: ../../source/domain/ifdat/categories/other_key.rst:38
+#: ../../source/domain/ifdat/categories/other_key.rst:65
+#: ../../source/domain/ifdat/categories/other_key.rst:84
+#: ../../source/domain/ifdat/categories/other_key.rst:109
+#: ../../source/domain/ifdat/categories/other_key.rst:128
+#: ../../source/domain/ifdat/categories/other_key.rst:148
 #: 3a79b6286ea34002829cc729b4666eef 4269207a0caa4b0aae3ce4555ff6f8cc
 #: 59970891bea74676b4a3737907321896 674d6a1868ca43a2b6e8a20feb33f6aa
 #: a21c09b0391b4b2f8efb18eb624fbd76 af4ecf222a8141939686862c7f33db8d
 #: b0af8861c61047b6bea51488432972e5
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:19
-#: ../../source/domain/ifdat/categories/other_key.rst:44
-#: ../../source/domain/ifdat/categories/other_key.rst:75
-#: 107f1d9f4e5247b68a2f0909f659bbd4 714a2fa114004950a1d22de9e0e917d2
-#: e0feda00c8c447e08cf89680d5e9acd3
-msgid "Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:17
+#: ../../source/domain/ifdat/categories/other_key.rst:38
+#: ../../source/domain/ifdat/categories/other_key.rst:64
+#: ../../source/domain/ifdat/categories/other_key.rst:84
+#: ../../source/domain/ifdat/categories/other_key.rst:109
+#: 54cd441bb4514ecaba79b69952569df2 a6b1e2ef01ad458aa177a47e5b6d116b
+#: c5a8feba5a674e5da5e53986c26df08c d1931ae88d594e2b9d427b9390df07f8
+#: e5bb04d26f1f411298f3e472ad43e1a6
+msgid "Identifier code of the share/investment fund unit (:ref:`shr`)."
+msgstr "Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`)."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:23
-#: ../../source/domain/ifdat/categories/other_key.rst:49
-#: ../../source/domain/ifdat/categories/other_key.rst:78
-#: ../../source/domain/ifdat/categories/other_key.rst:101
-#: ../../source/domain/ifdat/categories/other_key.rst:130
-#: ../../source/domain/ifdat/categories/other_key.rst:151
-#: ../../source/domain/ifdat/categories/other_key.rst:174
+#: ../../source/domain/ifdat/categories/other_key.rst:20
+#: ../../source/domain/ifdat/categories/other_key.rst:41
+#: ../../source/domain/ifdat/categories/other_key.rst:68
+#: ../../source/domain/ifdat/categories/other_key.rst:87
+#: ../../source/domain/ifdat/categories/other_key.rst:112
+#: ../../source/domain/ifdat/categories/other_key.rst:131
+#: ../../source/domain/ifdat/categories/other_key.rst:152
 #: 2c0ca97cc8ff416ebfc779706022a53a 3d13ed52dd204cd29f85a86d1de5803d
 #: 61718170f0bd406296c736fcd7282db2 9ae8f0f3c30348469b6da1be37b1c72a
 #: ad32c9bb820a467dafc09effa7d7c730 b1e60bba46ac40e4b3c5adc14468bb9e
 #: b20fca459fbb4f42bf460049824cf516
 msgid "DATE (DT)"
-msgstr ""
+msgstr "DATE (DT)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:22
-#: ../../source/domain/ifdat/categories/other_key.rst:100
-#: ../../source/domain/ifdat/categories/other_key.rst:150
-#: ../../source/domain/ifdat/categories/other_key.rst:172
-#: 86f648d8dd2f495bb8dbc39d59ea0fe9 96cc87c491ce4862ba29a6da2c1a8827
-#: c26454429f4c41baa3c819ad5affd6b5 f35a522b024546ecbb63a1c566936a50
-msgid ""
+#: ../../source/domain/ifdat/categories/other_key.rst:20
+#: ../../source/domain/ifdat/categories/other_key.rst:131
+#: ../../source/domain/ifdat/categories/other_key.rst:151
+#: 86f648d8dd2f495bb8dbc39d59ea0fe9 941d0b8c4a9c40cbb218d4753ca6e55d
+#: c26454429f4c41baa3c819ad5affd6b5
+msgid "Reference date.  For further details see :doc:`../../../generic`."
+msgstr ""
 "Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
 "Περισσότερες πληροφορίες στις :doc:`../../../generic`."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:26
-#: ../../source/domain/ifdat/categories/other_key.rst:52
-#: ../../source/domain/ifdat/categories/other_key.rst:81
-#: ../../source/domain/ifdat/categories/other_key.rst:104
-#: ../../source/domain/ifdat/categories/other_key.rst:133
-#: ../../source/domain/ifdat/categories/other_key.rst:154
-#: ../../source/domain/ifdat/categories/other_key.rst:177
-#: 06e3d3569f7146959f19b6c86e0a8d85 b733da6893a84531b0d7277b482448d2
-#: b9bcf08a5dc84687869784ccb955af6a ba0b1742e9934a559e2a4741cbdbe321
-#: d617dc18c6c8437f85149c042e95e014 d7edf738e4ee418bafefa8753bca2eff
-#: e730d7abdf424bf29374f5bd488d0162
-msgid "ΜΕΤΑΒΛΗΤΕΣ"
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:23
+#: ../../source/domain/ifdat/categories/other_key.rst:44
+#: ../../source/domain/ifdat/categories/other_key.rst:71
+#: ../../source/domain/ifdat/categories/other_key.rst:90
+#: ../../source/domain/ifdat/categories/other_key.rst:115
+#: ../../source/domain/ifdat/categories/other_key.rst:134
+#: ../../source/domain/ifdat/categories/other_key.rst:155
+#: 41e3a0cc6e5040be9bf48194a514d898 5385c3de31924f9a90927761a319967d
+#: 7e5e753d3f9a470c96961a42c3328484 b788fe2c232b4218ac0d11397433671f
+#: ca7bb24bf5be4bf0a2699aae24828a13 e13597c16f7044fc97c7f72af304e702
+#: e3635fea6fc6436796ab0c023ad7b230
+msgid "MEASURES"
+msgstr "ΜΕΤΑΒΛΗΤΕΣ"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:31
-#: ../../source/domain/ifdat/categories/other_key.rst:110
-#: ../../source/domain/ifdat/categories/other_key.rst:158
-#: ../../source/domain/ifdat/categories/other_key.rst:179
+#: ../../source/domain/ifdat/categories/other_key.rst:27
+#: ../../source/domain/ifdat/categories/other_key.rst:93
+#: ../../source/domain/ifdat/categories/other_key.rst:138
+#: ../../source/domain/ifdat/categories/other_key.rst:157
 #: 486f5a969c1a422b8ee6b36a6d1fd082 97afe07f382e4971b03678cadfb664fc
 #: c6dc56e5eee5420880143597c70b952b eea6c80c133d4a659a87b8f2606a55f7
 msgid "PRICE (PRC)"
-msgstr ""
+msgstr "PRICE (PRC)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:29
-#: d4fadc6c2ae640e194c8510756eb189c
-msgid ""
+#: ../../source/domain/ifdat/categories/other_key.rst:26
+#: 47c621936b0c45f7a6f281b7a0177ee4
+msgid "Price.  In case of a listed security closing price is provided."
+msgstr ""
 "Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος "
 "(closing price)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:34
+#: ../../source/domain/ifdat/categories/other_key.rst:30
 #: ce35ca2d75214412bb7b7e970da695ea
 msgid "DIVIDEND"
-msgstr ""
+msgstr "DIVIDEND"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:36
-#: 89a47d1ddda94c05a0867eaa549ee11b
+#: ../../source/domain/ifdat/categories/other_key.rst:32
+#: 1d4ae079b73b473dbbd6c26214a84a56
 msgid ""
+"Used to provide data about dividends distributed by shares/investment "
+"fund units owned by the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων σε σχέση με τα "
 "μερίσματα των συμμετοχικών τίτλων ή/και των μετοχών/μεριδίων επενδυτικών "
 "οργανισμών  που κατέχουν οι ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:47
-#: 89bf86b2b30b4713bcf589804924beee
+#: ../../source/domain/ifdat/categories/other_key.rst:41
+#: 19b5a0ddf64d403fb3f34f6460607128
 msgid ""
+"Date at which the ``OA`` checks its books to find its investors.  An "
+"investor must be recorded in this date to be eligible for the dividend."
+msgstr ""
 "Ημερομηνία καταγραφής που η θεσμική μονάδα ελέγχει τα βιβλία του για να "
 "εντοπίσει τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι"
 " δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του "
 "μερίσματος."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:55
+#: ../../source/domain/ifdat/categories/other_key.rst:46
 #: 49f40bed27f148328fee90d4de93a5c0
 msgid "TYPE (TYP)"
-msgstr ""
+msgstr "TYPE (TYP)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:55
+#: ../../source/domain/ifdat/categories/other_key.rst:46
 #: d6ccac811197447396fceef4a2402d62
-msgid "Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·"
-msgstr ""
+msgid "Dividend type choosign from ``DVDND_TYP_ENUM``."
+msgstr "Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:60
+#: ../../source/domain/ifdat/categories/other_key.rst:51
 #: 32585dd4e2294ec5a2441ff7d885004f
-msgid "CURRENCY (CRRNCY)"
-msgstr ""
+msgid "CRRNCY (CURRENCY)"
+msgstr "CRRNCY (CURRENCY)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:60
-#: f1ff6f555d314ac6aaf6730bad72fc21
+#: ../../source/domain/ifdat/categories/other_key.rst:51
+#: b6233be3581240b6a62b451dc1cb1220
 msgid ""
+"Dividend transaction currency choosing from ``GEN_CRRNCY_ENUM`` (if "
+"applicable)."
+msgstr ""
 "Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` "
 "(κατά περίπτωση)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:63
+#: ../../source/domain/ifdat/categories/other_key.rst:54
 #: e15af09942984022b32652a9bd6bd762
 msgid "AMOUNT (AMNT)"
-msgstr ""
+msgstr "AMOUNT (AMNT)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:63
-#: 65d32b41141a4af8a25d1db47340a08e
-msgid "Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:54
+#: 22b7344c6893480f89f3d7d4dbf1b2de
+msgid "Amount expressed in currency_div_ in case of monetary dividend payments."
+msgstr "Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:66
+#: ../../source/domain/ifdat/categories/other_key.rst:57
 #: 006b11e97f8347c6a03f3f792316adb5
 msgid "SPLIT"
-msgstr ""
+msgstr "SPLIT"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:68
-#: 5376d778e26b454080556145bc0dfb10
+#: ../../source/domain/ifdat/categories/other_key.rst:59
+#: 36d7b0cd11ac449581c17e1227a27854
 msgid ""
+"Used to provide data regarding splits and reverse splits of "
+"shares/investment fund units owned by the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις "
 "και συμπτύξεις συμμετοχικών τίτλων ή/και μετοχών/μεριδίων επενδυτικών "
 "οργανισμών που κατέχουν οι ``ΥΕΟ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:78
-#: 4da26c6805d64afea45fb737ade55c6e
-msgid "Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων."
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:68
+#: 911524acaa1744acac657db05e16f5ef
+msgid "Date of split/reverse-split."
+msgstr "Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:86
+#: ../../source/domain/ifdat/categories/other_key.rst:74
 #: 81497635ca0d4d75a58c4785eb792642
 msgid "FACTOR (FCTR)"
-msgstr ""
+msgstr "FACTOR (FCTR)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:84
-#: 3f21cef144254d8eb6f0071d19e28afa
+#: ../../source/domain/ifdat/categories/other_key.rst:74
+#: 376db32218704944867be8354ec2a285
 msgid ""
+"Factor ratio defined as number of shares before the split/reverse-split "
+"divided by the number of shares after the split/reverse-split."
+msgstr ""
 "Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη"
 " διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη"
 " διάσπαση/σύμπτυξη."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:89
+#: ../../source/domain/ifdat/categories/other_key.rst:77
 #: d6632d43d09140e98db9078acc2ef152
 msgid "DEBT"
-msgstr ""
+msgstr "DEBT"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:91
-#: 1009c86df0ca40db932384c0974d8508
+#: ../../source/domain/ifdat/categories/other_key.rst:79
+#: 388cbc3028a9477184b932b2789d621d
 msgid ""
+"Used to submit key financial data regarding the debt instruments owned by"
+" the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που "
 "κατέχουν οι ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:97
-#: ../../source/domain/ifdat/categories/other_key.rst:127
-#: df7443b534a44c0491a2678d72d7cbd1 e0b4b0258150439a9652bd29fd1a28ef
-msgid "Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`shr`)."
+#: ../../source/domain/ifdat/categories/other_key.rst:87
+#: 259086f5e02b4f5eb33ed96a706e8152
+msgid "Reference date. For further details see :doc:`../../../generic`."
 msgstr ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
+"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:107
-#: e206d6f2ae8a4251ae95beab520f0bf0
+#: ../../source/domain/ifdat/categories/other_key.rst:93
+#: 15e6740b7a564ae9879d0fba647ae6cc
 msgid ""
+"Price (closing price) expressed as a percentage of the nominal price.  "
+"For coupon-bonds accrued interest is not included in the price."
+msgstr ""
 "Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής "
 "τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται οι "
 "δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του "
 "ομολόγου (clean price)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:115
+#: ../../source/domain/ifdat/categories/other_key.rst:98
 #: 148cac587f4146dc93048ed518b0032e
 msgid "ACCRUED INTEREST (ACCRD_INTRST)"
-msgstr ""
+msgstr "ACCRUED INTEREST (ACCRD_INTRST)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:113
-#: 03d843cfafa64c1ea0fe54f1e43e60f2
+#: ../../source/domain/ifdat/categories/other_key.rst:96
+#: 89b1a2828353400a86b700516c82d5e0
 msgid ""
+"For coupon payment bonds accrued interest as a percentage of the nominal "
+"price is provided computed from the last coupon payment or the start date"
+" of the coupon payment."
+msgstr ""
 "Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της "
 "ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή "
 "τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:118
+#: ../../source/domain/ifdat/categories/other_key.rst:101
 #: 1954e8fe693a4646944efd79f7f6d131
 msgid "COUPON"
-msgstr ""
+msgstr "COUPON"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:120
-#: 58a8a28131974a138575192576930dfe
+#: ../../source/domain/ifdat/categories/other_key.rst:103
+#: 4b4fe12893564c5c9b9508d70eef3adf
 msgid ""
+"Used to submit data regarding coupon payments on debt securities owned by"
+" the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από "
 "χρεόγραφα που κατέχουν οι ``ΥΕΟ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:130
-#: 34ba00ee2e6e4000a3c0caefd47a5020
-msgid "Ημερομηνία πληρωμής τοκομεριδίου."
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:112
+#: 14a6e6f3fb6e4ec091dd10213f106c85
+msgid "Coupon payment date."
+msgstr "Ημερομηνία πληρωμής τοκομεριδίου."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:136
+#: ../../source/domain/ifdat/categories/other_key.rst:118
 #: 160c40ee71474ddaa05360b1ef40f7c9
 msgid "RATE (RT)"
-msgstr ""
+msgstr "RATE (RT)"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:136
-#: 7f1ee768cf2846f9a11725bdcb11bcdf
-msgid "Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:118
+#: b29d50be429c4445944338dccdc6e377
+msgid "Annualized coupon interest rate."
+msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate)."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:139
+#: ../../source/domain/ifdat/categories/other_key.rst:121
 #: d79a769f95ba4df79dc842c4cba86e87
 msgid "EXT_DERIVATIVE"
-msgstr ""
+msgstr "EXT_DERIVATIVE"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:141
-#: 6dfda1a88960490b90b5f06fb34f49a2
+#: ../../source/domain/ifdat/categories/other_key.rst:123
+#: fc91c586c0a84d789bc91168c02832ef
 msgid ""
+"Used to submit price data regarding exchange traded derivatives owned by "
+"the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των διαπραγματεύσιμων"
 " χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/other_key.rst:147
-#: 29f45a48634e45808455609f07fa2940
-msgid "Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου παραγώγου (:ref:`edr`)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:128
+#: 233340febda24d7791b12490ef652eb9
+msgid "Identifier code of the exchange traded derivative (:ref:`edr`)·"
+msgstr "Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου παραγώγου (:ref:`edr`)·"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:157
+#: ../../source/domain/ifdat/categories/other_key.rst:137
 #: 7b714085b43544fa96a166bab16b75b7
-msgid "Τιμή κλεισίματος (closing price)·"
-msgstr ""
+msgid "Closing price."
+msgstr "Τιμή κλεισίματος (closing price)·"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:161
+#: ../../source/domain/ifdat/categories/other_key.rst:141
 #: 0b6bf34eea254f43afaa8eea4fce872d
 msgid "OTC_DERIVATIVE"
-msgstr ""
+msgstr "OTC_DERIVATIVE"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:163
-#: 8b893f35489c4554b51da86d9753c364
+#: ../../source/domain/ifdat/categories/other_key.rst:143
+#: 28e12c02645d4dc2a74fb3b1fb4b5eee
 msgid ""
+"Used to submit price data regarding over the counter derivatives owned by"
+" the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των "
-"εξωχρηματιστηριακών χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``."
-msgstr ""
+"εξωχρηματιστηριακών  χρηματοοικονομικών παραγώγων που κατέχουν οι "
+"``ΥΕΟ``."
 
-#: ../../source/domain/ifdat/categories/other_key.rst:169
-#: 9404f6e5bda8482887bf6a35c113eefd
-msgid "Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού παραγώγου (:ref:`edr`)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:148
+#: dd6d75cda0594909b7f8457b7d9ed373
+msgid "Identifier code of the over the counter derivative (:ref:`edr`)·"
+msgstr "Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού παραγώγου (:ref:`edr`)·"
 
-#: ../../source/domain/ifdat/categories/other_key.rst:180
-#: 35aecae82ae14238bd26eb2438822a04
-msgid "Τιμή."
-msgstr ""
+#: ../../source/domain/ifdat/categories/other_key.rst:158
+#: 72802fa418bb479d9e97350d7bdd340e
+msgid "Price."
+msgstr "Τιμή."
+
+#~ msgid "OTHER_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων που κατέχουν οι ΥΕΟ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή βασικών "
+#~ "περιοδικών στοιχείων χρηματοοικονομικών μέσων "
+#~ "που κατέχουν οι ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Στα παρακάτω ενότητες περιγράφονται οι "
+#~ "μεταβλητές και κατά περίπτωση οι "
+#~ "διαστάσεις και τα χαρακτηριστικά των "
+#~ "μεταβλητών του κάθε πίνακα."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή περιοδικών "
+#~ "στοιχείων των συμμετοχικών τίτλων ή/και "
+#~ "των  μετοχών/μεριδίων επενδυτικών οργανισμών  "
+#~ "που κατέχουν οι ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid "ΔΙΑΣΤΑΣΕΙΣ"
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η ημερομηνία για την οποία ισχύουν "
+#~ "οι παρεχόμενες τιμές των μεταβλητών. "
+#~ "Περισσότερες πληροφορίες στις "
+#~ ":doc:`../../../generic`."
+#~ msgstr ""
+
+#~ msgid "ΜΕΤΑΒΛΗΤΕΣ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Τιμή.  Σε περίπτωση εισηγμένου τίτλου "
+#~ "συμπληρώνεται η τιμή κλεισίματος (closing "
+#~ "price)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή μεταβλητών "
+#~ "στοιχείων σε σχέση με τα μερίσματα "
+#~ "των συμμετοχικών τίτλων ή/και των "
+#~ "μετοχών/μεριδίων επενδυτικών οργανισμών  που "
+#~ "κατέχουν οι ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ημερομηνία καταγραφής που η θεσμική "
+#~ "μονάδα ελέγχει τα βιβλία του για "
+#~ "να εντοπίσει τους μετόχους/μεριδιούχους του."
+#~ "  Ένας επενδυτής πρέπει να είναι "
+#~ "δηλωμένος τη συγκεκριμένη ημερομηνία για "
+#~ "να είναι δικαιούχος του μερίσματος."
+#~ msgstr ""
+
+#~ msgid "Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "CURRENCY (CRRNCY)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Το νόμισμα συναλλαγής με επιλογή από "
+#~ "τη λίστα τιμών ``GEN_CRRNCY_ENUM`` (κατά "
+#~ "περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid "Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή μεταβλητών "
+#~ "στοιχείων για τις διασπάσεις και "
+#~ "συμπτύξεις συμμετοχικών τίτλων ή/και "
+#~ "μετοχών/μεριδίων επενδυτικών οργανισμών που "
+#~ "κατέχουν οι ``ΥΕΟ`` ·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο συντελεστής μετατροπής οριζόμενος ως ο"
+#~ " αριθμός μετοχών/μεριδίων πριν τη "
+#~ "διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό"
+#~ " των μετοχών/μεριδίων μετά τη "
+#~ "διάσπαση/σύμπτυξη."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή περιοδικών "
+#~ "στοιχείων των χρεογράφων που κατέχουν οι"
+#~ " ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`shr`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Τιμή κλεισίματος (closing price) εκφραζόμενη"
+#~ " ως ποσοστό της ονομαστικής τιμής.  "
+#~ "Για τοκοφόρα χρεόγραφα στη τιμή δεν "
+#~ "περιλαμβάνονται οι δεδουλευμένοι τόκοι από "
+#~ "τα τοκομερίδια, δίνεται δηλαδή η καθαρή"
+#~ " τιμή του ομολόγου (clean price)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Για τοκοφόρα ομόλογα δίνονται οι "
+#~ "δεδουλευμένοι τόκοι ως ποσοστό της "
+#~ "ονομαστικής τιμής του ομολόγου υπολογιζόμενα"
+#~ " από την τελευταία πληρωμή τοκομεριδίου "
+#~ "ή την ημερομηνία έναρξης πληρωμής "
+#~ "τοκομεριδίων·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή μεταβλητών "
+#~ "στοιχείων των τοκομεριδίων από χρεόγραφα "
+#~ "που κατέχουν οι ``ΥΕΟ`` ·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία πληρωμής τοκομεριδίου."
+#~ msgstr ""
+
+#~ msgid "Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή περιοδικών "
+#~ "στοιχείων των διαπραγματεύσιμων χρηματοοικονομικών"
+#~ " παραγώγων που κατέχουν οι ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου παραγώγου (:ref:`edr`)·"
+#~ msgstr ""
+
+#~ msgid "Τιμή κλεισίματος (closing price)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή περιοδικών "
+#~ "στοιχείων των εξωχρηματιστηριακών χρηματοοικονομικών"
+#~ " παραγώγων που κατέχουν οι ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός του "
+#~ "εξωχρηματιστηριακού παραγώγου (:ref:`edr`)·"
+#~ msgstr ""
+
+#~ msgid "Τιμή."
+#~ msgstr ""
+
+#~ msgid "Reference date. Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+#~ msgstr ""
+#~ "Η ημερομηνία για την οποία ισχύουν "
+#~ "οι παρεχόμενες τιμές των μεταβλητών. "
+#~ "Περισσότερες πληροφορίες στις "
+#~ ":doc:`../../../generic`."
 

@@ -1,980 +1,895 @@
-OTHER_INFO: Λοιπά Πληροφοριακά Στοιχεία
-=======================================
+OTHER_INFO: Other Information Data 
+==================================
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων σε σχέση με:
+Used to provide information data about:
 
-* τα χρηματοοικονομικά περιουσιακά στοιχεία των ``ΥΕΟ`` ·
+* the financial assets owned by the ``OA``. 
 
-* των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων των ``ΥΕΟ`` ·
+* issuers of the financial assets owned by the ``OA``.
 
-* την ακίνητη περιουσία των ``ΥΕΟ`` ·
+* real estate owned by the ``OA``. 
 
-* τους κατόχους των μετοχών/μεριδίων/ομολόγων που οι ``ΥΕΟ`` έχουν εκδώσει.
+* the holders of eqyity/fund units/bonds issued by the ``OA``. 
 
-Στις παρακάτω ενότητες περιγράφονται οι μεταβλητές του κάθε πίνακα.
+Below dimensions and measures of each table are discussed:
 
 ISSUER
 ------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των
-χρηματοοικονομικών περιουσιακών στοιχείων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία
-αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του
-κύκλου ζωής του εκδότη.  Σε περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη
-αναγγελθεί και στο :doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ.
+Used to provide information data regarding the issuers of financial assets
+owned by the ``OA``.  The measures of this table can take at most one value
+during the issuer lifecycle.  There is no need to resubmit the data on an
+issuer in case related data have already been submitted in :doc:`self_info` 
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του εκδότη (:ref:`org`).
+    Issuer identification code (:ref:`org`).
 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία σύστασης (αν υπάρχει η πληροφόρηση)·
+    Birth date if known.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης του εκδότη (κατά περίπτωση και αν υπάρχει η πληροφόρηση)·
+    Close date if known and if applicable.
 
 ESCB ID (ESCB_ID)
-    Αναγνωριστικός κωδικός που αποδίδεται από το ``ΕΣΚΤ``.  Είναι γνωστός και
-    ως ``RIAD code`` ·
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
 
 LEI ID (LEI_ID)
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·
+    Identifier code based on the ISO-17442 standard.
 
 TAX ID (TAX_ID)
-    Ο αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` όπου
-    η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
 
 NBR ID (NBR_ID)
-    Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου η
-    θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στον εκδότη·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the issuer.
 
 INTERNATIONAL ORGANISATION (INTRNTNL_ORGNSTN)
-    Σε περίπτωση διεθνούς οργανισμού συμπληρώνεται ο κωδικός του με επιλογή από
-    τη λίστα τιμών ``ORG_INTRNTNL_ORGNZTN_CD_ENUM``.
+    In case of international organisation choose from ``ORG_INTRNTNL_ORGNZTN_CD_ENUM``.
 
 SPLIT FROM (SPLT_FRM)
-    Σε περίπτωση που η εκδότρια εταιρεία δημιουργήθηκε από διάσπαση δίδεται ο
-    αναγνωριστικός κωδικός της θεσμικής μονάδας που διασπάστηκε·
+    In case the issuer was created by a corporate split the identifier code of
+    the counterpart entity of the split is provided (:ref:`org`). 
 
 MERGED WITH (MRGD_WTH)
-    Σε περίπτωση συγχώνευσης του εκδότη δίδεται ο αναγνωριστικός κωδικός της
-    θεσμικής μονάδας με την οποία έγινε η συγχώνευση·
+    In case of closure of the issuer via a merger event the identifier code of
+    the entity that the issuer merged with is provided (:ref:`org`).
 
 STATIC_ISSUER
 -------------
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των
-χρηματοοικονομικών περιουσιακών στοιχείων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία
-αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του εκδότη.  Σε
-περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη αναγγελθεί και στο
-:doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ.
+Used to provide information data regarding the issuers of financial assets
+owned by the ``OA``.  The measures of this table can change during the issuer lifecycle.
+There is no need to resubmit the data on an
+issuer in case related data have already been submitted in :doc:`self_info` 
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του εκδότη (:ref:`org`).
+    Issuer identification code (:ref:`org`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Επωνυμία·
+    Official name.
 
 COUNTRY OF RESIDENCE (CNTRY_RSDNC)
-    Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
     
 LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
-    Νομική κατάσταση με επιλογή από τη λίστα τιμών ``ORG_LGL_PRCDNG_STTS_ENUM`` ·
+    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
 
 INSTITUTIONAL SECTOR (INSTTTNL_SCTR)
-    Θεσμικός τομέας με επιλογή από τη λίστα τιμών ``ORG_INSTTTNL_SCTR_ENUM`` που 
-    ορίζεται στον ESA2010·
+    Institutional sector choosing from ``ORG_INSTTTNL_SCTR_ENUM`` defined in ESA2010.
 
 ECONOMIC ACTIVITY (ECNMC_ACTVTY)
-    Κατηγοριοποίηση της οικονομικής δραστηριότητας με επιλογή από τη λίστα
-    τιμών ``ORG_ECNMC_ACTVTY_TYP_ENUM`` που προέρχεται από τη κατηγοριοποίση
-    ``NACE`` ·
+    Economic activity choosing from ``ORG_ECNMC_ACTVTY_TYP_ENUM``. 
 
 
 HOLDER
 ------
+Used to provide information data regarding the holders of instruments issued by
+the ``OA``.  The measures of this table can take at most one value during the
+holder lifecycle.  There is no need to resubmit the data on a holder in case
+related data have already been submitted in :doc:`self_info` or in ISSUER_. 
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των
-μετοχών/μεριδίων/ομολόγων που έχουν εκδώσει οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε
-ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του
-κατόχου.  Σε περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και
-στο :doc:`self_info` ή στο ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του κατόχου (:ref:`org`).
+    Holder identification code (:ref:`org`).
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία σύστασης (αν υπάρχει η πληροφόρηση)·
+    Birth date if known.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης (κατά περίπτωση και αν υπάρχει η πληροφόρηση)·
+    Close date if known and if applicable.
 
 ESCB ID (ESCB_ID)
-    Αναγνωριστικός κωδικός που αποδίδεται από το ``ΕΣΚΤ``.  Είναι γνωστός και
-    ως ``RIAD code`` ·
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
 
 LEI ID (LEI_ID)
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·
+    Identifier code based on the ISO-17442 standard.
 
 TAX ID (TAX_ID)
-    Αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` όπου
-    η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
 
 NBR ID (NBR_ID)
-    Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου η
-    θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2
-    που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με τον
-    επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο κωδικό
-    χώρας αν ξεκινάει με αυτόν·
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στον κάτοχο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the issuer.
 
 INTERNATIONAL ORGANISATION (INTRNTNL_ORGNSTN)
-    Σε περίπτωση διεθνούς οργανισμού συμπληρώνεται ο κωδικός του με επιλογή από
-    τη λίστα τιμών ``ORG_INTRNTNL_ORGNZTN_CD_ENUM``.
+    In case of international organisation choose from ``ORG_INTRNTNL_ORGNZTN_CD_ENUM``.
 
 SPLIT FROM (SPLT_FRM)
-    Σε περίπτωση που ο κάτοχος δημιουργήθηκε από διάσπαση δίδεται ο
-    αναγνωριστικός κωδικός της θεσμικής μονάδας που διασπάστηκε·
+    In case the holder was created by a corporate split the identifier code of
+    the counterpart entity of the split is provided (:ref:`org`). 
 
 MERGED WITH (MRGD_WTH)
-    Σε περίπτωση συγχώνευσης του κατόχου δίδεται ο αναγνωριστικός κωδικός της
-    θεσμικής μονάδας με την οποία έγινε η συγχώνευση·
+    In case of closure of the issuer via a merger event the identifier code of
+    the entity that the issuer merged with is provided (:ref:`org`).
 
     
 STATIC_HOLDER
 -------------
+Used to provide information data regarding the holders of instruments issued by
+the ``OA``.  The measures of this table can change during the
+holder lifecycle.  There is no need to resubmit the data on a holder in case
+related data have already been submitted in :doc:`self_info` or in STATIC_ISSUER_. 
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των
-μετοχών/μεριδίων/ομολόγων που έχουν εκδώσει οι ``ΥΕΟ``. Τα στοιχεία αυτά
-δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του κατόχου.  Σε
-περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και στο
-:doc:`self_info` ή στο STATIC_ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ.
-
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του κατόχου (:ref:`org`).
+    Holder identification code (:ref:`org`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM)
-    Επωνυμία·
+    Name.
 
 COUNTRY OF RESIDENCE (CNTRY_RSDNC)
-    Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
 
 INSTITUTIONAL SECTOR (INSTTTNL_SCTR)
-    Θεσμικός τομέας με επιλογή από τη λίστα τιμών ``ORG_INSTTTNL_SCTR_ENUM`` που 
-    ορίζεται στον ESA2010·
+    Institutional sector choosing from ``ORG_INSTTTNL_SCTR_ENUM`` defined in ESA2010.
 
 
 DEPOSIT
 -------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών
-λογαριασμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά
-είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του καταθετικού
-λογαριασμού.
+Used to submit data regarding regarding the deposit accounts of the ``OA``.
+The measures of this table can take at most one value during the lifecycle of the deposit account.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της κατάθεσης (:ref:`dep`).
+    Deposit identifier code (:ref:`dep`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έναρξης/σύστασης/δημιουργίας·
+    Issue date, activation date, initialization date.
 
 .. _oidepclose:
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης (κατά περίπτωση)·
+    Close date (if applicable).
 
 IBAN ID (IBAN_ID)
-    Αναγνωριστικός κωδικός σύμφωνα με το πρότυπο IBAN·
+    Identifier code according to the IBAN standard.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στον καταθετικό λογαριασμό·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the deposit account.
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``DEP_TYP_ENUM`` ·
+    Type choosing from ``DEP_TYP_ENUM``.
 
 PERIOD OF NOTICE (NTC)
-    Περίοδος προειδοποίησης με επιλογή από τη λίστα τιμών ``DEP_NTC_ENUM`` ·
+    Notice period choosing from ``DEP_NTC_ENUM``.
 
 .. _depcurrency:
 
 CURRENCY (CRRNCY)
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 IS TRANSFERABLE (IS_TRNSFRBL)
-    Ένδειξη περί μεταβιβάσιμου·
+    Transferable flag.
 
 IS SHARED (IS_SHRD)
-    Ένδειξη περί κοινού·
+    Shared account flag.
 
 
 STATIC_DEPOSIT
 --------------
+Used to submit data regarding regarding the deposit accounts of the ``OA``.
+The measures of this table can change during the
+lifecycle of the deposit account.
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών
-λογαριασμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν
-κατά τη διάρκεια του κύκλου ζωής του καταθετικού λογαριασμού.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της κατάθεσης (:ref:`dep`).
+    Deposit identifier code (:ref:`dep`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 MATURITY DATE (MTRTY_DT) 
-    Ημερομηνία λήξης (κατά περίπτωση).  Είναι δυνατό αυτή η ημερομηνία να
-    αλλάξει κατά τη διάρκεια του κύκλου ζωής της κατάθεσης. Σε αυτή τη
-    περίπτωση η τιμή της oidepclose_ αναθεωρείται·
+    Maturity date (if applicable).  It is possible that this date can change.  In this case oidepclose_ is updated.
 
 NOMINAL INTEREST (NMNL_INTRST) 
-    Ονομαστικό επιτόκιο σε ετησιοποιημένη βάση (annualized rate)·
+    Nominal annualized interest rate.
 
 COMPOUND TIMES (CMPND_TMS)
+    Number of compounds in one year.
     Αριθμός ανατοκισμών σε ένα έτος·
 
 DEBTOR (DBTR) 
-    Αναγνωριστικός κωδικός του πιστωτικού ιδρύματος που έχει ανοιχτεί ο
-    καταθετικός λογαριασμός (:ref:`org`).·
+    Identifier code of the credit institution that maintains the deposit account (:ref:`org`)
 
 CREDITOR (CRDTR) 
-    Αναγνωριστικός κωδικός του ``ΥΕΟ`` που έχει ανοίξει τον καταθετικό
-    λογαριασμό (:ref:`org`). 
+    Identifier code of the ``OA`` that owns this deposit account (:ref:`org`)
 
 
 SFT
 ---
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης
-χρεογράφων που συναλλάσσονται οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά
-είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των πράξεων.
+Used to provide information data for security financing transactions that involve the ``OA``.  The measures of this table can take at most one value during the lifecycle of the security financing transaction. 
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της πράξης χρηματοδότησης χρεογράφων (:ref:`sft`).
+    Idenitfier code of the security financing transaction (:ref:`sft`).
 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία δημιουργίας·
+    Creation date.
 
 .. _oisftclose:
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λύσης·
+    Maturity date.
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στην πράξη·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the security
+    financing transaction.
 
 .. _sftcurrency:
 
 CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` (κατά
-    περίπτωση που το ένα μέρος της πράξης αφορά χρηματικά διαθέσιμα)·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM`` (applicable if one side of the transaction involves cash or cash equivalent).
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``SFT_TYP_ENUM`` ·
+    Type choosing from ``SFT_TYP_ENUM`` ·
 
 
 
 STATIC_SFT
 ----------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης
-χρεογράφων που συναλλάσσονται οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να
-μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των πράξεων.
+Used to provide information data for security financing transactions that involve the ``OA``. 
+The measures of this table can change during the
+lifecycle of the security financing transaction.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός της πράξης χρηματοδότησης χρεογράφων (:ref:`sft`).
+    Idenitfier code of the security financing transaction (:ref:`sft`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 MATURITY DATE (MTRTY_DT) 
-    Ημερομηνία λήξης.  Είναι δυνατό αυτή η ημερομηνία να αλλάξει κατά τη
-    διάρκεια του κύκλου ζωής της πράξης. Σε αυτή τη περίπτωση η τιμή της
-    oisftclose_ αναθεωρείται.
+    Maturity date (if applicable).  It is possible that this date can change.  In this case oisftclose_ is updated.
 
 NOMINAL INTEREST (NMNL_INTRST) 
-    Ονομαστικό επιτόκιο σε περίπτωση που ένα μέρος της πράξης αφορά χρηματικά
-    διαθέσιμα σε ετησιοποιημένη βάση (annualized rate).  Αφορά το καθαρό
-    επιτόκιο αφαιρώντας δηλαδή το ονομαστικό επιτόκιο των χρεογράφων που ο
-    προσωρινός δανεισμός τους αποτελεί το άλλο μέρος της πράξης. 
+    Annualized nominal interest rate in case one side of the transacion
+    involves cash or cash equivalent.  The net interest rate is provided
+    subtracting any annualized interest rate of debt instruments belonging to
+    the other side of the transaction. 
 
 DEBTOR (DBTR) 
-    Αναγνωριστικός κωδικός της θεσμικής μονάδας που έχει προσωρινά δανείσει
-    χρεόγραφα και στη περίπτωση που η συναλλαγή αφορά χρηματικά διαθέσιμα έχει
-    δανειστεί χρηματικά διαθέσιμα (:ref:`org`).
+    Identifier code of the entity that has temporarily lent debt instruments and in the case that the transaction involves cash or cash equivalent has borrowed cash (:ref:`org`).
 
 CREDITOR (CRDTR) 
-    Αναγνωριστικός κωδικός της οντότητας που έχει προσωρινά δανειστεί χρεόγραφα
-    και στη περίπτωση που η συναλλαγή αφορά χρηματικά διαθέσιμα έχει δανείσει
-    χρηματικά διαθέσιμα (:ref:`org`).
+    Identifier code of the entity that has temporarily borrowed debt instruments and in the case that the transaction involves cash or cash equivalent has lent cash (:ref:`org`).
 
 
 DEBT
 ----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχουν
-οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά
-κατά τη διάρκεια του κύκλου ζωής του χρεογράφου.
+Used to provide information data for debt instruments owned by the ``OA``.  
+The measures of this table can take at most one value during the lifecycle of the debt instrument. 
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεόγραφου (:ref:`dbt`).
+    Debt instrument identifier code (:ref:`dbt`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 .. _other_debt_birth:
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης·
+    Issue date.
 
 .. _other_debt_close:
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·
+    Maturity date/redumption date (if applicable)
 
 ORIGINAL MATURITY (ORGNL_MTRTY)
-    Αρχική ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·
+    Original maturity date/redumption date (if applicable).
 
 ISIN ID (ISIN_ID) 
-    Αναγνωριστικός κωδικός του χρεογράφου ο οποίος αποδίδεται με
-    βάση το πρότυπο ISO-6166·
+    Debt identifier code based on the ISIN ISO-6166 standard.
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο χρεόγραφο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the debt instrument.
 
 .. _dbtcurrency:
 
 CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 ISSUE PRICE (ISS_PRC)
-    Τιμή έκδοσης εκφραζόμενη ως ποσοστό της ονομαστικής τιμής του·
+    Issue price given as a percentage of the nominal price.
 
 REDEMPTION PRICE (RDMPTN_PRC)
-    Τιμή τελικής εξόφλησης εκφραζόμενη ως ποσοστό της ονομαστικής αξίας του·
+    Redemption price given as a percentage fo the nominal price.
 
 MARKET (MRKT)
-    Η χρηματιστηριακή αγορά διαπραγμάτευσης με επιλογή από τη λίστα τιμών
-    ``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383·
+    Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 standard.
 
 ACCRUAL STARTDATE (ACCRL_STRTDT)
-    Αρχική ημερομηνία συσσώρευσης τοκομεριδίου.  Σε περίπτωση χρεογράφου δίχως 
-    τοκομερίδια συμπληρώνεται η τιμή της μεταβλητής other_debt_birth_ ·
+    Accrual start date.  In case of a couponless debt instrument the value of 
+    other_debt_birth_ is provided.
 
 PRIMARY CLASS (PRMRY_CLSS)
-    Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``DBT_PRMRY_CLSS_ENUM`` ·
+    Primary class choosing from ``DBT_PRMRY_ENUM``.
 
 GUARANTEE LEVEL (GRNT_LVL)
-    Επίπεδο εγγύησης με επιλογή από τη λίστα τιμών ``DBT_GRNT_LVL_ENUM`` ·
+    Guarantee level choosing from ``DBT_GRNT_LVL_ENUM``.
     
 RANK LEVEL (RNK_LVL)
-    Ταξινόμηση με επιλογή από τη λίστα τιμών ``DBT_RNK_LVL_ENUM`` ·
+    Rank level choosing from ``DBT_RNK_LVL_ENUM``.
 
 SECURITY LEVEL (SCRTY_LVL)
-    Επίπεδο ασφάλειας με επιλογή από τη λίστα τιμών ``DBT_SCRTY_LVL_ENUM`` ·
+    Security level choosing from ``DBT_SCRTY_LVL_ENUM``.
 
 IS SECURITIZATION (IS_SCRTZTN)
-    Ένδειξη τιτλοποίησης όπως ορίζεται στην Κατευθυντήρια Γραμμή ΕΚΤ/2015/15·
+    Securitization flag as defined in ECB/2015/15.
 
 SECURITIZATION TYPE (SCRTZTN_TYP)
-    Είδος τιτλοποίησης με επιλογή από τη λίστα τιμών ``DBT_SCRTZTN_TYP_ENUM`` ·
+    Securitization type choosing from ``DBT_SCRTZTN_TYP_ENUM``.
 
 IS COVERED (IS_CVRD)
-    Ένδειξη καλυμμένης ομολογίας όπως ορίζεται στην
-    Κατευθυντήρια Γραμμή ΕΚΤ/2014/60·
+    Covered flag as defined in ECB/2014/60.
 
 COVERED TYPE (CVRD_TYP)
-    Είδος καλυμμένης ομολογίας με επιλογή από τη λίστα τιμών ``DBT_CVRD_TYP_ENUM`` ·
+    Covered type choosing from ``DBT_CVRD_TYP_ENUM``.
 
 COUPON TYPE (CPN_TYP)
-    Είδος τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_TYP_ENUM`` ·
+    Coupon type choosing from ``DBT_CVRD_TYP_ENUM``.
 
 COUPON CURRENCY (CPN_CRRNCY)
-    Νόμισμα συναλλαγής των τοκομεριδίων με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Coupon currency choosing from ``GEN_CRRNCY_ENUM`` ·
 
 COUPON FREQUENCY (CPN_FRQNCY)
-    Συχνότητα πληρωμής τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_FRQNCY_ENUM`` ·
+    Coupon payment frequency choosing from ``DBT_CPN_FRQNCY_ENUM``.
 
-COUPON SPREAD (CPN_SPRD)
-    Περιθώριο επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια εκφραζόμενο
-    σε μονάδες βάσης (basis points) ·
+COUPON RATE SPREAD (CPN_SPRD)
+    Coupon rate spread given in basis points.
 
 COUPON MULTIPLIER (CPN_MLTPLR)
-    Πολλαπλασιαστής επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια.  Για
-    παράδειγμα ένα κυμαινόμενο τοκομερίδιο με επιτόκιο 3 φορές το εξαμηνιαίο
-    EURIBOR συν 20 μονάδες βάσης ο πολλαπλασιαστής είναι ο 3·
+    Coupon rate multiplier.
 
 COUPON CAP (CPN_CP)
-    Μέγιστη τιμή του κυμαινόμενου τοκομεριδίου·
+    Maximum coupon rate.
 
 COUPON FLOOR (CPN_FLR)
-    Ελάχιστη τιμή του κυμαινόμενου τοκομεριδίου·
+    Minimum coupon rate.
 
 FIRST COUPON DATE (FRST_CPN_DT)
-    Ημερομηνία πληρωμής του πρώτου τοκομεριδίου·
+    Date of first coupon payment.
 
 LAST COUPON DATE (LST_CPN_DT)
-    Ημερομηνία πληρωμής του τελικού τοκομεριδίου·
+    Date of last coupon payment.
 
 UNDERLYING INSTRUMENT (UNDRLYNG)
-    Αναγνωριστικός κωδικός χρεογράφου από το οποίο προκύπτει το κυμαινόμενο
-    τοκομερίδιο (:ref:`dbt`)·
+    Underlying debt instrument that the coupon payment depends on (:ref:`dbt`).
 
 
 STATIC_DEBT
 -----------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχουν
-οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου
-ζωής του χρεογράφου.
+Used to submit information data regarding debt instruments owned by the
+``OA``.  
+The measures of this table can change during the lifecycle of the debt instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεόγραφου (:ref:`dbt`).
+    Debt instrument identifier code (:ref:`dbt`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM) 
-    Ονομασία·
+    Name.
 
 STATUS (STTS) 
-    Κατάσταση με επιλογή από τη λίστα τιμών ``DBT_STTS_ENUM`` ·
+    Instrument status choosing from ``DBT_STTS_ENUM``.
     
 MATURITY DATE (MTRTY_DT) 
-    Ημερομηνία λήξης ή εξόφλησης (κατά περίπτωση).  Είναι δυνατό αυτή η
-    ημερομηνία να τροποποιηθεί κατά τη διάρκεια του κύκλου ζωής του χρεογράφου.
-    Σε αυτή τη περίπτωση αναθεωρείται η τιμή της other_debt_close_ ·
+    Maturity or redumption date (if applicable).  In some rare circumstances this date can change during the lifecycle of the instrument and in this case other_debt_close_ is updated.
 
 ISSUED BY (ISSD_BY)
-    Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)· 
+    Issuer identification code (:ref:`org`).
 
 
 LOAN
 ----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχουν
-λάβει οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν
-σταθεϱά κατά τη διάρκεια του κύκλου ζωής του δανείου.
+Used to submit data regarding regarding loans given to the ``OA``.
+The measures of this table can take at most one value during the lifecycle of the loan.
 
-ΔΙΑΣΤΑΣΕΙΣ
+
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του δανείου (:ref:`lon`).
+    Loan identifier code (:ref:`lon`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία που η νομική σύμβαση του δανείου γίνεται δεσμευτική.  Για δάνεια
-    δίχως σύμβαση αφορά την ημερομηνία που ο οφειλέτης έλαβε τα χρήματα του
-    δανείου από τον πιστωτή·
+    Date at which the loan credit contract becomes binding.  For loans without a contract the date at which the debtor receives the money from the creditor is given.
 
 .. _oilonclose:
 
 CLOSEDATE (DT_CLS)
-    Καταληκτική ημερομηνία λήξης ή εξόφλησης·
+    Maturity or redumption date.
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο δάνειο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the loan.
 
 .. _loncurrency:
 
 CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``LOAN_ENUM`` ·
+    Type choosing from ``LOAN_ENUM``.
 
 
 
 STATIC_LOAN
 -----------
+Used to submit data regarding regarding loans given to the ``OA``.
+The measures of this table can change during the lifecycle of the loan.
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχουν
-λάβει οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του
-κύκλου ζωής του δανείου.
-
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του δανείου (:ref:`lon`).
+    Loan identifier code (:ref:`lon`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 MATURITY DATE (MTRTY_DT) 
-    Ημερομηνία λήξης/εξόφλησης.  Είναι δυνατό αυτή η ημερομηνία να αλλάξει κατά τη
-    διάρκεια του κύκλου ζωής του δανείου. Σε αυτή τη περίπτωση η τιμή της
-    oilonclose_ αναθεωρείται·
+    Maturity or redumption date (if applicable).  In some rare circumstances this date can change during the lifecycle of the loan and in this case oilonclose_ is updated.
 
 NOMINAL INTEREST (NMNL_INTRST) 
-    Ονομαστικό επιτόκιο δανείου σε ετησιοποιημένη βάση (annualized rate).  Σε
-    περίπτωση δανείου μέσω πιστωτικής κάρτας το επιτόκιο είναι ο σταθμισμένος
-    μέσος όρος μεταξύ του επιτοκίου πίστωσης διευκόλυνσης (convenience credit)
-    που συνήθως είναι μηδέν και του επιτοκίου παρατεινόμενης πίστωσης (extended
-    credit) σε περίπτωση που έχει δοθεί παρατεινόμενη πίστωση·
+    Annualized nominal interest rate.  In the case of credit card loan the average of the convenience credit interest rate and extended credit interest rate is given weighted by the respective amounts.
 
 DEBTOR (DBTR) 
-    Αναγνωριστικός κωδικός του ``ΥΕΟ`` που έχει λάβει το δάνειο.
+    Identifier code of the ``OA`` that has received the loan.
 
 CREDITOR (CRDTR) 
-    Αναγνωριστικός κωδικός του πιστωτή·
+    Identifier code of the entity that gave the loan, the creditor.
 
 
 SHARE
 -----
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή
-μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία
-αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του
-κύκλου ζωής των τίτλων.
+Used to submit information data regarding equity/investment fund shares owned 
+by the ``OA``.  The measures of this table can take at most one value during
+the lifecycle of the debt instrument.
 
-ΔΙΑΣΤΑΣΕΙΣ
+
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·
+    Issue date, activation date, initialization date.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης (κατά περίπτωση)·
+    Close date (if applicable).
 
 ISIN ID (ISIN_ID) 
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166· 
+    Instrument identifier based on the ISIN ISO-6166 standard.
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο τίτλο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the share/investment fund unit.
 
 .. _shrcurrency:
 
 CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 MARKET (MRKT)
-    Η χρηματιστηριακή αγορά διαπραγμάτευσης με επιλογή από τη λίστα τιμών
-    ``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383·
+    Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 standard.
     
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``SHR_TYP_ENUM`` που απορρέει από
-    τον ESA2010·
+    Type choosing from ``SHR_TYP_ENUM``.
 
 PRIMARY CLASS (PRMRY_CLSS)
-    Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``SHR_PRMRY_CLSS_ENUM`` ·
+    Primary class choosing from ``SHR_PRMRY_CLSS_ENUM``.
 
 
 STATIC_SHARE
 ------------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή
-μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία
-αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των τίτλων.
+Used to submit information data regarding equity/investment fund shares owned  
+by the ``OA``.  
+The measures of this table can change during the lifecycle of the share/investment fund unit.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NAME (NM) 
-    Ονομασία·
+    Name. 
 
 ISSUED BY (ISSD_BY)
-    Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)·
+    Issuer identification code (:ref:`org`).
 
 
 EXT_DER
 -------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων διαπραγματεύσιμων
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε
-ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των
-παραγώγων.
+Used to submit information data regarding exchange traded derivatives traded by the by the ``OA``.  
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου παραγώγου (:ref:`edr`).
+    Identifier code of the exchange traded derivative (:ref:`edr`).
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·
+    Issue date, activation date, initialization date.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης (κατά περίπτωση)·
+    Maturity date (if applicable).
 
 NAME (NM) 
-    Ονομασία·
+    Name.
 
 ISIN ID (ISIN_ID) 
-    Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166· 
+    Instrument identifier based on the ISIN ISO-6166 standard.
 
 TICKER (TCKR)
-    Αναγνωριστικός κωδικός που αποδίδεται από την χρηματιστηριακή αγορά διαπραγμάτευσης·
+    Identifier code that is given by the market at which the derivative is traded.
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο διαπραγματεύσιμο χρηματοοικονομικό παράγωγο.
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the derivative.
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``DRVTV_TYP_ENUM`` ·
+    Type choosing from ``DRVTV_TYP_ENUM``.
 
 .. _edrcurrency:
 
 CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 MULTIPLIER (MLTPLR)
-    Ο πολλαπλασιαστής·
+    The multiplier of the derivative.
     
 WRITER (WRTR)
-    Ο κεντρικός αντισυμβαλλόμενος του διαπραγματεύσιμου παραγώγου με επιλογή
-    από τη λίστα τιμών  ``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383.
+    The main counterparty for the exchange traded derivative choosing from  ``GEN_MRKT_ENUM`` that is derived from ISO-10383 standard.
 
 
 OTC_DER
 -------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων εξωχρηματιστηριακών
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε
-ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των
-παραγώγων.
+Used to submit information data regarding over the counter derivatives traded by the by the ``OA``.  
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού παραγώγου (:ref:`odr`).
+    Identifier code of the over the counter derivative (:ref:`odr`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 BIRTHDATE (DT_BRTH)
-    Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·
-    Ημερομηνία δημιουργίας του παραγώγου.
+    Issue date, activation date, initialization date.
 
 CLOSEDATE (DT_CLS)
-    Ημερομηνία λήξης (κατά περίπτωση)·
+    Maturity date (if applicable).
 
 NAME (NM)
-    Ονομασία·
+    Name.
 
 INTERNAL ID (INTRNL_ID)
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο διαπραγματεύσιμο χρηματοοικονομικό παράγωγο.
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the derivative.
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``DRVTV_TYP_ENUM`` ·
+    Type choosing from ``DRVTV_TYP_ENUM``.
 
 .. _odrcurrency:
 
 CURRENCY (CRRNCY)
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·
+    Currency of transaction choosing from ``GEN_CNTRY_ENUM``.
 
 MULTIPLIER (MLTPLR)
-    Ο πολλαπλασιαστής·
+    The multiplier of the derivative.
     
 WRITER (WRTR)
-    Ο αναγνωριστικός κωδικός του συμβαλλόμενου που εκδίδει και πωλεί το παράγωγο (:ref:`org`)·
+    Identifier code of the party that writes and sells the derivative (:ref:`org`).
 
 BUYER (BYR)
-    Ο αναγνωριστικός κωδικός του συμβαλλόμενου που αγοράζει το παράγωγο (:ref:`org`)·
+    Identifier code of the party that buys the derivative (:ref:`org`).
 
 RES_RE
 ------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων οικιστικών ακινήτων 
-που κατέχουν οι ``ΥΕΟ``.
+Used to submit information data regarding residential real estate owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του οικιστικού ακινήτου (:ref:`rre`).
+    Identifier code of the residential real estate (:ref:`rre`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NATIONAL ID (NTNL_ID)
-    Ο εθνικός κωδικός ακινήτου της μορφής ``{CC}{CODE}`` όπου η θέση ``CC``
-    αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2 που έχει
-    εκδώσει τον εθνικό κωδικό ακινήτου και η θέση ``CODE`` με τον επίσημο
-    εθνικό κωδικό ακινήτου  χωρίς τον διψήφιο κωδικό χώρας αν ξεκινάει με
-    αυτόν·
+    National identifier code formatted as ``{CC}{CODE}`` where position ``CC`` is a placeholder for the ISO 3166-1 alpha-2 code of the country that issues the code and ``CODE`` is the actual code without country code if it starts with it.  
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο οικιστικό ακίνητο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the residential real estate.
 
 COUNTRY (CNTRY)
-    Χώρα τοποθεσίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Location country of the real estate choosing from ``GEN_CNTRY_ENUM``.
 
 .. _res_type:
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``RRE_TYPE_ENUM`` ·
+    Type choosing from ``RRE_TYPE_ENUM`` ·
 
 CITY (CTY)
-    Πόλη/περιοχή·
+    City/area.
 
 POSTAL CODE (PSTL_CD)
-    Ταχυδρομικός κώδικας·
+    Postal code.
 
 TERRITORY (TRRTRY)
-    Περιοχή με επιλογή από τη λίστα τιμών ``GEN_NUTS_ENUM`` ·
+    Territory choosing from ``GEN_NUTS_ENUM`` ·
 
 
 ORG_TO_RRE
 ----------
 
-Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με οικιστικά ακίνητα.
+Used to submit data regarding ownership links between ``OA`` and residential real estate.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 LID
-    Ο αναγνωριστικός κωδικός του κάτοχου (:ref:`org`).
+    Identifier code of the owner (:ref:`org`).
 
 RID
-    Ο αναγνωριστικός κωδικός του οικιστικού ακινήτου (:ref:`rre`).
+    Identifier code of the residential real estate (:ref:`rre`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 IS OWNER (IS_OWNR)
-    Ένδειξη ότι ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει κυριότητα σε ένα
-    οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·
+    Flag that the ``OA`` identified by ``LID`` code owns real estate identified with ``RID`` code.
 
 RATE (RT)
-    Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει στο 
-    οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·
+    Ownership rate that ``OA`` with identifier code ``LID`` has on residential real estate with identifier code ``RID``.
 
 
 COM_RE
 ------
 
-Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων επαγγελματικών ακινήτων 
-που κατέχουν οι ``ΥΕΟ``.
+Used to submit information data regarding commercial real estate owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του επαγγελματικού ακινήτου (:ref:`cre`).
+    Identifier code of the commercial real estate (:ref:`cre`).
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 NATIONAL ID (NTNL_ID)
-    Ο εθνικός κωδικός ακινήτου της μορφής ``{CC}{CODE}`` όπου η θέση ``CC``
-    αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 alpha-2 που έχει
-    εκδώσει τον εθνικό κωδικό ακινήτου και η θέση ``CODE`` με τον επίσημο
-    εθνικό κωδικό ακινήτου  χωρίς τον διψήφιο κωδικό χώρας αν ξεκινάει με
-    αυτόν·
+    National identifier code formatted as ``{CC}{CODE}`` where position ``CC`` is a placeholder for the ISO 3166-1 alpha-2 code of the country that issues the code and ``CODE`` is the actual code without country code if it starts with it.  
 
 INTERNAL ID (INTRNL_ID) 
-    Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση
-    ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει αποδώσει
-    στο οικιστικό ακίνητο·
+    Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a
+    placeholder for the code that the ``RA`` has assigned to the commercial real estate.
 
 COUNTRY (CNTRY)
-    Χώρα τοποθεσίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·
+    Location country of the real estate choosing from ``GEN_CNTRY_ENUM``.
 
 .. _com_type:
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``CRE_TYP_ENUM`` ·
+    Type choosing from ``CRE_TYPE_ENUM`` ·
 
 CITY (CTY)
-    Πόλη/περιοχή·
+    City/area.
 
 POSTAL CODE (PSTL_CD)
-    Ταχυδρομικός κώδικας·
+    Postal code.
 
 TERRITORY (TRRTRY)
-    Περιοχή με επιλογή από τη λίστα τιμών ``GEN_NUTS_ENUM`` ·
+    Territory choosing from ``GEN_NUTS_ENUM`` ·
 
 
 ORG_TO_CRE
 ----------
 
-Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με επαγγελματικά ακίνητα.
+Used to submit data regarding ownership links between ``OA`` and commercial real estate.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 LID
-    Ο αναγνωριστικός κωδικός του κάτοχου (:ref:`org`).
+    Identifier code of the owner (:ref:`org`).
 
 RID
-    Ο αναγνωριστικός κωδικός του επαγγελματικού ακινήτου (:ref:`cre`).
+    Identifier code of the commercial real estate (:ref:`cre`).
 
 VALID FROM (VLD_FRM)
-    Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
 VALID TO (VLD_T)
-    Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 IS OWNER (IS_OWNR)
-    Ένδειξη ότι ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει κυριότητα σε ένα
-    οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·
+    Flag that the ``OA`` identified by ``LID`` code owns real estate identified with ``RID`` code.
 
 RATE (RT)
-    Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει στο 
-    οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·
+    Ownership rate that ``OA`` with identifier code ``LID`` has on commercial real estate with identifier code ``RID``.

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2023-01-02 13:49+0200\n"
+"PO-Revision-Date: 2023-01-02 13:57+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,1565 +18,2350 @@ msgstr ""
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:2
-#: 31d4510d00d14726aecaba90afa426fa
-msgid "SELF_INFO: Πληροφοριακά στοιχεία ίδιου λογαριασμού"
-msgstr ""
+#: e056de7fb69c4a2f82e7d969ccf6b0fb
+msgid "SELF_INFO: Self Information Data"
+msgstr "SELF_INFO: Πληροφοριακά στοιχεία ίδιου λογαριασμού"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:4
-#: da0eed6985f44c859d67d2f2f2c8bca3
+#: 6387fff33d9f406ca9ad9f67843075a0
 msgid ""
+"It is used for the submission of information data regarding the ``OA``, "
+"the instruments issued by the ``OA``, the ``RA`` in case it is different "
+"from the ``OA`` and the contact person responsible for submitting data on"
+" behalf of the ``RA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των "
 "χρηματοοικονομικών μέσων που έχουν εκδώσει οι ``ΥΕΟ``, της ``ΜΠΣ`` σε "
 "περίπτωση που τα στοιχεία υποβάλλονται από διαχειρίστρια εταιρεία και των"
 " προσώπων επικοινωνίας που είναι υπεύθυνα για την παροχή των στοιχείων εκ"
 " μέρους της ``ΜΠΣ``."
-msgstr ""
 
 #: ../../source/domain/ifdat/categories/self_info.rst:9
-#: 7339fd386fa44c208422525ae90678e3
+#: ffd11c806c6d4ae3bf0f22c710673001
 msgid ""
+"Below the dimensions and the measures are provided for each table of the "
+"data category."
+msgstr ""
 "Στις παρακάτω ενότητες περιγράφονται οι διαστάσεις και οι μεταβλητές του "
 "κάθε πίνακα."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:13
+#: ../../source/domain/ifdat/categories/self_info.rst:12
 #: d48512e481a94049b7d26c81cc1cc421
 msgid "MANAGEMENT"
-msgstr ""
+msgstr "MANAGEMENT"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:15
-#: 9da81b2bbcc14afea811a801a87aedb6
+#: ../../source/domain/ifdat/categories/self_info.rst:14
+#: 0dd647faa6b1409783c669ecd24c341d
 msgid ""
+"Used to submit information data regarding the ``RA`` in case the ``RA`` "
+"and the ``OA`` are not the same entities.  The measures of this table can"
+" take at most one value during the lifecycle of the ``RA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΜΠΣ`` σε "
 "περίπτωση που η ``ΜΠΣ`` είναι διαχειρίστρια εταιρεία.  Τα στοιχεία αυτά "
 "είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του "
 "κύκλου ζωής της διαχειρίστριας εταιρείας."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:21
-#: ../../source/domain/ifdat/categories/self_info.rst:75
-#: ../../source/domain/ifdat/categories/self_info.rst:140
-#: ../../source/domain/ifdat/categories/self_info.rst:194
-#: ../../source/domain/ifdat/categories/self_info.rst:351
-#: ../../source/domain/ifdat/categories/self_info.rst:484
-#: ../../source/domain/ifdat/categories/self_info.rst:534
-#: ../../source/domain/ifdat/categories/self_info.rst:581
-#: ../../source/domain/ifdat/categories/self_info.rst:630
-#: ../../source/domain/ifdat/categories/self_info.rst:667
-#: 34e56083d8cb4245b1cf495fe81c6d95 3e9bad7b78b240839d9974f12b7d2037
-#: 46ebc80f807240b8a6516bb93fa4af80 52ce8d84a93941749a4543be87fd9cf0
-#: 6252fcaa34c6495881894f221c8192ce 783497dc8bd940ffb5e9649b6781e920
-#: 9493069ff8df4fd79b554a71d87815c0 9c06b5c22c7b45ce95099c3c761967ae
-#: abc92b92b8da4324aa3acdf0301ecdd7 eead963dc56a4c0db43b695fbe136d84
-msgid "ΔΙΑΣΤΑΣΕΙΣ"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:19
+#: ../../source/domain/ifdat/categories/self_info.rst:70
+#: ../../source/domain/ifdat/categories/self_info.rst:134
+#: ../../source/domain/ifdat/categories/self_info.rst:185
+#: ../../source/domain/ifdat/categories/self_info.rst:333
+#: ../../source/domain/ifdat/categories/self_info.rst:457
+#: ../../source/domain/ifdat/categories/self_info.rst:506
+#: ../../source/domain/ifdat/categories/self_info.rst:551
+#: ../../source/domain/ifdat/categories/self_info.rst:600
+#: ../../source/domain/ifdat/categories/self_info.rst:637
+#: 020d1cb217da451c842f99342dedf6c5 115811726f25489e8c30c349f1f77ec3
+#: 12cc03d5f7be4b89abf025ef1cad16dc 61a2734c0f8e4ebeb518a38d0229dd58
+#: 71e7119962724547994f5ca08c7a9331 743b6c245b1b492099e7564c5bc51020
+#: b42b83720142460fb9d8317ab810db03 ba4ab150fb8644b5bbfecf4da48da6f4
+#: ba4d895facf949c7bb16fb70ad7d6bc0 f212c70b80d04cf19be66b6002e27577
+msgid "DIMENSIONS"
+msgstr "ΔΙΑΣΤΑΣΕΙΣ"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:24
-#: ../../source/domain/ifdat/categories/self_info.rst:78
-#: ../../source/domain/ifdat/categories/self_info.rst:143
-#: ../../source/domain/ifdat/categories/self_info.rst:197
-#: ../../source/domain/ifdat/categories/self_info.rst:354
-#: ../../source/domain/ifdat/categories/self_info.rst:487
-#: ../../source/domain/ifdat/categories/self_info.rst:537
-#: ../../source/domain/ifdat/categories/self_info.rst:584
-#: ../../source/domain/ifdat/categories/self_info.rst:633
+#: ../../source/domain/ifdat/categories/self_info.rst:22
+#: ../../source/domain/ifdat/categories/self_info.rst:73
+#: ../../source/domain/ifdat/categories/self_info.rst:137
+#: ../../source/domain/ifdat/categories/self_info.rst:188
+#: ../../source/domain/ifdat/categories/self_info.rst:336
+#: ../../source/domain/ifdat/categories/self_info.rst:460
+#: ../../source/domain/ifdat/categories/self_info.rst:509
+#: ../../source/domain/ifdat/categories/self_info.rst:554
+#: ../../source/domain/ifdat/categories/self_info.rst:603
 #: 03c6e30d136f4e01b44c45523f786a73 14e0c85f926141c486217d74687f1766
 #: 30d382a00a324108816e7036c7e4d2f6 72a29203ebf1420ba389371a1efd1228
 #: 7f31e56222ad432f99cf68a21050a2d1 81d224f4d6334dc6a2aa4ad278da927f
 #: 901104ac1fa14da193bb5e10b9a5c2ca 9bc9df75f7b1451cb80993873fb1b90d
 #: f2b2690e19864a75b6a7d1806cea002e
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:24
-#: ../../source/domain/ifdat/categories/self_info.rst:78
-#: 00270f4224134e97a8e4cbeda7490aef 8c943b0ce3fd4706a6aba2dba24c2dd1
-msgid "Ο αναγνωριστικός κωδικός της διαχειρίστριας εταιρείας (:ref:`org`)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:22
+#: ../../source/domain/ifdat/categories/self_info.rst:73
+#: 46037b75be6540678bfed0883f1cbdf2
+msgid "Identifier code of the ``RA`` (:ref:`org`)."
+msgstr "Ο αναγνωριστικός κωδικός της διαχειρίστριας εταιρείας (:ref:`org`)."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:27
-#: ../../source/domain/ifdat/categories/self_info.rst:89
-#: ../../source/domain/ifdat/categories/self_info.rst:146
-#: ../../source/domain/ifdat/categories/self_info.rst:208
-#: ../../source/domain/ifdat/categories/self_info.rst:357
-#: ../../source/domain/ifdat/categories/self_info.rst:498
-#: ../../source/domain/ifdat/categories/self_info.rst:540
-#: ../../source/domain/ifdat/categories/self_info.rst:595
-#: ../../source/domain/ifdat/categories/self_info.rst:636
-#: ../../source/domain/ifdat/categories/self_info.rst:684
-#: 1f92b3ac2de44beaba48089fa46ed072 29661bd116a745e89319198a4170c68b
-#: 2ab9585896444b0a90a404608fb6500e 4f4f69a17faa4010a28a54784441f483
-#: 6022d0561bf74e299e4221d11672850b 653548e740094d58bded15ca4311f939
-#: 944cf4326ae44cf5b8522f36c20a183d 99008dc44d7d4166800a85ca3935b97f
-#: 9f44fd68074247e6aaafec8e385ebb13 ddf5afdeee714fa8881894fd274118b5
-msgid "ΜΕΤΑΒΛΗΤΕΣ"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:25
+#: ../../source/domain/ifdat/categories/self_info.rst:84
+#: ../../source/domain/ifdat/categories/self_info.rst:140
+#: ../../source/domain/ifdat/categories/self_info.rst:199
+#: ../../source/domain/ifdat/categories/self_info.rst:339
+#: ../../source/domain/ifdat/categories/self_info.rst:471
+#: ../../source/domain/ifdat/categories/self_info.rst:512
+#: ../../source/domain/ifdat/categories/self_info.rst:565
+#: ../../source/domain/ifdat/categories/self_info.rst:606
+#: ../../source/domain/ifdat/categories/self_info.rst:654
+#: 010a9ed158bc470f956db5be5d0f55a7 1826613b9ac54f7e8ddf7f63d693d028
+#: 47834944facb4598935612c7131d0783 55f2b32782994877856423025481dce8
+#: 5757461039dc4e6f8457d2e3802d66be 81b642fe35fe49d9a1269e05b3501bff
+#: c8ebb78d77de4af8ba31ccd41256c146 e1d11e3f0d5f44bcb10662d3544f60d5
+#: e32173035c474059996988ed8f43fb26 ff19568d0b8346fb9cd6b51006053a75
+msgid "MEASURES"
+msgstr "MEASURES"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:30
-#: ../../source/domain/ifdat/categories/self_info.rst:149
-#: ../../source/domain/ifdat/categories/self_info.rst:362
-#: ../../source/domain/ifdat/categories/self_info.rst:543
+#: ../../source/domain/ifdat/categories/self_info.rst:28
+#: ../../source/domain/ifdat/categories/self_info.rst:143
+#: ../../source/domain/ifdat/categories/self_info.rst:344
+#: ../../source/domain/ifdat/categories/self_info.rst:515
 #: 5fa7e2cd674a4d329eb7586dee96336c 8fdb036d55b947f0875405b0de2b739a
 #: ac60defa1d2a4900a5d919e705e9a896 f5979c65ca94450698ed3d78b0349086
 msgid "BIRTHDATE (DT_BRTH)"
-msgstr ""
+msgstr "BIRTHDATE (DT_BRTH)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:30
-#: ../../source/domain/ifdat/categories/self_info.rst:149
-#: beabfb52b4324e82a94615cb4f8e4910 d4c9321feac04c9da5296d729d4f9f1f
-msgid "Ημερομηνία σύστασης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:28
+#: ../../source/domain/ifdat/categories/self_info.rst:143
+#: 610ef071fcdb4ea094500ba4f725a3af 6568c44bac5846eb9424a3531a702d9c
+msgid "Birth date."
+msgstr "Ημερομηνία σύστασης·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:33
-#: ../../source/domain/ifdat/categories/self_info.rst:152
-#: ../../source/domain/ifdat/categories/self_info.rst:367
-#: ../../source/domain/ifdat/categories/self_info.rst:548
+#: ../../source/domain/ifdat/categories/self_info.rst:31
+#: ../../source/domain/ifdat/categories/self_info.rst:146
+#: ../../source/domain/ifdat/categories/self_info.rst:349
+#: ../../source/domain/ifdat/categories/self_info.rst:520
 #: 324f7a2e71fb4c75bc2fe9dec416e559 3286a7d897a84477b0742ebca6a5e333
 #: 6fbd7c389e3a4db7bd70f90902e92128 b56d7289095e48be9efb68a0a5db82f2
 msgid "CLOSEDATE (DT_CLS)"
-msgstr ""
+msgstr "CLOSEDATE (DT_CLS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:33
-#: ../../source/domain/ifdat/categories/self_info.rst:152
-#: 9faa30987b66440c89c304b524d41123 d2b7772fb21249f59359f56571ff3de6
-msgid "Ημερομηνία λύσης (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:31
+#: ../../source/domain/ifdat/categories/self_info.rst:146
+#: ../../source/domain/ifdat/categories/self_info.rst:520
+#: 1257b49034084e4b9c52acbb2737667c f0f38b5f80f4446baa5ed6fd458f6101
+#: fe2648b989f347228b080ec2b033de72
+msgid "Close date (if applicable)."
+msgstr "Ημερομηνία λύσης (κατά περίπτωση)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:36
-#: ../../source/domain/ifdat/categories/self_info.rst:155
+#: ../../source/domain/ifdat/categories/self_info.rst:34
+#: ../../source/domain/ifdat/categories/self_info.rst:149
 #: e5c931128d83494f82a741825e3ae937 f93ea92b8e9045f8b55c45b45e6bf932
 msgid "COUNTRY OF BIRTH (CNTRY_BRTH)"
-msgstr ""
+msgstr "COUNTRY OF BIRTH (CNTRY_BRTH)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:36
-#: 7bea4a50b3f841519cca9624ce80719b
-msgid "Χώρα σύστασης με επιλογή από τη λίστα τιμών `GEN_CNTRY_ENUM`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:34
+#: ../../source/domain/ifdat/categories/self_info.rst:149
+#: 3d40d9d44ec944d9a68de8b0025842f2 9338c3bed4304510bf8cb900ff6b24fa
+msgid "Country of incorporation choosing from ``GEN_CNTRY_ENUM``."
+msgstr "Χώρα σύστασης με επιλογή από τη λίστα τιμών `GEN_CNTRY_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:40
-#: ../../source/domain/ifdat/categories/self_info.rst:159
+#: ../../source/domain/ifdat/categories/self_info.rst:37
+#: ../../source/domain/ifdat/categories/self_info.rst:152
 #: ce6c85f610a04a10869ca6d263d60b0a f52324fd65824685b6d8bcc13cbc7122
 msgid "ESCB ID (ESCB_ID)"
-msgstr ""
+msgstr "ESCB ID (ESCB_ID)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:39
-#: ../../source/domain/ifdat/categories/self_info.rst:158
-#: 188283feb2b04100919c95524243824e 7b7c24fb1fe84f85a1c0821cdd6c4ce7
+#: ../../source/domain/ifdat/categories/self_info.rst:37
+#: ../../source/domain/ifdat/categories/self_info.rst:152
+#: 241bfef86248456c8b8c62c7ffeb17ca 90f6f730b68c4f76bc72a79abe50df04
 msgid ""
+"Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD"
+" code``."
+msgstr ""
 "Αναγνωριστικός κωδικός που αποδίδεται από το ``ΕΣΚΤ``.  Είναι γνωστός και"
 " ως ``RIAD code`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:43
-#: ../../source/domain/ifdat/categories/self_info.rst:162
+#: ../../source/domain/ifdat/categories/self_info.rst:40
+#: ../../source/domain/ifdat/categories/self_info.rst:155
 #: 57ffb3ed558f402796a81f5c1a177c1e a5e4e03611cf451f9793f8d825136c22
 msgid "LEI ID (LEI_ID)"
-msgstr ""
+msgstr "LEI ID (LEI_ID)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:43
-#: ../../source/domain/ifdat/categories/self_info.rst:162
-#: 332b2c05e2b24a968ae0d5791accb046 a6dff49ddfb942f4a4e0f6c405b137e7
-msgid "Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:50
-#: ../../source/domain/ifdat/categories/self_info.rst:169
-#: 5807b744a81946b9a8b59fc494e8ca93 d896095b3d724ed49377e8ea924c13f7
-msgid "TAX ID (TAX_ID)"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:40
+#: ../../source/domain/ifdat/categories/self_info.rst:155
+#: 1ab9c520ea0b492094b142ef7d714421 ebe1cfcf56234634aa284b67587b77b3
+msgid "Identifier code based on the ISO-17442 standard."
+msgstr "Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:46
-#: 369901c8bcaa422b9062b3602c23baaf
+#: ../../source/domain/ifdat/categories/self_info.rst:161
+#: 5807b744a81946b9a8b59fc494e8ca93 d896095b3d724ed49377e8ea924c13f7
+msgid "TAX ID (TAX_ID)"
+msgstr "TAX ID (TAX_ID)"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:43
+#: ../../source/domain/ifdat/categories/self_info.rst:158
+#: 3eb5792eb3b74a96bd4788f7a051d829 9e30899bf2274f699182caf6cf006384
 msgid ""
+"Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a "
+"placeholder for  ISO 3166-1 alpha-2 country code that has issued the the "
+"tax code and ``CODE`` is a placeholder for the actual tax code without "
+"the country code in case it starts with it."
+msgstr ""
 "Ο αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` "
 "όπου η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 "
 "alpha-2 που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με "
 "τον επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο "
 "κωδικό χώρας αν ξεκινάει με αυτόν·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:57
-#: ../../source/domain/ifdat/categories/self_info.rst:176
+#: ../../source/domain/ifdat/categories/self_info.rst:52
+#: ../../source/domain/ifdat/categories/self_info.rst:167
 #: 6c7df8cdd3954fc3b97f9a1725bd98db 7ed41654a39e473a9a994b9be20c42ea
 msgid "NBR ID (NBR_ID)"
-msgstr ""
+msgstr "NBR ID (NBR_ID)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:53
-#: f86a937c16c94278b5924ed5a41714a5
+#: ../../source/domain/ifdat/categories/self_info.rst:49
+#: ../../source/domain/ifdat/categories/self_info.rst:164
+#: 674b7ff23fe740f983636ea843a46e33 fc44f5b8faaa4950931f7cdbc5efb4c6
 msgid ""
+"Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a "
+"placeholder for  ISO 3166-1 alpha-2 country code that has issued the the "
+"code and ``CODE`` is a placeholder for the actual business identifier "
+"code without the country code in case it starts with it."
+msgstr ""
 "Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου"
 " η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 "
 "alpha-2 που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με "
 "τον επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο "
 "κωδικό χώρας αν ξεκινάει με αυτόν·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:61
-#: ../../source/domain/ifdat/categories/self_info.rst:180
+#: ../../source/domain/ifdat/categories/self_info.rst:56
+#: ../../source/domain/ifdat/categories/self_info.rst:171
 #: 4b550bcc63db40918281d42f8da31cf4 f1268f112d6c4d88ab7606effc558485
 msgid "SPLIT FROM (SPLT_FRM)"
+msgstr "SPLIT FROM (SPLT_FRM)"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:55
+#: 7c19e1db8e424b48995a705fb3f5673b
+msgid ""
+"In case the ``RA`` was created by a corporate split the identifier code "
+"of the entity that it was split from is provided (:ref:`org`)."
 msgstr ""
+"Σε περίπτωση που η διαχειρίστρια εταιρεία δημιουργήθηκε από διάσπαση "
+"δίδεται ο αναγνωριστικός κωδικός της εταιρείας από την οποία διασπάστηκε (:ref:`org`)·"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:60
-#: 2be3bcc7825c4354b602d3a696ef14db
-msgid ""
-"Σε περίπτωση που η διαχειρίστρια εταιρεία δημιουργήθηκε από διάσπαση "
-"δίδεται ο αναγνωριστικός κωδικός της εταιρείας από την οποία διασπάστηκε·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:65
-#: ../../source/domain/ifdat/categories/self_info.rst:185
+#: ../../source/domain/ifdat/categories/self_info.rst:176
 #: 06c47d56dc09477f91d731c4ddec37b9 0b1b8699852e4eacb296aef8a1b4538e
 msgid "MERGED WITH (MRGD_WTH)"
-msgstr ""
+msgstr "MERGED WITH (MRGD_WTH)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:64
-#: a37995719e774b4295656611b5f545cc
+#: ../../source/domain/ifdat/categories/self_info.rst:59
+#: 929b89ed39084855a91b13dc7725b151
 msgid ""
+"In case of closure of the ``RA`` via a merger event the identifier code "
+"of the entity that the ``RA`` merged with is provided."
+msgstr ""
 "Σε περίπτωση συγχώνευσης της διαχειρίστριας εταιρείας δίδεται ο "
 "αναγνωριστικός κωδικός της εταιρείας με την οποία συγχωνεύτηκε."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:68
+#: ../../source/domain/ifdat/categories/self_info.rst:63
 #: c44a62e517704fa0a14299bc70880b44
 msgid "STATIC_MANAGEMNT"
-msgstr ""
+msgstr "STATIC_MANAGEMNT"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:70
-#: 65fd26f94f8b4278b7c35ab87b7bd6f1
+#: ../../source/domain/ifdat/categories/self_info.rst:65
+#: 113794c1a73745aba00ad2faa9f5bce2
 msgid ""
+"Used to submit information data regarding the ``RA`` in case the ``RA`` "
+"and the ``OA`` are not the same entities.  The measures of this table can"
+" change during the lifecycle of the entity."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΜΠΣ`` σε "
 "περίπτωση που η ``ΜΠΣ`` είναι διαχειρίστρια εταιρεία. Τα στοιχεία αυτά "
 "δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής της "
 "διαχειρίστριας εταιρείας."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:82
-#: ../../source/domain/ifdat/categories/self_info.rst:201
-#: ../../source/domain/ifdat/categories/self_info.rst:491
-#: ../../source/domain/ifdat/categories/self_info.rst:588
-#: ../../source/domain/ifdat/categories/self_info.rst:677
+#: ../../source/domain/ifdat/categories/self_info.rst:77
+#: ../../source/domain/ifdat/categories/self_info.rst:192
+#: ../../source/domain/ifdat/categories/self_info.rst:464
+#: ../../source/domain/ifdat/categories/self_info.rst:558
+#: ../../source/domain/ifdat/categories/self_info.rst:647
 #: 28db34033fb14a3aae02e6540d4a9933 65db63156bc94d83903646d4fa9293cb
 #: 6aeec17c52b74214b9d6b64c57a68e48 7d494d23d8774069b2efd8cfea75f32e
 #: c24eb2b46ea1419c9524a86cacf1368b
 msgid "VALID FROM (VLD_FRM)"
-msgstr ""
+msgstr "VALID FROM (VLD_FRM)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:81
-#: ../../source/domain/ifdat/categories/self_info.rst:200
-#: ../../source/domain/ifdat/categories/self_info.rst:490
-#: ../../source/domain/ifdat/categories/self_info.rst:587
-#: ../../source/domain/ifdat/categories/self_info.rst:676
-#: 22ad12568c024ad28a261e8b8156a1c8 5d5d642ffd454c65b03cb4359fbacd2d
-#: 5fc9544105514420a208a78af1c2dbe1 6e8fe8d138f1497b9e61e99d4aa7db27
-#: c9caefe91bb74235baf4637496dd3bd1
+#: ../../source/domain/ifdat/categories/self_info.rst:76
+#: ../../source/domain/ifdat/categories/self_info.rst:191
+#: ../../source/domain/ifdat/categories/self_info.rst:463
+#: ../../source/domain/ifdat/categories/self_info.rst:557
+#: ../../source/domain/ifdat/categories/self_info.rst:646
+#: 9612d8ec6a4e4d75bbf0c1481504d042 ae0dfdc405ca429582519a97ee377ef3
+#: c8bd35a360fe40729bbe468b4fee6e3b c90a9d2eb0084b8b978bb6293a16e876
+#: efe08f3ff5804ffc877a57d822fd28f9
 msgid ""
+"Date from which the measure values are valid. For further details see "
+":doc:`../../../generic`."
+msgstr ""
 "Ημερομηνία από πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών. "
 "Περισσότερες πληροφορίες στις :doc:`../../../generic`."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:86
-#: ../../source/domain/ifdat/categories/self_info.rst:205
-#: ../../source/domain/ifdat/categories/self_info.rst:495
-#: ../../source/domain/ifdat/categories/self_info.rst:592
-#: ../../source/domain/ifdat/categories/self_info.rst:681
+#: ../../source/domain/ifdat/categories/self_info.rst:81
+#: ../../source/domain/ifdat/categories/self_info.rst:196
+#: ../../source/domain/ifdat/categories/self_info.rst:468
+#: ../../source/domain/ifdat/categories/self_info.rst:562
+#: ../../source/domain/ifdat/categories/self_info.rst:651
 #: 07bb01d3bd8e4378b3fd93f5249ea563 2000f7fb07954723970e6d3def695efc
 #: 8f87190efd014f5591325871f1febecd c6f48bed22064ec68dec98f62cc16ec0
 #: de1b26735d4c4b4e9298312f961eaf27
 msgid "VALID TO (VLD_T)"
-msgstr ""
+msgstr "VALID TO (VLD_T)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:85
-#: ../../source/domain/ifdat/categories/self_info.rst:204
-#: ../../source/domain/ifdat/categories/self_info.rst:494
-#: ../../source/domain/ifdat/categories/self_info.rst:591
-#: ../../source/domain/ifdat/categories/self_info.rst:680
-#: 03ae1f57ee314f53a0206f0012e7ab19 0bdbe21cc99949ac8a5d262a008503e8
-#: 63d78b6ab76046f5aa18f1369b5c01f8 8bea8219f9f24339b674d16fbf57c88a
-#: bf7b5c56d7b14dc5a3c81245fc5412c2
+#: ../../source/domain/ifdat/categories/self_info.rst:80
+#: ../../source/domain/ifdat/categories/self_info.rst:195
+#: ../../source/domain/ifdat/categories/self_info.rst:467
+#: ../../source/domain/ifdat/categories/self_info.rst:561
+#: ../../source/domain/ifdat/categories/self_info.rst:650
+#: 04e3ef2dbbfc4d32b0945efe76255e94 2944eafe3a53457d923e7f06d7ea3a53
+#: 378a0f78edf24078abcb2d1141ac1e71 5befca6e61e74af1b5267966196a08d7
+#: 7538f0eec9634c958f74e3082177417f
 msgid ""
+"Date to which the measure values are valid. For further details see "
+":doc:`../../../generic`."
+msgstr ""
 "Ημερομηνία μέχρι πότε ισχύουν οι τιμές των παρεχόμενων μεταβλητών. "
 "Περισσότερες πληροφορίες στις :doc:`../../../generic`."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:92
-#: ../../source/domain/ifdat/categories/self_info.rst:211
-#: ../../source/domain/ifdat/categories/self_info.rst:501
-#: ../../source/domain/ifdat/categories/self_info.rst:598
+#: ../../source/domain/ifdat/categories/self_info.rst:87
+#: ../../source/domain/ifdat/categories/self_info.rst:202
+#: ../../source/domain/ifdat/categories/self_info.rst:474
+#: ../../source/domain/ifdat/categories/self_info.rst:568
 #: 2092ddee288f45cb9ebee14e5cb08adf 33e72d91e335422096e3bbab25e2c82b
 #: af7e2f97cf7c459285ff3226de41c237 db604e172ed643f69312b40d72271c88
 msgid "NAME (NM)"
-msgstr ""
+msgstr "NAME (NM)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:92
-#: ../../source/domain/ifdat/categories/self_info.rst:211
-#: 15c09e0ae3644c97b51dc847e8b2da8c fba6858eff4348dc96daca93e69ae31c
-msgid "Επωνυμία·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:87
+#: afcbf2661cba43d79316ce23bd09c3b6
+msgid "Official name."
+msgstr "Επωνυμία·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:95
-#: ../../source/domain/ifdat/categories/self_info.rst:214
-#: ../../source/domain/ifdat/categories/self_info.rst:504
-#: ../../source/domain/ifdat/categories/self_info.rst:601
+#: ../../source/domain/ifdat/categories/self_info.rst:90
+#: ../../source/domain/ifdat/categories/self_info.rst:205
+#: ../../source/domain/ifdat/categories/self_info.rst:477
+#: ../../source/domain/ifdat/categories/self_info.rst:571
 #: 4dd84699a29b4abc9046c79d5eca4337 69aeb021f79e48fc85a46902f9a3ee04
 #: b3df5a5fc6d84689bffdca4727508b6c e4fa44095d3e4a48bc79d6ad84228250
 msgid "LATIN NAME (NM_LTN)"
-msgstr ""
+msgstr "LATIN NAME (NM_LTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:95
-#: ../../source/domain/ifdat/categories/self_info.rst:214
-#: 5cd64de5780042cb9da824f58504a91e d20a281234de464d9966426b21381c64
-msgid "Επωνυμία με λατινικούς χαρακτήρες·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:90
+#: ../../source/domain/ifdat/categories/self_info.rst:205
+#: 3710890bd3a4414499f115b99e34c9bd 8163d054fdc34be5ac63aaf725bbef83
+msgid "Official name using latin characters."
+msgstr "Επωνυμία με λατινικούς χαρακτήρες·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:98
-#: ../../source/domain/ifdat/categories/self_info.rst:217
-#: ../../source/domain/ifdat/categories/self_info.rst:507
-#: ../../source/domain/ifdat/categories/self_info.rst:604
+#: ../../source/domain/ifdat/categories/self_info.rst:93
+#: ../../source/domain/ifdat/categories/self_info.rst:208
+#: ../../source/domain/ifdat/categories/self_info.rst:480
+#: ../../source/domain/ifdat/categories/self_info.rst:574
 #: b6859050c0494c47a21a34e9ab076475 cd031e4edb434160bfe69b5d7377f6a5
 #: d13b15ebf5db467c9551224aacf25c13 e63093f22c1d413ca57d21da4a4fa12b
 msgid "SHORT NAME (NM_SHRT)"
-msgstr ""
+msgstr "SHORT NAME (NM_SHRT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:98
-#: ../../source/domain/ifdat/categories/self_info.rst:217
-#: b93169ca58c241fd8df0242485bdfc75 ce9b5b0845524d66b36a36866139a214
-msgid "Διακριτικό όνομα·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:93
+#: ../../source/domain/ifdat/categories/self_info.rst:208
+#: ../../source/domain/ifdat/categories/self_info.rst:480
+#: ../../source/domain/ifdat/categories/self_info.rst:574
+#: 06a809a5614f483fad9a4e79aab99377 73417c6ad2244b0e994ac7e18499ee10
+#: e7bb7ff135384f2da2256a719464f082 eaca64a558d24c97bbe34ffe1b418d6e
+msgid "Short name."
+msgstr "Διακριτικό όνομα·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:101
-#: ../../source/domain/ifdat/categories/self_info.rst:220
+#: ../../source/domain/ifdat/categories/self_info.rst:96
+#: ../../source/domain/ifdat/categories/self_info.rst:212
 #: 75608e5418af499a9f6605c45aaf0412 df7c051f40774fc9bb71e11a07121ec1
 msgid "STREET (STRT)"
-msgstr ""
+msgstr "STREET (STRT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:101
-#: 130059a6f7a240be8aee377a71b659d4
-msgid "Οδός, αριθμός και περιοχή·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:96
+#: a4c2bcaa585143eeaa6a7b679ac7f0bd
+msgid "Street address, street number and area."
+msgstr "Οδός, αριθμός και περιοχή·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:104
-#: ../../source/domain/ifdat/categories/self_info.rst:224
+#: ../../source/domain/ifdat/categories/self_info.rst:99
+#: ../../source/domain/ifdat/categories/self_info.rst:216
 #: 62505516fdac44a995e39e02f86227be fc7bebcbd9684cc990830adf6e4c307e
 msgid "LATIN STREET (STRT_LTN)"
-msgstr ""
+msgstr "LATIN STREET (STRT_LTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:104
-#: df95e67f72fa4c6ba7050367708afc92
-msgid "Οδός, αριθμός και περιοχή με λατινικούς χαρακτήρες·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:99
+#: 21bc180ad3cf4202802eb0ddd2ca65f2
+msgid "Street address, street number and area in latin characters."
+msgstr "Οδός, αριθμός και περιοχή με λατινικούς χαρακτήρες·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:107
-#: ../../source/domain/ifdat/categories/self_info.rst:227
+#: ../../source/domain/ifdat/categories/self_info.rst:102
+#: ../../source/domain/ifdat/categories/self_info.rst:219
 #: 09381761093340d59cf5f422aa7e6bb2 a0c9f1418e404e4f9f7f86f124699de3
 msgid "CITY (CTY)"
-msgstr ""
+msgstr "CITY (CTY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:107
-#: c0a1c52ed9c043db94f3eeb054f92da1
-msgid "Πόλη, χωριό·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:102
+#: 69c4c857cfd94e6db676537c581256d4
+msgid "City, village."
+msgstr "Πόλη, χωριό·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:110
-#: ../../source/domain/ifdat/categories/self_info.rst:231
+#: ../../source/domain/ifdat/categories/self_info.rst:105
+#: ../../source/domain/ifdat/categories/self_info.rst:223
 #: 3820ea3b6f5f44c2abfb1f616f2327f8 ef8c13f56ef448cb80d1aa52c8345469
 msgid "LATIN CITY (CTY_LTN)"
-msgstr ""
+msgstr "LATIN CITY (CTY_LTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:110
-#: a7e3acf701b348f0b125f524d070838d
-msgid "Πόλη, χωριό με λατινικούς χαρακτήρες·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:105
+#: 4fbe58282e8545ffa777c98988c0f429
+msgid "City, village in latin characters."
+msgstr "Πόλη, χωριό με λατινικούς χαρακτήρες·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:113
-#: ../../source/domain/ifdat/categories/self_info.rst:234
+#: ../../source/domain/ifdat/categories/self_info.rst:108
+#: ../../source/domain/ifdat/categories/self_info.rst:226
 #: 9aa60de349d949c3a75c11786c40a24b bcacf56d19654d448b97182cf34e83ac
 msgid "POSTAL CODE (PSTL_CD)"
-msgstr ""
+msgstr "POSTAL CODE (PSTL_CD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:113
-#: 27aa7cc09ca74f0f9a135dddbe6441fe
-msgid "Ταχυδρομικός κώδικας·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:108
+#: eabb8edaec7547f7aa53e43abb327e6e
+msgid "Postal code."
+msgstr "Ταχυδρομικός κώδικας·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:116
-#: ../../source/domain/ifdat/categories/self_info.rst:237
+#: ../../source/domain/ifdat/categories/self_info.rst:111
+#: ../../source/domain/ifdat/categories/self_info.rst:229
 #: 39f3ba1c98be45f096bc36eddcf61c4f fab5a5fdcda34e3880e67f8debbdf7a6
 msgid "POSTAL BOX (PSTL_BX)"
-msgstr ""
+msgstr "POSTAL BOX (PSTL_BX)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:116
-#: ../../source/domain/ifdat/categories/self_info.rst:237
-#: b181167dc30c4b1d9c1171ffb1124eb4 bd100574283941ffb972312f71f88cb2
-msgid "Ταχυδρομική θυρίδα·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:111
+#: a3c8df89289b44e89023ed87f3e4b68f
+msgid "Postal box."
+msgstr "Postal box."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:119
-#: ../../source/domain/ifdat/categories/self_info.rst:240
+#: ../../source/domain/ifdat/categories/self_info.rst:114
+#: ../../source/domain/ifdat/categories/self_info.rst:232
 #: 1bd61d3431b94608a126ae54c0e7b059 77d3b3193148495cb865efe96a5fba25
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:119
-#: ../../source/domain/ifdat/categories/self_info.rst:240
-#: 0cfeeede59f84855a5f028019fb5ca3d b9a7240be991484d93edbe44a21d7197
-msgid "Διεύθυνση στο διαδίκτυο·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:114
+#: 791a24a345a74d0ea2c07b36a3b71f6e
+msgid "Web address."
+msgstr "Διεύθυνση στο διαδίκτυο·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:122
-#: ../../source/domain/ifdat/categories/self_info.rst:243
-#: ../../source/domain/ifdat/categories/self_info.rst:639
+#: ../../source/domain/ifdat/categories/self_info.rst:117
+#: ../../source/domain/ifdat/categories/self_info.rst:235
+#: ../../source/domain/ifdat/categories/self_info.rst:609
 #: 35d6ca5f20f04ee288008dfc5581590c d0b7830969c5472a8551e2e469f6086a
 #: eb9da7c1208940f28c665677028c9b4a
 msgid "EMAIL"
-msgstr ""
+msgstr "EMAIL"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:122
-#: 364c41d645314a32a9164ab58fe166be
-msgid "Ηλεκτρονική διεύθυνση αλληλογραφίας·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:117
+#: 078b075897b145d7888047196ed45cfa
+msgid "Email address."
+msgstr "Ηλεκτρονική διεύθυνση αλληλογραφίας·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:125
-#: ../../source/domain/ifdat/categories/self_info.rst:246
+#: ../../source/domain/ifdat/categories/self_info.rst:120
+#: ../../source/domain/ifdat/categories/self_info.rst:238
 #: 77dcbc1964c3485e803aba2df10fdd76 d1ec5920508744fdaf60042d1c514724
 msgid "COUNTRY OF RESIDENCE (CNTRY_RSDNC)"
-msgstr ""
+msgstr "COUNTRY OF RESIDENCE (CNTRY_RSDNC)"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:120
+#: ../../source/domain/ifdat/categories/self_info.rst:238
+#: a99e980e1e5641479f4d021e2a7684f4
+msgid "Country of residence choosing from ``GEN_CNTRY_ENUM``."
+msgstr "Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:125
-#: ../../source/domain/ifdat/categories/self_info.rst:246
-#: 9611c2d8ca964a7a87f728a797016ef0 f96308c1a0f34d289488c043bdf4ac06
-msgid "Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:130
-#: ../../source/domain/ifdat/categories/self_info.rst:262
+#: ../../source/domain/ifdat/categories/self_info.rst:253
 #: 4b89b005390f4e408fb069b105a1390a b7e45a2f93fc4dab86879e0b8ef03129
 msgid "LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)"
-msgstr ""
+msgstr "LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:128
-#: ../../source/domain/ifdat/categories/self_info.rst:262
+#: ../../source/domain/ifdat/categories/self_info.rst:123
+#: ../../source/domain/ifdat/categories/self_info.rst:253
 #: 48c996498da64961a14440a81ea14666 c58a58f0ddff43f9a08256658aa409aa
-msgid ""
+msgid "Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``."
+msgstr ""
 "Νομική κατάσταση με επιλογή από τη λίστα τιμών "
 "``ORG_LGL_PRCDNG_STTS_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:133
+#: ../../source/domain/ifdat/categories/self_info.rst:128
 #: 6572ce150b5046b6a8ce7b4e4bc7d553
 msgid "FUND"
-msgstr ""
+msgstr "FUND"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:135
-#: 0b075676b5214a2196038a83392de3cd
+#: ../../source/domain/ifdat/categories/self_info.rst:130
+#: 31c9f4711e4c450d851145b3594b7058
 msgid ""
+"Used to submit information data regarding the ``OA``.  The measures of "
+"this table have at most one value during the lifecycle of the ``OA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων του ``ΥΕΟ``.  Τα "
 "στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθερά κατά τη "
 "διάρκεια του κύκλου ζωής του ``ΥΕΟ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:143
-#: ../../source/domain/ifdat/categories/self_info.rst:197
+#: ../../source/domain/ifdat/categories/self_info.rst:137
+#: ../../source/domain/ifdat/categories/self_info.rst:188
 #: 43eb8666ef8443758a9f7e6324918d75 46037b75be6540678bfed0883f1cbdf2
-msgid "Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`)."
-msgstr ""
+msgid "Identifier code of the ``OA`` (:ref:`org`)."
+msgstr "Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`)."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:155
-#: a99e980e1e5641479f4d021e2a7684f4
-msgid "Χώρα σύστασης με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:165
-#: adba672cd7214be5896a0475c604ba27
+#: ../../source/domain/ifdat/categories/self_info.rst:170
+#: 7c19e1db8e424b48995a705fb3f5673b
 msgid ""
-"Ο αναγνωριστικός κωδικός φορολογικού μητρώου της μορφής ``{CC}{CODE}`` "
-"όπου η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 "
-"alpha-2 που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με "
-"τον επίσημο αναγνωριστικό κωδικό φορολογικού μητρώου χωρίς τον διψήφιο "
-"κωδικό χώρας αν ξεκινάει με αυτόν (κατά περίπτωση)·"
+"In case the ``OA`` was created by a corporate split the identifier code "
+"of the entity that it was split from is provided (:ref:`org`)."
 msgstr ""
+"Σε περίπτωση που η διαχειρίστρια εταιρεία δημιουργήθηκε από διάσπαση "
+"δίδεται ο αναγνωριστικός κωδικός της εταιρείας από την οποία διασπάστηκε (:ref:`org`)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:172
-#: 5a66823e4e074067ab50c70f628665c2
+#: ../../source/domain/ifdat/categories/self_info.rst:174
+#: 78507d2bd5e645249479a81c5d32d4ed
 msgid ""
-"Ο αναγνωριστικός κωδικός εμπορικού μητρώου της μορφής ``{CC}{CODE}`` όπου"
-" η θέση ``CC`` αντικαθίσταται με τον διψήφιο κωδικό χώρας ISO 3166-1 "
-"alpha-2 που έχει εκδώσει τον αναγνωριστικό κωδικό και η θέση ``CODE`` με "
-"τον επίσημο αναγνωριστικό κωδικό εμπορικού μητρώου χωρίς τον διψήφιο "
-"κωδικό χώρας αν ξεκινάει με αυτόν (κατά περίπτωση)·"
+"In case of closure of the ``OA`` via a merger event the identifier code "
+"of the entity that the ``OA`` merged with is provided (:ref:`org`)."
 msgstr ""
+"Σε περίπτωση συγχώνευσης της διαχειρίστριας εταιρείας δίδεται ο "
+"αναγνωριστικός κωδικός της εταιρείας με την οποία συγχωνεύτηκε (:ref:`org`)."
 
 #: ../../source/domain/ifdat/categories/self_info.rst:179
-#: ecaee7b229ec4697a42c6cd607f61b1e
-msgid ""
-"Σε περίπτωση που ο ``ΥΕΟ`` δημιουργήθηκε από διάσπαση δίδεται ο "
-"αναγνωριστικός κωδικός της θεσμικής μονάδας από την οποία διασπάστηκε·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:183
-#: 39f16fe7a91b4598917dba730052ff93
-msgid ""
-"Σε περίπτωση συγχώνευσης του ``ΥΕΟ`` δίδεται ο αναγνωριστικός κωδικός της"
-" θεσμικής μονάδας με την οποία έγινε η συγχώνευση."
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:188
 #: 3607afed0ea64d5188d20cd89355941e
 msgid "STATIC_FUND"
-msgstr ""
+msgstr "STATIC_FUND"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:190
-#: 8f8b210d7b504ad0b9fcbc454c6f5c0c
+#: ../../source/domain/ifdat/categories/self_info.rst:181
+#: 13ca22eb163a48c8a57c473b11fbe5b5
 msgid ""
+"Used to submit information data regarding the ``OA``.  The measures of "
+"this table can change during the lifecycle of the entity."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων του ``ΥΕΟ``. Τα "
 "στοιχεία αυτά δύναται μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του "
 "``ΥΕΟ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:220
-#: 1f5524e265dc43f19ee710307e849f91
-msgid "Ταχυδρομική διεύθυνση.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:202
+#: 6c702252183b438299f1ea1a7d62e952
+msgid "Official name·"
+msgstr "Επωνυμία·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:223
-#: 06c49685551e42beacbea0f7e8348f64
+#: ../../source/domain/ifdat/categories/self_info.rst:211
+#: 3705959f13984377a77f1c03a3a5b51b
 msgid ""
+"Street address, street number and area.  Applicable for ``OA`` that do "
+"not have a management company."
+msgstr "Ταχυδρομική διεύθυνση.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:215
+#: 69ec5410a174436ba3bb44e37e26a060
+msgid ""
+"Street address, street number and area using latin characters.  "
+"Applicable for ``OA`` that do not have a management company."
+msgstr ""
 "Ταχυδρομική διεύθυνση με λατινικούς χαρακτήρες.  Αφορά ``ΥΕΟ`` χωρίς "
 "διαχειρίστρια εταιρεία·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:227
-#: 81199ec3378048d6a733bfeb42212bd7
-msgid "Πόλη κατοικίας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:230
-#: a994c8ad2ad54345874461b9b3adf9a7
+#: ../../source/domain/ifdat/categories/self_info.rst:219
+#: c7a28e751ef04a3e879a85527307359a
 msgid ""
+"City, village.  Applicable for ``OA`` that do not have a management "
+"company."
+msgstr "Πόλη κατοικίας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:222
+#: 295824cc78b14433a822c23d857fb89d
+msgid ""
+"City, village using latin characters.  Applicable for ``OA`` that do not "
+"have a management company."
+msgstr ""
 "Πόλη κατοικίας με λατινικούς χαρακτήρες.  Αφορά ``ΥΕΟ`` χωρίς "
 "διαχειρίστρια εταιρεία·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:234
-#: 197ac3b72d4649b185ae66880162f7d0
-msgid "Ταχυδρομικός κώδικας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:226
+#: ff27124dbd394895b7a236269b8edfee
+msgid "Postal code.  Applicable for ``OA`` that do not have a management company."
+msgstr "Ταχυδρομικός κώδικας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:243
-#: 8620ea8839374017b77e81e1e9e63c86
-msgid "Ηλεκτρονική διεύθυνση αλληλογραφίας (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:229
+#: db145b9bc559438bb53cb05ce9fe0e9f
+msgid "Postal box.  Applicable for ``OA`` that do not have a management company."
+msgstr "Ταχυδρομική θυρίδα. Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:249
+#: ../../source/domain/ifdat/categories/self_info.rst:232
+#: 4ef96b93e451406b99298a690ecfd77d
+msgid "Web address (if applicable)."
+msgstr "Διεύθυνση στο διαδίκτυο (κατά περίπτωση)·"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:235
+#: 9585b1e0240144ebbc0fe1479b9ef285
+msgid "Email (if applicable)."
+msgstr "Ηλεκτρονική διεύθυνση αλληλογραφίας (κατά περίπτωση)·"
+
+#: ../../source/domain/ifdat/categories/self_info.rst:241
 #: 2da35fd140a84bd8b195e882ee3d0c06
 msgid "IS LISTED (IS_LSTD)"
-msgstr ""
+msgstr "IS LISTED (IS_LSTD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:249
-#: 94be968e34da4d6baf61249df4056d6d
-msgid "Ένδειξη περί εισηγμένου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:241
+#: 5d59192d110d44a3b86978b632a6afb9
+msgid "Listed flag."
+msgstr "Ένδειξη περί εισηγμένου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:253
+#: ../../source/domain/ifdat/categories/self_info.rst:244
 #: f813f4ec1edd4e90ab501d6681609e8c
 msgid "IS INVESTMENT GRADED (IS_INVSTMNT_GRDD)"
-msgstr ""
+msgstr "IS INVESTMENT GRADED (IS_INVSTMNT_GRDD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:252
-#: 1f9c798cccb049229679d6568dfcccae
-msgid "Ένδειξη επενδυτικής βαθμίδας.  Αφορά ``ΥΕΟ`` που είναι νομικές οντότητες·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:244
+#: 786261bbf00647098b3154a9cc840c30
+msgid "Investment graded flag.  Applicable for legal entities ``OA``."
+msgstr "Ένδειξη επενδυτικής βαθμίδας.  Αφορά ``ΥΕΟ`` που είναι νομικές οντότητες·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:256
+#: ../../source/domain/ifdat/categories/self_info.rst:247
 #: 69e9d164b0ad46889b84587068973147
 msgid "IS INACTIVE (IS_INCTV)"
-msgstr ""
+msgstr "IS INACTIVE (IS_INCTV)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:256
-#: 7037cd4cc48b4196abf6d29cd46a6f09
-msgid "Ένδειξη κατάστασης αδράνειας·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:247
+#: 46da3ba41556414ea152f14705c9868b
+msgid "Inactivity flag."
+msgstr "Ένδειξη κατάστασης αδράνειας·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:259
+#: ../../source/domain/ifdat/categories/self_info.rst:250
 #: 270db78fade946a79ef1bfae5d0a0505
 msgid "IS UNDER LIQUIDATION (IS_UNDR_LQDTN)"
-msgstr ""
+msgstr "IS UNDER LIQUIDATION (IS_UNDR_LQDTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:259
-#: 9f24782f235c437ba19e4bc15d3342cb
-msgid "Ένδειξη καθεστώς εκκαθάρισης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:250
+#: 1e0fb7e705aa4108860655b2e4bb958a
+msgid "Liquidation flag."
+msgstr "Ένδειξη κατάστασης αδράνειας·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:266
+#: ../../source/domain/ifdat/categories/self_info.rst:256
 #: b6d5db5208ea46ed80bd3a48044fd484
 msgid "ACCOUNTS CURRENCY (ACCNTS_CRRNCY)"
-msgstr ""
+msgstr "ACCOUNTS CURRENCY (ACCNTS_CRRNCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:265
-#: e480a972afcc4173a583275be2c71d1b
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:256
+#: 1714464a9ca1470cafcae8a33ecc1902
+msgid "Financial statements currency choosing from ``GEN_CNTRY_ENUM``."
+msgstr ""
 "Νόμισμα στο οποίο εκφράζονται οι χρηματοοικονομικές καταστάσεις με "
 "επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:271
+#: ../../source/domain/ifdat/categories/self_info.rst:260
 #: 144a0045b4104622bdbc753a7b66d629
 msgid "INSTITUTIONAL SECTOR CONTROL (INSTTTNL_SCTR_CNTRL)"
-msgstr ""
+msgstr "INSTITUTIONAL SECTOR CONTROL (INSTTTNL_SCTR_CNTRL)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:269
-#: c75c0eaae4584699bfbe431a3cfa0c44
+#: ../../source/domain/ifdat/categories/self_info.rst:259
+#: 33fee6da96d04492ba0331f4e5b27c81
 msgid ""
+"Institutional sector control choosing from "
+"``ORG_INSTTTNL_SCTR_CNTRL_ENUM`` as defined in ESA2010 Chapter 2."
+msgstr ""
 "Είδος θεσμικού ελέγχου με επιλογή από τη λίστα τιμών "
 "``ORG_INSTTTNL_SCTR_CNTRL_ENUM`` που προκύπτει από το Κεφάλαιο 2 του "
 "ESA2010·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:275
+#: ../../source/domain/ifdat/categories/self_info.rst:264
 #: 98e658d4e4354d069a4c1f2010cba768
 msgid "SIZE (SZ)"
-msgstr ""
+msgstr "SIZE (SZ)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:274
+#: ../../source/domain/ifdat/categories/self_info.rst:263
 #: edf120e8b1b7467caae150dc440eec95
 msgid ""
+"Entity size choosing from ``ORG_SZ_ENUM`` according to ``Annex to "
+"Commission Recommendation 2033/361/EC``."
+msgstr ""
 "Μέγεθος με επιλογή από τη λίστα τιμών ``ORG_SZ_ENUM`` σύμφωνα με το "
 "``Annex to Commission Recommendation 2033/361/EC`` ·  Αφορά νομικές "
 "οντότητες."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:278
+#: ../../source/domain/ifdat/categories/self_info.rst:267
 #: 2e7024b58c0f41a5be20f7088cb68160
 msgid "LEGAL FORM (LGL_FRM)"
-msgstr ""
+msgstr "LEGAL FORM (LGL_FRM)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:278
+#: ../../source/domain/ifdat/categories/self_info.rst:267
 #: f0f8aaa1e078493494f095673e2f19b7
-msgid "Νομική μορφή με επιλογή από τη λίστα τιμών ``ORG_LGL_FRM_ENUM`` ·"
-msgstr ""
+msgid "Legal form choosign from ``ORG_LGL_FRM_ENUM``."
+msgstr "Νομική μορφή με επιλογή από τη λίστα τιμών ``ORG_LGL_FRM_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:281
+#: ../../source/domain/ifdat/categories/self_info.rst:270
 #: 4c4490bd0edf4c77baf38ed09a52d85a
 msgid "TYPE OF SUPERVISION (TYP_SPRVSN)"
-msgstr ""
+msgstr "TYPE OF SUPERVISION (TYP_SPRVSN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:281
+#: ../../source/domain/ifdat/categories/self_info.rst:270
 #: 95749c7a7ab14e099a9212d1246516f8
-msgid "Είδος εποπτείας με επιλογή από τη λίστα τιμών ``ORG_SPRVSN_TYP_ENUM`` ·"
-msgstr ""
+msgid "Type of supervision choosing from ``ORG_SPRVSN_TYP_ENUM`` ·"
+msgstr "Είδος εποπτείας με επιλογή από τη λίστα τιμών ``ORG_SPRVSN_TYP_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:286
+#: ../../source/domain/ifdat/categories/self_info.rst:275
 #: 26117a89c0e44f5f8e4a1c19e3fb00ae
 msgid "MANAGED BY (MNGD_BY)"
-msgstr ""
+msgstr "MANAGED BY (MNGD_BY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:286
-#: caf7297b677f4937997df26c8378756a
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:275
+#: 26ff3be5c2c7463293436688fc8b9bc6
+msgid "Management company identifier code (if applicable) (:ref:`org`)·"
+msgstr ""
 "Αναγνωριστικός κωδικός διαχειρίστριας εταιρείας (κατά περίπτωση) "
 "(:ref:`org`)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:290
+#: ../../source/domain/ifdat/categories/self_info.rst:279
 #: 6a29a2d9ef3b413894016f30a8aff579
 msgid "UNDER UMBRELLA BY (UNDR_UMBRLL_BY)"
-msgstr ""
+msgstr "UNDER UMBRELLA BY (UNDR_UMBRLL_BY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:289
-#: 7823f4b8651943af9df8a582fa3a39ca
+#: ../../source/domain/ifdat/categories/self_info.rst:278
+#: a3385168b08d402b8a83333795872054
 msgid ""
+"Identifier code of the umbrella fund that the ``OA`` is contained in (if "
+"applicable) (:ref:`org`)."
+msgstr ""
 "Αναγνωριστικός κωδικός οντότητας τύπου μανδύα (umbrella fund) στο οποίο "
 "περιλαμβάνεται ο ``ΥΕΟ`` (κατά περίπτωση), (:ref:`org`)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:293
+#: ../../source/domain/ifdat/categories/self_info.rst:282
 #: 0abba7359c96401c851f8352cf3c39a2
 msgid "TYPE (TYP)"
-msgstr ""
+msgstr "TYPE (TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:293
-#: 44285381488948bfb16e25be42d6a4a2
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:282
+#: 1739fef7e9954ec9bc5ae722a1b11c96
+msgid "Investment fund type choosing from ``FND_TYP_ENUM``."
+msgstr ""
 "Είδος επενδυτικού οργανισμού με επιλογή από τη λίστα τιμών "
 "``FND_TYP_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:296
+#: ../../source/domain/ifdat/categories/self_info.rst:285
 #: e2f671feab304f48892d13ec543614a5
 msgid "INVESTMENT POLICY (INVSTMNT_PLCY)"
-msgstr ""
+msgstr "INVESTMENT POLICY (INVSTMNT_PLCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:296
+#: ../../source/domain/ifdat/categories/self_info.rst:285
 #: 75de6b4e10f1416abd27fc20e0255af4
-msgid ""
+msgid "Investment policy choosing from ``FND_INVSTMNT_PLCY_ENUM``."
+msgstr ""
 "Επενδυτική πολιτική με επιλογή από τη λίστα τιμών "
 "``FND_INVSTMNT_PLCY_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:299
+#: ../../source/domain/ifdat/categories/self_info.rst:288
 #: 2684297e4f574d9e8b93ddc9def0cbdd
 msgid "SUBTYPE (SBTYP)"
-msgstr ""
+msgstr "SUBTYPE (SBTYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:299
+#: ../../source/domain/ifdat/categories/self_info.rst:288
 #: a93da78351dd4495ab88570af670da15
-msgid "Υποείδος με επιλογή από τη λίστα τιμών ``FND_SBTYP_ENUM`` ·"
-msgstr ""
+msgid "Investment fund subtype choosing from ``FND_SBTYP_ENUM``."
+msgstr "Υποείδος με επιλογή από τη λίστα τιμών ``FND_SBTYP_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:303
+#: ../../source/domain/ifdat/categories/self_info.rst:291
 #: f978977b5f4940f68912db157a573c23
 msgid "DISTRIBUTION TYPE (DSTRBTN_TYP)"
-msgstr ""
+msgstr "DISTRIBUTION TYPE (DSTRBTN_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:302
+#: ../../source/domain/ifdat/categories/self_info.rst:291
 #: fe30af5afa5149029fca08ac23735297
-msgid ""
+msgid "Dividend distribution type choosing from ``FND_DSTRBTN_TYP_ENUM``."
+msgstr ""
 "Μερισματική πολιτική με επιλογή από τη λίστα τιμών "
 "``FND_DSTRBTN_TYP_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:307
+#: ../../source/domain/ifdat/categories/self_info.rst:294
 #: f0b058a1856d459bb14b09fc40da08b9
 msgid "INVESTOR TYPE (INVSTR_TYP)"
-msgstr ""
+msgstr "INVESTOR TYPE (INVSTR_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:306
-#: a54563602ebb4384ba05f4bc918d809f
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:294
+#: 9e3e120c87444aad912db0b79e8a064a
+msgid "Investor type choosing from ``FND_INVSTR_TYP_ENUM``."
+msgstr ""
 "Είδος μετόχων/μεριδιούχων με επιλογή από τη λίστα τιμών "
 "``FND_INVSTR_TYP_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:311
+#: ../../source/domain/ifdat/categories/self_info.rst:297
 #: ef78d6f10add4127b76572daa53f3535
 msgid "GREEN TYPE (GRN_TYP)"
-msgstr ""
+msgstr "GREEN TYPE (GRN_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:310
-#: 039fbeff502741739f696cba9ce40177
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:297
+#: 8aec619736884ca289d5ed40880c4ebc
+msgid "Green type choosing from ``FND_GRN_ENUM`` (if applicable)."
+msgstr ""
 "Πράσινη κατηγορία με επιλογή από τη λίστα τιμών ``FND_GRN_ENUM`` (κατά "
 "περίπτωση)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:315
+#: ../../source/domain/ifdat/categories/self_info.rst:300
 #: b3247219865d4e369387480b21a6be0f
 msgid "STRATEGY (STRTGY)"
-msgstr ""
+msgstr "STRATEGY (STRTGY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:314
-#: 1d50e2562b9641c0962353315e524f61
-msgid "Επενδυτική στρατηγική με επιλογή από τη λίστα τιμών ``FND_STRTGY_ENUM`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:300
+#: 883a33c6642b45cc9b33e10a87e33a3f
+msgid "Investment strategy choosing from ``FND_STRTGY_ENUM``."
+msgstr "Επενδυτική στρατηγική με επιλογή από τη λίστα τιμών ``FND_STRTGY_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:319
+#: ../../source/domain/ifdat/categories/self_info.rst:303
 #: 993c3e6c0c09445788beea71feb01e4d
 msgid "GEOGRAPHICAL FOCUS (GGPHCL_FCS)"
-msgstr ""
+msgstr "GEOGRAPHICAL FOCUS (GGPHCL_FCS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:318
-#: 3b4c50fe7c57465ea6b35072976ce177
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:303
+#: 73b154b559e449d391eb5395f88bbb32
+msgid "Asset main geographical focus choosing from ``FND_GGRPHCL_FCS_ENUM``."
+msgstr ""
 "Γεωγραφική περιοχή της πλειοψηφίας των περιουσιακών στοιχείων με βάση την"
 " αξίας τους με επιλογή από τη λίστα τιμών ``FND_GGRPHCL_FCS_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:323
+#: ../../source/domain/ifdat/categories/self_info.rst:307
 #: b974aa483e9845e3aa6c0979ed67c5b2
 msgid "BOND FUND FOCUS (BND_FCS)"
-msgstr ""
+msgstr "BOND FUND FOCUS (BND_FCS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:322
-#: da97ef320b5d466d9de25cb2d124f01d
+#: ../../source/domain/ifdat/categories/self_info.rst:306
+#: a9497c985a3b4a82b9e271744019071d
 msgid ""
+"Bond fund sector focus choosing from ``FND_BND_FCS_ENUM``.  It is "
+"applicable only for investment funds with a bond policy type."
+msgstr ""
 "Κλαδική εστίαση χαρτοφυλακίου με επιλογή από τη λίστα τιμών "
 "``FND_BND_FCS_ENUM``.  Αφορά ομολογιακούς ``ΥΕΟ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:327
+#: ../../source/domain/ifdat/categories/self_info.rst:311
 #: a65db604ad9a40f4a45fa310690f56d5
 msgid "BOND FUND GRADE (BND_GRD)"
-msgstr ""
+msgstr "BOND FUND GRADE (BND_GRD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:326
-#: 4c210e6e1c9f4cb3b22afbc6530eec93
+#: ../../source/domain/ifdat/categories/self_info.rst:310
+#: 9a1ef290132e4d64819e727ea8872849
 msgid ""
+"Bond fund asset grade choosing from ``FND_BND_GRD_ENUM``. It is "
+"applicable only for investment funds with a bond policy type."
+msgstr ""
 "Επενδυτική βαθμίδα των περιουσιακών στοιχείων με επιλογή από τη λίστα "
 "τιμών ``FND_BND_GRD_ENUM``.  Αφορά ομολογιακούς ``ΥΕΟ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:331
+#: ../../source/domain/ifdat/categories/self_info.rst:314
 #: 734e4a787c10485d8ce191feb1aec57c
 msgid "REAL ESTATE FUND TYPE (RL_ESTT_TYP)"
-msgstr ""
+msgstr "REAL ESTATE FUND TYPE (RL_ESTT_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:330
-#: be2ce0d519d040818baceb5417c53b88
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:314
+#: d612246bd40c4ba58583ae902d6f4bc0
+msgid "Type of real estate fund choosing from ``FND_RL_ESTT_TYP_ENUM``."
+msgstr ""
 "Είδος χαρτοφυλακίου ακίνητης περιουσίας με επιλογή από τη λίστα τιμών "
 "``FND_RL_ESTT_TYP_ENUM``.  Αφορά ``ΥΕΟ`` ακίνητης περιουσίας·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:334
+#: ../../source/domain/ifdat/categories/self_info.rst:317
 #: c98ff7796eff4d618838c943a52781d8
 msgid "IS FUND OF FUND (IS_FOF)"
-msgstr ""
+msgstr "IS FUND OF FUND (IS_FOF)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:334
-#: 57cd51b8f89d4a158b7ba06430f7c273
-msgid "Ένδειξη περί επενδύσεων κυρίως σε άλλους ``ΕΟ`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:317
+#: 06c7dcc074d64dd19310767e2abb9f2a
+msgid "Fund of fund flag."
+msgstr "Ένδειξη περί επενδύσεων κυρίως σε άλλους ``ΕΟ`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:337
+#: ../../source/domain/ifdat/categories/self_info.rst:320
 #: 4de816f3808d4411a332298f750cad9d
 msgid "IS EXCHANGE TRADED FUND (IS_ETF)"
-msgstr ""
+msgstr "IS EXCHANGE TRADED FUND (IS_ETF)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:337
-#: 48abdceb16be43618df79fe06647b465
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:320
+#: 093c4516b69f452fb94306c302ef8c2b
+msgid "Exchange traded fund flag as defined in ECB/2014/5."
+msgstr ""
 "Ένδειξη περί διαπραγματεύσιμο αμοιβαίου κεφαλαίου όπως ορίζεται στην "
 "Κατευθυντήρια Γραμμή ΕΚΤ/2014/5 ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:341
+#: ../../source/domain/ifdat/categories/self_info.rst:323
 #: ad07996ac18d4d4f86f92c41b690c4c5
 msgid "IS PRIVATE EQUITY FUND (IS_PEF)"
-msgstr ""
+msgstr "IS PRIVATE EQUITY FUND (IS_PEF)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:340
-#: 23751294f57a4c199f7ee9112f7e20cd
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:323
+#: ced43305728948a6811c0c5337c84794
+msgid "Private equity fund as defined in ECB/2014/5."
+msgstr ""
 "Ένδειξη ότι πρόκειται για ιδιωτικό επενδυτικό κεφάλαιο όπως ορίζεται στις"
 " Κατευθυντήρια Γραμμή ΕΚΤ/2014/5·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:344
+#: ../../source/domain/ifdat/categories/self_info.rst:326
 #: ead747ff7ba649c79feedbc8b01adf9f
 msgid "DEBT"
-msgstr ""
+msgstr "DEBT"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:346
-#: b45b3c5129ef4788be98247e779aaf28
+#: ../../source/domain/ifdat/categories/self_info.rst:328
+#: 15c8322698c2487a8c2d8ae964241246
 msgid ""
+"Used to submit information data regarding debt instruments issued by the "
+"``OA``.  The measures of this table can take at most one value during the"
+" lifecycle of the debt instrument."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων που "
 "έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε "
 "παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του χρεογράφου."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:354
-#: bc2a2f5cb1eb454f9d81f36b2e5f9c1d
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:336
+#: ../../source/domain/ifdat/categories/self_info.rst:460
+#: 18e06bbb482f4f1ea433ebf68b746f6a a30ff706348446f4abe14d06e41c94bd
+msgid "Debt instrument identifier code (:ref:`dbt`)."
+msgstr ""
 "Ο αναγνωριστικός κωδικός του χρέογραφου που έχει εκδόσει ο ``ΥΕΟ`` "
 "(:ref:`dbt`)."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:362
-#: 8922ba29d4f3409c831bee3664ca0410
-msgid "Ημερομηνία έκδοσης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:344
+#: 0400750ab5454485b54e5c9f89c4fe70
+msgid "Issue date."
+msgstr "Ημερομηνία έκδοσης·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:367
-#: 5f37e43921234ff783fdff5cee9b4ea6
-msgid "Ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:349
+#: 4694de85adc94c7a8f1609aeef61bbda
+msgid "Maturity or redemption date (if applicable)."
+msgstr "Ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:370
+#: ../../source/domain/ifdat/categories/self_info.rst:352
 #: 5db81df4f72b4435b2bc2f5bde59fc03
 msgid "ORIGINAL MATURITY (ORGNL_MTRTY)"
-msgstr ""
+msgstr "ORIGINAL MATURITY (ORGNL_MTRTY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:370
-#: b5cb94ab9d62434980d3203e618355f1
-msgid "Αρχική ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:352
+#: 3bc3857dfb864dccaaf079534abc4f3c
+msgid "Original maturity or redemption date (if applicable)."
+msgstr "Αρχική ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:374
-#: ../../source/domain/ifdat/categories/self_info.rst:551
+#: ../../source/domain/ifdat/categories/self_info.rst:355
+#: ../../source/domain/ifdat/categories/self_info.rst:523
 #: 18b98ef47ee64f3cb6d01430e894a561 5d53cd94de444715bc3926c1bea758aa
 msgid "ISIN ID (ISIN_ID)"
-msgstr ""
+msgstr "ISIN ID (ISIN_ID)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:373
-#: a4b45dc62b384b818743e1ae168fad9c
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:355
+#: 0ccf0cfa62a248df985ffa84ce70b75c
+msgid "Debt identifier based on the ISIN ISO-6166 standard."
+msgstr ""
 "Αναγνωριστικός κωδικός του χρεογράφου ο οποίος αποδίδεται με βάση το "
 "πρότυπο ISO-6166·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:379
-#: ../../source/domain/ifdat/categories/self_info.rst:556
+#: ../../source/domain/ifdat/categories/self_info.rst:360
+#: ../../source/domain/ifdat/categories/self_info.rst:527
 #: a902d4519a204e4e849fd8eb48864da9 d9fb6fdf033f46eb8c3663a5e78daf48
 msgid "INTERNAL ID (INTRNL_ID)"
-msgstr ""
+msgstr "INTERNAL ID (INTRNL_ID)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:377
-#: 313bd348ad5a4f65b1618d560308fbd2
+#: ../../source/domain/ifdat/categories/self_info.rst:358
+#: 207b9944f7894cd7b76850c835357c76
 msgid ""
+"Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a "
+"placeholder for the code that the ``RA`` has assigned to the debt "
+"instrument."
+msgstr ""
 "Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση"
 " ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει "
 "αποδώσει στο χρεόγραφο·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:384
-#: ../../source/domain/ifdat/categories/self_info.rst:561
+#: ../../source/domain/ifdat/categories/self_info.rst:365
+#: ../../source/domain/ifdat/categories/self_info.rst:532
 #: 16b003d3c4fc4bbdbf921e1e2f6aecee e23f4c24cf954c8eac03859834dd1d97
 msgid "CURRENCY (CRRNCY)"
-msgstr ""
+msgstr "CURRENCY (CRRNCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:384
-#: ../../source/domain/ifdat/categories/self_info.rst:561
-#: 71c265e85e7d4582a4dda19e9d37ae18 c0bb897c9d564e33bcdd351588a10d90
-msgid "Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:365
+#: ../../source/domain/ifdat/categories/self_info.rst:532
+#: a99e980e1e5641479f4d021e2a7684f4
+msgid "Currency of transaction choosing from ``GEN_CNTRY_ENUM``."
+msgstr "Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:387
+#: ../../source/domain/ifdat/categories/self_info.rst:368
 #: eff0fc9c956e44ee91d911fc63b51dad
 msgid "ISSUE PRICE (ISS_PRC)"
-msgstr ""
+msgstr "ISSUE PRICE (ISS_PRC)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:387
-#: 9a8262139c814be78885fc96c765b783
-msgid "Τιμή έκδοσης εκφραζόμενη ως ποσοστό της ονομαστικής τιμής του·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:368
+#: 1f6ece3cdcc64c0d86af5b571df1ee3c
+msgid "Issue price given as a percentage of its nominal price."
+msgstr "Τιμή έκδοσης εκφραζόμενη ως ποσοστό της ονομαστικής τιμής του·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:390
+#: ../../source/domain/ifdat/categories/self_info.rst:371
 #: d0433e0a5acd4bc0af6be2f805d820dc
 msgid "REDEMPTION PRICE (RDMPTN_PRC)"
-msgstr ""
+msgstr "REDEMPTION PRICE (RDMPTN_PRC)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:390
-#: 3cc52c306d4646b9b0b3201a2e5f90e1
-msgid "Τιμή τελικής εξόφλησης εκφραζόμενη ως ποσοστό της ονομαστικής αξίας του·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:371
+#: 9966f056b37e4e86b63b06726d259b09
+msgid "Redemption price given as a percentage of its nominal price."
+msgstr "Τιμή τελικής εξόφλησης εκφραζόμενη ως ποσοστό της ονομαστικής αξίας του·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:394
-#: ../../source/domain/ifdat/categories/self_info.rst:565
+#: ../../source/domain/ifdat/categories/self_info.rst:374
+#: ../../source/domain/ifdat/categories/self_info.rst:535
 #: 5cd4b75a140845b39e6cf2bd1f3d4cab 77519d6e82174cb4a7ae22fd13a57582
 msgid "MARKET (MRKT)"
-msgstr ""
+msgstr "MARKET (MRKT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:393
-#: ../../source/domain/ifdat/categories/self_info.rst:564
-#: 3a0fe9eba4ec4ecca66b0a069947231c 7b8c0e34bd694a649c5a98abb6f3af15
+#: ../../source/domain/ifdat/categories/self_info.rst:374
+#: ../../source/domain/ifdat/categories/self_info.rst:535
+#: 03cb5108288e429f816c4e3b105b5fe4 92c48def7dbf4d7c9d72aca17a70c5f7
 msgid ""
+"Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 "
+"standard."
+msgstr ""
 "Η χρηματιστηριακή αγορά διαπραγμάτευσης με επιλογή από τη λίστα τιμών "
 "``GEN_MRKT_ENUM`` που προκύπτει από το πρότυπο ISO-10383·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:398
+#: ../../source/domain/ifdat/categories/self_info.rst:378
 #: 5ec59a4418904bfeb7681678a45fe747
 msgid "ACCRUAL STARTDATE (ACCRL_STRTDT)"
-msgstr ""
+msgstr "ACCRUAL STARTDATE (ACCRL_STRTDT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:397
-#: e5c7196bb71a4a919cfd8fbfb878c6ff
+#: ../../source/domain/ifdat/categories/self_info.rst:377
+#: cc88b46b10ea438c803db5c8993a6426
 msgid ""
+"Accrual start date.  In case of a couponless debt instrument the value of"
+" self_debt_birth_ is provided."
+msgstr ""
 "Αρχική ημερομηνία συσσώρευσης τοκομεριδίου.  Σε περίπτωση χρεογράφου "
 "δίχως τοκομερίδια συμπληρώνεται η τιμή της μεταβλητής self_debt_birth_ ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:401
+#: ../../source/domain/ifdat/categories/self_info.rst:381
 #: 21ac8bfa11184dcaa73bea7d9c774658
 msgid "PRIMARY CLASS (PRMRY_CLSS)"
-msgstr ""
+msgstr "PRIMARY CLASS (PRMRY_CLSS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:401
-#: 754e338340e54be1b263a7f8e0e24957
-msgid "Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``DBT_PRMRY_ENUM`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:381
+#: 71a9175560704d099f26efbb7d787cbf
+msgid "Primary class choosing from ``DBT_PRMRY_ENUM``."
+msgstr "Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``DBT_PRMRY_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:404
+#: ../../source/domain/ifdat/categories/self_info.rst:384
 #: 6854505071fe452098b00b5be33968ec
 msgid "GUARANTEE LEVEL (GRNT_LVL)"
-msgstr ""
+msgstr "GUARANTEE LEVEL (GRNT_LVL)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:404
+#: ../../source/domain/ifdat/categories/self_info.rst:384
 #: 7ab1b468bfa74076b49abc6f61f1076c
-msgid "Επίπεδο εγγύησης με επιλογή από τη λίστα τιμών ``DBT_GRNT_LVL_ENUM`` ·"
-msgstr ""
+msgid "Guarantee level choosing from ``DBT_GRNT_LVL_ENUM``."
+msgstr "Επίπεδο εγγύησης με επιλογή από τη λίστα τιμών ``DBT_GRNT_LVL_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:407
+#: ../../source/domain/ifdat/categories/self_info.rst:387
 #: a52bf297153348e5b9d8f7ce096a6541
 msgid "RANK LEVEL (RNK_LVL)"
-msgstr ""
+msgstr "RANK LEVEL (RNK_LVL)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:407
+#: ../../source/domain/ifdat/categories/self_info.rst:387
 #: 703b25f9fea74ce6ae5a6738d6257fd7
-msgid "Ταξινόμηση με επιλογή από τη λίστα τιμών ``DBT_RNK_LVL_ENUM`` ·"
-msgstr ""
+msgid "Rank level choosing from ``DBT_RNK_LVL_ENUM``."
+msgstr "Ταξινόμηση με επιλογή από τη λίστα τιμών ``DBT_RNK_LVL_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:410
+#: ../../source/domain/ifdat/categories/self_info.rst:390
 #: f640cb8391214edeabdc1e6fe2a78c43
 msgid "SECURITY LEVEL (SCRTY_LVL)"
-msgstr ""
+msgstr "SECURITY LEVEL (SCRTY_LVL)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:410
+#: ../../source/domain/ifdat/categories/self_info.rst:390
 #: 88e9a2d3f19547b8a71da2057f28c3db
-msgid "Επίπεδο ασφάλειας με επιλογή από τη λίστα τιμών ``DBT_SCRTY_LVL_ENUM`` ·"
-msgstr ""
+msgid "Security level choosing from ``DBT_SCRTY_LVL_ENUM``."
+msgstr "Επίπεδο ασφάλειας με επιλογή από τη λίστα τιμών ``DBT_SCRTY_LVL_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:413
+#: ../../source/domain/ifdat/categories/self_info.rst:393
 #: 6018391005704cafb29876f9a8d69f19
 msgid "IS SECURITIZATION (IS_SCRTZTN)"
-msgstr ""
+msgstr "IS SECURITIZATION (IS_SCRTZTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:413
-#: d3c6d9d2b4c84a3eb32b35e7f01d7b7e
-msgid "Ένδειξη τιτλοποίησης όπως ορίζεται στην Κατευθυντήρια Γραμμή ΕΚΤ/2015/15·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:393
+#: 114175ffdbb54e73ad4146487f7ca718
+msgid "Securitization flag as defined in ECB/2015/15."
+msgstr "Ένδειξη τιτλοποίησης όπως ορίζεται στην Κατευθυντήρια Γραμμή ΕΚΤ/2015/15·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:416
+#: ../../source/domain/ifdat/categories/self_info.rst:396
 #: 9984492b296f4880ac3602c32fc4389a
 msgid "SECURITIZATION TYPE (SCRTZTN_TYP)"
-msgstr ""
+msgstr "SECURITIZATION TYPE (SCRTZTN_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:416
+#: ../../source/domain/ifdat/categories/self_info.rst:396
 #: c78dd1810455415295a23e2d5f9a2c4b
-msgid ""
+msgid "Securitization type choosing from ``DBT_SCRTZTN_TYP_ENUM``."
+msgstr ""
 "Είδος τιτλοποίησης με επιλογή από τη λίστα τιμών ``DBT_SCRTZTN_TYP_ENUM``"
 " ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:420
+#: ../../source/domain/ifdat/categories/self_info.rst:399
 #: 444f4c749901470690df83fbbdfe7e1f
 msgid "IS COVERED (IS_CVRD)"
-msgstr ""
+msgstr "IS COVERED (IS_CVRD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:419
-#: 665939ddb33b48db803b756a30b83700
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:399
+#: cdd6f78448b444bf82e316f7d90df441
+msgid "Covered flag as defined in ECB/2014/60."
+msgstr ""
 "Ένδειξη καλυμμένης ομολογίας όπως ορίζεται στην Κατευθυντήρια Γραμμή "
 "ΕΚΤ/2014/60·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:423
+#: ../../source/domain/ifdat/categories/self_info.rst:402
 #: f892bf4a570e4dfea1fa607c41628e45
 msgid "COVERED TYPE (CVRD_TYP)"
-msgstr ""
+msgstr "COVERED TYPE (CVRD_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:423
-#: b3f966aff6a64204943cc792d1951e83
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:402
+#: 85b3ea53c5494e91839a6509c13b303f
+msgid "Covered type choosing from ``DBT_CVRD_TYP_ENUM``."
+msgstr ""
 "Είδος καλυμμένης ομολογίας με επιλογή από τη λίστα τιμών "
 "``DBT_CVRD_TYP_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:426
+#: ../../source/domain/ifdat/categories/self_info.rst:405
 #: 9afe6f38790244e8ad5bc4bdc26975aa
 msgid "COUPON TYPE (CPN_TYP)"
-msgstr ""
+msgstr "COUPON TYPE (CPN_TYP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:426
-#: 46b89a11b357452a986ce96a26b826d7
-msgid "Είδος τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_TYP_ENUM`` ·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:405
+#: 7ca2bacdb720407fb1237e0e102b6271
+msgid "Coupon type choosing from ``DBT_CVRD_TYP_ENUM``."
+msgstr "Είδος τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_TYP_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:429
+#: ../../source/domain/ifdat/categories/self_info.rst:408
 #: ae2b7348f1fa44fb8c4808dc5a338596
 msgid "COUPON CURRENCY (CPN_CRRNCY)"
-msgstr ""
+msgstr "COUPON CURRENCY (CPN_CRRNCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:429
-#: 7846324d95874abfa2f0d590c409bf16
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:408
+#: c310eecad6974612bfe04523b33588e0
+msgid "Coupon currency choosing from ``GEN_CRRNCY_ENUM`` ·"
+msgstr ""
 "Νόμισμα πληρωμής των τοκομεριδίων με επιλογή από τη λίστα τιμών "
 "``GEN_CRRNCY_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:432
+#: ../../source/domain/ifdat/categories/self_info.rst:411
 #: 82cab2fd2b7742b6b190aed92266b86f
 msgid "COUPON FREQUENCY (CPN_FRQNCY)"
-msgstr ""
+msgstr "COUPON FREQUENCY (CPN_FRQNCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:432
-#: 3f1f89e5b74b4bc5ba3edf14337d6394
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:411
+#: f35d6038478142edbabe11e310844576
+msgid "Coupon payment frequency choosing from ``DBT_CPN_FRQNCY_ENUM``."
+msgstr ""
 "Συχνότητα πληρωμής τοκομεριδίου με επιλογή από τη λίστα τιμών "
 "``DBT_CPN_FRQNCY_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:436
+#: ../../source/domain/ifdat/categories/self_info.rst:414
 #: 80d76aabe43e4e3cbf0e70743e7c500c
 msgid "COUPON RATE SPREAD (CPN_SPRD)"
-msgstr ""
+msgstr "COUPON RATE SPREAD (CPN_SPRD)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:435
-#: bc15e2fd49e24eed8103d2d777368acf
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:414
+#: 434428771ad246f7aaa79fe2813e4215
+msgid "Coupon rate spread given in basis points."
+msgstr ""
 "Περιθώριο επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια εκφραζόμενο σε"
 " μονάδες βάσης (basis points) ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:441
+#: ../../source/domain/ifdat/categories/self_info.rst:417
 #: ec596c916d41417ebcca27ef48f6f6b9
 msgid "COUPON RATE MULTIPLIER (CPN_MLTPLR)"
-msgstr ""
+msgstr "COUPON RATE MULTIPLIER (CPN_MLTPLR)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:439
-#: d543f9429f0b44aaa95cdff2e6c62699
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:417
+#: a776f3f41a1d4c3aa0d8ced54f70f878
+msgid "Coupon rate multiplier."
+msgstr ""
 "Πολλαπλασιαστής επιτοκίου για ομόλογα με κυμαινόμενα τοκομερίδια.  Για "
 "παράδειγμα ένα κυμαινόμενο τοκομερίδιο με επιτόκιο 3 φορές το εξαμηνιαίο "
 "EURIBOR συν 20 μονάδες βάσης ο πολλαπλασιαστής είναι ο 3·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:444
+#: ../../source/domain/ifdat/categories/self_info.rst:420
 #: 521ec216f7b24fa5a874c6e5a62a2ce2
 msgid "COUPON RATE CAP (CPN_CP)"
-msgstr ""
+msgstr "COUPON RATE CAP (CPN_CP)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:444
-#: c061737b50964afaa56f0229a8c659c7
-msgid "Μέγιστη τιμή του κυμαινόμενου τοκομεριδίου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:420
+#: 66adc026189b4c34b4980b07f29b8d83
+msgid "Maximum coupon rate."
+msgstr "Μέγιστη τιμή του κυμαινόμενου τοκομεριδίου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:447
+#: ../../source/domain/ifdat/categories/self_info.rst:423
 #: 8242d810c2874bcc911da73923448575
 msgid "COUPON RATE FLOOR (CPN_FLR)"
-msgstr ""
+msgstr "COUPON RATE FLOOR (CPN_FLR)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:447
-#: f0e2015c3aaa4559ae266b33081a5598
-msgid "Ελάχιστη τιμή του κυμαινόμενου τοκομεριδίου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:423
+#: 636f7ccb3c7e4082845a77dbfbc75530
+msgid "Minimum coupon rate."
+msgstr "Ελάχιστη τιμή του κυμαινόμενου τοκομεριδίου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:450
+#: ../../source/domain/ifdat/categories/self_info.rst:426
 #: 4506df3c2f5a4bf28c55ea4d9126d130
 msgid "FIRST COUPON DATE (FRST_CPN_DT)"
-msgstr ""
+msgstr "FIRST COUPON DATE (FRST_CPN_DT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:450
-#: 6d41c2a9086945448062176dcc48e687
-msgid "Ημερομηνία πληρωμής του πρώτου τοκομεριδίου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:426
+#: 114b292073034aaab45a268938465280
+msgid "Date of first coupon payment."
+msgstr "Ημερομηνία πληρωμής του πρώτου τοκομεριδίου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:453
+#: ../../source/domain/ifdat/categories/self_info.rst:429
 #: 7390dad9c8c74139a9e2a1c1b43eb153
 msgid "LAST COUPON DATE (LST_CPN_DT)"
-msgstr ""
+msgstr "LAST COUPON DATE (LST_CPN_DT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:453
-#: f46396c991864cf396513dad920d7ffc
-msgid "Ημερομηνία πληρωμής του τελικού τοκομεριδίου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:429
+#: 59ebf03530764c20bd5e150dcc4c5642
+msgid "Date of last coupon payment."
+msgstr "Ημερομηνία πληρωμής του τελικού τοκομεριδίου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:457
+#: ../../source/domain/ifdat/categories/self_info.rst:432
 #: 3e2a7f7e615f4eecac60e1c4aafd675e
 msgid "UNDERLYING INSTRUMENT (UNDRLYNG)"
-msgstr ""
+msgstr "UNDERLYING INSTRUMENT (UNDRLYNG)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:456
-#: 92e79d623bf8439a891a79ad693bf89b
+#: ../../source/domain/ifdat/categories/self_info.rst:432
+#: 1dacd4992ecd4f1da3f8cd5fca90b8e6
 msgid ""
+"Underlying debt instrument that the coupon payment depends on "
+"(:ref:`dbt`)."
+msgstr ""
 "Αναγνωριστικός κωδικός χρεογράφου από το οποίο προκύπτει το κυμαινόμενο "
 "τοκομερίδιο (:ref:`dbt`)·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:460
+#: ../../source/domain/ifdat/categories/self_info.rst:435
 #: a244481996f2400581f4c446d8ba4984
 msgid "MINIMUM LEVEL OF INVESTMENT (MNMM_INVSTMNT)"
-msgstr ""
+msgstr "MINIMUM LEVEL OF INVESTMENT (MNMM_INVSTMNT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:460
-#: 5095bf228cf94e73986247effa055aa4
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:435
+#: bea4b39f8e12488494ea8cd3424b656b
+msgid "Minimum level of investment given in the currency of the debt instument."
+msgstr ""
 "Ελάχιστο ονομαστικό ποσό επένδυσης εκφραζόμενο στο νόμισμα συναλλαγής του"
 " χρεογράφου·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:463
+#: ../../source/domain/ifdat/categories/self_info.rst:438
 #: 499afae626d14f5d856320253e0c6e22
 msgid "IS PRIVATE PLACEMENT (PRVT)"
-msgstr ""
+msgstr "IS PRIVATE PLACEMENT (PRVT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:463
-#: ff29e9b0bf384492a92ef2ba66ea7e1f
-msgid "Ένδειξη περί ιδιωτικής τοποθέτησης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:438
+#: 7316b34120e640b487555c3b22336877
+msgid "Private placement flag."
+msgstr "Ένδειξη περί ιδιωτικής τοποθέτησης·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:468
+#: ../../source/domain/ifdat/categories/self_info.rst:443
 #: 9b07034a72d24ff6b4627653d92ad1e4
 msgid "RESTRUCTURED TO (RSTRCTRD_T)"
-msgstr ""
+msgstr "RESTRUCTURED TO (RSTRCTRD_T)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:466
-#: ec9c29ad4bbd4de3917b8086c1fbcb3d
+#: ../../source/domain/ifdat/categories/self_info.rst:441
+#: 46524cbf6ebd44d8b4930890b36c1302
 msgid ""
+"In case of restructure to a new debt instrument the identifier code of "
+"the new debt instrument is provided and self_debt_close_ is filled with "
+"the date of restructure (:ref:`dbt`)."
+msgstr ""
 "Σε περίπτωση αναδιάρθρωσης σε νέο χρεόγραφο συμπληρώνεται ο "
 "αναγνωριστικός κωδικός του νέου χρεογράφου καθώς και η self_debt_close_ "
-"με την ημερομηνία αναδιάρθρωσης·"
-msgstr ""
+"με την ημερομηνία αναδιάρθρωσης (:ref:`dbt`)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:474
+#: ../../source/domain/ifdat/categories/self_info.rst:447
 #: d373d8911aec432b806b264b6c20ce64
 msgid "RESTRUCTURED FROM (RSTRCTRD_FRM)"
-msgstr ""
+msgstr "RESTRUCTURED FROM (RSTRCTRD_FRM)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:471
-#: 8db11e7822394e49a1b91d5b0fbc1bc3
+#: ../../source/domain/ifdat/categories/self_info.rst:446
+#: 9330a633baf6415c9855df46d9cee5e1
 msgid ""
+"In case that the debt instrument originated from a loan restructure the "
+"identifier code of the loan is provided (:ref:`lon`)."
+msgstr ""
 "Σε περίπτωση που το χρεόγραφο προήλθε από αναδιάρθρωση δανείου "
 "συμπληρώνεται ο αναγνωριστικός κωδικός του δανείου από το οποίο προήλθε "
-"το χρεόγραφο·"
-msgstr ""
+"το χρεόγραφο (:ref:`lon`)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:477
+#: ../../source/domain/ifdat/categories/self_info.rst:450
 #: 5ccf2d71885e4c5aa662e8e958667d16
 msgid "STATIC_DEBT"
-msgstr ""
+msgstr "STATIC_DEBT"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:479
-#: 74ef31d998d84da09d40ed7883f91c32
+#: ../../source/domain/ifdat/categories/self_info.rst:452
+#: a5f40da0084d4b518ab95f1f249fddb5
 msgid ""
+"Used to submit information data regarding debt instruments issued by the "
+"``OA``.  The measures of this table can change during the lifecycle of "
+"the debt instrument."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των χρεογράφων που"
 " έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη "
 "διάρκεια του κύκλου ζωής του χρεογράφου."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:487
-#: 5535451ff592473d8dc7247c481dc14b
-msgid ""
-"Ο αναγνωριστικός κωδικός του χρεογράφου που έχει εκδώσει ο ``ΥΕΟ`` "
-"(:ref:`shr`)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:474
+#: ../../source/domain/ifdat/categories/self_info.rst:568
+#: 113b941a34a447c3a88ced5da75d1c97 8038cc8162b640dd9f60496371705512
+msgid "Name."
+msgstr "Ονομασία·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:501
-#: ../../source/domain/ifdat/categories/self_info.rst:598
-#: 62b1251742784835b5bd709e4d1c89c4 9e76967c76f74becae810c6bdfa663b8
-msgid "Ονομασία·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:477
+#: ../../source/domain/ifdat/categories/self_info.rst:571
+#: 4d626c258e0748d1b0115062553edd3f a4851c8c803b490487c58a0d61ba5d90
+msgid "Name using latin characters."
+msgstr "Ονομασία με λατινικούς χαρακτήρες·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:504
-#: ../../source/domain/ifdat/categories/self_info.rst:601
-#: 31f7ae75bac44b3a95e9c6c370201b1e 41a24807561740ab8faff83115d437d0
-msgid "Ονομασία με λατινικούς χαρακτήρες·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:507
-#: ../../source/domain/ifdat/categories/self_info.rst:604
-#: 6151029c79a74fdeb299ed9c0349eb60 c10df918ce7243ccac19ffd717179c13
-msgid "Διακριτικός τίτλος·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:510
+#: ../../source/domain/ifdat/categories/self_info.rst:483
 #: 7a69eb5866374a398a6f12dcf6e7528c
 msgid "STATUS (STTS)"
-msgstr ""
+msgstr "STATUS (STTS)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:510
+#: ../../source/domain/ifdat/categories/self_info.rst:483
 #: ecf95958e7de43e79277e938f6b5c4b1
-msgid "Κατάσταση με επιλογή από τη λίστα τιμών ``DBT_STTS_ENUM`` ·"
-msgstr ""
+msgid "Instrument status choosing from ``DBT_STTS_ENUM``."
+msgstr "Κατάσταση με επιλογή από τη λίστα τιμών ``DBT_STTS_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:515
+#: ../../source/domain/ifdat/categories/self_info.rst:486
 #: 287d5b59fe5a42ab98f02796db3e37ef
 msgid "MATURITY DATE (MTRTY_DT)"
-msgstr ""
+msgstr "MATURITY DATE (MTRTY_DT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:513
-#: f8f691fbc86940a5928b1497c43c511c
+#: ../../source/domain/ifdat/categories/self_info.rst:486
+#: fa7c5f79cfb9418b8d301efc33971c26
 msgid ""
+"Maturity or redumption date (if applicable).  In some rare circumstances "
+"this date can change during the lifecycle of the instrument and in this "
+"case self_debt_close_ is updated."
+msgstr ""
 "Ημερομηνία λήξης ή εξόφλησης (κατά περίπτωση).  Είναι δυνατό αυτή η "
 "ημερομηνία να τροποποιηθεί κατά τη διάρκεια του κύκλου ζωής του "
 "χρεογράφου. Σε αυτή τη περίπτωση αναθεωρείται η τιμή της self_debt_close_"
 " ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:518
-#: ../../source/domain/ifdat/categories/self_info.rst:607
+#: ../../source/domain/ifdat/categories/self_info.rst:489
+#: ../../source/domain/ifdat/categories/self_info.rst:577
 #: ab989d5841394fceafa98d1c32553b9b cbd94170be854d11a9774ea720422d43
 msgid "ISSUED BY (ISSD_BY)"
-msgstr ""
+msgstr "ISSUED BY (ISSD_BY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:518
-#: 5f4ac62b6abc492daa2b6c913f4549a2
-msgid "Αναγνωριστικός κωδικός του εκδότη·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:489
+#: ../../source/domain/ifdat/categories/self_info.rst:577
+#: 572bd1d8a21348238ab4346c7639e55f 81153dcc15c6412dbeac5034ebf62929
+msgid "Issuer identification code (:ref:`org`)."
+msgstr "Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)· "
 
-#: ../../source/domain/ifdat/categories/self_info.rst:524
-#: ../../source/domain/ifdat/categories/self_info.rst:613
+#: ../../source/domain/ifdat/categories/self_info.rst:495
+#: ../../source/domain/ifdat/categories/self_info.rst:583
 #: 4d44059b18f9466e87e3c2c42e556323 ecab374090454231a7f1597b128052d4
 msgid "CFI"
-msgstr ""
+msgstr "CFI"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:521
-#: ../../source/domain/ifdat/categories/self_info.rst:613
-#: 4e27f0fa5e0a4bc582e080a5de2b491b dd52fd009689404f9b230edda09c3b46
-msgid "Κατηγοριοποίηση με βάση το πρότυπο ISO-10962·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:492
+#: ../../source/domain/ifdat/categories/self_info.rst:583
+#: 010d1b5e197e48bead0a5a660056abdd 2098521251a342a1adbc73a53f5c4d51
+msgid "Instrument category based on ISO-10962 standard."
+msgstr "Κατηγοριοποίηση με βάση το πρότυπο ISO-10962·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:527
+#: ../../source/domain/ifdat/categories/self_info.rst:498
 #: f1845cdf45cc49f0bc51f256877059db
 msgid "SHARE"
-msgstr ""
+msgstr "SHARE"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:529
-#: 584a9e12c71b4fa0ab1e0cb2a5fed944
+#: ../../source/domain/ifdat/categories/self_info.rst:500
+#: 51218d308b234ce4b54530c2849cba42
 msgid ""
+"Used to submit information data regarding equity/investment fund shares "
+"issued by the ``OA``.  The measures of this table can take at most one "
+"value during the lifecycle of the debt instrument."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των "
 "μετοχών/μεριδίων που έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά είτε "
 "ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου "
 "ζωής της μετοχής/μεριδίου."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:537
-#: f2976207c73245da8e88f01616e131b0
-msgid ""
+#: ../../source/domain/ifdat/categories/self_info.rst:509
+#: ../../source/domain/ifdat/categories/self_info.rst:554
+#: 25eb4e9dbb014cc0ac128504896aab3f bb41b9243336441b83f35cf08c6f64cb
+msgid "Identifier code of the share/investment fund unit (:ref:`shr`)."
+msgstr ""
 "Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδώσει ο "
 "``ΥΕΟ`` (:ref:`shr`)."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:543
-#: 0de7d68774c04619b02155cc318bdbae
-msgid "Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:515
+#: c963c21786364c4a99197c4a0f1896ed
+msgid "Issue date, activation date, initialization date."
+msgstr "Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:548
-#: 16514974ddd04ab4b69d07ce81753fab
-msgid "Ημερομηνία λήξης (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:523
+#: 5fff739cec474898a4b1a516c430d615
+msgid "Instrument identifier based on the ISIN ISO-6166 standard."
+msgstr "Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:551
-#: d7d64081a1704740aebeca660936155e
-msgid "Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:554
-#: 34613f0c8335454a97f0420a6acac663
+#: ../../source/domain/ifdat/categories/self_info.rst:526
+#: 7c0c24aee28d42189ef1c457886a592d
 msgid ""
+"Internal identifier formatted as ``{UID}_{CODE}`` where ``CODE`` is a "
+"placeholder for the code that the ``RA`` has assigned to the instrument."
+msgstr ""
 "Εσωτερικός αναγνωριστικός κωδικός της μορφής ``{UID}_{CODE}`` όπου η θέση"
 " ``CODE`` αντικαθίσταται με τον εσωτερικό κωδικό που η ``ΜΠΣ`` έχει "
 "αποδώσει στη μετοχή/μερίδιο·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:571
+#: ../../source/domain/ifdat/categories/self_info.rst:541
 #: 62e4dd8f7eee4e3f95643fc90bc2ccab
 msgid "RESTRUCTURED TO (RESTRUCTURED_TO)"
-msgstr ""
+msgstr "RESTRUCTURED TO (RESTRUCTURED_TO)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:568
-#: 43483313e4f44e5ba1335a0c43bf486d
+#: ../../source/domain/ifdat/categories/self_info.rst:538
+#: 9dcfc99bda7f4cc495f19e42351596a3
 msgid ""
+"In case of restructure to a new share/investment fund instrument the "
+"identifier code of the new instrument is provided and sishareclose_ is "
+"filled with the date of restructure (:ref:`shr`)."
+msgstr ""
 "Σε περίπτωση αναδιάρθρωσης σε νέα μετοχή/μερίδιο συμπληρώνεται ο "
 "αναγνωριστικός κωδικός της νέας μετοχής/μεριδίου καθώς και η "
-"sishareclose_ με την ημερομηνία αναδιάρθρωσης."
-msgstr ""
+"sishareclose_ με την ημερομηνία αναδιάρθρωσης (:ref:`shr`)."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:574
+#: ../../source/domain/ifdat/categories/self_info.rst:544
 #: e70eb658704e48c59543021196e22b19
 msgid "STATIC_SHARE"
-msgstr ""
+msgstr "STATIC_SHARE"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:576
-#: 6c0cc634866f4fddb41f41289d697c9e
+#: ../../source/domain/ifdat/categories/self_info.rst:546
+#: 732fb2a1cd8d4eef950fe50ccb16abc0
 msgid ""
+"Used to submit information data regarding equity/investment fund shares "
+"issued by the ``OA``.  The measures of this table can change during the "
+"lifecycle of the instrument."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των "
 "μετοχών/μεριδίων που έχει εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να "
 "μεταβληθούν κατά τη διάρκεια του κύκλου ζωής της μετοχής/μεριδίου."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:584
-#: b962e6d7d47643289954d4b679a41431
-msgid ""
-"Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο "
-"``ΥΕΟ`` (:ref:`shr`)."
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:607
-#: 85993c2d884948b690f9fab4de72deb8
-msgid "Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)·"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories/self_info.rst:610
+#: ../../source/domain/ifdat/categories/self_info.rst:580
 #: b353e3512ba04a38bf815ea8fb840ef1
 msgid "NOMINAL_PRICE (NMNL_PRC)"
-msgstr ""
+msgstr "NOMINAL_PRICE (NMNL_PRC)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:610
-#: cfc12c0a9e7e40feac67af8fba25662e
-msgid "Ονομαστική τιμή·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:580
+#: 86e06beb845b47be9874edafb4605c0e
+msgid "Nominal price."
+msgstr "Ονομαστική τιμή·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:616
+#: ../../source/domain/ifdat/categories/self_info.rst:586
 #: b56a8591af9546f48c3a373c8ba0af7d
 msgid "REDEMPTION FREQUENCY (RDMPTN_FRQNCY)"
-msgstr ""
+msgstr "REDEMPTION FREQUENCY (RDMPTN_FRQNCY)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:616
+#: ../../source/domain/ifdat/categories/self_info.rst:586
 #: d96035f6d4e343598106bdd35d970c5f
-msgid ""
+msgid "Redemption frequency choosing from ``SHR_FND_RDMPTN_FRQNCY_ENUM``."
+msgstr ""
 "Συχνότητα εξαγοράς με επιλογή από τη λίστα τιμών "
 "``SHR_FND_RDMPTN_FRQNCY_ENUM`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:621
+#: ../../source/domain/ifdat/categories/self_info.rst:591
 #: c97be5e17d814c2895b4b0e02aeef0ef
 msgid "MINIMUM AMOUNT (MNMM_AMNT)"
-msgstr ""
+msgstr "MINIMUM AMOUNT (MNMM_AMNT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:619
-#: 34400f3a6ddc4312bdde7377beddccc9
-msgid "Ελάχιστο ποσό συμμετοχής (κατά περίπτωση)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:589
+#: 3c0cd09982b84dbf9b0e928420179956
+msgid "Minimum investment amount (if applicable)."
+msgstr "Ελάχιστο ποσό συμμετοχής (κατά περίπτωση)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:624
+#: ../../source/domain/ifdat/categories/self_info.rst:594
 #: 4ea5d3f9c7414b5ea78914bbcaf66265
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTACT"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:626
-#: 6e4a10eb18ab48c8a887e56f34d60442
+#: ../../source/domain/ifdat/categories/self_info.rst:596
+#: a40192e818144b249542f3aa4a46dab4
 msgid ""
+"It is used for the submission of information data regarding the contact "
+"persons that submit data on behalf of the ``RA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των προσώπων "
 "επικοινωνίας που παρέχουν στοιχεία εκ μέρους της ``ΜΠΣ``."
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:633
-#: ../../source/domain/ifdat/categories/self_info.rst:670
-#: 1f735f49461c4451b06d3886361ce89c 6260b9548abb44768a0d7e86bacf600b
-msgid "Ο αναγνωριστικός κωδικός του προσώπου επικοινωνίας (:ref:`psn`)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:603
+#: ../../source/domain/ifdat/categories/self_info.rst:640
+#: 4ac421b2b0b64dfba40cd1fd50941f18 e5a608ed9e4d4503aad9d991b25c8225
+msgid "Contact person identifier code (:ref:`psn`)."
+msgstr "Ο αναγνωριστικός κωδικός του προσώπου επικοινωνίας (:ref:`psn`)."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:639
-#: 718872225e7043c29d3b09773653b65b
-msgid "Διεύθυνση ηλεκτρονικού ταχυδρομείου (email)·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:609
+#: 814136d0f9d14139a725bbedf3d090e7
+msgid "Email address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου (email)·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:642
+#: ../../source/domain/ifdat/categories/self_info.rst:612
 #: b5837a4ade1c4a2987f2068157b284ac
 msgid "FIRST NAME (FRST)"
-msgstr ""
+msgstr "FIRST NAME (FRST)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:642
-#: 03fd0e3a580d4ea980639b961fd22403
-msgid "Όνομα·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:612
+#: e81aa435378b44c2a8af36bb39852193
+msgid "First name."
+msgstr "Όνομα·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:645
+#: ../../source/domain/ifdat/categories/self_info.rst:615
 #: fe0e8cfafd5d4b90b811d6e29359dd5d
 msgid "SALUTATION OF FIRST NAME (FRST_SLTTN)"
-msgstr ""
+msgstr "SALUTATION OF FIRST NAME (FRST_SLTTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:645
-#: c55f507db97d49009b1c5903b196d0fc
-msgid "Προσφώνηση ονόματος·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:615
+#: ac45581982cb4007b3c97c55756aa3f9
+msgid "Salutation of first name."
+msgstr "Προσφώνηση ονόματος·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:648
+#: ../../source/domain/ifdat/categories/self_info.rst:618
 #: cc07e7112dd442a0aefa700a7ca37fcd
 msgid "LAST NAME (LST)"
-msgstr ""
+msgstr "LAST NAME (LST)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:648
-#: 348e7819da0840b2815090c43cfad9f6
-msgid "Επώνυμο·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:618
+#: 6cd9722147d745d9ac6f39ac124f818b
+msgid "Last name."
+msgstr "Επώνυμο· "
 
-#: ../../source/domain/ifdat/categories/self_info.rst:651
+#: ../../source/domain/ifdat/categories/self_info.rst:621
 #: 39924f11307648d28f5e3ffe0baf8edf
 msgid "SALUTATION OF LAST NAME (LST_SLTTN)"
-msgstr ""
+msgstr "SALUTATION OF LAST NAME (LST_SLTTN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:651
-#: 982eef62f5e04a37b9c33d182f08d2ee
-msgid "Προσφώνηση επωνύμου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:621
+#: 3744d5affb2449d1a8079abee752dde3
+msgid "Last name salutation."
+msgstr "Προσφώνηση επωνύμου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:654
+#: ../../source/domain/ifdat/categories/self_info.rst:624
 #: 38f7e8333e79413189cc6a0072ee16f1
 msgid "GENDER (GNDR)"
-msgstr ""
+msgstr "GENDER (GNDR)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:654
+#: ../../source/domain/ifdat/categories/self_info.rst:624
 #: 0498e650f6ac453e87d2a92d6ab6058d
-msgid "Φύλλο με επιλογή από τη λίστα τιμών ``GEN_GNDR_ENUM`` ·"
-msgstr ""
+msgid "Gender choosing from ``GEN_GNDR_ENUM``."
+msgstr "Φύλλο με επιλογή από τη λίστα τιμών ``GEN_GNDR_ENUM`` ·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:658
+#: ../../source/domain/ifdat/categories/self_info.rst:628
 #: 4b93cac004c44c2481e080a756f765a6
 msgid "PHONE (PHN)"
-msgstr ""
+msgstr "PHONE (PHN)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:657
-#: 44d7a52a60e540058744ccbacd8e4937
-msgid "Τηλέφωνο επικοινωνίας·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:627
+#: 6a033e679f1e4e1eae7059047b03c663
+msgid "Phone."
+msgstr "Τηλέφωνο επικοινωνίας·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:661
+#: ../../source/domain/ifdat/categories/self_info.rst:631
 #: dca65420f1cd4951891f5943265c1958
 msgid "CONTACT_TO_RA"
-msgstr ""
+msgstr "CONTACT_TO_RA"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:663
-#: f6379ea6981c40c3ac99c130d721ad21
+#: ../../source/domain/ifdat/categories/self_info.rst:633
+#: 95f1b136adf94a829760cbd128d60830
 msgid ""
+"Used to provide information data regarging the labor relationship between"
+" the contact person and the ``RA``."
+msgstr ""
 "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων σε σχέση με την "
 "εργασιακή σχέση μεταξύ του προσώπου επικοινωνίας και της ``ΜΠΣ`` ·"
-msgstr ""
 
-#: ../../source/domain/ifdat/categories/self_info.rst:670
+#: ../../source/domain/ifdat/categories/self_info.rst:640
 #: 4317e5884b1746fb94e4cd4fea28e680
 msgid "LID"
-msgstr ""
+msgstr "LID"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:673
+#: ../../source/domain/ifdat/categories/self_info.rst:643
 #: 6e47c8655c264f99b6a705d929a43532
 msgid "RID"
-msgstr ""
+msgstr "RID"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:673
-#: a6f676d0ad7a484fa9b86a246c27d3d4
-msgid "Ο αναγνωριστικός κωδικός της ``ΜΠΣ`` (:ref:`org`)."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:643
+#: 9c45be17bfbd4f759b87d8fc0a71275d
+msgid "``RA`` identifier code (:ref:`org`)."
+msgstr "Ο αναγνωριστικός κωδικός της ``ΜΠΣ`` (:ref:`org`)."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:687
+#: ../../source/domain/ifdat/categories/self_info.rst:657
 #: 3bdf04496bf64d87a9c4cfc750d54734
 msgid "ASSOCIATED_WITH (ASSCTD_WTH)"
-msgstr ""
+msgstr "ASSOCIATED_WITH (ASSCTD_WTH)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:687
-#: 3ca718fde0bb4f5193ef4277e7254840
-msgid "Ένδειξη περί εργασιακής σχέσης·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:657
+#: 8057a607d39747098db5333d1c0ed50d
+msgid "Association flag"
+msgstr "Ένδειξη περί εργασιακής σχέσης·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:690
+#: ../../source/domain/ifdat/categories/self_info.rst:660
 #: 81ef98c1c1f14e47b118a7feefc65a9d
 msgid "IS EMPLOYEE OF (IS_EMPLY_OF)"
-msgstr ""
+msgstr "IS EMPLOYEE OF (IS_EMPLY_OF)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:690
-#: 749f3f718bc448b5af8da7dca4e8bfaf
-msgid "Ένδειξη περί μισθωτού εργαζόμενου·"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:660
+#: 73512499e93a44b89d5e6d04bd129a30
+msgid "Employee flag."
+msgstr "Ένδειξη περί μισθωτού εργαζόμενου·"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:693
+#: ../../source/domain/ifdat/categories/self_info.rst:663
 #: 52ead38cba434527bb842f2f9608793a
 msgid "IS CONTRACTOR OF (IS_CNTRCTR_OF)"
-msgstr ""
+msgstr "IS CONTRACTOR OF (IS_CNTRCTR_OF)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:693
-#: c858fdc52b1449279b694b61b6c640ad
-msgid "Ένδειξη περί εξωτερικού συνεργάτη."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:663
+#: 3eeb62abbaa3406da2db762e22ea5bca
+msgid "Contractor flag."
+msgstr "Ένδειξη περί εξωτερικού συνεργάτη."
 
-#: ../../source/domain/ifdat/categories/self_info.rst:696
+#: ../../source/domain/ifdat/categories/self_info.rst:666
 #: f0a4b16f854d4c43980e0ee25454543e
 msgid "WORKS FOR (WRKS_FR)"
-msgstr ""
+msgstr "WORKS FOR (WRKS_FR)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:696
-#: e3f65510b6ff44f1aa6ecbca351c6c4c
-msgid "Διεύθυνση στην ``ΜΠΣ`` με την οποία σχετίζεται το πρόσωπο επικοινωνίας"
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:666
+#: 5aa6d09ce1984842a267378e07571706
+msgid "Department within the ``RA`` with which the contact person works for."
+msgstr "Διεύθυνση στην ``ΜΠΣ`` με την οποία σχετίζεται το πρόσωπο επικοινωνίας"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:698
+#: ../../source/domain/ifdat/categories/self_info.rst:668
 #: e0be592ba5ea40739160cb96a38ee330
 msgid "RESPONSIBLE FOR IFDAT (RSPNSBL_FR_IFDAT)"
-msgstr ""
+msgstr "RESPONSIBLE FOR IFDAT (RSPNSBL_FR_IFDAT)"
 
-#: ../../source/domain/ifdat/categories/self_info.rst:699
-#: 786699654d4643909883c14938e62a65
-msgid "Υπεύθυνος για τα στοιχεία ``IFDAT`` της ``ΜΠΣ``."
-msgstr ""
+#: ../../source/domain/ifdat/categories/self_info.rst:669
+#: eef5a1d18ad147b7ab3bf313528d4d53
+msgid "Flag if responsible for disseminating ``IFDAT`` data."
+msgstr "Υπεύθυνος για τα στοιχεία ``IFDAT`` της ``ΜΠΣ``."
 
+#~ msgid "SELF_INFO: Πληροφοριακά στοιχεία ίδιου λογαριασμού"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων των χρηματοοικονομικών μέσων που"
+#~ " έχουν εκδώσει οι ``ΥΕΟ``, της "
+#~ "``ΜΠΣ`` σε περίπτωση που τα στοιχεία "
+#~ "υποβάλλονται από διαχειρίστρια εταιρεία και"
+#~ " των προσώπων επικοινωνίας που είναι "
+#~ "υπεύθυνα για την παροχή των στοιχείων"
+#~ " εκ μέρους της ``ΜΠΣ``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Στις παρακάτω ενότητες περιγράφονται οι "
+#~ "διαστάσεις και οι μεταβλητές του κάθε"
+#~ " πίνακα."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων της ``ΜΠΣ`` σε περίπτωση "
+#~ "που η ``ΜΠΣ`` είναι διαχειρίστρια "
+#~ "εταιρεία.  Τα στοιχεία αυτά είτε "
+#~ "ορίζονται μια φορά είτε παραμένουν "
+#~ "σταθεϱά κατά τη διάρκεια του κύκλου "
+#~ "ζωής της διαχειρίστριας εταιρείας."
+#~ msgstr ""
+
+#~ msgid "ΔΙΑΣΤΑΣΕΙΣ"
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός της διαχειρίστριας εταιρείας (:ref:`org`)."
+#~ msgstr ""
+
+#~ msgid "ΜΕΤΑΒΛΗΤΕΣ"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία σύστασης·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία λύσης (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid "Χώρα σύστασης με επιλογή από τη λίστα τιμών `GEN_CNTRY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αναγνωριστικός κωδικός που αποδίδεται από "
+#~ "το ``ΕΣΚΤ``.  Είναι γνωστός και ως "
+#~ "``RIAD code`` ·"
+#~ msgstr ""
+
+#~ msgid "Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός φορολογικού μητρώου"
+#~ " της μορφής ``{CC}{CODE}`` όπου η "
+#~ "θέση ``CC`` αντικαθίσταται με τον "
+#~ "διψήφιο κωδικό χώρας ISO 3166-1 alpha-2"
+#~ " που έχει εκδώσει τον αναγνωριστικό "
+#~ "κωδικό και η θέση ``CODE`` με τον"
+#~ " επίσημο αναγνωριστικό κωδικό φορολογικού "
+#~ "μητρώου χωρίς τον διψήφιο κωδικό χώρας"
+#~ " αν ξεκινάει με αυτόν·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός εμπορικού μητρώου "
+#~ "της μορφής ``{CC}{CODE}`` όπου η θέση"
+#~ " ``CC`` αντικαθίσταται με τον διψήφιο "
+#~ "κωδικό χώρας ISO 3166-1 alpha-2 που "
+#~ "έχει εκδώσει τον αναγνωριστικό κωδικό "
+#~ "και η θέση ``CODE`` με τον επίσημο"
+#~ " αναγνωριστικό κωδικό εμπορικού μητρώου "
+#~ "χωρίς τον διψήφιο κωδικό χώρας αν "
+#~ "ξεκινάει με αυτόν·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση που η διαχειρίστρια "
+#~ "εταιρεία δημιουργήθηκε από διάσπαση δίδεται"
+#~ " ο αναγνωριστικός κωδικός της εταιρείας "
+#~ "από την οποία διασπάστηκε·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση συγχώνευσης της διαχειρίστριας"
+#~ " εταιρείας δίδεται ο αναγνωριστικός κωδικός"
+#~ " της εταιρείας με την οποία "
+#~ "συγχωνεύτηκε."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων της ``ΜΠΣ`` σε περίπτωση "
+#~ "που η ``ΜΠΣ`` είναι διαχειρίστρια "
+#~ "εταιρεία. Τα στοιχεία αυτά δύναται να"
+#~ " μεταβληθούν κατά τη διάρκεια του "
+#~ "κύκλου ζωής της διαχειρίστριας εταιρείας."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ημερομηνία από πότε ισχύουν οι τιμές "
+#~ "των παρεχόμενων μεταβλητών. Περισσότερες "
+#~ "πληροφορίες στις :doc:`../../../generic`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ημερομηνία μέχρι πότε ισχύουν οι τιμές"
+#~ " των παρεχόμενων μεταβλητών. Περισσότερες "
+#~ "πληροφορίες στις :doc:`../../../generic`."
+#~ msgstr ""
+
+#~ msgid "Επωνυμία·"
+#~ msgstr ""
+
+#~ msgid "Επωνυμία με λατινικούς χαρακτήρες·"
+#~ msgstr ""
+
+#~ msgid "Διακριτικό όνομα·"
+#~ msgstr ""
+
+#~ msgid "Οδός, αριθμός και περιοχή·"
+#~ msgstr ""
+
+#~ msgid "Οδός, αριθμός και περιοχή με λατινικούς χαρακτήρες·"
+#~ msgstr ""
+
+#~ msgid "Πόλη, χωριό·"
+#~ msgstr ""
+
+#~ msgid "Πόλη, χωριό με λατινικούς χαρακτήρες·"
+#~ msgstr ""
+
+#~ msgid "Ταχυδρομικός κώδικας·"
+#~ msgstr ""
+
+#~ msgid "Ταχυδρομική θυρίδα·"
+#~ msgstr ""
+
+#~ msgid "Διεύθυνση στο διαδίκτυο·"
+#~ msgstr ""
+
+#~ msgid "Ηλεκτρονική διεύθυνση αλληλογραφίας·"
+#~ msgstr ""
+
+#~ msgid "Χώρα κατοικίας με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Νομική κατάσταση με επιλογή από τη "
+#~ "λίστα τιμών ``ORG_LGL_PRCDNG_STTS_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων του ``ΥΕΟ``.  Τα στοιχεία "
+#~ "αυτά είτε ορίζονται μια φορά είτε "
+#~ "παραμένουν σταθερά κατά τη διάρκεια του"
+#~ " κύκλου ζωής του ``ΥΕΟ``."
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός του ``ΥΕΟ`` (:ref:`org`)."
+#~ msgstr ""
+
+#~ msgid "Χώρα σύστασης με επιλογή από τη λίστα τιμών ``GEN_CNTRY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός φορολογικού μητρώου"
+#~ " της μορφής ``{CC}{CODE}`` όπου η "
+#~ "θέση ``CC`` αντικαθίσταται με τον "
+#~ "διψήφιο κωδικό χώρας ISO 3166-1 alpha-2"
+#~ " που έχει εκδώσει τον αναγνωριστικό "
+#~ "κωδικό και η θέση ``CODE`` με τον"
+#~ " επίσημο αναγνωριστικό κωδικό φορολογικού "
+#~ "μητρώου χωρίς τον διψήφιο κωδικό χώρας"
+#~ " αν ξεκινάει με αυτόν (κατά "
+#~ "περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός εμπορικού μητρώου "
+#~ "της μορφής ``{CC}{CODE}`` όπου η θέση"
+#~ " ``CC`` αντικαθίσταται με τον διψήφιο "
+#~ "κωδικό χώρας ISO 3166-1 alpha-2 που "
+#~ "έχει εκδώσει τον αναγνωριστικό κωδικό "
+#~ "και η θέση ``CODE`` με τον επίσημο"
+#~ " αναγνωριστικό κωδικό εμπορικού μητρώου "
+#~ "χωρίς τον διψήφιο κωδικό χώρας αν "
+#~ "ξεκινάει με αυτόν (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση που ο ``ΥΕΟ`` δημιουργήθηκε"
+#~ " από διάσπαση δίδεται ο αναγνωριστικός "
+#~ "κωδικός της θεσμικής μονάδας από την "
+#~ "οποία διασπάστηκε·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση συγχώνευσης του ``ΥΕΟ`` "
+#~ "δίδεται ο αναγνωριστικός κωδικός της "
+#~ "θεσμικής μονάδας με την οποία έγινε "
+#~ "η συγχώνευση."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων του ``ΥΕΟ``. Τα στοιχεία "
+#~ "αυτά δύναται μεταβληθούν κατά τη "
+#~ "διάρκεια του κύκλου ζωής του ``ΥΕΟ`` "
+#~ "·"
+#~ msgstr ""
+
+#~ msgid "Ταχυδρομική διεύθυνση.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ταχυδρομική διεύθυνση με λατινικούς "
+#~ "χαρακτήρες.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια"
+#~ " εταιρεία·"
+#~ msgstr ""
+
+#~ msgid "Πόλη κατοικίας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Πόλη κατοικίας με λατινικούς χαρακτήρες.  "
+#~ "Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+#~ msgstr ""
+
+#~ msgid "Ταχυδρομικός κώδικας.  Αφορά ``ΥΕΟ`` χωρίς διαχειρίστρια εταιρεία·"
+#~ msgstr ""
+
+#~ msgid "Ηλεκτρονική διεύθυνση αλληλογραφίας (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί εισηγμένου·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ένδειξη επενδυτικής βαθμίδας.  Αφορά ``ΥΕΟ``"
+#~ " που είναι νομικές οντότητες·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη κατάστασης αδράνειας·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη καθεστώς εκκαθάρισης·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Νόμισμα στο οποίο εκφράζονται οι "
+#~ "χρηματοοικονομικές καταστάσεις με επιλογή από"
+#~ " τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος θεσμικού ελέγχου με επιλογή από"
+#~ " τη λίστα τιμών ``ORG_INSTTTNL_SCTR_CNTRL_ENUM``"
+#~ " που προκύπτει από το Κεφάλαιο 2 "
+#~ "του ESA2010·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Μέγεθος με επιλογή από τη λίστα "
+#~ "τιμών ``ORG_SZ_ENUM`` σύμφωνα με το "
+#~ "``Annex to Commission Recommendation "
+#~ "2033/361/EC`` ·  Αφορά νομικές οντότητες."
+#~ msgstr ""
+
+#~ msgid "Νομική μορφή με επιλογή από τη λίστα τιμών ``ORG_LGL_FRM_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Είδος εποπτείας με επιλογή από τη λίστα τιμών ``ORG_SPRVSN_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αναγνωριστικός κωδικός διαχειρίστριας εταιρείας "
+#~ "(κατά περίπτωση) (:ref:`org`)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αναγνωριστικός κωδικός οντότητας τύπου μανδύα"
+#~ " (umbrella fund) στο οποίο περιλαμβάνεται"
+#~ " ο ``ΥΕΟ`` (κατά περίπτωση), (:ref:`org`)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος επενδυτικού οργανισμού με επιλογή "
+#~ "από τη λίστα τιμών ``FND_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Επενδυτική πολιτική με επιλογή από τη"
+#~ " λίστα τιμών ``FND_INVSTMNT_PLCY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Υποείδος με επιλογή από τη λίστα τιμών ``FND_SBTYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Μερισματική πολιτική με επιλογή από τη"
+#~ " λίστα τιμών ``FND_DSTRBTN_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος μετόχων/μεριδιούχων με επιλογή από "
+#~ "τη λίστα τιμών ``FND_INVSTR_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Πράσινη κατηγορία με επιλογή από τη "
+#~ "λίστα τιμών ``FND_GRN_ENUM`` (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Επενδυτική στρατηγική με επιλογή από τη"
+#~ " λίστα τιμών ``FND_STRTGY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Γεωγραφική περιοχή της πλειοψηφίας των "
+#~ "περιουσιακών στοιχείων με βάση την αξίας"
+#~ " τους με επιλογή από τη λίστα "
+#~ "τιμών ``FND_GGRPHCL_FCS_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Κλαδική εστίαση χαρτοφυλακίου με επιλογή "
+#~ "από τη λίστα τιμών ``FND_BND_FCS_ENUM``.  "
+#~ "Αφορά ομολογιακούς ``ΥΕΟ`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Επενδυτική βαθμίδα των περιουσιακών στοιχείων"
+#~ " με επιλογή από τη λίστα τιμών "
+#~ "``FND_BND_GRD_ENUM``.  Αφορά ομολογιακούς ``ΥΕΟ``"
+#~ " ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος χαρτοφυλακίου ακίνητης περιουσίας με "
+#~ "επιλογή από τη λίστα τιμών "
+#~ "``FND_RL_ESTT_TYP_ENUM``.  Αφορά ``ΥΕΟ`` ακίνητης"
+#~ " περιουσίας·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί επενδύσεων κυρίως σε άλλους ``ΕΟ`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ένδειξη περί διαπραγματεύσιμο αμοιβαίου "
+#~ "κεφαλαίου όπως ορίζεται στην Κατευθυντήρια "
+#~ "Γραμμή ΕΚΤ/2014/5 ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ένδειξη ότι πρόκειται για ιδιωτικό "
+#~ "επενδυτικό κεφάλαιο όπως ορίζεται στις "
+#~ "Κατευθυντήρια Γραμμή ΕΚΤ/2014/5·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων χρεογράφων που έχει εκδώσει "
+#~ "ο ``ΥΕΟ``. Τα στοιχεία αυτά είτε "
+#~ "ορίζονται μια φορά είτε παραμένουν "
+#~ "σταθεϱά κατά τη διάρκεια του κύκλου "
+#~ "ζωής του χρεογράφου."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός του χρέογραφου "
+#~ "που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`dbt`)."
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία έκδοσης·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid "Αρχική ημερομηνία λήξης/ολικής εξόφλησης (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αναγνωριστικός κωδικός του χρεογράφου ο "
+#~ "οποίος αποδίδεται με βάση το πρότυπο "
+#~ "ISO-6166·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Εσωτερικός αναγνωριστικός κωδικός της μορφής"
+#~ " ``{UID}_{CODE}`` όπου η θέση ``CODE`` "
+#~ "αντικαθίσταται με τον εσωτερικό κωδικό "
+#~ "που η ``ΜΠΣ`` έχει αποδώσει στο "
+#~ "χρεόγραφο·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Το νόμισμα συναλλαγής με επιλογή από "
+#~ "τη λίστα τιμών ``GEN_CRRNCY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Τιμή έκδοσης εκφραζόμενη ως ποσοστό της ονομαστικής τιμής του·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Τιμή τελικής εξόφλησης εκφραζόμενη ως "
+#~ "ποσοστό της ονομαστικής αξίας του·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η χρηματιστηριακή αγορά διαπραγμάτευσης με "
+#~ "επιλογή από τη λίστα τιμών "
+#~ "``GEN_MRKT_ENUM`` που προκύπτει από το "
+#~ "πρότυπο ISO-10383·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αρχική ημερομηνία συσσώρευσης τοκομεριδίου.  "
+#~ "Σε περίπτωση χρεογράφου δίχως τοκομερίδια "
+#~ "συμπληρώνεται η τιμή της μεταβλητής "
+#~ "self_debt_birth_ ·"
+#~ msgstr ""
+
+#~ msgid "Κατηγοριοποίηση με επιλογή από τη λίστα τιμών ``DBT_PRMRY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Επίπεδο εγγύησης με επιλογή από τη λίστα τιμών ``DBT_GRNT_LVL_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Ταξινόμηση με επιλογή από τη λίστα τιμών ``DBT_RNK_LVL_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Επίπεδο ασφάλειας με επιλογή από τη "
+#~ "λίστα τιμών ``DBT_SCRTY_LVL_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ένδειξη τιτλοποίησης όπως ορίζεται στην "
+#~ "Κατευθυντήρια Γραμμή ΕΚΤ/2015/15·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος τιτλοποίησης με επιλογή από τη "
+#~ "λίστα τιμών ``DBT_SCRTZTN_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ένδειξη καλυμμένης ομολογίας όπως ορίζεται "
+#~ "στην Κατευθυντήρια Γραμμή ΕΚΤ/2014/60·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Είδος καλυμμένης ομολογίας με επιλογή "
+#~ "από τη λίστα τιμών ``DBT_CVRD_TYP_ENUM`` "
+#~ "·"
+#~ msgstr ""
+
+#~ msgid "Είδος τοκομεριδίου με επιλογή από τη λίστα τιμών ``DBT_CPN_TYP_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Νόμισμα πληρωμής των τοκομεριδίων με "
+#~ "επιλογή από τη λίστα τιμών "
+#~ "``GEN_CRRNCY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Συχνότητα πληρωμής τοκομεριδίου με επιλογή "
+#~ "από τη λίστα τιμών ``DBT_CPN_FRQNCY_ENUM`` "
+#~ "·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Περιθώριο επιτοκίου για ομόλογα με "
+#~ "κυμαινόμενα τοκομερίδια εκφραζόμενο σε μονάδες"
+#~ " βάσης (basis points) ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Πολλαπλασιαστής επιτοκίου για ομόλογα με "
+#~ "κυμαινόμενα τοκομερίδια.  Για παράδειγμα ένα"
+#~ " κυμαινόμενο τοκομερίδιο με επιτόκιο 3 "
+#~ "φορές το εξαμηνιαίο EURIBOR συν 20 "
+#~ "μονάδες βάσης ο πολλαπλασιαστής είναι ο"
+#~ " 3·"
+#~ msgstr ""
+
+#~ msgid "Μέγιστη τιμή του κυμαινόμενου τοκομεριδίου·"
+#~ msgstr ""
+
+#~ msgid "Ελάχιστη τιμή του κυμαινόμενου τοκομεριδίου·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία πληρωμής του πρώτου τοκομεριδίου·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία πληρωμής του τελικού τοκομεριδίου·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Αναγνωριστικός κωδικός χρεογράφου από το "
+#~ "οποίο προκύπτει το κυμαινόμενο τοκομερίδιο "
+#~ "(:ref:`dbt`)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ελάχιστο ονομαστικό ποσό επένδυσης εκφραζόμενο"
+#~ " στο νόμισμα συναλλαγής του χρεογράφου·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί ιδιωτικής τοποθέτησης·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση αναδιάρθρωσης σε νέο "
+#~ "χρεόγραφο συμπληρώνεται ο αναγνωριστικός "
+#~ "κωδικός του νέου χρεογράφου καθώς και"
+#~ " η self_debt_close_ με την ημερομηνία "
+#~ "αναδιάρθρωσης·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση που το χρεόγραφο προήλθε"
+#~ " από αναδιάρθρωση δανείου συμπληρώνεται ο"
+#~ " αναγνωριστικός κωδικός του δανείου από "
+#~ "το οποίο προήλθε το χρεόγραφο·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων των χρεογράφων που έχει "
+#~ "εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά "
+#~ "δύναται να μεταβληθούν κατά τη διάρκεια"
+#~ " του κύκλου ζωής του χρεογράφου."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός του χρεογράφου "
+#~ "που έχει εκδώσει ο ``ΥΕΟ`` (:ref:`shr`)."
+#~ msgstr ""
+
+#~ msgid "Ονομασία·"
+#~ msgstr ""
+
+#~ msgid "Ονομασία με λατινικούς χαρακτήρες·"
+#~ msgstr ""
+
+#~ msgid "Διακριτικός τίτλος·"
+#~ msgstr ""
+
+#~ msgid "Κατάσταση με επιλογή από τη λίστα τιμών ``DBT_STTS_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ημερομηνία λήξης ή εξόφλησης (κατά "
+#~ "περίπτωση).  Είναι δυνατό αυτή η "
+#~ "ημερομηνία να τροποποιηθεί κατά τη "
+#~ "διάρκεια του κύκλου ζωής του χρεογράφου."
+#~ " Σε αυτή τη περίπτωση αναθεωρείται η"
+#~ " τιμή της self_debt_close_ ·"
+#~ msgstr ""
+
+#~ msgid "Αναγνωριστικός κωδικός του εκδότη·"
+#~ msgstr ""
+
+#~ msgid "Κατηγοριοποίηση με βάση το πρότυπο ISO-10962·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων των μετοχών/μεριδίων που έχει"
+#~ " εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά"
+#~ " είτε ορίζονται μια φορά είτε "
+#~ "παραμένουν σταθεϱά κατά τη διάρκεια του"
+#~ " κύκλου ζωής της μετοχής/μεριδίου."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός του συμμετοχικού "
+#~ "τίτλου που έχει εκδώσει ο ``ΥΕΟ`` "
+#~ "(:ref:`shr`)."
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία έκδοσης/ενεργοποίησης/αρχικοποίησης·"
+#~ msgstr ""
+
+#~ msgid "Ημερομηνία λήξης (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid "Αναγνωριστικός κωδικός ο οποίος αποδίδεται με βάση το πρότυπο ISO-6166·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Εσωτερικός αναγνωριστικός κωδικός της μορφής"
+#~ " ``{UID}_{CODE}`` όπου η θέση ``CODE`` "
+#~ "αντικαθίσταται με τον εσωτερικό κωδικό "
+#~ "που η ``ΜΠΣ`` έχει αποδώσει στη "
+#~ "μετοχή/μερίδιο·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σε περίπτωση αναδιάρθρωσης σε νέα "
+#~ "μετοχή/μερίδιο συμπληρώνεται ο αναγνωριστικός "
+#~ "κωδικός της νέας μετοχής/μεριδίου καθώς "
+#~ "και η sishareclose_ με την ημερομηνία"
+#~ " αναδιάρθρωσης."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων των μετοχών/μεριδίων που έχει"
+#~ " εκδώσει ο ``ΥΕΟ``. Τα στοιχεία αυτά"
+#~ " δύναται να μεταβληθούν κατά τη "
+#~ "διάρκεια του κύκλου ζωής της "
+#~ "μετοχής/μεριδίου."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ο αναγνωριστικός κωδικός του συμμετοχικού "
+#~ "τίτλου που έχει εκδόσει ο ``ΥΕΟ`` "
+#~ "(:ref:`shr`)."
+#~ msgstr ""
+
+#~ msgid "Αναγνωριστικός κωδικός του εκδότη (:ref:`org`)·"
+#~ msgstr ""
+
+#~ msgid "Ονομαστική τιμή·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Συχνότητα εξαγοράς με επιλογή από τη "
+#~ "λίστα τιμών ``SHR_FND_RDMPTN_FRQNCY_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Ελάχιστο ποσό συμμετοχής (κατά περίπτωση)·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων των προσώπων επικοινωνίας που"
+#~ " παρέχουν στοιχεία εκ μέρους της "
+#~ "``ΜΠΣ``."
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός του προσώπου επικοινωνίας (:ref:`psn`)."
+#~ msgstr ""
+
+#~ msgid "Διεύθυνση ηλεκτρονικού ταχυδρομείου (email)·"
+#~ msgstr ""
+
+#~ msgid "Όνομα·"
+#~ msgstr ""
+
+#~ msgid "Προσφώνηση ονόματος·"
+#~ msgstr ""
+
+#~ msgid "Επώνυμο·"
+#~ msgstr ""
+
+#~ msgid "Προσφώνηση επωνύμου·"
+#~ msgstr ""
+
+#~ msgid "Φύλλο με επιλογή από τη λίστα τιμών ``GEN_GNDR_ENUM`` ·"
+#~ msgstr ""
+
+#~ msgid "Τηλέφωνο επικοινωνίας·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
+#~ " στοιχείων σε σχέση με την εργασιακή"
+#~ " σχέση μεταξύ του προσώπου επικοινωνίας "
+#~ "και της ``ΜΠΣ`` ·"
+#~ msgstr ""
+
+#~ msgid "Ο αναγνωριστικός κωδικός της ``ΜΠΣ`` (:ref:`org`)."
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί εργασιακής σχέσης·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί μισθωτού εργαζόμενου·"
+#~ msgstr ""
+
+#~ msgid "Ένδειξη περί εξωτερικού συνεργάτη."
+#~ msgstr ""
+
+#~ msgid "Διεύθυνση στην ``ΜΠΣ`` με την οποία σχετίζεται το πρόσωπο επικοινωνίας"
+#~ msgstr ""
+
+#~ msgid "Υπεύθυνος για τα στοιχεία ``IFDAT`` της ``ΜΠΣ``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case the ``OA`` was created by"
+#~ " a corporate split the identifier "
+#~ "code of the entity that it was "
+#~ "split from is provided."
+#~ msgstr ""
+#~ "Σε περίπτωση που ο ``ΥΕΟ`` δημιουργήθηκε"
+#~ " από διάσπαση δίδεται ο αναγνωριστικός "
+#~ "κωδικός της θεσμικής μονάδας από την "
+#~ "οποία διασπάστηκε (:ref:`org`)·"
+
+#~ msgid ""
+#~ "In case of closure of the ``OA``"
+#~ " via a merger event the identifier"
+#~ " code of the entity that the "
+#~ "``OA`` merged with is provided."
+#~ msgstr ""
+#~ "Σε περίπτωση συγχώνευσης του ``ΥΕΟ`` "
+#~ "δίδεται ο αναγνωριστικός κωδικός της "
+#~ "θεσμικής μονάδας με την οποία έγινε "
+#~ "η συγχώνευση (:ref:`org`)."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2022-12-31 02:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: ../../source/domain/ifdat/regulation.rst:2 30f8522efeaa4151bcff8738e3bc6796
-msgid "ΣΧΕΔΙΟ ΚΑΝΟΝΙΣΜΟY"
+#: ../../source/domain/ifdat/regulation.rst:2 d04a4027d65d446f8a2160a5acd15314
+msgid "DRAFT REGULATION"
 msgstr ""
 
 #: ../../source/domain/ifdat/regulation.rst:5 ba1cb412ff9b4787a1859c0384705ef7
@@ -276,4 +276,7 @@ msgid ""
 "Σε περίπτωση ελλιπούς, εσφαλμένης ή εκπρόθεσμης υποβολής των ως άνω "
 "στοιχείων εφαρμόζονται οι περί κυρώσεων σχετικές διατάξεις..."
 msgstr ""
+
+#~ msgid "ΣΧΕΔΙΟ ΚΑΝΟΝΙΣΜΟY"
+#~ msgstr ""
 

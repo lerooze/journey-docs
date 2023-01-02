@@ -1,25 +1,25 @@
 IFDat
 =====
 
-Το κεφάλαιο αυτό περιγράφει τον τρόπο συλλογής στοιχείων από επενδυτικούς οργανισμούς.  
+This section describes how data are collected from Investment Funds.
 
-Η ενότητα :doc:`regulation` περιέχει έναν πρότυπο  κανονισμό που μπορεί να
-χρησιμοποιηθεί ως βάση για τη συλλογή στοιχείων επενδυτικών οργανισμών από τις
-αρμόδιες αρχές. 
+:doc:`regulation` provides a template regulation that can be used as a basis
+for the collection of data from Investment Funds by the data collecting
+agencies. 
 
-H ενότητα :doc:`categories` περιγράφει αναλυτικά τις έξι κατηγορίες δεδομένων
-του τομέα δεδομένων ``IFDat``.
+:doc:`categories` describes in detail the six data categories that are
+contained in the data domain ``IFDat``.
 
-Η ενότητα :doc:`../../submission` περιγράφει τον τρόπο αποστολής των στοιχείων
-:mod:`IFDat`.
+:doc:`../../submission` describes how ``IFDat`` data can be
+submitted to the data collecting agencies.
 
-Στην ενότητα :doc:`../../sid` υπάρχει πίνακας όπου για κάθε ``ΜΠΣ`` δίδεται η
-επωνυμία της, ο αναγνωριστικός κωδικός αλλά και ο ακέραιος κωδικός που της έχει
-αποδοθεί από τις αρχές.
+In :doc:`../../sid` a table can be found that for each ``RA`` its name,
+identification code and integer identification code given by the collecting
+agency are provided.
 
-Στην ενότητα :doc:`example` περιγράφονται παραδείγματα υποβολών αρχείων.
+:doc:`example` contains data submission file examples.
 
-Στην ενότητα :doc:`version` περιγράφεται το ιστορικό των εκδόσεων του τομέα δεδομένων ``IFdat``.
+:doc:`version` describes ``IFDat`` latest and historical versions.
 
 .. toctree::
    :maxdepth: 1 

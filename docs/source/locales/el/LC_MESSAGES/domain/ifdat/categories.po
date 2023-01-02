@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2022-12-31 02:28+0200\n"
+"PO-Revision-Date: 2023-01-02 13:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,182 +17,292 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: ../../source/domain/ifdat/categories.rst:2 e0e2911eaa5148d4bfcb4bb9cbbbf413
-msgid "Κατηγορίες Δεδομένων"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:2 62234108966d41cca242146a219c0f9b
+msgid "Data Categories"
+msgstr "Κατηγορίες Δεδομένων"
 
 #: ../../source/domain/ifdat/categories.rst:5
-#: ../../source/domain/ifdat/categories.rst:36 008a6a98d05e44e48f10e43d1b40b7c1
-#: 08e675aab9494d519a575f929872aeb3
-msgid "Κατηγορία Δεδομένων"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:33 1e28f259a7a345259820fd928804a359
+#: 879f974a1e51419997cb59bb2ed769c8
+msgid "Data Category"
+msgstr "Κατηγορία Δεδομένων"
 
 #: ../../source/domain/ifdat/categories.rst:5
-#: ../../source/domain/ifdat/categories.rst:41 80adbc6dfb2240d4a339308bd15ba363
+#: ../../source/domain/ifdat/categories.rst:37 80adbc6dfb2240d4a339308bd15ba363
 #: e684637c2876418097dba43f7839cc66
 msgid "Data Model"
-msgstr ""
+msgstr "Δομή δεδομένων"
 
 #: ../../source/domain/ifdat/categories.rst:5
-#: ../../source/domain/ifdat/categories.rst:46 5685a7a3e682447a99ba95963feb8e89
-#: f26ffa0590844fb1bc4c4129370232f8
-msgid "Υπόδειγμα Excel"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:40 8472eafdbabe42cc867387ab898bf6d2
+#: a4d6f59f192a4d0f8972db39990dee4a
+msgid "Excel Template"
+msgstr "Υπόδειγμα Excel"
 
 #: ../../source/domain/ifdat/categories.rst:5
-#: ../../source/domain/ifdat/categories.rst:51 3b40a40c4eae449a9ffbe9fc02602f37
+#: ../../source/domain/ifdat/categories.rst:44 3b40a40c4eae449a9ffbe9fc02602f37
 #: 969f88c7f52746728c52e0f0d1a2578d
 msgid "JSON Schema"
-msgstr ""
-
+msgstr "JSON Schema"
+ 
 #: ../../source/domain/ifdat/categories.rst:7 fd6f60bdbc314bce8435626c9b254f1b
 msgid ":doc:`SELF_INFO <categories/self_info>`"
-msgstr ""
+msgstr ":doc:`SELF_INFO <categories/self_info>`"
 
 #: ../../source/domain/ifdat/categories.rst:7 de9a5223e45f4b7c82015156c8f22cc4
-msgid ":file:`SELF_INFO_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`SELF_INFO_DATAMODEL`_"
+msgstr "`SELF_INFO_DATAMODEL`_"
 
-#: ../../source/domain/ifdat/categories.rst:7 f0047aea32e44f9a9bbfe0f56f19c7b4
-msgid ":file:`SELF_INFO_TEMPLATE.xlsx`"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:7
+#: ../../source/domain/ifdat/categories.rst:9 f0047aea32e44f9a9bbfe0f56f19c7b4
+msgid "`SELF_INFO_TEMPLATE`_"
+msgstr "`SELF_INFO_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:7 fc9d5bfb9d5c4b18a7490fc42f536da1
-msgid ":file:`SELF_INFO_SCHEMA.json`"
-msgstr ""
+msgid "`SELF_INFO_SCHEMA`_"
+msgstr "`SELF_INFO_SCHEMA`_"
 
 #: ../../source/domain/ifdat/categories.rst:9 535a8fc376ec4b2393602691d9b4766b
 msgid ":doc:`SELF_KEY <categories/self_key>`"
-msgstr ""
+msgstr ":doc:`SELF_KEY <categories/self_key>`"
 
 #: ../../source/domain/ifdat/categories.rst:9 6f01c0d98cf447c5a9235096406052cf
-msgid ":file:`SELF_KEY_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`SELF_KEY_DATAMODEL`_"
+msgstr "`SELF_KEY_DATAMODEL`_"
 
 #: ../../source/domain/ifdat/categories.rst:9 491e188af9bd4f4283b100e758853267
-msgid ":file:`SELF_KEY_TEMPLATE.xlsx`"
-msgstr ""
-
-#: ../../source/domain/ifdat/categories.rst:9 8bf1500cc13e4d07a150d2b22407c6d0
-msgid ":file:`SELF_KEY_SCHEMA.json`"
-msgstr ""
+msgid "`SELF_KEY_TEMPLATE`_"
+msgstr "`SELF_KEY_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:11 5397ed7dea42470596c5781e96fd3a1b
 msgid ":doc:`OTHER_INFO <categories/other_info>`"
-msgstr ""
+msgstr ":doc:`OTHER_INFO <categories/other_info>`"
 
 #: ../../source/domain/ifdat/categories.rst:11 1c3256409b93441a9a617a4239ca0e3d
-msgid ":file:`OTHER_INFO_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`OTHER_INFO_DATAMODEL`_"
+msgstr "`OTHER_INFO_DATAMODEL`_"
 
 #: ../../source/domain/ifdat/categories.rst:11 a2178e994d034891a257e53f456ef229
-msgid ":file:`OTHER_INFO_TEMPLATE.xlsx`"
-msgstr ""
+msgid "`OTHER_INFO_TEMPLATE`_"
+msgstr "`OTHER_INFO_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:11 652191bc8b314f8bb717d86153fb4ffa
-msgid ":file:`OTHER_INFO_SCHEMA.json`"
-msgstr ""
+msgid "`OTHER_INFO_SCHEMA`_"
+msgstr "`OTHER_INFO_SCHEMA`_"
 
 #: ../../source/domain/ifdat/categories.rst:13 4fca958ced684c04ab5c967b3af74de8
 msgid ":doc:`OTHER_KEY <categories/other_key>`"
-msgstr ""
+msgstr ":doc:`OTHER_KEY <categories/other_key>`"
 
 #: ../../source/domain/ifdat/categories.rst:13 4228bbb794b14f87b067864382a84526
-msgid ":file:`OTHER_KEY_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`OTHER_KEY_DATAMODEL`_"
+msgstr "`OTHER_KEY_DATAMODEL`_"
 
 #: ../../source/domain/ifdat/categories.rst:13 6e4b19ea8dec4b55b019efb6b5b66f10
-msgid ":file:`OTHER_KEY_TEMPLATE.xlsx`"
-msgstr ""
+msgid "`OTHER_KEY_TEMPLATE`_"
+msgstr "`OTHER_KEY_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:13 86fffa6762074617bb4577854730bf45
-msgid ":file:`OTHER_KEY_SCHEMA.json`"
-msgstr ""
+msgid "`OTHER_KEY_SCHEMA`_"
+msgstr "`OTHER_KEY_SCHEMA`_"
 
 #: ../../source/domain/ifdat/categories.rst:15 6166fb9dd7194036a8907fa18fcd9051
 msgid ":doc:`BSI <categories/bsi>`"
-msgstr ""
+msgstr ":doc:`BSI <categories/bsi>`"
 
 #: ../../source/domain/ifdat/categories.rst:15 ff85b025563e4c55b3292c6b2f1f31e3
-msgid ":file:`BSI_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`BSI_DATAMODEL`_"
+msgstr "`BSI_DATAMODEL`_"
 
 #: ../../source/domain/ifdat/categories.rst:15 8bffb845af7746adb4d9ee7ad3c2d330
-msgid ":file:`BSI_TEMPLATE.xlsx`"
-msgstr ""
+msgid "`BSI_TEMPLATE`_"
+msgstr "`BSI_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:15 27f8efd1453346fda1bd0468e32876eb
-msgid ":file:`BSI_SCHEMA.json`"
-msgstr ""
+msgid "`BSI_SCHEMA`_"
+msgstr "`BSI_SCHEMA`_"
 
 #: ../../source/domain/ifdat/categories.rst:17 a6a123ca7293417bbf4014b22a4e6394
 msgid ":doc:`INCOME <categories/income>`"
-msgstr ""
+msgstr ":doc:`INCOME <categories/income>`"
 
 #: ../../source/domain/ifdat/categories.rst:17 f1f03fb8fa92419f8c70433f44fcf83a
-msgid ":file:`INCOME_DATAMODEL.xlsx`"
-msgstr ""
+msgid "`INCOME_DATAMODEL`_"
+msgstr "`INCOME_DATAMODEL`_"
 
 #: ../../source/domain/ifdat/categories.rst:17 88ef12a14b8d45048c547c373e3f2446
-msgid ":file:`INCOME_TEMPLATE.xlsx`"
-msgstr ""
+msgid "`INCOME_TEMPLATE`_"
+msgstr "`INCOME_TEMPLATE`_"
 
 #: ../../source/domain/ifdat/categories.rst:17 28bc0e0b47f14e06aefb74c9ecba78f7
-msgid ":file:`INCOME_SCHEMA.json`"
-msgstr ""
+msgid "`INCOME_SCHEMA`_"
+msgstr "`INCOME_SCHEMA`_"
 
-#: ../../source/domain/ifdat/categories.rst:20 f8bdbe9aa083421f87f795b90d89dd27
+#: ../../source/domain/ifdat/categories.rst:20 ed3b83f5b84142cca668fe86c38bb7be
 msgid ""
-"Η κάθε σειρά του παραπάνω πίνακα δίνει πληροφορίες για κάθε μία από τις "
-"έξι κατηγορίες δεδομένων του :mod:`IFDat` και περιλαμβάνει τις ακόλουθες "
-"στήλες:"
-msgstr ""
+"For each of the six data categories of ``IFDat`` the table above gives "
+"the following:"
+msgstr "Για κάθε από τις έξι κατηγορίες δεδομένων του ``IFDat`` ο παραπάνω πίνακας παρέχει τα ακόλουθα:"
 
-#: ../../source/domain/ifdat/categories.rst:24 62ae503e308e444684c0177745a18416
+#: ../../source/domain/ifdat/categories.rst:23 a87f47a76c0940c29dc2a375dea1e81c
 msgid ""
-"Ονομασία και σύνδεσμος με το κεφάλαιο που περιγράφει τα ακόλουθα για κάθε"
-" πίνακα της κατηγορίας δεδομένων:"
-msgstr ""
+"Name and link to the section that describes the following for each table "
+"of the data category:"
+msgstr "Ονομασία της κατηγορίας δεδομένων αλλά και σύνδεσμος με την ενότητα που περιγράφει τα ακόλουθα για κάθε πίνακα:"
 
-#: ../../source/domain/ifdat/categories.rst:27 776aa9c18df94ad7808555e73f661c49
-msgid "Τις διαστάσεις του πίνακα"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:25 6af6242a0ed344f5912570c4dfadb959
+msgid "Table dimensions"
+msgstr "Διαστάσεις του πίνακα"
 
-#: ../../source/domain/ifdat/categories.rst:29 076f652407944956945aa6034130b2f1
-msgid "Τις μεταβλητές του πίνακα"
-msgstr ""
+#: ../../source/domain/ifdat/categories.rst:27 796b309d65fb4a8d8b9056070203863f
+msgid "Table measures"
+msgstr "Μεταβλητές του πίνακα"
 
-#: ../../source/domain/ifdat/categories.rst:31 6a352c55c34b432e8d2813000e734a07
+#: ../../source/domain/ifdat/categories.rst:29 488253b635bd4ed49f0f5fd3ca5f6a10
 msgid ""
-"Τα χαρακτηριστικά της κάθε μεταβλητής του πίνακα σε περίπτωση που υπάρχει"
-" διαφοροποίηση σε σχέση με τις οδηγίες στο :doc:`../../generic`."
-msgstr ""
+"The attributes for each measure in case of deviations with what is "
+"discussed in :doc:`../../generic` regarding attributes."
+msgstr "Τα χαρακτηριστικά της κάθε μεταβλητής του πίνακα σε περίπτωση που υπάρχει διαφοροποίηση σε σχέση με τις οδηγίες στο :doc:`../../generic`."
 
-#: ../../source/domain/ifdat/categories.rst:34 54586baccf7240ec91ec1de1223d6710
+#: ../../source/domain/ifdat/categories.rst:32 81ef3fcc945645c7af51e95224e67d02
 msgid ""
-"Στον τίτλο της κάθε διάστασης, μεταβλητής και χαρακτηριστικού δίνεται η "
-"ονομασία καθώς και σε παρένθεση ο κωδικός της ονομασίας σε περίπτωση που "
-"διαφέρει από την ονομασία."
-msgstr ""
+"In the title of each dimension, measure and attribute the name is "
+"provided and in parenthesis the code name if it is different from the "
+"name."
+msgstr "Στον τίτλο της κάθε διάστασης, μεταβλητής και χαρακτηριστικού δίνεται η ονομασία καθώς και σε παρένθεση ο κωδικός της ονομασίας σε περίπτωση που διαφέρει από την ονομασία."
 
-#: ../../source/domain/ifdat/categories.rst:39 e06df3d630d5415e9a30b2dd820e69e7
+#: ../../source/domain/ifdat/categories.rst:36 769bc064b5294b6699e3affd41ae8ba8
+msgid "Link to download the corresponding ``Data Model``."
+msgstr "Σύνδεσμος για λήψη του ``Data Model``."
+
+#: ../../source/domain/ifdat/categories.rst:40 fddd5f3391e84260887f5ee8193611f2
 msgid ""
-"Η ονομασία του αρχείου που περιγράφει το ``Data Model`` του τομέα "
-"δεδομένων (:doc:`../../data_model`).  Το αρχείο βρίσκεται στον φάκελο "
-":file:`model`."
-msgstr ""
+"Link to download the excel template for data submission in in excel "
+"format."
+msgstr "Σύνδεσμος για λήψη του υποδείγματος Excel που χρησιμοποιείται για την αποστολή στοιχείων σε μορφή Excel."
 
-#: ../../source/domain/ifdat/categories.rst:44 161c0c624da848ccae14969cedfe0ae9
+#: ../../source/domain/ifdat/categories.rst:43 3a8a9810aa0841ef9d992dc926bb3d5a
 msgid ""
-"Η ονομασία του ``Excel`` υποδείγματος που χρησιμοποιείται για την "
-"αποστολή στοιχείων σε μορφή Excel.  Το αρχείο βρίσκεται στον φάκελο "
-":file:`template`."
-msgstr ""
+"Link to download the corresponding ``json`` schema that data submitted "
+"using ``json`` format must follow."
+msgstr "Σύνδεσμος για λήψη του σχήματος ``json`` το οποίο πρέπει να ακολουθούν τα αρχεία που αποστέλλονται σε μορφή :file:`json`."
 
-#: ../../source/domain/ifdat/categories.rst:49 f197c11de1de4f8f91880b571f834124
-msgid ""
-"Η ονομασία του σχήματος ``json`` το οποίο πρέπει να ακολουθούν τα αρχεία "
-"που αποστέλλονται σε μορφή :file:`json`.  Το αρχείο βρίσκεται στον φάκελο"
-" :file:`schema`."
-msgstr ""
+#~ msgid "Κατηγορίες Δεδομένων"
+#~ msgstr ""
 
+#~ msgid "Κατηγορία Δεδομένων"
+#~ msgstr ""
+
+#~ msgid "Υπόδειγμα Excel"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_INFO_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_INFO_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_INFO_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_KEY_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_KEY_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`SELF_KEY_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_INFO_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_INFO_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_INFO_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_KEY_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_KEY_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`OTHER_KEY_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ":file:`BSI_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`BSI_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`BSI_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ":file:`INCOME_DATAMODEL.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`INCOME_TEMPLATE.xlsx`"
+#~ msgstr ""
+
+#~ msgid ":file:`INCOME_SCHEMA.json`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η κάθε σειρά του παραπάνω πίνακα "
+#~ "δίνει πληροφορίες για κάθε μία από "
+#~ "τις έξι κατηγορίες δεδομένων του "
+#~ ":mod:`IFDat` και περιλαμβάνει τις ακόλουθες"
+#~ " στήλες:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ονομασία και σύνδεσμος με το κεφάλαιο"
+#~ " που περιγράφει τα ακόλουθα για κάθε"
+#~ " πίνακα της κατηγορίας δεδομένων:"
+#~ msgstr ""
+
+#~ msgid "Τις διαστάσεις του πίνακα"
+#~ msgstr ""
+
+#~ msgid "Τις μεταβλητές του πίνακα"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Τα χαρακτηριστικά της κάθε μεταβλητής "
+#~ "του πίνακα σε περίπτωση που υπάρχει "
+#~ "διαφοροποίηση σε σχέση με τις οδηγίες"
+#~ " στο :doc:`../../generic`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Στον τίτλο της κάθε διάστασης, "
+#~ "μεταβλητής και χαρακτηριστικού δίνεται η "
+#~ "ονομασία καθώς και σε παρένθεση ο "
+#~ "κωδικός της ονομασίας σε περίπτωση που"
+#~ " διαφέρει από την ονομασία."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η ονομασία του αρχείου που περιγράφει"
+#~ " το ``Data Model`` του τομέα "
+#~ "δεδομένων (:doc:`../../data_model`).  Το αρχείο "
+#~ "βρίσκεται στον φάκελο :file:`model`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η ονομασία του ``Excel`` υποδείγματος "
+#~ "που χρησιμοποιείται για την αποστολή "
+#~ "στοιχείων σε μορφή Excel.  Το αρχείο "
+#~ "βρίσκεται στον φάκελο :file:`template`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η ονομασία του σχήματος ``json`` το "
+#~ "οποίο πρέπει να ακολουθούν τα αρχεία "
+#~ "που αποστέλλονται σε μορφή :file:`json`.  "
+#~ "Το αρχείο βρίσκεται στον φάκελο "
+#~ ":file:`schema`."
+#~ msgstr ""

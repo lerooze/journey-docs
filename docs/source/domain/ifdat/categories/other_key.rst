@@ -1,180 +1,158 @@
-OTHER_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων που κατέχουν οι ΥΕΟ
-=======================================================================
+OTHER_KEY: Key Financial Data of Instruments owned by the OA
+============================================================
 
-Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων χρηματοοικονομικών
-μέσων που κατέχουν οι ``ΥΕΟ``.
+Used to submit key financial data of instruments owned by the ``OA``.
 
-Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι
-διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα.
+Below the dimensions and the measures are described and if needed the attributes of the measures for each table of the data category. 
 
 SHARE
 -----
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των συμμετοχικών τίτλων ή/και των  μετοχών/μεριδίων επενδυτικών οργανισμών  που κατέχουν οι ``ΥΕΟ``.
+Used to submit periodic key financial data of shares/investment fund units owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 PRICE (PRC)
-    Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος
-    (closing price)·
+    Price.  In case of a listed security closing price is provided.
 
 
 DIVIDEND
 --------
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων σε σχέση με τα μερίσματα
-των συμμετοχικών τίτλων ή/και των μετοχών/μεριδίων επενδυτικών οργανισμών  που
-κατέχουν οι ``ΥΕΟ``.
+Used to provide data about dividends distributed by shares/investment fund units owned by the ``OA``.
 
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Ημερομηνία καταγραφής που η θεσμική μονάδα ελέγχει τα βιβλία του για να εντοπίσει
-    τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι δηλωμένος
-    τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του μερίσματος.
+    Date at which the ``OA`` checks its books to find its investors.  An investor must be recorded in this date to be eligible for the dividend.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
-
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·
+    Dividend type choosign from ``DVDND_TYP_ENUM``.
 
 .. _currency_div:
 
-CURRENCY (CRRNCY) 
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` (κατά περίπτωση)·
+CRRNCY (CURRENCY)
+    Dividend transaction currency choosing from ``GEN_CRRNCY_ENUM`` (if applicable).
 
 AMOUNT (AMNT)
-    Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·
+    Amount expressed in currency_div_ in case of monetary dividend payments.
 
 SPLIT
 -----
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις και
-συμπτύξεις συμμετοχικών τίτλων ή/και μετοχών/μεριδίων επενδυτικών οργανισμών
-που κατέχουν οι ``ΥΕΟ`` ·
+Used to provide data regarding splits and reverse splits of shares/investment fund units owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του τίτλου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
+
 
 DATE (DT)
-    Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων.
+    Date of split/reverse-split.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 FACTOR (FCTR)
-    Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη
-    διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη
-    διάσπαση/σύμπτυξη.
+    Factor ratio defined as number of shares before the split/reverse-split divided by the number of shares after the split/reverse-split.
 
 DEBT
 ----
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που
-κατέχουν οι ``ΥΕΟ``.
+Used to submit key financial data regarding the debt instruments owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date. For further details see :doc:`../../../generic`. 
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 PRICE (PRC)
-    Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της
-    ονομαστικής τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται
-    οι δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του
-    ομολόγου (clean price)·
+    Price (closing price) expressed as a percentage of the nominal price.  For coupon-bonds accrued interest is not included in the price.
 
 ACCRUED INTEREST (ACCRD_INTRST)
-    Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της
-    ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή
-    τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·
+    For coupon payment bonds accrued interest as a percentage of the nominal
+    price is provided computed from the last coupon payment or the start date
+    of the coupon payment.
 
 COUPON
 ------
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από
-χρεόγραφα που κατέχουν οι ``ΥΕΟ`` ·
+Used to submit data regarding coupon payments on debt securities owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεογράφου (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Ημερομηνία πληρωμής τοκομεριδίου.
+    Coupon payment date.
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 RATE (RT)
-    Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate).
+    Annualized coupon interest rate.
 
 EXT_DERIVATIVE
 --------------
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των διαπραγματεύσιμων
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``.
+Used to submit price data regarding exchange traded derivatives owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του διαπραγματεύσιμου παραγώγου (:ref:`edr`)·
+    Identifier code of the exchange traded derivative (:ref:`edr`)·
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
     
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 PRICE (PRC)
-    Τιμή κλεισίματος (closing price)·
+    Closing price.
 
 
 OTC_DERIVATIVE
 --------------
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των εξωχρηματιστηριακών  
-χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``.
+Used to submit price data regarding over the counter derivatives owned by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του εξωχρηματιστηριακού παραγώγου (:ref:`edr`)·
+    Identifier code of the over the counter derivative (:ref:`edr`)·
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
     
 
-ΜΕΤΑΒΛΗΤΕΣ
+MEASURES
 ~~~~~~~~~~
 
 PRICE (PRC)
-    Τιμή.
+    Price.

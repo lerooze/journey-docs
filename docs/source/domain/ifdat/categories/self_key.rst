@@ -1,177 +1,156 @@
-SELF_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων ιδίου λογαραριασμού 
-======================================================================
+SELF_KEY: Self Key Financial Data 
+=================================
 
-Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που έχουν
-εκδώσει οι ``ΥΕΟ``.
+Used to submit key financial data of instruments issued by the ``OA``.
 
-Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι
-διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα.
+Below the dimensions and the measures are provided for each table of the data category.
 
 SHARE
 -----
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων που
-έχουν εκδώσει οι ``ΥΕΟ``.
+Used to submit periodic key financial data of shares/investment fund units issued by ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο ``ΥΕΟ``
-    (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών
-    υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι
-    παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών
-    σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FREQUENCY (FRQNCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
 
 ΜΕΤΑΒΛΗΤΕΣ
 ~~~~~~~~~~
 
 PRICE (PRC)
-    Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος
-    (closing price)·
+    Price.  In case of a listed security closing price is provided.
 
 OUTSTANDING (OTSTNDNG)
-    Αριθμός μετοχών/μεριδίων σε κυκλοφορία·
+    Outstanding shares/investment fund units.
     
 SUBSCRIPTIONS (SBSCRIPTNS)
-    Εισροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει (προσθετικά) και τις προμήθειες·
+    Subscriptions (flow).  Applicable on mutual funds gross of any commissions.
 
 REDEMPTIONS (RDMPTNS)
-    Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει (αφαιρετικά) και τις προμήθειες·
+    Redemptions (flow).  Applicable on mutual funds net of any commissions.
 
 
 DIVIDEND
 --------
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των τίτλων
-που έχουν εκδώσει οι ``ΥΕΟ``.
+Used to provide data about dividends distributed by instruments issued by the
+``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 ID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`shr`).
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Ημερομηνία καταγραφής που ο ``ΥΕΟ`` ελέγχει τα βιβλία του για να εντοπίσει
-    τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι δηλωμένος
-    τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του μερίσματος.
+    Date at which the ``OA`` checks its books to find its investors.  An investor must be recorded in this date to be eligible for the dividend.
 
 ΜΕΤΑΒΛΗΤΕΣ
 ~~~~~~~~~~
 
 EX DATE (EX_DT)
-    Ημερομηνία από την οποία το μέρισμα δεν οφείλεται σε νέους κατόχους των
-    μετοχών/μεριδίων·
+    Date from which the dividend is not due to new investors.
 
 DECLARATION DATE (DCLRTN_DT)
-    Ημερομηνία αναγγελίας·
+    Declaration date of the dividend.
 
 PAYMENT DATE (PMNT_DT)
+    Payment date of the dividend.
     Ημερομηνία πληρωμής·
 
 FREQUENCY (FRQNCY)
-    Συχνότητα διανομής μεριδίου με επιλογή από τη λίστα τιμών
-    ``DVDND_CSTM_FRQNCY_ENUM`` ·
+    Distribution frequency choosing from ``DVDND_CSTM_FRQNCY_ENUM``.
 
 TYPE (TYP)
-    Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·
+    Dividend type choosign from ``DVDND_TYP_ENUM``.
 
 .. _currency_div:
 
 CRRNCY (CURRENCY)
-    Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` (κατά περίπτωση)·
+    Dividend transaction currency choosing from ``GEN_CRRNCY_ENUM`` (if applicable).
 
 AMOUNT (AMNT)
-    Πόσο εκφραζόμενο σε currency_div_ αν η πληρωμή γίνεται σε νόμισμα·
+    Amount expressed in currency_div_ in case of monetary dividend payments.
 
 
 
 SPLIT
 -----
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις και
-συμπτύξεις μετοχών/μεριδίων που έχουν εκδώσει οι ``ΥΕΟ`` ·
+Used to provide data regarding splits and reverse splits of instruments issued by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`shr`)·
+    Identifier code of the share/investment fund unit (:ref:`shr`).
+
 
 DATE (DT)
-    Ημερομηνία διάσπασης/σύμπτυξης μετοχών/μεριδίων.
+    Date of split/reverse-split.
 
 ΜΕΤΑΒΛΗΤΕΣ
 ~~~~~~~~~~
 
 FACTOR (FCTR)
-    Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη
-    διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη
-    διάσπαση/σύμπτυξη.
+    Factor ratio defined as number of shares before the split/reverse-split divided by the number of shares after the split/reverse-split.
 
 DEBT
 ----
 
-Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που
-έχουν εκδώσει οι ``ΥΕΟ``.
+Used to key financial data regarding the debt instruments issued by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεόγραφου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`dbt`)·
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών.
-    Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date. For further details see :doc:`../../../generic`. 
 
 
 ΜΕΤΑΒΛΗΤΕΣ
 ~~~~~~~~~~
 
 PRICE (PRC)
-    Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της
-    ονομαστικής τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται
-    οι δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του
-    ομολόγου (clean price)·
+    Price (closing price) expressed as a percentage of the nominal price.  For coupon-bonds accrued interest is not included in the price.
 
 ACCRUED INTEREST (ACCRD_INTRST)
-    Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της
-    ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή
-    τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·
+    For coupon payment bonds accrued interest as a percentage of the nominal
+    price is provided computed from the last coupon payment or the start date
+    of the coupon payment.
 
 OUTSTANDING (OSTNDNG)
-    Συνολική ονομαστική ανεξόφλητη αξία της έκδοσης.  Για
-    εκδόσεις ομολόγων σε δόσεις (tranches) δίδεται το
-    σωρευτικό ποσό καθαρό από τυχόν εξοφλήσεις.
+    Outstanding nominal amount.  For debt instruments in tranches the
+    cumulative amount is given net of any payments.
 
 
 COUPON
 ------
 
-Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από
-χρεόγραφα που έχουν εκδώσει οι ``ΥΕΟ`` ·
+Used to submit data regarding coupon payments on securities issued by the ``OA``.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 ID
-    Ο αναγνωριστικός κωδικός του χρεόγραφου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`dbt`)·
+    Identifier code of the share/investment fund unit (:ref:`shr`).
 
 DATE (DT)
-    Ημερομηνία πληρωμής τοκομεριδίου.
+    Coupon payment date.
 
 
 ΜΕΤΑΒΛΗΤΕΣ
 ~~~~~~~~~~
 
 RATE (RT)
-    Επιτόκιο τοκομεριδίου σε ετησιοποιημένη βάση (annualized rate).
+    Annualized coupon interest rate.
