@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-02 13:49+0200\n"
-"PO-Revision-Date: 2023-01-02 15:49+0200\n"
+"PO-Revision-Date: 2023-01-03 11:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,22 +30,22 @@ msgstr "Χρησιμοποιείται για την παροχή πληροφο
 #: ../../source/domain/ifdat/categories/other_info.rst:6
 #: 4b4c1c19c5614a32b066211e701b9cf4
 msgid "the financial assets owned by the ``OA``."
-msgstr "τα χρηματοοικονομικά περιουσιακά στοιχεία των ``ΥΕΟ`` ·"
+msgstr "τα χρηματοοικονομικά περιουσιακά στοιχεία της ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:8
 #: c0dc6b3f0d1c4ed580a99f95a3d8f1b5
 msgid "issuers of the financial assets owned by the ``OA``."
-msgstr "των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων των ``ΥΕΟ`` ·"
+msgstr "των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων της ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:10
 #: 0565752bc25d4ded9bb3a8dff40f3431
 msgid "real estate owned by the ``OA``."
-msgstr "την ακίνητη περιουσία των ``ΥΕΟ`` ·"
+msgstr "την ακίνητη περιουσία της ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:12
 #: 667331fa5e654eb98b3464b49ab41dc8
 msgid "the holders of eqyity/fund units/bonds issued by the ``OA``."
-msgstr "τους κατόχους των μετοχών/μεριδίων/ομολόγων που οι ``ΥΕΟ`` έχουν εκδώσει."
+msgstr "τους κατόχους των μετοχών/μεριδίων/ομολόγων που η ``ΠΜ`` έχει εκδώσει."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:14
 #: db020f9775124f2f938b5f972839507a
@@ -65,7 +65,7 @@ msgid ""
 "one value during the issuer lifecycle.  There is no need to resubmit the "
 "data on an issuer in case related data have already been submitted in "
 ":doc:`self_info`"
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του εκδότη.  Σε περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη αναγγελθεί και στο :doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του εκδότη.  Σε περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη αναγγελθεί και στο :doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:25
 #: ../../source/domain/ifdat/categories/other_info.rst:81
@@ -357,7 +357,7 @@ msgid ""
 "assets owned by the ``OA``.  The measures of this table can change during"
 " the issuer lifecycle. There is no need to resubmit the data on an issuer"
 " in case related data have already been submitted in :doc:`self_info`"
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του εκδότη.  Σε περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη αναγγελθεί και στο :doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του εκδότη.  Σε περίπτωση που τα στοιχεία ενός εκδότη έχουν ήδη αναγγελθεί και στο :doc:`self_info` δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:88
 #: ../../source/domain/ifdat/categories/other_info.rst:185
@@ -508,7 +508,7 @@ msgid ""
 "value during the holder lifecycle.  There is no need to resubmit the data"
 " on a holder in case related data have already been submitted in "
 ":doc:`self_info` or in ISSUER_."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των μετοχών/μεριδίων/ομολόγων που έχουν εκδώσει οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του κατόχου.  Σε περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και στο :doc:`self_info` ή στο ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των μετοχών/μεριδίων/ομολόγων που έχει εκδώσει η  ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του κατόχου.  Σε περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και στο :doc:`self_info` ή στο ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:125
 #: ../../source/domain/ifdat/categories/other_info.rst:181
@@ -536,7 +536,7 @@ msgid ""
 "holder lifecycle.  There is no need to resubmit the data on a holder in "
 "case related data have already been submitted in :doc:`self_info` or in "
 "STATIC_ISSUER_."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των μετοχών/μεριδίων/ομολόγων που έχουν εκδώσει οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του κατόχου.  Σε περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και στο :doc:`self_info` ή στο STATIC_ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των κατόχων των μετοχών/μεριδίων/ομολόγων που έχει εκδώσει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του κατόχου.  Σε περίπτωση που τα στοιχεία ενός κατόχου έχουν ήδη αναγγελθεί και στο :doc:`self_info` ή στο STATIC_ISSUER_  δεν χρειάζεται να υποβληθούν εκ νέου εδώ."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:195
 #: ../../source/domain/ifdat/categories/other_info.rst:504
@@ -560,7 +560,7 @@ msgid ""
 "Used to submit data regarding regarding the deposit accounts of the "
 "``OA``. The measures of this table can take at most one value during the "
 "lifecycle of the deposit account."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών λογαριασμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του καταθετικού λογαριασμού."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών λογαριασμών που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του καταθετικού λογαριασμού."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:214
 #: ../../source/domain/ifdat/categories/other_info.rst:263
@@ -688,7 +688,7 @@ msgid ""
 "Used to submit data regarding regarding the deposit accounts of the "
 "``OA``. The measures of this table can change during the lifecycle of the"
 " deposit account."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών λογαριασμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του καταθετικού λογαριασμού."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των καταθετικών λογαριασμών που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του καταθετικού λογαριασμού."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:277
 #: ../../source/domain/ifdat/categories/other_info.rst:356
@@ -755,7 +755,7 @@ msgstr "CREDITOR (CRDTR)"
 #: ../../source/domain/ifdat/categories/other_info.rst:290
 #: 1df46242c70e417ba1e043890a74ed08
 msgid "Identifier code of the ``OA`` that owns this deposit account (:ref:`org`)"
-msgstr "Αναγνωριστικός κωδικός του ``ΥΕΟ`` που έχει ανοίξει τον καταθετικό λογαριασμό (:ref:`org`)."
+msgstr "Αναγνωριστικός κωδικός της ``ΠΜ`` που έχει ανοίξει τον καταθετικό λογαριασμό (:ref:`org`)."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:294
 #: 3281613ac42345419548616e0486ae3c
@@ -768,7 +768,7 @@ msgid ""
 "Used to provide information data for security financing transactions that"
 " involve the ``OA``.  The measures of this table can take at most one "
 "value during the lifecycle of the security financing transaction."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης χρεογράφων που συναλλάσσονται οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των πράξεων."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης χρεογράφων που συναλλάσσεται η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των πράξεων."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:302
 #: ../../source/domain/ifdat/categories/other_info.rst:342
@@ -817,7 +817,7 @@ msgid ""
 "Used to provide information data for security financing transactions that"
 " involve the ``OA``. The measures of this table can change during the "
 "lifecycle of the security financing transaction."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης χρεογράφων που συναλλάσσονται οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των πράξεων."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων πράξεων χρηματοδότησης χρεογράφων που συναλλάσσεται η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των πράξεων."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:356
 #: ba7b585808264f66bc31abbb76ba1a09
@@ -862,7 +862,7 @@ msgid ""
 "Used to provide information data for debt instruments owned by the "
 "``OA``. The measures of this table can take at most one value during the "
 "lifecycle of the debt instrument."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του χρεογράφου."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του χρεογράφου."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:381
 #: ../../source/domain/ifdat/categories/other_info.rst:490
@@ -1151,7 +1151,7 @@ msgid ""
 "Used to submit information data regarding debt instruments owned by the "
 "``OA``. The measures of this table can change during the lifecycle of the"
 " debt instrument."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του χρεογράφου."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων χρεογράφων  που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του χρεογράφου."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:507
 #: f4652523548c481e85470fdcb538e3a7
@@ -1188,7 +1188,7 @@ msgid ""
 "Used to submit data regarding regarding loans given to the ``OA``. The "
 "measures of this table can take at most one value during the lifecycle of"
 " the loan."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχουν λάβει οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του δανείου."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχει λάβει η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής του δανείου."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:527
 #: ../../source/domain/ifdat/categories/other_info.rst:563
@@ -1231,7 +1231,7 @@ msgstr "STATIC_LOAN"
 msgid ""
 "Used to submit data regarding regarding loans given to the ``OA``. The "
 "measures of this table can change during the lifecycle of the loan."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχουν λάβει οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του δανείου."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων των δανείων που έχει λάβει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής του δανείου."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:577
 #: f6553823cc6f475ab7e8c4ff61454731
@@ -1252,7 +1252,7 @@ msgstr "Ονομαστικό επιτόκιο δανείου σε ετησιοπ
 #: ../../source/domain/ifdat/categories/other_info.rst:583
 #: 57278669b1134ffcadcc998391cc8403
 msgid "Identifier code of the ``OA`` that has received the loan."
-msgstr "Αναγνωριστικός κωδικός του ``ΥΕΟ`` που έχει λάβει το δάνειο."
+msgstr "Αναγνωριστικός κωδικός της ``ΠΜ`` που έχει λάβει το δάνειο."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:586
 #: 129a026cce824baa9aa035862da86925
@@ -1270,7 +1270,7 @@ msgid ""
 "Used to submit information data regarding equity/investment fund shares "
 "owned by the ``OA``.  The measures of this table can take at most one "
 "value during the lifecycle of the debt instrument."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των τίτλων."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά είτε ορίζονται μια φορά είτε παραμένουν σταθεϱά κατά τη διάρκεια του κύκλου ζωής των τίτλων."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:601
 #: ../../source/domain/ifdat/categories/other_info.rst:645
@@ -1312,7 +1312,7 @@ msgid ""
 "Used to submit information data regarding equity/investment fund shares "
 "owned by the ``OA``. The measures of this table can change during the "
 "lifecycle of the share/investment fund unit."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχουν οι ``ΥΕΟ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των τίτλων."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων συμμετοχικών τίτλων ή μετοχών/μεριδίων επενδυτικών οργανισμών που κατέχει η ``ΠΜ``. Τα στοιχεία αυτά δύναται να μεταβληθούν κατά τη διάρκεια του κύκλου ζωής των τίτλων."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:666
 #: d75e461eba8141a5924ffc5aba606b02
@@ -1324,7 +1324,7 @@ msgstr "EXT_DER"
 msgid ""
 "Used to submit information data regarding exchange traded derivatives "
 "traded by the by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων διαπραγματεύσιμων χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων διαπραγματεύσιμων χρηματοοικονομικών παραγώγων που κατέχει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:674
 #: cd5da111cfc54d9bbdfb2dedb1bcf696
@@ -1398,7 +1398,7 @@ msgstr "OTC_DER"
 msgid ""
 "Used to submit information data regarding over the counter derivatives "
 "traded by the by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων εξωχρηματιστηριακών χρηματοοικονομικών παραγώγων που κατέχουν οι ``ΥΕΟ`."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων εξωχρηματιστηριακών χρηματοοικονομικών παραγώγων που κατέχει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:721
 #: ada91c4f09fe4052a1410112a3ea12f7
@@ -1432,7 +1432,7 @@ msgstr "RES_RE"
 msgid ""
 "Used to submit information data regarding residential real estate owned "
 "by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων οικιστικών ακινήτων που κατέχουν οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων οικιστικών ακινήτων που κατέχει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:765
 #: ../../source/domain/ifdat/categories/other_info.rst:807
@@ -1527,7 +1527,7 @@ msgstr "ORG_TO_RRE"
 msgid ""
 "Used to submit data regarding ownership links between ``OA`` and "
 "residential real estate."
-msgstr "Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με οικιστικά ακίνητα."
+msgstr "Αφορά τις σχέσεις κυριότητας της ``ΠΜ`` με οικιστικά ακίνητα."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:804
 #: ../../source/domain/ifdat/categories/other_info.rst:875
@@ -1559,7 +1559,7 @@ msgstr "IS OWNER (IS_OWNR)"
 msgid ""
 "Flag that the ``OA`` identified by ``LID`` code owns real estate "
 "identified with ``RID`` code."
-msgstr "Ένδειξη ότι ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει κυριότητα σε ένα οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
+msgstr "Ένδειξη ότι η ``ΠΜ`` με αναγνωριστικό κωδικό ``LID`` έχει κυριότητα σε ένα οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:825
 #: ../../source/domain/ifdat/categories/other_info.rst:894
@@ -1572,7 +1572,7 @@ msgstr "RATE (RT)"
 msgid ""
 "Ownership rate that ``OA`` with identifier code ``LID`` has on "
 "residential real estate with identifier code ``RID``."
-msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει στο οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
+msgstr "Ποσοστό κυριότητας που η ``ΠΜ`` με αναγνωριστικό κωδικό ``LID`` έχει στο οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:828
 #: 9247562f34c84932805eed7685163260
@@ -1584,7 +1584,7 @@ msgstr "COM_RE"
 msgid ""
 "Used to submit information data regarding commercial real estate owned by"
 " the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων επαγγελματικών ακινήτων που κατέχουν οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων επαγγελματικών ακινήτων που κατέχει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:836
 #: ../../source/domain/ifdat/categories/other_info.rst:878
@@ -1615,14 +1615,14 @@ msgstr "ORG_TO_CRE"
 msgid ""
 "Used to submit data regarding ownership links between ``OA`` and "
 "commercial real estate."
-msgstr "Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με επαγγελματικά ακίνητα."
+msgstr "Αφορά τις σχέσεις κυριότητας της ``ΠΜ`` με επαγγελματικά ακίνητα."
 
 #: ../../source/domain/ifdat/categories/other_info.rst:895
 #: babf4e6a61554fcc98190e53df05aff6
 msgid ""
 "Ownership rate that ``OA`` with identifier code ``LID`` has on commercial"
 " real estate with identifier code ``RID``."
-msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγνωριστικό κωδικό ``LID`` έχει στο οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
+msgstr "Ποσοστό κυριότητας που η ``ΠΜ`` με αναγνωριστικό κωδικό ``LID`` έχει στο οικιστικό ακίνητο με αναγνωριστικό κωδικό ``RID`` ·"
 
 #~ msgid "OTHER_INFO: Λοιπά Πληροφοριακά Στοιχεία"
 #~ msgstr ""
@@ -1630,13 +1630,13 @@ msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγν
 #~ msgid "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων σε σχέση με:"
 #~ msgstr ""
 
-#~ msgid "τα χρηματοοικονομικά περιουσιακά στοιχεία των ``ΥΕΟ`` ·"
+#~ msgid "τα χρηματοοικονομικά περιουσιακά στοιχεία της ``ΠΜ`` ·"
 #~ msgstr ""
 
-#~ msgid "των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων των ``ΥΕΟ`` ·"
+#~ msgid "των εκδοτών των χρηματοοικονομικών περιουσιακών στοιχείων της ``ΠΜ`` ·"
 #~ msgstr ""
 
-#~ msgid "την ακίνητη περιουσία των ``ΥΕΟ`` ·"
+#~ msgid "την ακίνητη περιουσία της ``ΠΜ`` ·"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2330,7 +2330,7 @@ msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγν
 #~ msgid ""
 #~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
 #~ " στοιχείων διαπραγματεύσιμων χρηματοοικονομικών "
-#~ "παραγώγων που κατέχουν οι ``ΥΕΟ``. Τα"
+#~ "παραγώγων που κατέχει η ``ΠΜ``. Τα"
 #~ " στοιχεία αυτά είτε ορίζονται μια "
 #~ "φορά είτε παραμένουν σταθεϱά κατά τη "
 #~ "διάρκεια του κύκλου ζωής των παραγώγων."
@@ -2368,7 +2368,7 @@ msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγν
 #~ msgid ""
 #~ "Χρησιμοποιείται για την παροχή πληροφοριακών"
 #~ " στοιχείων εξωχρηματιστηριακών χρηματοοικονομικών "
-#~ "παραγώγων που κατέχουν οι ``ΥΕΟ``. Τα"
+#~ "παραγώγων που κατέχει η ``ΠΜ``. Τα"
 #~ " στοιχεία αυτά είτε ορίζονται μια "
 #~ "φορά είτε παραμένουν σταθεϱά κατά τη "
 #~ "διάρκεια του κύκλου ζωής των παραγώγων."
@@ -2439,21 +2439,21 @@ msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγν
 #~ msgid "Περιοχή με επιλογή από τη λίστα τιμών ``GEN_NUTS_ENUM`` ·"
 #~ msgstr ""
 
-#~ msgid "Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με οικιστικά ακίνητα."
+#~ msgid "Αφορά τις σχέσεις κυριότητας της ``ΠΜ`` με οικιστικά ακίνητα."
 #~ msgstr ""
 
 #~ msgid "Ο αναγνωριστικός κωδικός του κάτοχου (:ref:`org`)."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Ένδειξη ότι ο ``ΥΕΟ`` με αναγνωριστικό"
+#~ "Ένδειξη ότι η ``ΠΜ`` με αναγνωριστικό"
 #~ " κωδικό ``LID`` έχει κυριότητα σε ένα"
 #~ " οικιστικό ακίνητο με αναγνωριστικό κωδικό"
 #~ " ``RID`` ·"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με "
+#~ "Ποσοστό κυριότητας που η ``ΠΜ`` με "
 #~ "αναγνωριστικό κωδικό ``LID`` έχει στο "
 #~ "οικιστικό ακίνητο με αναγνωριστικό κωδικό "
 #~ "``RID`` ·"
@@ -2471,5 +2471,5 @@ msgstr "Ποσοστό κυριότητας που ο ``ΥΕΟ`` με αναγν
 #~ msgid "Είδος με επιλογή από τη λίστα τιμών ``CRE_TYP_ENUM`` ·"
 #~ msgstr ""
 
-#~ msgid "Αφορά τις σχέσεις κυριότητας των ``ΥΕΟ`` με επαγγελματικά ακίνητα."
+#~ msgid "Αφορά τις σχέσεις κυριότητας της ``ΠΜ`` με επαγγελματικά ακίνητα."
 #~ msgstr ""

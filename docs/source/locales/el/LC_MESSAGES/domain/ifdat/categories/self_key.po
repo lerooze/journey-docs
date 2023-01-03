@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-31 02:28+0200\n"
-"PO-Revision-Date: 2023-01-02 09:00+0200\n"
+"PO-Revision-Date: 2023-01-03 10:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: ../../source/domain/ifdat/categories/self_key.rst:2
 #: 69792f0e22fd4599b231b59cd3a3f1a9
 msgid "SELF_KEY: Self Key Financial Data"
-msgstr "SELF_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων ιδίου λογαραριασμού "
+msgstr "SELF_KEY: Βασικά στοιχεία χρηματοοικονομικών μέσων ιδίου λογαριασμού "
 
 #: ../../source/domain/ifdat/categories/self_key.rst:4
 #: 5a8bbf9cdd81404ea36f6f945260aebd
 msgid "Used to submit key financial data of instruments issued by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:6
 #: 7a8921c9f18e4a3999c4cd9d821f5330
@@ -44,7 +44,7 @@ msgstr "SHARE"
 msgid ""
 "Used to submit periodic key financial data of shares/investment fund "
 "units issued by ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:14
 #: ../../source/domain/ifdat/categories/self_key.rst:49
@@ -77,7 +77,7 @@ msgstr "ID"
 #: 2cfa5f0d79724e39a849ffa6c12f23b1 42680792551e43648c6f0a1f823e0a3a
 #: 70e014c70648427c9318d13e8e911c18
 msgid "Identifier code of the share/investment fund unit (:ref:`shr`)."
-msgstr "Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`shr`)."
+msgstr "Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδώσει η ``ΠΜ`` (:ref:`shr`)."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:20
 #: ../../source/domain/ifdat/categories/self_key.rst:54
@@ -170,14 +170,14 @@ msgstr "DIVIDEND"
 msgid ""
 "Used to provide data about dividends distributed by instruments issued by"
 " the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των τίτλων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των τίτλων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:54
 #: a41a9e9535bf47fca76bb5e938806026
 msgid ""
 "Date at which the ``OA`` checks its books to find its investors.  An "
 "investor must be recorded in this date to be eligible for the dividend."
-msgstr "Ημερομηνία καταγραφής που ο ``ΥΕΟ`` ελέγχει τα βιβλία του για να εντοπίσει τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του μερίσματος."
+msgstr "Ημερομηνία καταγραφής που η ``ΠΜ`` ελέγχει τα βιβλία του για να εντοπίσει τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του μερίσματος."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:60
 #: 31f451cae02a45b3b72fca75170c1617
@@ -256,7 +256,7 @@ msgstr "SPLIT"
 msgid ""
 "Used to provide data regarding splits and reverse splits of instruments "
 "issued by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις και συμπτύξεις μετοχών/μεριδίων που έχουν εκδώσει οι ``ΥΕΟ`` ·"
+msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις και συμπτύξεις μετοχών/μεριδίων που που έχει εκδώσει η ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:98
 #: 2764f770a2e643d0b738666e5005241b
@@ -278,14 +278,14 @@ msgstr "Ο συντελεστής μετατροπής οριζόμενος ως
 #: ../../source/domain/ifdat/categories/self_key.rst:107
 #: 185c4a8bf8364ca5bca7e44c0b17a9d2
 msgid "DEBT"
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:109
 #: 1e90bbffafb34427aeeee511618a2c54
 msgid ""
 "Used to key financial data regarding the debt instruments issued by the "
 "``OA``."
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που έχουν εκδώσει οι ``ΥΕΟ``."
+msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:118
 #: 917d5540e42440258fc73fa93dad761e
@@ -334,7 +334,7 @@ msgstr "COUPON"
 msgid ""
 "Used to submit data regarding coupon payments on securities issued by the"
 " ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από χρεόγραφα που έχουν εκδώσει οι ``ΥΕΟ`` ·"
+msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από χρεόγραφα που που έχει εκδώσει η ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:149
 #: 124275e5dbe2439aa4cbd370d08fe5f7
@@ -378,7 +378,7 @@ msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημέ�
 
 #~ msgid ""
 #~ "Ο αναγνωριστικός κωδικός του συμμετοχικού "
-#~ "τίτλου που έχει εκδόσει ο ``ΥΕΟ`` "
+#~ "τίτλου που έχει εκδόσει η ``ΠΜ`` "
 #~ "(:ref:`shr`)."
 #~ msgstr ""
 
@@ -425,11 +425,11 @@ msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημέ�
 #~ msgid ""
 #~ "Χρησιμοποιείται για την παροχή μεταβλητών "
 #~ "στοιχείων για τα μερίσματα των τίτλων"
-#~ " που έχουν εκδώσει οι ``ΥΕΟ``."
+#~ " που που έχει εκδώσει η ``ΠΜ``."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Ημερομηνία καταγραφής που ο ``ΥΕΟ`` "
+#~ "Ημερομηνία καταγραφής που η ``ΠΜ`` "
 #~ "ελέγχει τα βιβλία του για να "
 #~ "εντοπίσει τους μετόχους/μεριδιούχους του.  "
 #~ "Ένας επενδυτής πρέπει να είναι δηλωμένος"
@@ -476,7 +476,7 @@ msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημέ�
 
 #~ msgid ""
 #~ "Ο αναγνωριστικός κωδικός του συμμετοχικού "
-#~ "τίτλου που έχει εκδόσει ο ``ΥΕΟ`` "
+#~ "τίτλου που έχει εκδόσει η ``ΠΜ`` "
 #~ "(:ref:`shr`)·"
 #~ msgstr ""
 
@@ -499,7 +499,7 @@ msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημέ�
 
 #~ msgid ""
 #~ "Ο αναγνωριστικός κωδικός του χρεόγραφου "
-#~ "που έχει εκδόσει ο ``ΥΕΟ`` (:ref:`dbt`)·"
+#~ "που έχει εκδόσει η ``ΠΜ`` (:ref:`dbt`)·"
 #~ msgstr ""
 
 #~ msgid ""
@@ -537,7 +537,7 @@ msgstr "Επιτόκιο τοκομεριδίου σε ετησιοποιημέ�
 #~ msgid ""
 #~ "Χρησιμοποιείται για την παροχή μεταβλητών "
 #~ "στοιχείων των τοκομεριδίων από χρεόγραφα "
-#~ "που έχουν εκδώσει οι ``ΥΕΟ`` ·"
+#~ "που που έχει εκδώσει η ``ΠΜ`` ·"
 #~ msgstr ""
 
 #~ msgid "Ημερομηνία πληρωμής τοκομεριδίου."

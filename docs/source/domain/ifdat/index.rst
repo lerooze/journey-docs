@@ -19,12 +19,9 @@ agency are provided.
 
 :doc:`example` contains data submission file examples.
 
-:doc:`version` describes ``IFDat`` latest and historical versions.
-
 .. toctree::
    :maxdepth: 1 
 
    regulation
    categories
    example
-   version

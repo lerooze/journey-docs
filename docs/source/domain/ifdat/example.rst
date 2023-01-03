@@ -1,33 +1,38 @@
-Παραδείγματα Υποβολλών
-======================
-Στη συγκεκριμένη ενότητα παρέχονται παραδείγματα υποβολών στοιχείων
-:mod:`IFDat` από υποθετικές ``ΜΠΣ``.  Τα αρχεία των παραδειγμάτων βρίσκονται στο φάκελο
-:file:`exaple`.
+Submission Examples
+===================
+This section provides data submission examples from imaginary ``RAs``.  
 
-Υποβολλή στοιχείων από διαχειρίστρια εταιρεία αμοιβαίων κεφαλαίων
------------------------------------------------------------------
-Στο παρόν παράδειγμα μία διαχειρίστρια εταιρεία αμοιβαίων κεφαλαίων με
-υποθετικό αναγνωριστικό κωδικό (:ref:`org`) τον ``GRMFMC000`` και υποθετικό
-αναγνωριστικό κωδικό ``UID`` (:doc:`../../sid`) τον ``100`` που συστάθηκε τον
-Ιανουάριο του 2022 υποβάλλει για πρώτη φορά τις έξι κατηγορίες στοιχείων κατά
-τη διάρκεια του Φεβρουαρίου του 2022.  Στον παρακάτω πίνακα για κάθε κατηγορία
-στοιχείων δίδεται η προθεσμία υποβολή τους και τα παραδείγματα υποβολών τόσο
-σε .xlsx μορφή όσο και σε .json μορφή που υπάρχουν ως παραρτήματα του κειμένου
-προδιαγραφών.
+Data submission from a mutual fund management company
+-----------------------------------------------------
+In this example a mutual fund management company with an ``ID`` of ``GRMFMC000`` 
+(:ref:`org`) and a ``UID`` of ``100`` (:doc:`../../sid`) that was established on January of 2022 submits for the first time data during February of 2022. In the table below for each data category the submission deadline is provided as well as the submission data examples in both json and excel format.
 
 
-+------------+------------+---------------------------------+---------------------------------+
-| Κατηγορία  | Προθεσμία  | Παράδειγμα σε .xlsx             | Παράδειγμα σε .json             |
-+============+============+=================================+=================================+
-| SELF_INFO  | 2022-02-02 | SELF_INFO_MFMC_M0_EXAMPLE.xlsx  | SELF_INFO_MFMC_M0_EXAMPLE.json  |
-+------------+------------+---------------------------------+---------------------------------+
-| SELF_KEY   | 2022-02-02 | SELF_KEY_MFMC_M0_EXAMPLE.xlsx   | SELF_KEY_MFMC_M0_EXAMPLE.json   |
-+------------+------------+---------------------------------+---------------------------------+
-| OTHER_INFO | 2022-02-14 | OTHER_INFO_MFMC_M0_EXAMPLE.xlsx | OTHER_INFO_MFMC_M0_EXAMPLE.json |
-+------------+------------+---------------------------------+---------------------------------+
-| OTHER_KEY  | 2022-02-14 | OTHER_KEY_MFMC_M0_EXAMPLE.xlsx  | OTHER_KEY_MFMC_M0_EXAMPLE.json  |
-+------------+------------+---------------------------------+---------------------------------+
-| ACCOUNTS   | 2022-02-21 | ACCOUNTS_MFMC_M0_EXAMPLE.xlsx   | ACCOUNTS_MFMC_M0_EXAMPLE.json   |
-+------------+------------+---------------------------------+---------------------------------+
-| INCOME     | 2022-02-21 | INCOME_MFMC_M0_EXAMPLE.xlsx     | INCOME_MFMC_M0_EXAMPLE.json     |
-+------------+------------+---------------------------------+---------------------------------+
++---------------+------------+-----------------------------+----------------------------+
+| Data Category | Deadline   | Excel Example               | Json Example               |
++===============+============+=============================+============================+
+| SELF_INFO     | 2022-02-02 | `SELF_INFO_MFMC_M0_EXCEL`_  | `SELF_INFO_MFMC_M0_JSON`_  |
++---------------+------------+-----------------------------+----------------------------+
+| SELF_KEY      | 2022-02-02 | `SELF_KEY_MFMC_M0_EXCEL`_   | `SELF_KEY_MFMC_M0_JSON`_   |
++---------------+------------+-----------------------------+----------------------------+
+| OTHER_INFO    | 2022-02-14 | `OTHER_INFO_MFMC_M0_EXCEL`_ | `OTHER_INFO_MFMC_M0_JSON`_ |
++---------------+------------+-----------------------------+----------------------------+
+| OTHER_KEY     | 2022-02-14 | `OTHER_KEY_MFMC_M0_EXCEL`_  | `OTHER_KEY_MFMC_M0_JSON`_  |
++---------------+------------+-----------------------------+----------------------------+
+| BSI           | 2022-02-21 | `BSI_MFMC_M0_EXCEL`_        | `BSI_MFMC_M0_JSON`_        |
++---------------+------------+-----------------------------+----------------------------+
+| INCOME        | 2022-02-21 | `INCOME_MFMC_M0_EXCEL`_     | `INCOME_MFMC_M0_JSON`_     |
++---------------+------------+-----------------------------+----------------------------+
+
+.. _SELF_INFO_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/SELF_INFO_MFMC_M0_EXAMPLE.xlsx
+.. _SELF_INFO_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/SELF_INFO_MFMC_M0_EXAMPLE.json
+.. _SELF_KEY_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/SELF_KEY_MFMC_M0_EXAMPLE.xlsx
+.. _SELF_KEY_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/SELF_KEY_MFMC_M0_EXAMPLE.json
+.. _OTHER_INFO_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/OTHER_INFO_MFMC_M0_EXAMPLE.xlsx
+.. _OTHER_INFO_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/OTHER_INFO_MFMC_M0_EXAMPLE.json
+.. _OTHER_KEY_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/OTHER_KEY_MFMC_M0_EXAMPLE.xlsx
+.. _OTHER_KEY_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/OTHER_KEY_MFMC_M0_EXAMPLE.json
+.. _BSI_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/BSI_MFMC_M0_EXAMPLE.xlsx
+.. _BSI_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/BSI_MFMC_M0_EXAMPLE.json
+.. _INCOME_MFMC_M0_EXCEL: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/INCOME_MFMC_M0_EXAMPLE.xlsx
+.. _INCOME_MFMC_M0_JSON: https://github.com/lerooze/journey-docs/blob/main/domain_files/ifdat/example/INCOME_MFMC_M0_EXAMPLE.json

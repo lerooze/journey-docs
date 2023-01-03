@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-31 02:28+0200\n"
-"PO-Revision-Date: 2022-12-31 20:32+0200\n"
+"PO-Revision-Date: 2023-01-03 11:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,19 +23,19 @@ msgstr "Τομείς Δεδομένων"
 
 #: ../../source/domain.rst:4 306a322c192c468e9b4d0db1b19543aa
 msgid "The data domains that :mod:`Journey` can handle are the following:"
-msgstr "Οι τομείς δεδομένων που διαχειρίζεται η πλατφόρμα :mod:`Journey` είναι οι εξής:"
+msgstr "Το :mod:`Journey` μπορεί να διαχειρισθεί τους παρακάτω τομείς δεδομένων:"
 
 #: ../../source/domain.rst:6 20ffaebd246846ee99b25e1e3d2ab958
 msgid ""
 "`DBDat` handles data that are stored directly into :mod:`Journey` "
 "database tables.  For details see section :doc:`domain/dbdat/index`."
-msgstr "`DBDat` που περιλαμβάνει στοιχεία τα οποία αποθηκεύονται απευθείας στη βάση δεδομένων της πλατφόρμας :mod:`Journey`.  Για λεπτομέρειες δείτε :doc:`domain/dbdat/index`."
+msgstr "Η `DBDat` διαχειρίζεται στοιχεία τα οποία αποθηκεύονται απευθείας στη βάση δεδομένων.  Λεπτομέρειες υπάρχουν στην ενότητα :doc:`domain/dbdat/index`."
 
 #: ../../source/domain.rst:9 6e294dc68f5246bd9ee1496c17b2fab0
 msgid ""
 "`IFDat` handles data coming from Investment Fund units.  For details see "
 "section :doc:`domain/ifdat/index`."
-msgstr "`IFDat` που περιλαμβάνει στοιχεία επενδυτικών οργανισμών.  Για λεπτομέρειες δείτε :doc:`domain/ifdat/index`."
+msgstr "Η `IFDat` διαχειρίζεται στοιχεία επενδυτικών οργανισμών.  Λεπτομέρειες υπάρχουν στην ενότητα :doc:`domain/ifdat/index`."
 
 #~ msgid ""
 #~ "`DBDat` handles data that are stored "

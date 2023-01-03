@@ -1,34 +1,24 @@
-Ευρετήριο
-=========
+Glossary
+========
 
 .. glossary::
     :sorted:
 
     Dataset
-    Πίνακας δεδομένων
-        Χρησιμοποιείται στο SDMX για την μεταβίβαση στοιχείων που η δομή τους
-        ορίζονται από ένα DSD.   
+        Used in SDMX to exchange data that its structure is defined by a DSD.
 
     DSD
     Data Structure Definition
-    Δομή Δεδομένων
-        Χρησιμοποιείται στο SDMX για να ορίσει τη μορφή και δομή
-        μεταβιβαζόμενων στοιχείων.
+        Used in SDMX to define the structure of some data to be exchanged.
 
+    Statistical Data and Metadata Exchange
     SDMX
-        Πρότυπο πληροφοριών που o βασικός του σκοπός είναι η ανταλλαγή με
-        δομημένο τρόπο.  Περισσότερες πληρορίες υπάρχουν `εδώ
-        <http://www.sdmx.org>`_ 
+        Data exchange standard that its main aim is to facilitate the exchange of data in a structured way.  More information can be found `here <http://www.sdmx.org>`_ 
 
-    ΜΠΣ
-    Μονάδα Παροχής Στοιχείων
-    RA
     Reporting Agent
-        Η μονάδα που παρέχει στοιχεία IFDat στην ΤτΕ.
+    RA
+        The agent that is responsible for submitting data.
 
-    ΥΕΟ
-    Υπόχρεος Επενδυτικός Οργανισμός
-    OA
     Observed Agent
-        Η μονάδα που υποχρεούται να παρέχει στοιχεία IFDat είτε απευθείας είτε
-        μέσω διαχειρίεστριας εταιρείας.
+    OA
+        The agent that due to its activity generates data to be submitted by the reporting agent which could be the observed agent itself.

@@ -1,78 +1,70 @@
-INCOME: Είσοδημα των ΥΕΟ 
-========================
+INCOME: Observed Agent Income
+=============================
 
-Χρησιμοποιείται για την παροχή στοιχείων εισοδήματος των ``ΥΕΟ`` σε
-δεδουλευμένη βάση.  Παρέχονται στοιχεία ανά μετοχή/μερίδιο των ``YEO``.  Σε
-περίπτωση που ένας ``YEO`` έχει πάνω από μία κατηγορία μετοχής/μεριδίου τότε
-για κάθε κατηγορία μετοχής/μεριδίου παρέχονται στοιχεία εισοδήματος ξεχωριστά
-ανά κατηγορίας μετοχής/μεριδίου και ανά μετοχής/μεριδίου.
+Used to submit analytic data on income sources of the ``RA`` in accrual basis.
+Data is collected on the level of each share/investment fund unit of the ``RA`` and not on the level of the ``RA`` itself.
 
-Στις παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι
-διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα.
+Below the dimensions, measures and if needed the attributes of the measures for each table:
 
 REVENUE
 -------
 
-Χρησιμοποιείται για την παροχή στοιχείων σε σχέση με τα έσοδα των ``ΥΕΟ``.
+Used to submit revenue data.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της μετοχής/μεριδίου του ``ΥΕΟ`` (:ref:`shr`)·
+    Identifier code of the share/investment fund unit of the ``OA`` (:ref:`shr`).
 
 TYPE (TYP)
-    Είδος εισοδήματος με επιλογή από τη λίστα τιμών ``INCM_RVN_ENUM``.
+    Revenue type choosing from ``INCM_RVN_ENUM``.
     
 DATE (DT)
-    Η τελική ημερομηνία της περιόδου που ισχύουν οι παρεχόμενες τιμές των
-    μεταβλητών. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FREQUENCY (FRQNCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _revenue:
 
 AMOUNT (AMNT)
-    Έσοδα ανά μετοχή/μερίδιο εκφρασμένο στο :ref:`νόμισμα <sishrcurrency>` ·
+    Revenue by each share/investment fund unit expressed in :ref:`currency <sishrcurrency>` ·
 
 AMOUNT IN EURO (EUR_AMNT)
-    Η revenue_ σε Ευρώ.
+    revenue_ in euro.
     
 
 EXPENSE
 -------
 
-Χρησιμοποιείται για την παροχή στοιχείων σε σχέση με τα έξοδα των ``ΥΕΟ``.
+Used to submit expense data.
 
-ΔΙΑΣΤΑΣΕΙΣ
+DIMENSIONS
 ~~~~~~~~~~
 
 IID
-    Ο αναγνωριστικός κωδικός της μετοχής/μεριδίου του ``ΥΕΟ`` (:ref:`shr`)·
+    Identifier code of the share/investment fund unit of the ``OA`` (:ref:`shr`).
 
 TYPE (TYP)
-    Είδος εξόδων με επιλογή από τη λίστα τιμών ``INCM_EXPNS_ENUM``.
+    Expense type choosing from ``INCM_EXPNS_ENUM``.
     
 DATE (DT)
-    Η τελική ημερομηνία της περιόδου που ισχύουν οι παρεχόμενες τιμές των
-    μεταβλητών. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`. 
 
 FREQUENCY (FRQNCY)
-    Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που
-    ισχύουν οι παρεχόμενες τιμές των μεταβλητές. Περισσότερες πληροφορίες στις :doc:`../../../generic`. 
+    Reference period. For further details see :doc:`../../../generic`.
 
-ΜΕΤΑΒΛΗΤΕΣ
-~~~~~~~~~~
+MEASURES
+~~~~~~~~
 
 .. _expense:
 
 AMOUNT (AMNT)
-    Έξοδα ανά μετοχή/μερίδιο εκφρασμένο στο :ref:`νόμισμα <sishrcurrency>` ·
+    Expense by each share/investment fund unit expressed in :ref:`currency <sishrcurrency>` ·
 
 AMOUNT IN EURO (EUR_AMNT)
-    Η expense_ σε Ευρώ.
+    expense_ in euro.

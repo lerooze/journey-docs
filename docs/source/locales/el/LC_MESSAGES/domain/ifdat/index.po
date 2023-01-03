@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 02:28+0200\n"
-"PO-Revision-Date: 2023-01-02 13:41+0200\n"
+"POT-Creation-Date: 2023-01-02 21:10+0200\n"
+"PO-Revision-Date: 2023-01-02 21:12+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,42 +23,49 @@ msgstr "IFDat"
 
 #: ../../source/domain/ifdat/index.rst:4 d0688b52214c411b89d9fc1570d450b6
 msgid "This section describes how data are collected from Investment Funds."
-msgstr "Το κεφάλαιο αυτό περιγράφει τον τρόπο συλλογής στοιχείων από επενδυτικούς οργανισμούς."
+msgstr ""
+"Η παρούσα ενότητα περιγράφει πως το :mod:`Journey` διαχειρίζεται τα "
+"στοιχεία επενδυτικών οργανισμών με το ακρώνυμο ``IFDat``."
 
 #: ../../source/domain/ifdat/index.rst:6 950501118bc242a18ff817093b731f01
 msgid ""
 ":doc:`regulation` provides a template regulation that can be used as a "
 "basis for the collection of data from Investment Funds by the data "
 "collecting agencies."
-msgstr "Η ενότητα :doc:`regulation` περιέχει έναν πρότυπο  κανονισμό που μπορεί να χρησιμοποιηθεί ως βάση για τη συλλογή στοιχείων επενδυτικών οργανισμών από τις αρμόδιες αρχές."
+msgstr ""
+"Ο :doc:`κανονισμός <regulation>` είναι ένας πρότυπος  κανονισμός που "
+"μπορεί να χρησιμοποιηθεί ως βάση για τη συλλογή στοιχείων επενδυτικών "
+"οργανισμών από τις αρμόδιες αρχές."
 
 #: ../../source/domain/ifdat/index.rst:10 74ff2816ef8e43e3b807a50028490ac2
 msgid ""
 ":doc:`categories` describes in detail the six data categories that are "
 "contained in the data domain ``IFDat``."
-msgstr "H ενότητα :doc:`categories` περιγράφει αναλυτικά τις έξι κατηγορίες δεδομένων του τομέα δεδομένων ``IFDat``."
+msgstr ""
+"Στις :doc:`κατηγορίες <categories>` περιγράφονται αναλυτικά οι έξι "
+"κατηγορίες δεδομένων του ``IFDat``."
 
 #: ../../source/domain/ifdat/index.rst:13 ab8c995434f8440c80771904f77843ac
 msgid ""
 ":doc:`../../submission` describes how ``IFDat`` data can be submitted to "
 "the data collecting agencies."
-msgstr "Η ενότητα :doc:`../../submission` περιγράφει τον τρόπο αποστολής των στοιχείων ``IFDat``."
+msgstr ""
+"Στην :doc:`υποβολή <../../submission>` περιγράφεται ο τρόπος αποστολής "
+"στοιχείων ``IFDat``."
 
 #: ../../source/domain/ifdat/index.rst:16 0342e95cb44a4345864a121ae9e53d72
 msgid ""
 "In :doc:`../../sid` a table can be found that for each ``RA`` its name, "
 "identification code and integer identification code given by the "
 "collecting agency are provided."
-msgstr "Στην ενότητα :doc:`../../sid` υπάρχει πίνακας όπου για κάθε ``ΜΠΣ`` δίδεται η επωνυμία της, ο αναγνωριστικός κωδικός αλλά και ο ακέραιος κωδικός που της έχει αποδοθεί από τις αρχές."
+msgstr ""
+"Στην :doc:`ΜΠΣ<../../sid>` παρέχεται η επωνυμία, ο αναγνωριστικός κωδικός"
+" αλλά και ο ακέραιος κωδικός που της έχει αποδοθεί από τις αρχές για κάθε"
+" ``ΜΠΣ``."
 
 #: ../../source/domain/ifdat/index.rst:20 74a5e314364b4f7a9f7a9e88c8be91fb
 msgid ":doc:`example` contains data submission file examples."
-msgstr "Στην ενότητα :doc:`example` περιγράφονται παραδείγματα υποβολών αρχείων."
-
-#: ../../source/domain/ifdat/index.rst:22 d8886ec92cb1460ba7b4e3480391324b
-msgid ":doc:`version` describes ``IFDat`` latest and historical versions."
-msgstr "Στην ενότητα :doc:`version` περιγράφεται το ιστορικό των εκδόσεων του τομέα δεδομένων ``IFdat``."
-
+msgstr "Στα :doc:`παραδείγματα <example>` περιγράφονται παραδείγματα υποβολών δεδομένων"
 
 #~ msgid ""
 #~ "Το κεφάλαιο αυτό περιγράφει τον τρόπο"
@@ -104,3 +111,9 @@ msgstr "Στην ενότητα :doc:`version` περιγράφεται το ι�
 #~ " ιστορικό των εκδόσεων του τομέα "
 #~ "δεδομένων ``IFdat``."
 #~ msgstr ""
+
+#~ msgid ":doc:`version` describes ``IFDat`` latest and historical versions."
+#~ msgstr ""
+#~ "Στις :doc:`εκδόσεις <version>` περιγράφονται "
+#~ "το ιστορικό των εκδόσεων του τομέα "
+#~ "δεδομένων ``IFdat``."
