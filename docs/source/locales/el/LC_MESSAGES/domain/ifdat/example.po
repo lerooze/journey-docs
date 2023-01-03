@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 10:51+0200\n"
-"PO-Revision-Date: 2023-01-03 10:52+0200\n"
+"PO-Revision-Date: 2023-01-03 13:26+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/domain/ifdat/example.rst:2 a69197a23d074589b3ad04998f70b5c1
 msgid "Submission Examples"
-msgstr "Παραδείγματα Υποβολλών"
+msgstr "Παραδείγματα Υποβολών"
 
 #: ../../source/domain/ifdat/example.rst:3 00eb31b2a88942e582103ba30c848261
 msgid "This section provides data submission examples from imaginary ``RAs``."

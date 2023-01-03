@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 10:23+0200\n"
-"PO-Revision-Date: 2023-01-03 10:44+0200\n"
+"POT-Creation-Date: 2023-01-03 13:26+0200\n"
+"PO-Revision-Date: 2023-01-03 13:27+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,9 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: ../../source/domain/ifdat/regulation.rst:2 d04a4027d65d446f8a2160a5acd15314
-msgid "DRAFT REGULATION"
-msgstr "ΚΑΝΟΝΙΣΜΟΣ"
+#: ../../source/domain/ifdat/regulation.rst:2 5bb27f41c6d44b34a26efefbe34948e1
+msgid "Regulation"
+msgstr "Κανονισμός"
 
 #: ../../source/domain/ifdat/regulation.rst:6 ba1cb412ff9b4787a1859c0384705ef7
 msgid "Άρθρο 1: Πεδίο εφαρμογής - πληθυσμός παροχής στοιχείων"
@@ -489,3 +489,6 @@ msgstr ""
 #~ "στοιχείων εφαρμόζονται οι περί κυρώσεων "
 #~ "σχετικές διατάξεις..."
 #~ msgstr ""
+
+#~ msgid "DRAFT REGULATION"
+#~ msgstr "ΚΑΝΟΝΙΣΜΟΣ"
