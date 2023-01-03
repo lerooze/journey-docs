@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 10:38+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2023-01-03 12:40+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,68 +19,68 @@ msgstr ""
 
 #: ../../source/glossary.rst:2 ff9ad6fc9295423d97eb4fa68c681b88
 msgid "Glossary"
-msgstr ""
+msgstr "Όροι"
 
 #: ../../source/glossary.rst:6 3fb7d6501668432d9d0b73ca0f0c98de
 msgid "Dataset"
-msgstr ""
+msgstr "Πίνακας Δεδομένων"
 
 #: ../../source/glossary.rst:8 b05d9a24ad3c4bc1b1ee585fc5e1b0d1
 msgid "Used in SDMX to exchange data that its structure is defined by a DSD."
-msgstr ""
+msgstr "Χρησιμοποιείται στο SDMX για την ανταλλαγή στοιχείων με βάση δομή που ορίζεται από το DSD"
 
 #: ../../source/glossary.rst:9 a5c785676ae3425c8592ad4ec9fb7af7
 msgid "DSD"
-msgstr ""
+msgstr "DSD"
 
 #: ../../source/glossary.rst:10 08496eabc94b4900b7a7b444e037be75
 msgid "Data Structure Definition"
-msgstr ""
+msgstr "Data Structure Definition"
 
 #: ../../source/glossary.rst:12 f4564dfcdab146ad9f49d7a57e8b2d9f
 msgid "Used in SDMX to define the structure of some data to be exchanged."
-msgstr ""
+msgstr "Χρησιμοποιείται στο SDMX για να ορίσει τη δομή πινάκων δεδομένων"
 
 #: ../../source/glossary.rst:21 05c34da0a55a459fbddb6a7dae0e3fb5
 msgid "Observed Agent"
-msgstr ""
+msgstr "Παρατηρούμενη Μονάδα"
 
 #: ../../source/glossary.rst:22 40c8d3c2d00149349b00f57f3528d19e
 msgid "OA"
-msgstr ""
+msgstr "ΠΜ"
 
 #: ../../source/glossary.rst:24 db48675e94b94edba73e2d5cfe134a56
 msgid ""
 "The agent that due to its activity generates data to be submitted by the "
 "reporting agent which could be the observed agent itself."
-msgstr ""
+msgstr "Η μονάδα η οποία με βάση την δραστηριότητα της δημιουργεί στοιχεία που υποβάλλονται από την μονάδα παροχή στοιχείων που δύναται να είναι η ίδια η παρατηρούμενη μονάδα."
 
 #: ../../source/glossary.rst:17 7e97e16bb8f048b2adceff416c47be29
 msgid "Reporting Agent"
-msgstr ""
+msgstr "Μονάδα Παροχής Στοιχείων"
 
 #: ../../source/glossary.rst:18 7d5751d94b234b859e80cbf5484856b4
 msgid "RA"
-msgstr ""
+msgstr "ΜΠΣ"
 
 #: ../../source/glossary.rst:20 ba5114a40030464a8b0c47ac253df48a
 msgid "The agent that is responsible for submitting data."
-msgstr ""
+msgstr "Η μονάδα που είναι υπεύθυνη για την υποβολή στοιχείων"
 
 #: ../../source/glossary.rst:13 4d99bed935184e2292f98695b72d3d5c
 msgid "Statistical Data and Metadata Exchange"
-msgstr ""
+msgstr "Statistical Data and Metadata Exchange"
 
 #: ../../source/glossary.rst:14 f6a8ebfa3a2945439462795a4ec9c7c0
 msgid "SDMX"
-msgstr ""
+msgstr "SDMX"
 
 #: ../../source/glossary.rst:16 27ca1ab793e44f48888e9e98a94f56cb
 msgid ""
 "Data exchange standard that its main aim is to facilitate the exchange of"
 " data in a structured way.  More information can be found `here "
 "<http://www.sdmx.org>`_"
-msgstr ""
+msgstr "Πρότυπο ανταλλαγής στοιχείων με βασικό σκοπό την διευκόλυνση της ανταλλαγής δεδομένων με δομημένο τρόπο. Περισσότερες λεπτομέρειες υπάρχουν `εδώ <http://www.sdmx.org>`_"
 
 #~ msgid "Ευρετήριο"
 #~ msgstr ""
@@ -130,4 +130,3 @@ msgstr ""
 #~ "στοιχεία IFDat είτε απευθείας είτε μέσω"
 #~ " διαχειρίεστριας εταιρείας."
 #~ msgstr ""
-
