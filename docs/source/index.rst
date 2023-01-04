@@ -20,7 +20,6 @@ reporting agents.
    sid
    whatsnew
    dev
-   license
 
 .. toctree::
    :hidden:
@@ -30,3 +29,4 @@ reporting agents.
    structure
    submission
    glossary
+   license
