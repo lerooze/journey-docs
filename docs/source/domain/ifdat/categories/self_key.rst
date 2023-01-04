@@ -70,7 +70,7 @@ FREQUENCY (FRQNCY)
     Distribution frequency choosing from ``DVDND_CSTM_FRQNCY_ENUM``.
 
 TYPE (TYP)
-    Dividend type choosign from ``DVDND_TYP_ENUM``.
+    Dividend type choosing from ``DVDND_TYP_ENUM``.
 
 .. _currency_div:
 

@@ -12,8 +12,10 @@ MANAGEMENT
 ----------
 
 Used to submit information data regarding the ``RA`` in case the ``RA`` and the
-``OA`` are not the same entities.  The measures of this table can take at most one
-value during the lifecycle of the ``RA``.
+``OA`` are not the same entities as well as the management company of the
+``OA`` in case the ``OA`` has a management company and the ``RA`` is not the
+management company.  The measures of this table can take at most one value
+during the life cycle of the reported entities.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -41,13 +43,13 @@ LEI ID (LEI_ID)
 
 TAX ID (TAX_ID)
     Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
     tax code and ``CODE`` is a placeholder for the actual tax code without the
     country code in case it starts with it.
 
 NBR ID (NBR_ID)
     Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
     code and ``CODE`` is a placeholder for the actual business identifier code
     without the country code in case it starts with it.
 
@@ -63,8 +65,10 @@ STATIC_MANAGEMNT
 ----------------
 
 Used to submit information data regarding the ``RA`` in case the ``RA`` and the
-``OA`` are not the same entities.  The measures of this table can change during
-the lifecycle of the entity.
+``OA`` are not the same entities as well as the management company of the
+``OA`` in case the ``OA`` has a management company and the ``RA`` is not the
+management company.  The measures of this table can change during
+the life cycle of the reported entities.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -87,7 +91,7 @@ NAME (NM)
     Official name.
 
 LATIN NAME (NM_LTN)
-    Official name using latin characters.
+    Official name using Latin characters.
 
 SHORT NAME (NM_SHRT)
     Short name.
@@ -96,13 +100,13 @@ STREET (STRT)
     Street address, street number and area.
 
 LATIN STREET (STRT_LTN)
-    Street address, street number and area in latin characters.
+    Street address, street number and area in Latin characters.
 
 CITY (CTY)
     City, village.
 
 LATIN CITY (CTY_LTN)
-    City, village in latin characters.
+    City, village in Latin characters.
 
 POSTAL CODE (PSTL_CD)
     Postal code.
@@ -128,7 +132,7 @@ FUND
 ----
 
 Used to submit information data regarding the ``OA``.  The measures of this table have at most one
-value during the lifecycle of the ``OA``.
+value during the life cycle of the ``OA``.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -156,13 +160,13 @@ LEI ID (LEI_ID)
 
 TAX ID (TAX_ID)
     Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
     tax code and ``CODE`` is a placeholder for the actual tax code without the
     country code in case it starts with it.
 
 NBR ID (NBR_ID)
     Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the the
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
     code and ``CODE`` is a placeholder for the actual business identifier code
     without the country code in case it starts with it.
 
@@ -179,7 +183,7 @@ STATIC_FUND
 -----------
 
 Used to submit information data regarding the ``OA``.  The measures of this table can change during
-the lifecycle of the entity.
+the life cycle of the entity.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -202,7 +206,7 @@ NAME (NM)
     Official name·
 
 LATIN NAME (NM_LTN)
-    Official name using latin characters.
+    Official name using Latin characters.
 
 SHORT NAME (NM_SHRT)
     Short name.
@@ -212,14 +216,14 @@ STREET (STRT)
     have a management company.
 
 LATIN STREET (STRT_LTN)
-    Street address, street number and area using latin characters.  Applicable
+    Street address, street number and area using Latin characters.  Applicable
     for ``OA`` that do not have a management company.
 
 CITY (CTY)
     City, village.  Applicable for ``OA`` that do not have a management company.
 
 LATIN CITY (CTY_LTN)
-    City, village using latin characters.  Applicable for ``OA`` that do not
+    City, village using Latin characters.  Applicable for ``OA`` that do not
     have a management company.
 
 POSTAL CODE (PSTL_CD)
@@ -264,15 +268,18 @@ SIZE (SZ)
     to Commission Recommendation 2033/361/EC``.
         
 LEGAL FORM (LGL_FRM)
-    Legal form choosign from ``ORG_LGL_FRM_ENUM``.
+    Legal form choosing from ``ORG_LGL_FRM_ENUM``.
 
 TYPE OF SUPERVISION (TYP_SPRVSN)
-    Type of supervision choosing from ``ORG_SPRVSN_TYP_ENUM`` ·
+    Type of supervision choosing from ``ORG_SPRVSN_TYP_ENUM``.
 
 .. _fscurrency:
 
 MANAGED BY (MNGD_BY)
-    Management company identifier code (if applicable) (:ref:`org`)·
+    Management company identifier code (if applicable) (:ref:`org`).
+
+REPORTED BY (RPRTD_BY)
+    Identifier code of the entity that reports IFDat data (:ref:`org`).
 
 UNDER UMBRELLA BY (UNDR_UMBRLL_BY)
     Identifier code of the umbrella fund that the ``OA`` is contained in (if
@@ -327,7 +334,7 @@ DEBT
 
 Used to submit information data regarding debt instruments issued by the
 ``OA``.  The measures of this table can take at most one value during the
-lifecycle of the debt instrument.
+life cycle of the debt instrument.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -374,7 +381,7 @@ MARKET (MRKT)
     Trading market choosing from ``GEN_MRKT_ENUM`` based on the ISO-10383 standard.
 
 ACCRUAL STARTDATE (ACCRL_STRTDT)
-    Accrual start date.  In case of a couponless debt instrument the value of 
+    Accrual start date.  In case of a debt instrument without coupons the value of 
     self_debt_birth_ is provided.
 
 PRIMARY CLASS (PRMRY_CLSS)
@@ -432,7 +439,7 @@ UNDERLYING INSTRUMENT (UNDRLYNG)
     Underlying debt instrument that the coupon payment depends on (:ref:`dbt`).
 
 MINIMUM LEVEL OF INVESTMENT (MNMM_INVSTMNT)
-    Minimum level of investment given in the currency of the debt instument.
+    Minimum level of investment given in the currency of the debt instrument.
 
 IS PRIVATE PLACEMENT (PRVT)
     Private placement flag.
@@ -451,7 +458,7 @@ STATIC_DEBT
 
 Used to submit information data regarding debt instruments issued by the
 ``OA``.  The measures of this table can change during the
-lifecycle of the debt instrument.
+life cycle of the debt instrument.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -474,7 +481,7 @@ NAME (NM)
     Name.
 
 LATIN NAME (NM_LTN)
-    Name using latin characters.
+    Name using Latin characters.
 
 SHORT NAME (NM_SHRT)
     Short name. 
@@ -483,7 +490,7 @@ STATUS (STTS)
     Instrument status choosing from ``DBT_STTS_ENUM``.
     
 MATURITY DATE (MTRTY_DT)
-    Maturity or redumption date (if applicable).  In some rare circumstances this date can change during the lifecycle of the instrument and in this case self_debt_close_ is updated.
+    Maturity or redemption date (if applicable).  In some rare circumstances this date can change during the life cycle of the instrument and in this case self_debt_close_ is updated.
 
 ISSUED BY (ISSD_BY)
     Issuer identification code (:ref:`org`).
@@ -499,7 +506,7 @@ SHARE
 
 Used to submit information data regarding equity/investment fund shares issued
 by the ``OA``.  The measures of this table can take at most one value during
-the lifecycle of the debt instrument.
+the life cycle of the debt instrument.
 
 
 DIMENSIONS
@@ -545,7 +552,7 @@ STATIC_SHARE
 
 Used to submit information data regarding equity/investment fund shares issued
 by the ``OA``.  The measures of this table can change during the
-lifecycle of the instrument.
+life cycle of the instrument.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -568,7 +575,7 @@ NAME (NM)
     Name. 
 
 LATIN NAME (NM_LTN)
-    Name using latin characters. 
+    Name using Latin characters. 
 
 SHORT NAME (NM_SHRT)
     Short name.
@@ -630,7 +637,7 @@ PHONE (PHN)
 CONTACT_TO_RA
 -------------
 
-Used to provide information data regarging the labor relationship between the
+Used to provide information data regarding the labor relationship between the
 contact person and the ``RA``.
 
 DIMENSIONS
