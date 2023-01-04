@@ -16,4 +16,4 @@ What's new?
 v0.1.0 (2023-01-04)
 -------------------
 
-* Initial documentation pre-release.
+* Pre-release of documentation

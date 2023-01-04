@@ -20,6 +20,7 @@ reporting agents.
    sid
    whatsnew
    dev
+   license
 
 .. toctree::
    :hidden:
