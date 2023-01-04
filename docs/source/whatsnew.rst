@@ -13,7 +13,7 @@ What's new?
 
 
 
-v0.1.0 (2022-12-09)
+v0.1.0 (2023-01-04)
 -------------------
 
-* Initial release
+* Initial documentation pre-release.

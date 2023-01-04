@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 02:28+0200\n"
-"PO-Revision-Date: 2023-01-03 10:00+0200\n"
+"POT-Creation-Date: 2023-01-04 13:36+0200\n"
+"PO-Revision-Date: 2023-01-04 13:53+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,14 +25,18 @@ msgstr "SELF_KEY: Βασικά στοιχεία χρηματοοικονομικ
 #: ../../source/domain/ifdat/categories/self_key.rst:4
 #: 5a8bbf9cdd81404ea36f6f945260aebd
 msgid "Used to submit key financial data of instruments issued by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που που έχει εκδώσει η ``ΠΜ``."
+msgstr ""
+"Χρησιμοποιείται για την παροχή βασικών περιοδικών στοιχείων των μέσων που"
+" που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:6
 #: 7a8921c9f18e4a3999c4cd9d821f5330
 msgid ""
 "Below the dimensions and the measures are provided for each table of the "
 "data category."
-msgstr "Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα."
+msgstr ""
+"Στα παρακάτω ενότητες περιγράφονται οι μεταβλητές και κατά περίπτωση οι "
+"διαστάσεις και τα χαρακτηριστικά των μεταβλητών του κάθε πίνακα."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:9
 #: a6fa47df2f954cd799f7e4115c3ddbb8
@@ -44,7 +48,9 @@ msgstr "SHARE"
 msgid ""
 "Used to submit periodic key financial data of shares/investment fund "
 "units issued by ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων που που έχει εκδώσει η ``ΠΜ``."
+msgstr ""
+"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των μετοχών/μεριδίων "
+"που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:14
 #: ../../source/domain/ifdat/categories/self_key.rst:49
@@ -77,7 +83,9 @@ msgstr "ID"
 #: 2cfa5f0d79724e39a849ffa6c12f23b1 42680792551e43648c6f0a1f823e0a3a
 #: 70e014c70648427c9318d13e8e911c18
 msgid "Identifier code of the share/investment fund unit (:ref:`shr`)."
-msgstr "Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδώσει η ``ΠΜ`` (:ref:`shr`)."
+msgstr ""
+"Ο αναγνωριστικός κωδικός του συμμετοχικού τίτλου που έχει εκδώσει η "
+"``ΠΜ`` (:ref:`shr`)."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:20
 #: ../../source/domain/ifdat/categories/self_key.rst:54
@@ -93,7 +101,9 @@ msgstr "DATE (DT)"
 #: ../../source/domain/ifdat/categories/self_key.rst:20
 #: 459bebd27ea445bdbaef1aa85657f1b8
 msgid "Reference date.  For further details see :doc:`../../../generic`."
-msgstr "Ημερομηνία αναφοράς.  Περισσότερες πληροφορίες στην ενότητα :doc:`../../../generic`."
+msgstr ""
+"Ημερομηνία αναφοράς.  Περισσότερες πληροφορίες στην ενότητα "
+":doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:24
 #: ../../source/domain/ifdat/categories/self_key.rst:70
@@ -104,7 +114,10 @@ msgstr "FREQUENCY (FRQNCY)"
 #: ../../source/domain/ifdat/categories/self_key.rst:23
 #: 2308eb83b91b47c5a8ec3871b4a66a99
 msgid "Reference period. For further details see :doc:`../../../generic`."
-msgstr "Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς που ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+"Σε συνδυασμό με την προηγούμενη διάσταση καθορίζει την περίοδο αναφοράς "
+"που ισχύουν οι παρεχόμενες τιμές των μεταβλητές ροών. Περισσότερες "
+"πληροφορίες στις :doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:27
 #: ../../source/domain/ifdat/categories/self_key.rst:57
@@ -126,7 +139,9 @@ msgstr "PRICE (PRC)"
 #: ../../source/domain/ifdat/categories/self_key.rst:30
 #: 057df21842394f9ea46f98960ec52f67
 msgid "Price.  In case of a listed security closing price is provided."
-msgstr "Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος (closing price)·"
+msgstr ""
+"Τιμή.  Σε περίπτωση εισηγμένου τίτλου συμπληρώνεται η τιμή κλεισίματος "
+"(closing price)·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:33
 #: aeea3daa38da4fe49c447ed1579a7328
@@ -148,17 +163,23 @@ msgstr "SUBSCRIPTIONS (SBSCRIPTNS)"
 msgid ""
 "Subscriptions (flow).  Applicable on mutual funds gross of any "
 "commissions."
-msgstr "Εισροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει (προσθετικά) και τις προμήθειες·"
+msgstr ""
+"Εισροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει "
+"(προσθετικά) και τις προμήθειες·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:40
 #: 98321f9ed63743a2bf9e2d738f0659c9
 msgid "REDEMPTIONS (RDMPTNS)"
-msgstr "Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει (αφαιρετικά) και τις προμήθειες·"
+msgstr ""
+"Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει "
+"(αφαιρετικά) και τις προμήθειες·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:39
 #: 4df2ff8e079948f1a0c640e19f81f95e
 msgid "Redemptions (flow).  Applicable on mutual funds net of any commissions."
-msgstr "Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει (αφαιρετικά) και τις προμήθειες·"
+msgstr ""
+"Εκροές (μεταβλητή ροής).  Αφορά αμοιβαία κεφάλαια και περιλαμβάνει "
+"(αφαιρετικά) και τις προμήθειες·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:43
 #: 2b2a31579b3a4dca9e50d9f2b86c4921
@@ -170,14 +191,20 @@ msgstr "DIVIDEND"
 msgid ""
 "Used to provide data about dividends distributed by instruments issued by"
 " the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των τίτλων που που έχει εκδώσει η ``ΠΜ``."
+msgstr ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τα μερίσματα των "
+"τίτλων που που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:54
 #: a41a9e9535bf47fca76bb5e938806026
 msgid ""
 "Date at which the ``OA`` checks its books to find its investors.  An "
 "investor must be recorded in this date to be eligible for the dividend."
-msgstr "Ημερομηνία καταγραφής που η ``ΠΜ`` ελέγχει τα βιβλία του για να εντοπίσει τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του μερίσματος."
+msgstr ""
+"Ημερομηνία καταγραφής που η ``ΠΜ`` ελέγχει τα βιβλία του για να εντοπίσει"
+" τους μετόχους/μεριδιούχους του.  Ένας επενδυτής πρέπει να είναι "
+"δηλωμένος τη συγκεκριμένη ημερομηνία για να είναι δικαιούχος του "
+"μερίσματος."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:60
 #: 31f451cae02a45b3b72fca75170c1617
@@ -187,7 +214,9 @@ msgstr "EX DATE (EX_DT)"
 #: ../../source/domain/ifdat/categories/self_key.rst:60
 #: 9ae09b67265f4d62b1675f19f941822b
 msgid "Date from which the dividend is not due to new investors."
-msgstr "Ημερομηνία από την οποία το μέρισμα δεν οφείλεται σε νέους κατόχους των μετοχών/μεριδίων·"
+msgstr ""
+"Ημερομηνία από την οποία το μέρισμα δεν οφείλεται σε νέους κατόχους των "
+"μετοχών/μεριδίων·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:63
 #: 2f1b693846244af0861d384ff2655455
@@ -212,7 +241,9 @@ msgstr "Ημερομηνία πληρωμής·"
 #: ../../source/domain/ifdat/categories/self_key.rst:70
 #: dc9e209a74be42209ed6fae5d5697b01
 msgid "Distribution frequency choosing from ``DVDND_CSTM_FRQNCY_ENUM``."
-msgstr "Συχνότητα διανομής μεριδίου με επιλογή από τη λίστα τιμών ``DVDND_CSTM_FRQNCY_ENUM`` ·"
+msgstr ""
+"Συχνότητα διανομής μεριδίου με επιλογή από τη λίστα τιμών "
+"``DVDND_CSTM_FRQNCY_ENUM`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:73
 #: a5c0506cf1004a9db76edd866fae3c5c
@@ -221,7 +252,7 @@ msgstr "Είδος με επιλογή από τη λίστα τιμών ``DVDND
 
 #: ../../source/domain/ifdat/categories/self_key.rst:73
 #: cde9fd7cb09948a7918baf42c70e6ed4
-msgid "Dividend type choosign from ``DVDND_TYP_ENUM``."
+msgid "Dividend type choosing from ``DVDND_TYP_ENUM``."
 msgstr "Είδος με επιλογή από τη λίστα τιμών ``DVDND_TYP_ENUM`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:78
@@ -234,7 +265,9 @@ msgstr "CRRNCY (CURRENCY)"
 msgid ""
 "Dividend transaction currency choosing from ``GEN_CRRNCY_ENUM`` (if "
 "applicable)."
-msgstr "Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` (κατά περίπτωση)·"
+msgstr ""
+"Το νόμισμα συναλλαγής με επιλογή από τη λίστα τιμών ``GEN_CRRNCY_ENUM`` "
+"(κατά περίπτωση)·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:83
 #: d8838c5a48864ec9988dd1eee8ccdac3
@@ -256,7 +289,9 @@ msgstr "SPLIT"
 msgid ""
 "Used to provide data regarding splits and reverse splits of instruments "
 "issued by the ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις και συμπτύξεις μετοχών/μεριδίων που που έχει εκδώσει η ``ΠΜ`` ·"
+msgstr ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων για τις διασπάσεις "
+"και συμπτύξεις μετοχών/μεριδίων που που έχει εκδώσει η ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:98
 #: 2764f770a2e643d0b738666e5005241b
@@ -273,31 +308,44 @@ msgstr "FACTOR (FCTR)"
 msgid ""
 "Factor ratio defined as number of shares before the split/reverse-split "
 "divided by the number of shares after the split/reverse-split."
-msgstr "Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη διάσπαση/σύμπτυξη."
+msgstr ""
+"Ο συντελεστής μετατροπής οριζόμενος ως ο αριθμός μετοχών/μεριδίων πριν τη"
+" διάσπαση/σύμπτυξη διαιρούμενο με τον αριθμό των μετοχών/μεριδίων μετά τη"
+" διάσπαση/σύμπτυξη."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:107
 #: 185c4a8bf8364ca5bca7e44c0b17a9d2
 msgid "DEBT"
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που που έχει εκδώσει η ``ΠΜ``."
+msgstr ""
+"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που "
+"που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:109
 #: 1e90bbffafb34427aeeee511618a2c54
 msgid ""
 "Used to key financial data regarding the debt instruments issued by the "
 "``OA``."
-msgstr "Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που που έχει εκδώσει η ``ΠΜ``."
+msgstr ""
+"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που "
+"που έχει εκδώσει η ``ΠΜ``."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:118
 #: 917d5540e42440258fc73fa93dad761e
 msgid "Reference date. For further details see :doc:`../../../generic`."
-msgstr "Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+msgstr ""
+"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
+"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:125
 #: 3e6bda148ecc4d11821b022733ca1d95
 msgid ""
 "Price (closing price) expressed as a percentage of the nominal price.  "
 "For coupon-bonds accrued interest is not included in the price."
-msgstr "Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται οι δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του ομολόγου (clean price)·"
+msgstr ""
+"Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής "
+"τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται οι "
+"δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του "
+"ομολόγου (clean price)·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:130
 #: 306081642fff435e9025f736d574f8ad
@@ -310,7 +358,10 @@ msgid ""
 "For coupon payment bonds accrued interest as a percentage of the nominal "
 "price is provided computed from the last coupon payment or the start date"
 " of the coupon payment."
-msgstr "Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·"
+msgstr ""
+"Για τοκοφόρα ομόλογα δίνονται οι δεδουλευμένοι τόκοι ως ποσοστό της "
+"ονομαστικής τιμής του ομολόγου υπολογιζόμενα από την τελευταία πληρωμή "
+"τοκομεριδίου ή την ημερομηνία έναρξης πληρωμής τοκομεριδίων·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:135
 #: 26808b3c447949a5818ea84782189bd9
@@ -322,7 +373,10 @@ msgstr "OUTSTANDING (OSTNDNG)"
 msgid ""
 "Outstanding nominal amount.  For debt instruments in tranches the "
 "cumulative amount is given net of any payments."
-msgstr "Συνολική ονομαστική ανεξόφλητη αξία της έκδοσης.  Για εκδόσεις ομολόγων σε δόσεις (tranches) δίδεται το σωρευτικό ποσό καθαρό από τυχόν εξοφλήσεις."
+msgstr ""
+"Συνολική ονομαστική ανεξόφλητη αξία της έκδοσης.  Για εκδόσεις ομολόγων "
+"σε δόσεις (tranches) δίδεται το σωρευτικό ποσό καθαρό από τυχόν "
+"εξοφλήσεις."
 
 #: ../../source/domain/ifdat/categories/self_key.rst:138
 #: cad106c059bf42f19dc909d49b9a051a
@@ -334,7 +388,9 @@ msgstr "COUPON"
 msgid ""
 "Used to submit data regarding coupon payments on securities issued by the"
 " ``OA``."
-msgstr "Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από χρεόγραφα που που έχει εκδώσει η ``ΠΜ`` ·"
+msgstr ""
+"Χρησιμοποιείται για την παροχή μεταβλητών στοιχείων των τοκομεριδίων από "
+"χρεόγραφα που που έχει εκδώσει η ``ΠΜ`` ·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:149
 #: 124275e5dbe2439aa4cbd370d08fe5f7
