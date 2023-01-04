@@ -18,8 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Journey"
-copyright = "2022"
-author = "Antonis Loumiotis"
+copyright = "2014–2022 journey developers"
 
 # # The full version, including alpha/beta/rc tags
 # release = "0.1"
