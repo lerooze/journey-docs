@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Journey"
-copyright = "2014–2022 journey developers"
+copyright = "2022–2023 journey developers"
 
 # # The full version, including alpha/beta/rc tags
 # release = "0.1"
