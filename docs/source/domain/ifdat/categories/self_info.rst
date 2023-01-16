@@ -2,9 +2,7 @@ SELF_INFO: Self Information Data
 ================================
 
 It is used for the submission of information data regarding the ``OA``, the
-instruments issued by the ``OA``, the ``RA`` in case it is different from the
-``OA`` and the contact person responsible for submitting data on behalf of the
-``RA``.
+instruments issued by the ``OA``, the management company of the ``OA`` if applicable, the ``RA`` of the ``OA`` if applicable and different and the contact person responsible for submitting data on behalf of the ``RA``.
 
 Below the dimensions and the measures are provided for each table of the data category.
 
