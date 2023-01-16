@@ -8,126 +8,6 @@ instruments issued by the ``OA``, the ``RA`` in case it is different from the
 
 Below the dimensions and the measures are provided for each table of the data category.
 
-MANAGEMENT
-----------
-
-Used to submit information data regarding the ``RA`` in case the ``RA`` and the
-``OA`` are not the same entities as well as the management company of the
-``OA`` in case the ``OA`` has a management company and the ``RA`` is not the
-management company.  The measures of this table can take at most one value
-during the life cycle of the reported entities.
-
-DIMENSIONS
-~~~~~~~~~~
-
-ID
-    Identifier code of the ``RA`` (:ref:`org`).
-
-MEASURES
-~~~~~~~~
-
-BIRTHDATE (DT_BRTH)
-    Birth date.
-
-CLOSEDATE (DT_CLS)
-    Close date (if applicable).
-
-COUNTRY OF BIRTH (CNTRY_BRTH)
-    Country of incorporation choosing from ``GEN_CNTRY_ENUM``.
-
-ESCB ID (ESCB_ID)
-    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
-
-LEI ID (LEI_ID)
-    Identifier code based on the ISO-17442 standard.
-
-TAX ID (TAX_ID)
-    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
-    tax code and ``CODE`` is a placeholder for the actual tax code without the
-    country code in case it starts with it.
-
-NBR ID (NBR_ID)
-    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
-    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
-    code and ``CODE`` is a placeholder for the actual business identifier code
-    without the country code in case it starts with it.
-
-SPLIT FROM (SPLT_FRM)
-    In case the ``RA`` was created by a corporate split the identifier code of
-    the entity that it was split from is provided (:ref:`org`). 
-
-MERGED WITH (MRGD_WTH)
-    In case of closure of the ``RA`` via a merger event the identifier code of
-    the entity that the ``RA`` merged with is provided.
-
-STATIC_MANAGEMNT
-----------------
-
-Used to submit information data regarding the ``RA`` in case the ``RA`` and the
-``OA`` are not the same entities as well as the management company of the
-``OA`` in case the ``OA`` has a management company and the ``RA`` is not the
-management company.  The measures of this table can change during
-the life cycle of the reported entities.
-
-DIMENSIONS
-~~~~~~~~~~
-
-ID
-    Identifier code of the ``RA`` (:ref:`org`).
-
-VALID FROM (VLD_FRM)
-    Date from which the measure values are valid.  
-    For further details see :doc:`../../../generic`. 
-
-VALID TO (VLD_T)
-    Date to which the measure values are valid.  
-    For further details see :doc:`../../../generic`. 
-
-MEASURES
-~~~~~~~~~~
-
-NAME (NM)
-    Official name.
-
-LATIN NAME (NM_LTN)
-    Official name using Latin characters.
-
-SHORT NAME (NM_SHRT)
-    Short name.
-
-STREET (STRT)
-    Street address, street number and area.
-
-LATIN STREET (STRT_LTN)
-    Street address, street number and area in Latin characters.
-
-CITY (CTY)
-    City, village.
-
-LATIN CITY (CTY_LTN)
-    City, village in Latin characters.
-
-POSTAL CODE (PSTL_CD)
-    Postal code.
-
-POSTAL BOX (PSTL_BX)
-    Postal box.
-
-URL
-    Web address.
-
-EMAIL
-    Email address.
-
-COUNTRY OF RESIDENCE (CNTRY_RSDNC)
-    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
-    
-LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
-    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
-
-
-
 FUND
 ----
 
@@ -453,6 +333,11 @@ RESTRUCTURED FROM (RSTRCTRD_FRM)
     In case that the debt instrument originated from a loan restructure the
     identifier code of the loan is provided (:ref:`lon`).
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`dbt`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 STATIC_DEBT
 -----------
 
@@ -545,6 +430,11 @@ RESTRUCTURED TO (RESTRUCTURED_TO)
     In case of restructure to a new share/investment fund instrument the identifier code of the
     new instrument is provided and sishareclose_ is filled with the
     date of restructure (:ref:`shr`).
+
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`shr`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
     
 
 STATIC_SHARE
@@ -594,6 +484,234 @@ REDEMPTION FREQUENCY (RDMPTN_FRQNCY)
 
 MINIMUM AMOUNT (MNMM_AMNT)
     Minimum investment amount (if applicable).
+
+
+MANAGEMENT
+----------
+
+Used to submit information data regarding the management company in case the ``OA`` has a management company.  The measures of this table can take at most one value
+during the life cycle of the management company.
+
+DIMENSIONS
+~~~~~~~~~~
+
+ID
+    Identifier code of the management company (:ref:`org`).
+
+MEASURES
+~~~~~~~~
+
+BIRTHDATE (DT_BRTH)
+    Birth date.
+
+CLOSEDATE (DT_CLS)
+    Close date (if applicable).
+
+COUNTRY OF BIRTH (CNTRY_BRTH)
+    Country of incorporation choosing from ``GEN_CNTRY_ENUM``.
+
+ESCB ID (ESCB_ID)
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
+
+LEI ID (LEI_ID)
+    Identifier code based on the ISO-17442 standard.
+
+TAX ID (TAX_ID)
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
+
+NBR ID (NBR_ID)
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
+
+SPLIT FROM (SPLT_FRM)
+    In case the ``RA`` was created by a corporate split the identifier code of
+    the entity that it was split from is provided (:ref:`org`). 
+
+MERGED WITH (MRGD_WTH)
+    In case of closure of the ``RA`` via a merger event the identifier code of
+    the entity that the ``RA`` merged with is provided.
+
+STATIC_MANAGEMNT
+----------------
+
+Used to submit information data regarding the management company in case the ``OA`` has a management company.  The measures of this table can change during the life cycle of the management company.
+
+DIMENSIONS
+~~~~~~~~~~
+
+ID
+    Identifier code of the ``RA`` (:ref:`org`).
+
+VALID FROM (VLD_FRM)
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
+
+VALID TO (VLD_T)
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
+
+MEASURES
+~~~~~~~~~~
+
+NAME (NM)
+    Official name.
+
+LATIN NAME (NM_LTN)
+    Official name using Latin characters.
+
+SHORT NAME (NM_SHRT)
+    Short name.
+
+STREET (STRT)
+    Street address, street number and area.
+
+LATIN STREET (STRT_LTN)
+    Street address, street number and area in Latin characters.
+
+CITY (CTY)
+    City, village.
+
+LATIN CITY (CTY_LTN)
+    City, village in Latin characters.
+
+POSTAL CODE (PSTL_CD)
+    Postal code.
+
+POSTAL BOX (PSTL_BX)
+    Postal box.
+
+URL
+    Web address.
+
+EMAIL
+    Email address.
+
+COUNTRY OF RESIDENCE (CNTRY_RSDNC)
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
+    
+LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
+    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
+
+RA
+--
+
+Used to submit information data regarding the ``RA`` .  In case the ``RA`` is the same as the management company or is the ``OA`` data on this table should not be reported since they are already reported in either the FUND or the MANAGEMENT tables.  The measures of this table can take at most one value
+during the life cycle of the reporting agent.
+
+
+DIMENSIONS
+~~~~~~~~~~
+
+ID
+    Identifier code of the ``RA`` (:ref:`org`).
+
+MEASURES
+~~~~~~~~
+
+BIRTHDATE (DT_BRTH)
+    Birth date.
+
+CLOSEDATE (DT_CLS)
+    Close date (if applicable).
+
+COUNTRY OF BIRTH (CNTRY_BRTH)
+    Country of incorporation choosing from ``GEN_CNTRY_ENUM``.
+
+ESCB ID (ESCB_ID)
+    Identifier code that is assigned by the ``ESCB`` known also as the ``RIAD code``.
+
+LEI ID (LEI_ID)
+    Identifier code based on the ISO-17442 standard.
+
+TAX ID (TAX_ID)
+    Tax identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
+    tax code and ``CODE`` is a placeholder for the actual tax code without the
+    country code in case it starts with it.
+
+NBR ID (NBR_ID)
+    Business identifier code of the format ``{CC}{CODE}`` where ``CC`` is a
+    placeholder for  ISO 3166-1 alpha-2 country code that has issued the
+    code and ``CODE`` is a placeholder for the actual business identifier code
+    without the country code in case it starts with it.
+
+SPLIT FROM (SPLT_FRM)
+    In case the ``RA`` was created by a corporate split the identifier code of
+    the entity that it was split from is provided (:ref:`org`). 
+
+MERGED WITH (MRGD_WTH)
+    In case of closure of the ``RA`` via a merger event the identifier code of
+    the entity that the ``RA`` merged with is provided.
+
+STATIC_RA
+---------
+
+Used to submit information data regarding the ``RA``.  In case
+the ``RA`` is the same as the management company or is the ``OA`` data on this
+table should not be reported since they are already reported in either the FUND
+or the MANAGEMENT tables.  The measures of this table can change during the
+life cycle of the ``RA``.
+
+DIMENSIONS
+~~~~~~~~~~
+
+ID
+    Identifier code of the ``RA`` (:ref:`org`).
+
+VALID FROM (VLD_FRM)
+    Date from which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
+
+VALID TO (VLD_T)
+    Date to which the measure values are valid.  
+    For further details see :doc:`../../../generic`. 
+
+MEASURES
+~~~~~~~~~~
+
+NAME (NM)
+    Official name.
+
+LATIN NAME (NM_LTN)
+    Official name using Latin characters.
+
+SHORT NAME (NM_SHRT)
+    Short name.
+
+STREET (STRT)
+    Street address, street number and area.
+
+LATIN STREET (STRT_LTN)
+    Street address, street number and area in Latin characters.
+
+CITY (CTY)
+    City, village.
+
+LATIN CITY (CTY_LTN)
+    City, village in Latin characters.
+
+POSTAL CODE (PSTL_CD)
+    Postal code.
+
+POSTAL BOX (PSTL_BX)
+    Postal box.
+
+URL
+    Web address.
+
+EMAIL
+    Email address.
+
+COUNTRY OF RESIDENCE (CNTRY_RSDNC)
+    Country of residence choosing from ``GEN_CNTRY_ENUM``. 
+    
+LEGAL PROCEEDINGS STATUS (LGL_PRCDNG_STTS)
+    Status of legal proceedings choosing from ``ORG_LGL_PRCDNG_STTS_ENUM``.
 
 
 

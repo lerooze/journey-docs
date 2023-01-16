@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-02 18:57+0200\n"
-"PO-Revision-Date: 2023-01-03 11:36+0200\n"
+"PO-Revision-Date: 2023-01-16 08:51+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -112,8 +112,8 @@ msgstr "DATE (DT)"
 #: c26454429f4c41baa3c819ad5affd6b5
 msgid "Reference date.  For further details see :doc:`../../../generic`."
 msgstr ""
-"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
-"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+"Ημερομηνία αναφοράς.  Περισσότερες πληροφορίες στην ενότητα "
+":doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/other_key.rst:23
 #: ../../source/domain/ifdat/categories/other_key.rst:44

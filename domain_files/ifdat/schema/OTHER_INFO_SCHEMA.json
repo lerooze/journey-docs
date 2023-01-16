@@ -1,5 +1,5 @@
 {
-  "title": "IFDatOtherInfo",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -142,6 +142,7 @@
       "title": "OrgIntrntnlOrgnstnCdEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1C",
         "1D",
         "1E",
@@ -350,6 +351,23 @@
         "VALUE"
       ]
     },
+    "Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__": {
+      "title": "Measure[ID, GenericStatusAttr[AttrObsrvtnSttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "title": "Value",
+          "maxLength": 32,
+          "type": "string"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
     "IssuerSeries": {
       "title": "IssuerSeries",
       "type": "object",
@@ -382,10 +400,13 @@
           "$ref": "#/definitions/Measure_OrgIntrntnlOrgnstnCdEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "SPLT_FRM": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "MRGD_WTH": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -562,6 +583,7 @@
       "title": "OrgLglPrcdngSttsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "0",
         "1",
         "2",
@@ -627,6 +649,7 @@
       "title": "OrgEcnmcActvtyTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "01",
         "01_1",
         "01_11",
@@ -1680,10 +1703,13 @@
           "$ref": "#/definitions/Measure_OrgIntrntnlOrgnstnCdEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "SPLT_FRM": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "MRGD_WTH": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -1715,6 +1741,7 @@
       "title": "DepTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "OVER",
         "AMAT",
         "ANOT"
@@ -1740,6 +1767,7 @@
       "title": "DepNtcEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "S",
         "M",
         "L"
@@ -1873,6 +1901,9 @@
         },
         "IS_SHRD": {
           "$ref": "#/definitions/Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -1912,10 +1943,10 @@
           "$ref": "#/definitions/Measure_float__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "DBTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "CRDTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -1926,6 +1957,7 @@
       "title": "SftTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "REP",
         "SBL",
         "BSB",
@@ -1969,6 +2001,9 @@
         },
         "TYP": {
           "$ref": "#/definitions/Measure_SftTypEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -1989,10 +2024,10 @@
           "$ref": "#/definitions/Measure_float__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "DBTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "CRDTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -2003,6 +2038,7 @@
       "title": "LonTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "CRD",
         "OVR",
         "REV",
@@ -2053,6 +2089,9 @@
         },
         "TYP": {
           "$ref": "#/definitions/Measure_LonTypEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -2073,10 +2112,10 @@
           "$ref": "#/definitions/Measure_float__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "DBTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "CRDTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -2121,6 +2160,7 @@
       "title": "GenMrktEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "3579",
         "24EX",
         "360T",
@@ -4696,6 +4736,7 @@
       "title": "DbtPrmryClssEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "D.1",
         "D.2",
         "D.3",
@@ -4722,11 +4763,11 @@
       "title": "DbtGrntLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
         "8",
-        "9",
-        "-"
+        "9"
       ],
       "type": "string"
     },
@@ -4749,6 +4790,7 @@
       "title": "DbtRnkLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
         "3",
@@ -4756,8 +4798,7 @@
         "5",
         "6",
         "7",
-        "9",
-        "-"
+        "9"
       ],
       "type": "string"
     },
@@ -4780,10 +4821,10 @@
       "title": "DbtScrtyLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
-        "3",
-        "-"
+        "3"
       ],
       "type": "string"
     },
@@ -4806,14 +4847,14 @@
       "title": "DbtScrtznTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1100",
         "1200",
         "1300",
         "1400",
         "1500",
         "1800",
-        "1900",
-        "-"
+        "1900"
       ],
       "type": "string"
     },
@@ -4836,14 +4877,14 @@
       "title": "DbtCvrdTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "2100",
         "2200",
         "2300",
         "2400",
         "2500",
         "2800",
-        "2900",
-        "-"
+        "2900"
       ],
       "type": "string"
     },
@@ -4866,6 +4907,7 @@
       "title": "DbtCpnTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "FIX",
         "STE",
         "FLO",
@@ -4895,6 +4937,7 @@
       "title": "DbtCpnFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "ZC",
         "AN",
         "SA",
@@ -5012,7 +5055,10 @@
           "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "UNDRLYNG": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5023,6 +5069,7 @@
       "title": "DbtSttsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "100",
         "101",
         "102",
@@ -5066,7 +5113,7 @@
           "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "ISSD_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5104,6 +5151,7 @@
       "title": "ShrPrmryClssEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "E.1",
         "E.2",
         "E.3",
@@ -5160,6 +5208,9 @@
         },
         "PRMRY_CLSS": {
           "$ref": "#/definitions/Measure_ShrPrmryClssEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5177,7 +5228,7 @@
           "$ref": "#/definitions/Measure_Str128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "ISSD_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5188,6 +5239,7 @@
       "title": "DrvtvTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "CAL",
         "PUT",
         "WAR",
@@ -5250,6 +5302,9 @@
         },
         "WRITER": {
           "$ref": "#/definitions/Measure_GenMrktEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5285,10 +5340,13 @@
           "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "WRTR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "BYR": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5299,6 +5357,7 @@
       "title": "RreTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "APARTMENT",
         "DETACHED",
         "TERRACED",
@@ -5344,6 +5403,7 @@
       "title": "GenNutsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "AT111",
         "AT112",
         "AT113",
@@ -6938,6 +6998,9 @@
         },
         "TRRTRY": {
           "$ref": "#/definitions/Measure_GenNutsEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -7012,6 +7075,7 @@
       "title": "CreTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "OFFICE",
         "SHOP",
         "WAREHOUSE",
@@ -7064,6 +7128,9 @@
         },
         "TRRTRY": {
           "$ref": "#/definitions/Measure_GenNutsEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [

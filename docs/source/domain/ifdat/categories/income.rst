@@ -24,7 +24,7 @@ DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
 FREQUENCY (FRQNCY)
-    Reference period. For further details see :doc:`../../../generic`.
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -56,7 +56,7 @@ DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
 FREQUENCY (FRQNCY)
-    Reference period. For further details see :doc:`../../../generic`.
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~

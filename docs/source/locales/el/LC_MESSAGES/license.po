@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022–2023 journey developers
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-16 07:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/license.rst:2 e313415ffefa4c5f804fbf90df96e8de
+msgid "License"
+msgstr ""
+
+#: ../../source/license.rst:4 7d725c92a962458193af5dbc8861a659
+msgid ""
+"Copyright 2022–2023, `journey developers <https://github.com/lerooze"
+"/journey-docs/graphs/contributors>`_."
+msgstr ""
+
+#: ../../source/license.rst:6 75e304278b9a4e0593c169e7e9cc20a0
+msgid ""
+"Licensed under the Apache License, Version 2.0 (the “License”); you may "
+"not use these files except in compliance with the License. You may obtain"
+" a copy of the License:"
+msgstr ""
+
+#: ../../source/license.rst:10 76f9df29f496409ab53524dbda6d83d2
+msgid "from the file ``LICENSE`` included with the source code, or"
+msgstr ""
+
+#: ../../source/license.rst:11 5d0206df5a0249adbe3cfbbc807ee477
+msgid "at http://www.apache.org/licenses/LICENSE-2.0"
+msgstr ""
+
+#: ../../source/license.rst:13 97093a0379714eeb8936ac3a299a5c00
+msgid ""
+"Unless required by applicable law or agreed to in writing, software "
+"distributed under the License is distributed on an “AS IS” BASIS, WITHOUT"
+" WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the"
+" License for the specific language governing permissions and limitations "
+"under the License."
+msgstr ""
+

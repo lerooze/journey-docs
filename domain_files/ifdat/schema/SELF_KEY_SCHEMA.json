@@ -1,5 +1,5 @@
 {
-  "title": "IFDatSelfKey",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -153,6 +153,7 @@
       "title": "GenFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "A",
         "B",
         "D",
@@ -263,14 +264,14 @@
       "title": "DvdndCstmFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "AN",
         "SA",
         "QA",
         "BM",
         "MO",
         "WE",
-        "DA",
-        "-"
+        "DA"
       ],
       "type": "string"
     },
@@ -293,6 +294,7 @@
       "title": "DvdndTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "10",
         "20",
         "11",

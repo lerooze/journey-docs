@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-02 18:49+0200\n"
-"PO-Revision-Date: 2023-01-03 09:54+0200\n"
+"POT-Creation-Date: 2023-01-16 08:53+0200\n"
+"PO-Revision-Date: 2023-01-16 08:55+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -44,11 +44,8 @@ msgid "CASH"
 msgstr "CASH"
 
 #: ../../source/domain/ifdat/categories/bsi.rst:11
-#: e62513dbbc0f4d7e8f0a6e3a826d7368
-#, fuzzy
-msgid ""
-"Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρηματικών "
-"διαθέσιμων των ``ΥΕΟ``."
+#: 22d6905e1e75437cbc7a99c5f015db25
+msgid "Used to submit data regarding cash holdings of the ``OA``."
 msgstr ""
 "Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρηματικών "
 "διαθέσιμων της ``ΠΜ``."
@@ -156,8 +153,8 @@ msgstr "DATE (DT)"
 #: dda82b17fb0348dc8a2b45beddaff0a7 f46033bf6aca4c52b94771ff3c1bbcc2
 msgid "Reference date.  For further details see :doc:`../../../generic`."
 msgstr ""
-"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών. "
-"Περισσότερες πληροφορίες στις :doc:`../../../generic`."
+"Ημερομηνία αναφοράς.  Περισσότερες πληροφορίες στην ενότητα "
+":doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/bsi.rst:26
 #: ../../source/domain/ifdat/categories/bsi.rst:52
@@ -414,8 +411,8 @@ msgstr "Ο αναγνωριστικός κωδικός του χρεογράφο
 #: ../../source/domain/ifdat/categories/bsi.rst:618
 #: 7f78363580ad4f9ebe12df6529c2cc9d b4ea44e6b46d46bb803f633abf7e69b7
 #: e942049e6d884e52ba45fc0ac89deecd f89174da5e6f4db89ade7b10863dcb25
-msgid "FRQNCY (FREQUENCY)"
-msgstr "FRQNCY (FREQUENCY)"
+msgid "FREQUENCY (FRQNCY)"
+msgstr "FREQUENCY (FRQNCY)"
 
 #: ../../source/domain/ifdat/categories/bsi.rst:115
 #: ../../source/domain/ifdat/categories/bsi.rst:174
@@ -428,13 +425,12 @@ msgstr "FRQNCY (FREQUENCY)"
 #: ../../source/domain/ifdat/categories/bsi.rst:617
 #: 4a98fee398a74ccc86a780e6dbda9596 cacfec4ee2f84669b2cbb6aef90becad
 #: db83a06f0ad541b29445d69ee7e8da80
-msgid "Reference period. For further details see :doc:`../../../generic`."
-msgstr ""
-"Η ημερομηνία για την οποία ισχύουν οι παρεχόμενες τιμές των μεταβλητών "
-"υπολοίπων καθώς και η τελική ημερομηνία της περιόδου που ισχύουν οι "
-"παρεχόμενες τιμές των μεταβλητών ροών.  Στους ορισμούς των μεταβλητών "
-"σημειώνεται αν η μεταβλητή αφορά ροή. Περισσότερες πληροφορίες "
+msgid ""
+"Reference period applicable for flow measures. For further details see "
 ":doc:`../../../generic`."
+msgstr ""
+"Περίοδος αναφοράς για τις μεταβλητές ροών.  Περισσότερες πληροφορίες στις"
+" :doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/bsi.rst:123
 #: ../../source/domain/ifdat/categories/bsi.rst:506
@@ -1810,3 +1806,14 @@ msgstr "Προμήθειες εξαγορών (**μεταβλητή ροής**)�
 #~ msgid "NOMINAL"
 #~ msgstr ""
 
+#~ msgid "FRQNCY (FREQUENCY)"
+#~ msgstr "FRQNCY (FREQUENCY)"
+
+#~ msgid ""
+#~ "Χρησιμοποιείται για την παροχή λογιστικών "
+#~ "στοιχείων των χρηματικών διαθέσιμων των "
+#~ "``ΥΕΟ``."
+#~ msgstr ""
+#~ "Χρησιμοποιείται για την παροχή λογιστικών "
+#~ "στοιχείων των χρηματικών διαθέσιμων της "
+#~ "``ΠΜ``."

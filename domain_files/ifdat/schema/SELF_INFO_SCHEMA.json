@@ -1,5 +1,5 @@
 {
-  "title": "self_info",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -263,8 +263,25 @@
         "VALUE"
       ]
     },
-    "ManagementSeries": {
-      "title": "ManagementSeries",
+    "Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__": {
+      "title": "Measure[ID, GenericStatusAttr[AttrObsrvtnSttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "title": "Value",
+          "maxLength": 32,
+          "type": "string"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
+    "FundSeries": {
+      "title": "FundSeries",
       "type": "object",
       "properties": {
         "DIMS": {
@@ -292,10 +309,10 @@
           "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "SPLT_FRM": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "MRGD_WTH": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -498,10 +515,27 @@
         "VALUE"
       ]
     },
+    "Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__": {
+      "title": "Measure[bool, GenericStatusAttr[AttrObsrvtnSttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "title": "Value",
+          "type": "boolean"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
     "OrgLglPrcdngSttsEnum": {
       "title": "OrgLglPrcdngSttsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "0",
         "1",
         "2",
@@ -516,112 +550,6 @@
       "properties": {
         "VALUE": {
           "$ref": "#/definitions/OrgLglPrcdngSttsEnum"
-        },
-        "ATTRS": {
-          "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
-        }
-      },
-      "required": [
-        "VALUE"
-      ]
-    },
-    "StaticManagementSeries": {
-      "title": "StaticManagementSeries",
-      "type": "object",
-      "properties": {
-        "DIMS": {
-          "$ref": "#/definitions/StaticDimensionContainer"
-        },
-        "NM": {
-          "$ref": "#/definitions/Measure_Str128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "NM_LTN": {
-          "$ref": "#/definitions/Measure_LatinStr128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "NM_SHRT": {
-          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "STRT": {
-          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "STRT_LTN": {
-          "$ref": "#/definitions/Measure_LatinStr64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "CTY": {
-          "$ref": "#/definitions/Measure_Str32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "CTY_LTN": {
-          "$ref": "#/definitions/Measure_LatinStr32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "PSTL_CD": {
-          "$ref": "#/definitions/Measure_Str16__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "PSTL_BX": {
-          "$ref": "#/definitions/Measure_Str8__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "URL": {
-          "$ref": "#/definitions/Measure_AnyUrl__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "EMAIL": {
-          "$ref": "#/definitions/Measure_EmailStr__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "CNTRY_RSDNC": {
-          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "LGL_PRCDNG_STTS": {
-          "$ref": "#/definitions/Measure_OrgLglPrcdngSttsEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        }
-      },
-      "required": [
-        "DIMS"
-      ]
-    },
-    "FundSeries": {
-      "title": "FundSeries",
-      "type": "object",
-      "properties": {
-        "DIMS": {
-          "$ref": "#/definitions/BaseDimensionContainer"
-        },
-        "DT_BRTH": {
-          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "DT_CLS": {
-          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "CNTRY_BRTH": {
-          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "ESCB_ID": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "LEI_ID": {
-          "$ref": "#/definitions/Measure_Str20ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "TAX_ID": {
-          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "NBR_ID": {
-          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "SPLT_FRM": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        },
-        "MRGD_WTH": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
-        }
-      },
-      "required": [
-        "DIMS"
-      ]
-    },
-    "Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__": {
-      "title": "Measure[bool, GenericStatusAttr[AttrObsrvtnSttsEnum]]",
-      "type": "object",
-      "properties": {
-        "VALUE": {
-          "title": "Value",
-          "type": "boolean"
         },
         "ATTRS": {
           "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
@@ -698,6 +626,7 @@
       "title": "OrgInstttnlSctrCntrlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "0",
         "1",
         "2",
@@ -725,6 +654,7 @@
       "title": "OrgSzEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
         "3",
@@ -751,6 +681,7 @@
       "title": "OrgLglFrmEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "AT102",
         "AT103",
         "AT201",
@@ -1858,6 +1789,7 @@
       "title": "OrgSprvsnTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2"
       ],
@@ -1882,6 +1814,7 @@
       "title": "FndTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "UCITS",
         "AIF",
         "REIT",
@@ -1908,6 +1841,7 @@
       "title": "FndInvstmntPlcyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "MMF",
         "EQT",
         "BON",
@@ -1940,6 +1874,7 @@
       "title": "FndSbtypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "OPEN",
         "CLOSE"
       ],
@@ -1964,10 +1899,10 @@
       "title": "FndDstrbtnTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "DIS",
         "CUM",
-        "MIX",
-        "-"
+        "MIX"
       ],
       "type": "string"
     },
@@ -1990,11 +1925,11 @@
       "title": "FndInvstrTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "PRF",
         "RTL",
         "ART",
-        "OTH",
-        "-"
+        "OTH"
       ],
       "type": "string"
     },
@@ -2017,9 +1952,9 @@
       "title": "FndGrnTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "LIGHT",
-        "DARK",
-        "-"
+        "DARK"
       ],
       "type": "string"
     },
@@ -2042,10 +1977,10 @@
       "title": "FndStrtgyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "ACTIVE",
         "SYNPAS",
-        "SYNPHY",
-        "-"
+        "SYNPHY"
       ],
       "type": "string"
     },
@@ -2068,6 +2003,7 @@
       "title": "FndGgrphclFcsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "DOM",
         "EEA",
         "OEA",
@@ -2076,8 +2012,7 @@
         "ASP",
         "MEA",
         "AFR",
-        "OTH",
-        "-"
+        "OTH"
       ],
       "type": "string"
     },
@@ -2100,10 +2035,10 @@
       "title": "FndBndFcsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "GOV",
         "COR",
-        "MIX",
-        "-"
+        "MIX"
       ],
       "type": "string"
     },
@@ -2126,6 +2061,7 @@
       "title": "FndBndGrdEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "INV",
         "NIN",
         "MIX"
@@ -2151,6 +2087,7 @@
       "title": "FndRlEsttTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "RES",
         "COM",
         "IND",
@@ -2248,10 +2185,13 @@
           "$ref": "#/definitions/Measure_OrgSprvsnTypEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "MNGD_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "RPRTD_BY": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "UNDR_UMBRLL_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "TYP": {
           "$ref": "#/definitions/Measure_FndTypEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
@@ -2259,7 +2199,7 @@
         "INVSTMNT_PLCY": {
           "$ref": "#/definitions/Measure_FndInvstmntPlcyEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
-        "SUBTYP": {
+        "SBTYP": {
           "$ref": "#/definitions/Measure_FndSbtypEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "DSTRBTN_TYP": {
@@ -2338,6 +2278,7 @@
       "title": "GenMrktEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "3579",
         "24EX",
         "360T",
@@ -4913,6 +4854,7 @@
       "title": "DbtPrmryClssEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "D.1",
         "D.2",
         "D.3",
@@ -4939,11 +4881,11 @@
       "title": "DbtGrntLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
         "8",
-        "9",
-        "-"
+        "9"
       ],
       "type": "string"
     },
@@ -4966,6 +4908,7 @@
       "title": "DbtRnkLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
         "3",
@@ -4973,8 +4916,7 @@
         "5",
         "6",
         "7",
-        "9",
-        "-"
+        "9"
       ],
       "type": "string"
     },
@@ -4997,10 +4939,10 @@
       "title": "DbtScrtyLvlEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1",
         "2",
-        "3",
-        "-"
+        "3"
       ],
       "type": "string"
     },
@@ -5023,14 +4965,14 @@
       "title": "DbtScrtznTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "1100",
         "1200",
         "1300",
         "1400",
         "1500",
         "1800",
-        "1900",
-        "-"
+        "1900"
       ],
       "type": "string"
     },
@@ -5053,14 +4995,14 @@
       "title": "DbtCvrdTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "2100",
         "2200",
         "2300",
         "2400",
         "2500",
         "2800",
-        "2900",
-        "-"
+        "2900"
       ],
       "type": "string"
     },
@@ -5083,6 +5025,7 @@
       "title": "DbtCpnTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "FIX",
         "STE",
         "FLO",
@@ -5112,6 +5055,7 @@
       "title": "DbtCpnFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "ZC",
         "AN",
         "SA",
@@ -5192,7 +5136,7 @@
           "$ref": "#/definitions/Measure_GenMrktEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "ACCRL_STRTDT": {
-          "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "PRMRY_CLSS": {
           "$ref": "#/definitions/Measure_DbtPrmryClssEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
@@ -5246,7 +5190,7 @@
           "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "UNDRLYNG": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "MNMM_INVSTMNT": {
           "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusAttr_AttrObsrvtnSttsEnum__"
@@ -5258,10 +5202,13 @@
           "$ref": "#/definitions/Measure_Str6ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "RSTRCTRD_T": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "RSTRCTRD_FRM": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5272,6 +5219,7 @@
       "title": "DbtSttsEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "100",
         "101",
         "102",
@@ -5321,7 +5269,7 @@
           "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "ISSD_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "CFI": {
           "$ref": "#/definitions/Measure_Str6ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
@@ -5357,7 +5305,10 @@
           "$ref": "#/definitions/Measure_GenMrktEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "RSTRCTRD_T": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DDPLCT_OF": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5368,6 +5319,7 @@
       "title": "ShrFndRdmptnFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "PP",
         "AN",
         "SA",
@@ -5415,7 +5367,7 @@
           "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "ISSD_BY": {
-          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "NMNL_PRC": {
           "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusAttr_AttrObsrvtnSttsEnum__"
@@ -5428,6 +5380,227 @@
         },
         "MNMM_AMNT": {
           "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        }
+      },
+      "required": [
+        "DIMS"
+      ]
+    },
+    "ManagementSeries": {
+      "title": "ManagementSeries",
+      "type": "object",
+      "properties": {
+        "DIMS": {
+          "$ref": "#/definitions/BaseDimensionContainer"
+        },
+        "DT_BRTH": {
+          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DT_CLS": {
+          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CNTRY_BRTH": {
+          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "ESCB_ID": {
+          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "LEI_ID": {
+          "$ref": "#/definitions/Measure_Str20ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "TAX_ID": {
+          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NBR_ID": {
+          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "SPLT_FRM": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "MRGD_WTH": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        }
+      },
+      "required": [
+        "DIMS"
+      ]
+    },
+    "StaticManagementSeries": {
+      "title": "StaticManagementSeries",
+      "type": "object",
+      "properties": {
+        "DIMS": {
+          "$ref": "#/definitions/StaticDimensionContainer"
+        },
+        "NM": {
+          "$ref": "#/definitions/Measure_Str128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NM_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NM_SHRT": {
+          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "STRT": {
+          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "STRT_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CTY": {
+          "$ref": "#/definitions/Measure_Str32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CTY_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "PSTL_CD": {
+          "$ref": "#/definitions/Measure_Str16__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "PSTL_BX": {
+          "$ref": "#/definitions/Measure_Str8__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "URL": {
+          "$ref": "#/definitions/Measure_AnyUrl__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "EMAIL": {
+          "$ref": "#/definitions/Measure_EmailStr__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CNTRY_RSDNC": {
+          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "LGL_PRCDNG_STTS": {
+          "$ref": "#/definitions/Measure_OrgLglPrcdngSttsEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        }
+      },
+      "required": [
+        "DIMS"
+      ]
+    },
+    "ReporterSeries": {
+      "title": "ReporterSeries",
+      "type": "object",
+      "properties": {
+        "DIMS": {
+          "$ref": "#/definitions/BaseDimensionContainer"
+        },
+        "DT_BRTH": {
+          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "DT_CLS": {
+          "$ref": "#/definitions/Measure_date__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CNTRY_BRTH": {
+          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "ESCB_ID": {
+          "$ref": "#/definitions/Measure_Str32ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "LEI_ID": {
+          "$ref": "#/definitions/Measure_Str20ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "TAX_ID": {
+          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NBR_ID": {
+          "$ref": "#/definitions/Measure_Str31ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "SPLT_FRM": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "MRGD_WTH": {
+          "$ref": "#/definitions/Measure_ID__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        }
+      },
+      "required": [
+        "DIMS"
+      ]
+    },
+    "OrgInstttnlSctrEnum": {
+      "title": "OrgInstttnlSctrEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "S11",
+        "S121",
+        "S122",
+        "S123",
+        "S124",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S1311",
+        "S1312",
+        "S1313",
+        "S1314",
+        "S14",
+        "S15"
+      ],
+      "type": "string"
+    },
+    "Measure_OrgInstttnlSctrEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__": {
+      "title": "Measure[OrgInstttnlSctrEnum, GenericStatusAttr[AttrObsrvtnSttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "$ref": "#/definitions/OrgInstttnlSctrEnum"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusAttr_AttrObsrvtnSttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
+    "StaticReporterSeries": {
+      "title": "StaticReporterSeries",
+      "type": "object",
+      "properties": {
+        "DIMS": {
+          "$ref": "#/definitions/StaticDimensionContainer"
+        },
+        "NM": {
+          "$ref": "#/definitions/Measure_Str128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NM_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr128__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "NM_SHRT": {
+          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "STRT": {
+          "$ref": "#/definitions/Measure_Str64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "STRT_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr64__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CTY": {
+          "$ref": "#/definitions/Measure_Str32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CTY_LTN": {
+          "$ref": "#/definitions/Measure_LatinStr32__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "PSTL_CD": {
+          "$ref": "#/definitions/Measure_Str16__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "PSTL_BX": {
+          "$ref": "#/definitions/Measure_Str8__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "URL": {
+          "$ref": "#/definitions/Measure_AnyUrl__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "EMAIL": {
+          "$ref": "#/definitions/Measure_EmailStr__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "CNTRY_RSDNC": {
+          "$ref": "#/definitions/Measure_GenCntryEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "LGL_PRCDNG_STTS": {
+          "$ref": "#/definitions/Measure_OrgLglPrcdngSttsEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "INSTTTNL_SCTR": {
+          "$ref": "#/definitions/Measure_OrgInstttnlSctrEnum__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         }
       },
       "required": [
@@ -5503,6 +5676,7 @@
       "title": "GenGndrEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "MALE",
         "FEMALE",
         "OTHER"
@@ -5604,18 +5778,72 @@
         "RID"
       ]
     },
-    "ContactToRaSeries": {
-      "title": "ContactToRaSeries",
+    "DprtmntEnum": {
+      "title": "DprtmntEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "-",
+        "ACC",
+        "ECO",
+        "COM",
+        "FIN",
+        "STA",
+        "ORG"
+      ],
+      "type": "string"
+    },
+    "Measure_DprtmntEnum__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__": {
+      "title": "Measure[DprtmntEnum, GenericStatusConfAttr[AttrObsrvtnSttsEnum, AttrCnfdntltySttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "$ref": "#/definitions/DprtmntEnum"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
+    "Measure_bool__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__": {
+      "title": "Measure[bool, GenericStatusConfAttr[AttrObsrvtnSttsEnum, AttrCnfdntltySttsEnum]]",
+      "type": "object",
+      "properties": {
+        "VALUE": {
+          "title": "Value",
+          "type": "boolean"
+        },
+        "ATTRS": {
+          "$ref": "#/definitions/GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum_"
+        }
+      },
+      "required": [
+        "VALUE"
+      ]
+    },
+    "ContactToReporterSeries": {
+      "title": "ContactToReporterSeries",
       "type": "object",
       "properties": {
         "DIMS": {
           "$ref": "#/definitions/RelDimensionContainer"
+        },
+        "ASSCTD_WTH": {
+          "$ref": "#/definitions/Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "IS_EMPLY_OF": {
           "$ref": "#/definitions/Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__"
         },
         "IS_CNTRCTR_OF": {
           "$ref": "#/definitions/Measure_bool__GenericStatusAttr_AttrObsrvtnSttsEnum__"
+        },
+        "WRKS_FR": {
+          "$ref": "#/definitions/Measure_DprtmntEnum__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"
+        },
+        "RSPNSBL_FR_IFDAT": {
+          "$ref": "#/definitions/Measure_bool__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"
         }
       },
       "required": [
@@ -5626,20 +5854,6 @@
       "title": "Datasets",
       "type": "object",
       "properties": {
-        "MANAGEMENT": {
-          "title": "Management",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/ManagementSeries"
-          }
-        },
-        "STATIC_MANAGEMENT": {
-          "title": "Static Management",
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/StaticManagementSeries"
-          }
-        },
         "FUND": {
           "title": "Fund",
           "type": "array",
@@ -5682,6 +5896,34 @@
             "$ref": "#/definitions/StaticShareSeries"
           }
         },
+        "MANAGEMENT": {
+          "title": "Management",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ManagementSeries"
+          }
+        },
+        "STATIC_MANAGEMENT": {
+          "title": "Static Management",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/StaticManagementSeries"
+          }
+        },
+        "RA": {
+          "title": "Ra",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReporterSeries"
+          }
+        },
+        "STATIC_RA": {
+          "title": "Static Ra",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/StaticReporterSeries"
+          }
+        },
         "CONTACT": {
           "title": "Contact",
           "type": "array",
@@ -5693,7 +5935,7 @@
           "title": "Contact To Ra",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ContactToRaSeries"
+            "$ref": "#/definitions/ContactToReporterSeries"
           }
         }
       },

@@ -1,5 +1,5 @@
 {
-  "title": "IFDatBSI",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -274,6 +274,7 @@
       "title": "GenFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "A",
         "B",
         "D",
@@ -441,6 +442,7 @@
       "title": "DrvtvStrtgyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "MICRO_HEDGE",
         "MACRO_HEDGE",
         "PORT_MGMNT",
@@ -627,6 +629,7 @@
       "title": "BsiRmngFxdEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "N1131",
         "N1132",
         "N1139",

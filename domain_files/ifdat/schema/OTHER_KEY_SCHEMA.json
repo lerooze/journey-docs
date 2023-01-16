@@ -1,5 +1,5 @@
 {
-  "title": "IFDatOtherKey",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -165,6 +165,7 @@
       "title": "DvdndTypEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "10",
         "20",
         "11",

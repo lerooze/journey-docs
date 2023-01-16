@@ -12,6 +12,14 @@ What's new?
 .. ============
 
 
+v0.2.0 (2023-01-16)
+-------------------
+
+* In IFDat domain new RA tables in self_info category.
+* In IFDat domain introduce DEDUPLICATE OF measures in case of a change in ``RA``.
+* Update documentation to accomodate above changes.
+* Fix syntax and spelling bugs in documentation.
+
 v0.1.1 (2023-01-04)
 -------------------
 

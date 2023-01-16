@@ -8,7 +8,7 @@ Below the dimensions, measures and if needed the attributes of the measures for 
 CASH
 ----
 
-Χρησιμοποιείται για την παροχή λογιστικών στοιχείων των χρηματικών διαθέσιμων των ``ΥΕΟ``.
+Used to submit data regarding cash holdings of the ``OA``.
 
 DIMENSIONS
 ~~~~~~~~~~
@@ -111,8 +111,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -170,8 +170,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -226,8 +226,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -267,8 +267,8 @@ IID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -303,8 +303,8 @@ IID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -343,8 +343,8 @@ IID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -389,8 +389,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 
 MEASURES
@@ -494,8 +494,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -613,8 +613,8 @@ ID
 DATE (DT)
     Reference date.  For further details see :doc:`../../../generic`. 
 
-FRQNCY (FREQUENCY)
-    Reference period. For further details see :doc:`../../../generic`.
+FREQUENCY (FRQNCY)
+    Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
 
 
 MEASURES

@@ -70,6 +70,11 @@ MERGED WITH (MRGD_WTH)
     In case of closure of the issuer via a merger event the identifier code of
     the entity that the issuer merged with is provided (:ref:`org`).
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`org`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 STATIC_ISSUER
 -------------
 Used to provide information data regarding the issuers of financial assets
@@ -166,6 +171,10 @@ MERGED WITH (MRGD_WTH)
     In case of closure of the issuer via a merger event the identifier code of
     the entity that the issuer merged with is provided (:ref:`org`).
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`org`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
     
 STATIC_HOLDER
 -------------
@@ -248,6 +257,11 @@ IS TRANSFERABLE (IS_TRNSFRBL)
 IS SHARED (IS_SHRD)
     Shared account flag.
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`dep`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 
 STATIC_DEPOSIT
 --------------
@@ -325,6 +339,11 @@ CURRENCY (CRRNCY)
 
 TYPE (TYP)
     Type choosing from ``SFT_TYP_ENUM`` ·
+
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`sft`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
 
 
 
@@ -475,6 +494,11 @@ LAST COUPON DATE (LST_CPN_DT)
 UNDERLYING INSTRUMENT (UNDRLYNG)
     Underlying debt instrument that the coupon payment depends on (:ref:`dbt`).
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`dbt`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 
 STATIC_DEBT
 -----------
@@ -548,6 +572,11 @@ CURRENCY (CRRNCY)
 
 TYPE (TYP)
     Type choosing from ``LOAN_ENUM``.
+
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`lon`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
 
 
 
@@ -630,6 +659,11 @@ TYPE (TYP)
 PRIMARY CLASS (PRMRY_CLSS)
     Primary class choosing from ``SHR_PRMRY_CLSS_ENUM``.
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`shr`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 
 STATIC_SHARE
 ------------
@@ -708,6 +742,10 @@ MULTIPLIER (MLTPLR)
 WRITER (WRTR)
     The main counterparty for the exchange traded derivative choosing from  ``GEN_MRKT_ENUM`` that is derived from ISO-10383 standard.
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`edr`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
 
 OTC_DER
 -------
@@ -753,6 +791,11 @@ WRITER (WRTR)
 BUYER (BYR)
     Identifier code of the party that buys the derivative (:ref:`org`).
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`odr`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
+
 RES_RE
 ------
 
@@ -790,6 +833,11 @@ POSTAL CODE (PSTL_CD)
 
 TERRITORY (TRRTRY)
     Territory choosing from ``GEN_NUTS_ENUM`` ·
+
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`rre`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
 
 
 ORG_TO_RRE
@@ -862,6 +910,10 @@ POSTAL CODE (PSTL_CD)
 TERRITORY (TRRTRY)
     Territory choosing from ``GEN_NUTS_ENUM`` ·
 
+DEDUPLICATE OF (DDPLCT_OF)
+    In case the ``RA`` of the ``OA`` changes it is used to deduplicate internal
+    (:ref:`cre`) ids assigned by the old ``RA`` with those assigned by the new
+    ``OA``.
 
 ORG_TO_CRE
 ----------

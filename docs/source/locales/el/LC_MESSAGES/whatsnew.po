@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-16 07:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,51 @@ msgstr ""
 msgid "What's new?"
 msgstr ""
 
-#: ../../source/whatsnew.rst:17 8a190e60993f48b9b7e37f375bdd3c7f
-msgid "v0.1.0 (2022-12-09)"
+#: ../../source/whatsnew.rst:16 8a190e60993f48b9b7e37f375bdd3c7f
+msgid "v0.2.0 (2023-01-16)"
 msgstr ""
 
-#: ../../source/whatsnew.rst:19 65a035441bb346108b4dd0f6d502fea0
-msgid "Initial release"
+#: ../../source/whatsnew.rst:18 d4ef51e567c94eacbb868d86e0e37a6b
+msgid "In IFDat domain new RA tables in self_info category."
 msgstr ""
+
+#: ../../source/whatsnew.rst:19 8638a789bee3495d9dce3108c9544593
+msgid ""
+"In IFDat domain introduce DEDUPLICATE OF measures in case of a change in "
+"``RA``."
+msgstr ""
+
+#: ../../source/whatsnew.rst:20 88e3b620106242009724131139777a67
+msgid "Update documentation to accomodate above changes."
+msgstr ""
+
+#: ../../source/whatsnew.rst:21 79fb1d40df434136bfd9508485109829
+msgid "Fix syntax and spelling bugs in documentation."
+msgstr ""
+
+#: ../../source/whatsnew.rst:24 8a190e60993f48b9b7e37f375bdd3c7f
+msgid "v0.1.1 (2023-01-04)"
+msgstr ""
+
+#: ../../source/whatsnew.rst:26 e76de37c2e1f4f8db3d9f47a83afa8cb
+msgid "Introduce License"
+msgstr ""
+
+#: ../../source/whatsnew.rst:27 8c305523f42449e4b1fe5c4c1d767ad5
+msgid "Documentation fixes"
+msgstr ""
+
+#: ../../source/whatsnew.rst:30 8a190e60993f48b9b7e37f375bdd3c7f
+msgid "v0.1.0 (2023-01-04)"
+msgstr ""
+
+#: ../../source/whatsnew.rst:32 5a4de6d3765548ac871ea7b7b2147cd7
+msgid "Pre-release of documentation"
+msgstr ""
+
+#~ msgid "v0.1.0 (2022-12-09)"
+#~ msgstr ""
+
+#~ msgid "Initial release"
+#~ msgstr ""
 

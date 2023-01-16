@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 11:28+0200\n"
-"PO-Revision-Date: 2023-01-03 11:34+0200\n"
+"POT-Creation-Date: 2023-01-16 08:41+0200\n"
+"PO-Revision-Date: 2023-01-16 08:55+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -108,8 +108,12 @@ msgstr "FREQUENCY (FRQNCY)"
 #: ../../source/domain/ifdat/categories/income.rst:27
 #: ../../source/domain/ifdat/categories/income.rst:59
 #: 2ee6d3ac4cd643059392b34530ddc041 6628af7b05dd481eb534c997a02019ec
-msgid "Reference period. For further details see :doc:`../../../generic`."
-msgstr "Περίοδο αναφοράς. For further details see :doc:`../../../generic`."
+msgid ""
+"Reference period applicable for flow measures. For further details see "
+":doc:`../../../generic`."
+msgstr ""
+"Περίοδος αναφοράς για τις μεταβλητές ροών.  Περισσότερες πληροφορίες στις"
+" :doc:`../../../generic`."
 
 #: ../../source/domain/ifdat/categories/income.rst:30
 #: ../../source/domain/ifdat/categories/income.rst:62
@@ -153,7 +157,6 @@ msgstr "Χρησιμοποιείται για την υποβολή στοιχε
 
 #: ../../source/domain/ifdat/categories/income.rst:53
 #: 9c368063beb64b6f92467fe2fa86ef74
-#, fuzzy
 msgid "Expense type choosing from ``INCM_EXPNS_ENUM``."
 msgstr "Τύπος εξόδων επιλέγοντας από ``INCM_EXPNS_ENUM``."
 

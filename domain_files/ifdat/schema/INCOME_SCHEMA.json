@@ -1,5 +1,5 @@
 {
-  "title": "IFDat",
+  "title": "Message",
   "type": "object",
   "properties": {
     "HEADER": {
@@ -35,6 +35,7 @@
       "title": "IncmRvnEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "R1",
         "R2",
         "R3",
@@ -47,6 +48,7 @@
       "title": "GenFrqncyEnum",
       "description": "An enumeration.",
       "enum": [
+        "-",
         "A",
         "B",
         "D",
@@ -191,12 +193,58 @@
         "EUR_AMNT"
       ]
     },
+    "IncmExpnsEnum": {
+      "title": "IncmExpnsEnum",
+      "description": "An enumeration.",
+      "enum": [
+        "-",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ],
+      "type": "string"
+    },
+    "ExpenseDimensionContainer": {
+      "title": "ExpenseDimensionContainer",
+      "type": "object",
+      "properties": {
+        "IID": {
+          "title": "Iid",
+          "maxLength": 32,
+          "type": "string"
+        },
+        "TP": {
+          "$ref": "#/definitions/IncmExpnsEnum"
+        },
+        "DT": {
+          "title": "Dt",
+          "type": "string",
+          "format": "date"
+        },
+        "FREQ": {
+          "$ref": "#/definitions/GenFrqncyEnum"
+        }
+      },
+      "required": [
+        "IID",
+        "TP",
+        "DT",
+        "FREQ"
+      ]
+    },
     "ExpenseSeries": {
       "title": "ExpenseSeries",
       "type": "object",
       "properties": {
         "DIMS": {
-          "$ref": "#/definitions/RevenueDimensionContainer"
+          "$ref": "#/definitions/ExpenseDimensionContainer"
         },
         "AMNT": {
           "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"

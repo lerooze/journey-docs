@@ -1,9 +1,130 @@
 {
   "HEADER": {
-    "SOURCE_ORG": "GRMFMC000",
-    "SOURCE_PERSON": "aloumiotis@foo.gr"
+    "SOURCE_ORG": "",
+    "SOURCE_PERSON": ""
   },
   "DATASETS": {
+    "FUND": [
+      {
+        "DIMS": {
+          "ID": "GRAK1"
+        },
+        "DT_BRTH": {
+          "VALUE": "2022-01-27"
+        },
+        "CNTRY_BRTH": {
+          "VALUE": "GR"
+        },
+        "ESCB_ID": {
+          "VALUE": "GRAK1"
+        },
+        "LEI_ID": {
+          "VALUE": "213800X4WM397A7OL933"
+        }
+      }
+    ],
+    "STATIC_FUND": [
+      {
+        "DIMS": {
+          "ID": "GRAK1"
+        },
+        "NM": {
+          "VALUE": "ΦΟΥ ΜΙΚΤΟ ΕΣΩΤΕΡΙΚΟΥ"
+        },
+        "NM_LTN": {
+          "VALUE": "FOO BALANCED DOMESTIC"
+        },
+        "NM_SHRT": {
+          "VALUE": "FOO BLNCD DOM"
+        },
+        "CNTRY_RSDNC": {
+          "VALUE": "GR"
+        },
+        "ACCNTS_CRRNCY": {
+          "VALUE": "EUR"
+        },
+        "INSTTTNL_SCTR_CNTRL": {
+          "VALUE": "-4"
+        },
+        "LGL_FRM": {
+          "VALUE": "SPFUND"
+        },
+        "TYP_SPRVSN": {
+          "VALUE": "2"
+        },
+        "MNGD_BY": {
+          "VALUE": "GRMFMC000"
+        },
+        "RPRTD_BY": {
+          "VALUE": "GRMFMC000"
+        },
+        "TYP": {
+          "VALUE": "UCITS"
+        },
+        "INVSTMNT_PLCY": {
+          "VALUE": "MIX"
+        },
+        "SBTYP": {
+          "VALUE": "OPEN"
+        },
+        "DSTRBTN_TYP": {
+          "VALUE": "CUM"
+        },
+        "INVSTR_TYP": {
+          "VALUE": "RTL"
+        },
+        "STRTGY": {
+          "VALUE": "ACTIVE"
+        },
+        "GGRPHCL_FCS": {
+          "VALUE": "DOM"
+        }
+      }
+    ],
+    "SHARE": [
+      {
+        "DIMS": {
+          "ID": "GRF000000001"
+        },
+        "DT_BRTH": {
+          "VALUE": "2022-01-27"
+        },
+        "ISIN_ID": {
+          "VALUE": "GRF000000001"
+        },
+        "CRRNCY": {
+          "VALUE": "EUR"
+        }
+      }
+    ],
+    "STATIC_SHARE": [
+      {
+        "DIMS": {
+          "ID": "GRF000000001"
+        },
+        "NM": {
+          "VALUE": "ΦΟΥ ΜΙΚΤΟ ΕΣΩΤΕΡΙΚΟΥ (Κατηγορία Μεριδίων R)"
+        },
+        "NM_LTN": {
+          "VALUE": "FOO BALANCED DOMESTIC (class R)"
+        },
+        "NM_SHRT": {
+          "VALUE": "FOO BLNCD DOMESTIC (R)/UT"
+        },
+        "ISSD_BY": {
+          "VALUE": "GRAK1"
+        },
+        "NMNL_PRC": {
+          "VALUE": 10.0
+        },
+        "CFI": {
+          "VALUE": "CIOGLU"
+        },
+        "RDMPTN_FRQNCY": {
+          "VALUE": "PP"
+        }
+      }
+    ],
     "MANAGEMENT": [
       {
         "DIMS": {
@@ -72,124 +193,6 @@
         }
       }
     ],
-    "FUND": [
-      {
-        "DIMS": {
-          "ID": "GRAK1"
-        },
-        "DT_BRTH": {
-          "VALUE": "2022-01-27"
-        },
-        "CNTRY_BRTH": {
-          "VALUE": "GR"
-        },
-        "ESCB_ID": {
-          "VALUE": "GRAK1"
-        },
-        "LEI_ID": {
-          "VALUE": "213800X4WM397A7OL933"
-        }
-      }
-    ],
-    "STATIC_FUND": [
-      {
-        "DIMS": {
-          "ID": "GRAK1"
-        },
-        "NM": {
-          "VALUE": "ΦΟΥ ΜΙΚΤΟ ΕΣΩΤΕΡΙΚΟΥ"
-        },
-        "NM_LTN": {
-          "VALUE": "FOO BALANCED DOMESTIC"
-        },
-        "NM_SHRT": {
-          "VALUE": "FOO BLNCD DOM"
-        },
-        "CNTRY_RSDNC": {
-          "VALUE": "GR"
-        },
-        "ACCNTS_CRRNCY": {
-          "VALUE": "EUR"
-        },
-        "INSTTTNL_SCTR_CNTRL": {
-          "VALUE": "-4"
-        },
-        "LGL_FRM": {
-          "VALUE": "SPFUND"
-        },
-        "TYP_SPRVSN": {
-          "VALUE": "2"
-        },
-        "MNGD_BY": {
-          "VALUE": "GRMFMC000"
-        },
-        "TYP": {
-          "VALUE": "UCITS"
-        },
-        "INVSTMNT_PLCY": {
-          "VALUE": "MIX"
-        },
-        "SUBTYP": {
-          "VALUE": "OPEN"
-        },
-        "DSTRBTN_TYP": {
-          "VALUE": "CUM"
-        },
-        "INVSTR_TYP": {
-          "VALUE": "RTL"
-        },
-        "STRTGY": {
-          "VALUE": "ACTIVE"
-        },
-        "GGRPHCL_FCS": {
-          "VALUE": "DOM"
-        }
-      }
-    ],
-    "SHARE": [
-      {
-        "DIMS": {
-          "ID": "GRF000000001"
-        },
-        "DT_BRTH": {
-          "VALUE": "2022-01-27"
-        },
-        "ISIN_ID": {
-          "VALUE": "GRF000000001"
-        },
-        "CRRNCY": {
-          "VALUE": "EUR"
-        }
-      }
-    ],
-    "STATIC_SHARE": [
-      {
-        "DIMS": {
-          "ID": "GRF000000001"
-        },
-        "NM": {
-          "VALUE": "ΦΟΥ ΜΙΚΤΟ ΕΣΩΤΕΡΙΚΟΥ (Κατηγορία Μεριδίων R)"
-        },
-        "NM_LTN": {
-          "VALUE": "FOO BALANCED DOMESTIC (class R)"
-        },
-        "NM_SHRT": {
-          "VALUE": "FOO BLNCD DOMESTIC (R)/UT"
-        },
-        "ISSD_BY": {
-          "VALUE": "GRAK1"
-        },
-        "NMNL_PRC": {
-          "VALUE": 10.0
-        },
-        "CFI": {
-          "VALUE": "CIOGLU"
-        },
-        "RDMPTN_FRQNCY": {
-          "VALUE": "PP"
-        }
-      }
-    ],
     "CONTACT": [
       {
         "DIMS": {
@@ -224,7 +227,7 @@
           "LID": "aloumiotis@foo.gr",
           "RID": "GRMFMC000"
         },
-        "IS_EMPLY_OF": {
+        "ASSCTD_WTH": {
           "VALUE": true
         }
       }
