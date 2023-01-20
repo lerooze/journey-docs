@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE. = []
+# SOME DESCRIPTIVE TITLE. = [α]
 # Copyright (C) 2022
 # This file is distributed under the same license as the Journey package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 09:15+0200\n"
-"PO-Revision-Date: 2023-01-16 09:20+0200\n"
+"PO-Revision-Date: 2023-01-20 14:13+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid ""
 "``OA`` if applicable, the ``RA`` of the ``OA`` if applicable and "
 "different and the contact person responsible for submitting data on "
 "behalf of the ``RA``."
-msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΠΜ``, των χρηματοοικονομικών μέσων που έχει " "εκδώσει η ``ΠΜ``, της διαχειρίστριας εταιρείας της ``ΠΜ`` κατά περίπτωση,  της ``ΜΠΣ`` σε περίπτωση που δεν είναι η ίδαι με την ``ΠΜ`` και των προσώπων επικοινωνίας που είναι υπεύθυνα για την παροχή των στοιχείων εκ μέρους της ``ΜΠΣ``."
+msgstr "Χρησιμοποιείται για την παροχή πληροφοριακών στοιχείων της ``ΠΜ``, των χρηματοοικονομικών μέσων που έχει " "εκδώσει η ``ΠΜ``, της διαχειρίστριας εταιρείας της ``ΠΜ`` κατά περίπτωση,  της ``ΜΠΣ`` σε περίπτωση που δεν είναι η ίδια με την ``ΠΜ`` και των προσώπων επικοινωνίας που είναι υπεύθυνα για την παροχή των στοιχείων εκ μέρους της ``ΜΠΣ``."
 
 #: ../../source/domain/ifdat/categories/self_info.rst:7
 #: ffd11c806c6d4ae3bf0f22c710673001
@@ -93,7 +93,7 @@ msgstr "ID"
 #: ../../source/domain/ifdat/categories/self_info.rst:70
 #: 46037b75be6540678bfed0883f1cbdf2
 msgid "Identifier code of the ``OA`` (:ref:`org`)."
-msgstr "Ο αναγνωριστικός κωδικός της ``ΠΜ`` (:ref:`org`)."
+msgstr "Ο αναγνωριστικός κωδικός της ``ΠΜ`` (:ref:`ORG <org>`)."
 
 #: ../../source/domain/ifdat/categories/self_info.rst:22
 #: ../../source/domain/ifdat/categories/self_info.rst:81
@@ -189,7 +189,7 @@ msgstr "LEI ID (LEI_ID)"
 #: ../../source/domain/ifdat/categories/self_info.rst:627
 #: 1ab9c520ea0b492094b142ef7d714421 ebe1cfcf56234634aa284b67587b77b3
 msgid "Identifier code based on the ISO-17442 standard."
-msgstr "Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάση του προτύπου ISO-17442·"
+msgstr "Αναγνωριστικός κωδικός ο οποίος αποδίδεται βάσει του προτύπου ISO-17442·"
 
 #: ../../source/domain/ifdat/categories/self_info.rst:43
 #: ../../source/domain/ifdat/categories/self_info.rst:521

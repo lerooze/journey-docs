@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 10:51+0200\n"
-"PO-Revision-Date: 2023-01-03 13:26+0200\n"
+"POT-Creation-Date: 2023-01-20 12:21+0200\n"
+"PO-Revision-Date: 2023-01-20 12:25+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,127 +23,120 @@ msgstr "Παραδείγματα Υποβολών"
 
 #: ../../source/domain/ifdat/example.rst:3 00eb31b2a88942e582103ba30c848261
 msgid "This section provides data submission examples from imaginary ``RAs``."
-msgstr ""
+msgstr "Παρακάτω παρέχονται παραδείγματα υποβολών από υποθετικές ``ΠΜ``."
 
 #: ../../source/domain/ifdat/example.rst:6 935bda0adfef47dc84e8628afaf495d5
 msgid "Data submission from a mutual fund management company"
-msgstr ""
+msgstr "Υποβολή από διαχειρίστρια εταιρεία"
 
 #: ../../source/domain/ifdat/example.rst:7 eb7d7fb10a994b649e79172874256c09
 msgid ""
 "In this example a mutual fund management company with an ``ID`` of "
-"``GRMFMC000`` (:ref:`org`) and a ``UID`` of ``100`` (:doc:`../../sid`) "
-"that was established on January of 2022 submits for the first time data "
-"during February of 2022. In the table below for each data category the "
-"submission deadline is provided as well as the submission data examples "
-"in both json and excel format."
-msgstr ""
+"``GRMFMC000`` and a ``UID`` of ``100`` that was established on January of"
+" 2022 submits for the first time data during February 2022. In the table "
+"below for each data category the submission deadline is provided as well "
+"as the submission data examples in both json and excel format."
+msgstr "Σε αυτό το παράδειγμα μία διαχειρίστρια εταιρεία αμοιβαίων κεφαλαίων με ID GRMFMC000 και UID 100, που ιδρύθηκε τον Ιανουάριο του 2022, υποβάλλει για πρώτη φορά κατά την διάρκεια του Φεβρουαρίου του 2022. Στον παρακάτω πίνακα φαίνονται οι προθεσμίες που ισχύουν για κάθε κατηγορία δεδομένων αλλά και παραδείγματα υποβολών σε αρχείο excel ή json."
 
-#: ../../source/domain/ifdat/example.rst:12 fb1d772115ff43cb97382fc618e2518f
+#: ../../source/domain/ifdat/example.rst:11 fb1d772115ff43cb97382fc618e2518f
 msgid "Data Category"
-msgstr ""
+msgstr "Κατηγορία Δεδομένων"
 
-#: ../../source/domain/ifdat/example.rst:12 202b8c3f4d094f6695e36c33aaa98785
+#: ../../source/domain/ifdat/example.rst:11 202b8c3f4d094f6695e36c33aaa98785
 msgid "Deadline"
-msgstr ""
+msgstr "Καταληκτική Ημερομηνία"
 
-#: ../../source/domain/ifdat/example.rst:12 af672773654f463aad7fdc6686c6277b
+#: ../../source/domain/ifdat/example.rst:11 af672773654f463aad7fdc6686c6277b
 msgid "Excel Example"
-msgstr ""
+msgstr "Παράδειγμα Υποβολής σε excel"
 
-#: ../../source/domain/ifdat/example.rst:12 61c0ba4ac1de4c6bbbbc005fd829cbbf
+#: ../../source/domain/ifdat/example.rst:11 61c0ba4ac1de4c6bbbbc005fd829cbbf
 msgid "Json Example"
-msgstr ""
+msgstr "Παράδειγμα Υποβολής σε json"
 
-#: ../../source/domain/ifdat/example.rst:14 1fcb9c9386ed4791993b9fcbb936cb5d
+#: ../../source/domain/ifdat/example.rst:13 1fcb9c9386ed4791993b9fcbb936cb5d
 msgid "SELF_INFO"
-msgstr ""
+msgstr "SELF_INFO"
 
-#: ../../source/domain/ifdat/example.rst:14
-#: ../../source/domain/ifdat/example.rst:16 91edf17fa1384799957ec1c1a2874157
-#: d5dfa960d72143fb8a7746471326997d
+#: ../../source/domain/ifdat/example.rst:13
+#: ../../source/domain/ifdat/example.rst:15 d5dfa960d72143fb8a7746471326997d
 msgid "2022-02-02"
-msgstr ""
+msgstr "2022-02-02"
 
-#: ../../source/domain/ifdat/example.rst:14 9c5062d6b5ef4e07a03f1491ce1bb6e9
+#: ../../source/domain/ifdat/example.rst:13 9c5062d6b5ef4e07a03f1491ce1bb6e9
 msgid "`SELF_INFO_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`SELF_INFO_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:14 2ce553d126ae484fa790fda0d434c78c
+#: ../../source/domain/ifdat/example.rst:13 2ce553d126ae484fa790fda0d434c78c
 msgid "`SELF_INFO_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`SELF_INFO_MFMC_M0_JSON`_"
 
-#: ../../source/domain/ifdat/example.rst:16 fcdf75803c7a4cfb8c2b825e77d96f8f
+#: ../../source/domain/ifdat/example.rst:15 fcdf75803c7a4cfb8c2b825e77d96f8f
 msgid "SELF_KEY"
-msgstr ""
+msgstr "SELF_KEY"
 
-#: ../../source/domain/ifdat/example.rst:16 3ff78225965f435f856cbbc3d916bcfa
+#: ../../source/domain/ifdat/example.rst:15 3ff78225965f435f856cbbc3d916bcfa
 msgid "`SELF_KEY_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`SELF_KEY_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:16 193d986eceb34106bb7f7a0f9d010db4
+#: ../../source/domain/ifdat/example.rst:15 193d986eceb34106bb7f7a0f9d010db4
 msgid "`SELF_KEY_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`SELF_KEY_MFMC_M0_JSON`_"
 
-#: ../../source/domain/ifdat/example.rst:18 40bd238ce90247ce8412fbfca8b5cd5a
+#: ../../source/domain/ifdat/example.rst:17 40bd238ce90247ce8412fbfca8b5cd5a
 msgid "OTHER_INFO"
-msgstr ""
+msgstr "OTHER_INFO"
 
-#: ../../source/domain/ifdat/example.rst:18
-#: ../../source/domain/ifdat/example.rst:20 27cdbed5ecbf4da6a9d5005f8062057d
-#: 4b27489e9b6b431a90b5ebb2ac80a95c
+#: ../../source/domain/ifdat/example.rst:17
+#: ../../source/domain/ifdat/example.rst:19
+#: ../../source/domain/ifdat/example.rst:21
+#: ../../source/domain/ifdat/example.rst:23 4b27489e9b6b431a90b5ebb2ac80a95c
 msgid "2022-02-14"
-msgstr ""
+msgstr "2022-02-14"
 
-#: ../../source/domain/ifdat/example.rst:18 b1aadd323d024fdcb68d9a2e4713af9a
+#: ../../source/domain/ifdat/example.rst:17 b1aadd323d024fdcb68d9a2e4713af9a
 msgid "`OTHER_INFO_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`OTHER_INFO_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:18 90f445d2e6b3455faec89e2dc2dfd392
+#: ../../source/domain/ifdat/example.rst:17 90f445d2e6b3455faec89e2dc2dfd392
 msgid "`OTHER_INFO_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`OTHER_INFO_MFMC_M0_JSON`_"
 
-#: ../../source/domain/ifdat/example.rst:20 1c37076c60864307b33d0bca23fb7afe
+#: ../../source/domain/ifdat/example.rst:19 1c37076c60864307b33d0bca23fb7afe
 msgid "OTHER_KEY"
-msgstr ""
+msgstr "OTHER_KEY"
 
-#: ../../source/domain/ifdat/example.rst:20 8ecbfd8e9cb2433d95a29891df9ff194
+#: ../../source/domain/ifdat/example.rst:19 8ecbfd8e9cb2433d95a29891df9ff194
 msgid "`OTHER_KEY_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`OTHER_KEY_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:20 6d94db2c0bc34de6b36809fae8865abb
+#: ../../source/domain/ifdat/example.rst:19 6d94db2c0bc34de6b36809fae8865abb
 msgid "`OTHER_KEY_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`OTHER_KEY_MFMC_M0_JSON`_"
 
-#: ../../source/domain/ifdat/example.rst:22 e4eff0c9996141c4903dbedd02f6c0c4
+#: ../../source/domain/ifdat/example.rst:21 e4eff0c9996141c4903dbedd02f6c0c4
 msgid "BSI"
-msgstr ""
+msgstr "BSI"
 
-#: ../../source/domain/ifdat/example.rst:22
-#: ../../source/domain/ifdat/example.rst:24 ebc5167a7d2d459c9330db7f38c1b0d6
-#: f38760342a5249c4986daa0efc728abe
-msgid "2022-02-21"
-msgstr ""
-
-#: ../../source/domain/ifdat/example.rst:22 a6be80ed0a1d40ca91288877b0799a39
+#: ../../source/domain/ifdat/example.rst:21 a6be80ed0a1d40ca91288877b0799a39
 msgid "`BSI_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`BSI_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:22 27310b3fc59b4bc0995b0cb926a5bd35
+#: ../../source/domain/ifdat/example.rst:21 27310b3fc59b4bc0995b0cb926a5bd35
 msgid "`BSI_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`BSI_MFMC_M0_JSON`_"
 
-#: ../../source/domain/ifdat/example.rst:24 8e3901b1d3824626ab9d36bde00104a5
+#: ../../source/domain/ifdat/example.rst:23 8e3901b1d3824626ab9d36bde00104a5
 msgid "INCOME"
-msgstr ""
+msgstr "INCOME"
 
-#: ../../source/domain/ifdat/example.rst:24 a6be80ed0a1d40ca91288877b0799a39
+#: ../../source/domain/ifdat/example.rst:23 a6be80ed0a1d40ca91288877b0799a39
 msgid "`INCOME_MFMC_M0_EXCEL`_"
-msgstr ""
+msgstr "`INCOME_MFMC_M0_EXCEL`_"
 
-#: ../../source/domain/ifdat/example.rst:24 b6ecf97e789c45cb8cde7f818065e25f
+#: ../../source/domain/ifdat/example.rst:23 b6ecf97e789c45cb8cde7f818065e25f
 msgid "`INCOME_MFMC_M0_JSON`_"
-msgstr ""
+msgstr "`INCOME_MFMC_M0_JSON`_"
 
 #~ msgid ""
 #~ "Στη συγκεκριμένη ενότητα παρέχονται "
@@ -226,4 +219,48 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Παραδείγματα Υποβολλών"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example a mutual fund "
+#~ "management company with an ``ID`` of "
+#~ "``GRMFMC000`` (:ref:`org`) and a ``UID`` "
+#~ "of ``100`` (:doc:`../../sid`) that was "
+#~ "established on January of 2022 submits"
+#~ " for the first time data during "
+#~ "February of 2022. In the table "
+#~ "below for each data category the "
+#~ "submission deadline is provided as well"
+#~ " as the submission data examples in"
+#~ " both json and excel format."
+#~ msgstr ""
+
+#~ msgid "2022-02-21"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example a mutual fund "
+#~ "management company with an ``ID`` of "
+#~ "``GRMFMC000``"
+#~ msgstr ""
+#~ "Σε αυτό το παράδειγμα μία διαχειρίστρια"
+#~ " εταιρεία αμοιβαίων κεφαλαίων με ID "
+#~ "GRMFMC000 και UID 100, που ιδρύθηκε "
+#~ "τον Ιανουάριο του 2022, υποβάλλει για"
+#~ " πρώτη φορά κατά την διάρκεια του "
+#~ "Φεβρουαρίου του 2022. Στον παρακάτω "
+#~ "πίνακα φαίνονται οι προθεσμίες που "
+#~ "ισχύουν για κάθε κατηγορία δεδομένων "
+#~ "αλλά και παραδείγματα υποβολών σε αρχείο"
+#~ " excel ή json."
+
+#~ msgid ""
+#~ "and a ``UID`` of ``100`` that was"
+#~ " established on January of 2022 "
+#~ "submits for the first time data "
+#~ "during February 2022. In the table "
+#~ "below for each data category the "
+#~ "submission deadline is provided as well"
+#~ " as the submission data examples in"
+#~ " both json and excel format."
 #~ msgstr ""

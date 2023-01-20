@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-03 10:38+0200\n"
-"PO-Revision-Date: 2023-01-03 12:40+0200\n"
+"PO-Revision-Date: 2023-01-20 13:57+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:2 ff9ad6fc9295423d97eb4fa68c681b88
 msgid "Glossary"
-msgstr "Όροι"
+msgstr "Ευρετήριο"
 
 #: ../../source/glossary.rst:6 3fb7d6501668432d9d0b73ca0f0c98de
 msgid "Dataset"
