@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 02:28+0200\n"
+"POT-Creation-Date: 2023-01-26 13:43+0200\n"
 "PO-Revision-Date: 2023-01-03 11:35+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,30 +21,82 @@ msgstr ""
 msgid "JOURNEY-DOCS"
 msgstr "JOURNEY-DOCS"
 
-#: ../../source/index.rst:4 ddd20dd91752455882684c7eeba70dc1
-msgid ""
-":mod:`Journey` is a platform primarily aimed to host and exchange various"
-" kind of data collected or produced by International Organisations, "
-"Central Banks, Statistical Offices and/or Supervision Offices."
-msgstr "Το :mod:`Journey` είναι ένα πληροφοριακό σύστημα με πρωταρχικό σκοπό την φιλοξενία και την ανταλλαγή διαφόρων ειδών δεδομένων που συλλέγονται ή καταρτίζονται από διεθνείς οργανισμούς, κεντρικές τράπεζες, στατιστικές υπηρεσίες και/ή εποπτικές αρχές."
+#: ../../source/index.rst:4 325e8d17cfb2476b909ee1a9da563cba
+msgid ":mod:`Journey` is a platform that serves three main purposes:"
+msgstr ""
 
-#: ../../source/index.rst:6 ed4ec672f403480487987f027715268b
+#: ../../source/index.rst:6 08cf12e8183d4a25838fd86f8460dc96
 msgid ""
-"Section :doc:`domain` describes the data domains that :mod:`Journey` "
-"handles."
-msgstr "Στην ενότητα :doc:`domain` περιγράφονται τα είδη στοιχείων που το :mod:`Journey` μπορεί να χειρισθεί."
+"Accept data from various domains and sources, validate and store them in "
+"main database tables"
+msgstr ""
 
-#: ../../source/index.rst:8 b13f342ba9f2496d99c5f4520cc6cc8e
+#: ../../source/index.rst:8 1b0002bb918f4487a5dd1836a6723d92
 msgid ""
-"Section :doc:`id_type` describes the format used to identify each kind of"
-" unit in :mod:`Journey`."
-msgstr "Στην ενότητα :doc:`id_type` περιγράφεται η μορφοποίηση των αναγνωριστικών κωδικών που χρησιμοποιούνται για την ταυτοποίηση μονάδων του :mod:`Journey`."
+"Compile stored data based on various standards and feed them to the "
+"respective databases."
+msgstr ""
 
-#: ../../source/index.rst:11 7c88410253694c1393d9d6874a7e7669
+#: ../../source/index.rst:10 a36fcb4f89f04cad93b455064d0a3f8d
+msgid ""
+"Serve as a client interface to disseminate data based on structured "
+"requests or structured reports"
+msgstr ""
+
+#: ../../source/index.rst:12 c2117dfacc6147ffba72e45c1d7c358e
+msgid ""
+"Section :doc:`data domains <domain>` describes all domains of data that "
+":mod:`Journey` handles.  As explained within data domains are categorized"
+" into structured and unstructured."
+msgstr ""
+
+#: ../../source/index.rst:14 cc0a86cf519d4be0b2b12424ec46e732
+msgid ""
+"Section :doc:`data submission <submission>` describes the main methods of"
+" submitting structured domain data."
+msgstr ""
+
+#: ../../source/index.rst:16 c90e659076da49aeb8dc867b077cff4d
+msgid ""
+"Section :doc:`data validation <validation>` describes the process of "
+"validating incoming data."
+msgstr ""
+
+#: ../../source/index.rst:18 be6eb9c80e814a88800ceb1cda9cfc37
+msgid ""
+"Section :doc:`data uploading <uploading>` describes the process of "
+"processing and uploading processed incoming data to the database."
+msgstr ""
+
+#: ../../source/index.rst:20 b13f342ba9f2496d99c5f4520cc6cc8e
+#, fuzzy
+msgid ""
+"Section :doc:`identifiers <identifiers>` describes how to identify each "
+"uniquely identifiable kind of unit in :mod:`Journey`."
+msgstr ""
+"Στην ενότητα :doc:`id_type` περιγράφεται η μορφοποίηση των αναγνωριστικών"
+" κωδικών που χρησιμοποιούνται για την ταυτοποίηση μονάδων του "
+":mod:`Journey`."
+
+#: ../../source/index.rst:22 7c88410253694c1393d9d6874a7e7669
 msgid ""
 "Section :doc:`sid` provides the names and the identification codes of the"
 " reporting agents."
-msgstr "Στην ενότητα :doc:`sid` παρέχονται οι επωνυμίες καθώς και οι αναγνωριστικοί κωδικοί των ``ΜΠΣ``."
+msgstr ""
+"Στην ενότητα :doc:`sid` παρέχονται οι επωνυμίες καθώς και οι "
+"αναγνωριστικοί κωδικοί των ``ΜΠΣ``."
+
+#: ../../source/index.rst:24 b13f342ba9f2496d99c5f4520cc6cc8e
+msgid ""
+"Section :doc:`whatsnew` provides details of what changes in each released"
+" version of :mod:`Journey`."
+msgstr ""
+
+#: ../../source/index.rst:26 b13f342ba9f2496d99c5f4520cc6cc8e
+msgid ""
+"Section :doc:`dev` provides details of how to contribute to "
+":mod:`Journey`."
+msgstr ""
 
 #~ msgid ""
 #~ "Section :doc:`domain` describes the various"
@@ -57,3 +109,28 @@ msgstr "Στην ενότητα :doc:`sid` παρέχονται οι επωνυ�
 #~ " types that is used to identify "
 #~ "various kind of units in :mod:`Journey`."
 #~ msgstr ""
+
+#~ msgid ""
+#~ ":mod:`Journey` is a platform primarily "
+#~ "aimed to host and exchange various "
+#~ "kind of data collected or produced "
+#~ "by International Organisations, Central Banks,"
+#~ " Statistical Offices and/or Supervision "
+#~ "Offices."
+#~ msgstr ""
+#~ "Το :mod:`Journey` είναι ένα πληροφοριακό "
+#~ "σύστημα με πρωταρχικό σκοπό την "
+#~ "φιλοξενία και την ανταλλαγή διαφόρων "
+#~ "ειδών δεδομένων που συλλέγονται ή "
+#~ "καταρτίζονται από διεθνείς οργανισμούς, "
+#~ "κεντρικές τράπεζες, στατιστικές υπηρεσίες "
+#~ "και/ή εποπτικές αρχές."
+
+#~ msgid ""
+#~ "Section :doc:`domain` describes the data "
+#~ "domains that :mod:`Journey` handles."
+#~ msgstr ""
+#~ "Στην ενότητα :doc:`domain` περιγράφονται τα"
+#~ " είδη στοιχείων που το :mod:`Journey` "
+#~ "μπορεί να χειρισθεί."
+

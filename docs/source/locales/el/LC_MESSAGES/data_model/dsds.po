@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-26 13:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,47 +21,79 @@ msgstr ""
 msgid "DSDS"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:4 6636690f530b4b9eae979a902f1277d9
+#: ../../source/data_model/dsds.rst:4 54f6c1037b774e6b960c5dbefa724fd7
 msgid ""
-"Το φύλλο ``DSDS`` δίνει μια συνοπτική εικόνα της δομής δεδομένων του κάθε"
-" πίνακα της κατηγορίας δεδομένων και περιέχει τις ακόλουθες στήλες:"
+"Sheet **DSDS** provides a brief overview of the **DSD** of each **Data "
+"Table** and provides the following information:"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:8 88051bd537604fa49407020bdcf0ea18
-msgid "TABLE"
+#: ../../source/data_model/dsds.rst:7 a14ec222aae748c0995d566806ece3b6
+msgid "DATA TABLE"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:8 16e426a429e7458ebfec67d27f18fb31
-msgid "ονομασία του πίνακα·"
+#: ../../source/data_model/dsds.rst:7 f47662e29a4a421eb302878046c2f6fe
+msgid "Data Table identifier."
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:11 bce1b14314fb458b911ceff1e3762aeb
+#: ../../source/data_model/dsds.rst:10 bce1b14314fb458b911ceff1e3762aeb
 msgid "DIMS"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:11 d7e3cfecfe974475b03bb5c4ab4cf72b
+#: ../../source/data_model/dsds.rst:10 e2dd4b277a144a3f875478f6c469eaac
 msgid ""
-"σύνδεσμος με το φύλλο ``DIMS`` που περιγράφεται στο :doc:`dims` και δίνει"
-" τις διαστάσεις κάθε πίνακα·"
+"Link to sheet **DIMS** that provides the **Dimensions** of the "
+"corresponding **Data Table**."
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:14 e1e7455082a8409ab677eb25b797d0cd
+#: ../../source/data_model/dsds.rst:13 e1e7455082a8409ab677eb25b797d0cd
 msgid "MEASURES"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:14 d744490540d44965bf5cd9c619e11f8f
+#: ../../source/data_model/dsds.rst:13 7c5a31e51b4646398ae0684ab114d6d1
 msgid ""
-"σύνδεσμος με το φύλλο ``MEASURES`` που περιγράφεται στο :doc:`measures` "
-"και δίνει τις μεταβλητές κάθε πίνακα·"
+"Link to sheet **MEASURES** that provides the **Measures** of the "
+"corresponding **Data Table**."
 msgstr ""
 
 #: ../../source/data_model/dsds.rst:16 531846f07ad34f5c8a57e85532d78900
 msgid "ATTRS"
 msgstr ""
 
-#: ../../source/data_model/dsds.rst:17 22761053d7cc4119a347debfbb714e89
+#: ../../source/data_model/dsds.rst:16 d4674ef51427409f885eaecd55781f28
 msgid ""
-"Σύνδεσμος με το φύλλο ``ATTRS`` που περιγράφεται στο :doc:`attrs` και "
-"δίνει τα χαρακτηριστικά κάθε μεταβλητής του κάθε πίνακα."
+"Link to sheet **ATTRS** that provides the **Attributes** of each "
+"**Measure** of the corresponding **Data Table**."
 msgstr ""
+
+#~ msgid ""
+#~ "Το φύλλο ``DSDS`` δίνει μια συνοπτική"
+#~ " εικόνα της δομής δεδομένων του κάθε"
+#~ " πίνακα της κατηγορίας δεδομένων και "
+#~ "περιέχει τις ακόλουθες στήλες:"
+#~ msgstr ""
+
+#~ msgid "TABLE"
+#~ msgstr ""
+
+#~ msgid "ονομασία του πίνακα·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "σύνδεσμος με το φύλλο ``DIMS`` που "
+#~ "περιγράφεται στο :doc:`dims` και δίνει "
+#~ "τις διαστάσεις κάθε πίνακα·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "σύνδεσμος με το φύλλο ``MEASURES`` που"
+#~ " περιγράφεται στο :doc:`measures` και δίνει"
+#~ " τις μεταβλητές κάθε πίνακα·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Σύνδεσμος με το φύλλο ``ATTRS`` που "
+#~ "περιγράφεται στο :doc:`attrs` και δίνει "
+#~ "τα χαρακτηριστικά κάθε μεταβλητής του "
+#~ "κάθε πίνακα."
+#~ msgstr ""
 

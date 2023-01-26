@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,35 +21,59 @@ msgstr ""
 msgid "MEASURES"
 msgstr ""
 
-#: ../../source/data_model/measures.rst:3 74a0e28940d84d77a5d79e33d27d1afe
+#: ../../source/data_model/measures.rst:3 8bea71a1efbf491397b868fb2b8637b5
 msgid ""
-"Το φύλλο ``MEASURES`` του ``Data Model`` περιγράφει τις μεταβλητές του "
-"κάθε πίνακα.  Για κάθε μεταβλητή δίνονται:"
+"Sheet ``MEASURES`` describes the **Measures** of the corresponding **Data"
+" Table** and provides the following information:"
 msgstr ""
 
-#: ../../source/data_model/measures.rst:7 038016910b42441ea708cb0ad9eec0d7
-msgid "TABLE"
+#: ../../source/data_model/measures.rst:6 68966599c31345948b8b74efc71111b3
+msgid "DATA TABLE"
 msgstr ""
 
-#: ../../source/data_model/measures.rst:6 b5b829b87ef34221a20da409510bc117
+#: ../../source/data_model/measures.rst:6 34b7192421884ca49959fea7308423ce
 msgid ""
-"Ονομασία του πίνακα της μεταβλητής που αποτελεί ταυτόχρονα και σύνδεσμο "
-"με τη σχετική εγγραφή του πίνακα στο φύλλο ``DSDS`` ·"
+"**Data Table** identifier which also serves as a link to the **DSD** of "
+"the **Data Table**."
 msgstr ""
 
-#: ../../source/data_model/measures.rst:10 9cf87b175c974d08834c5d2bf488e03e
+#: ../../source/data_model/measures.rst:9 9cf87b175c974d08834c5d2bf488e03e
 msgid "MEASURE"
 msgstr ""
 
-#: ../../source/data_model/measures.rst:10 93cb9921ade14c72a3d5080e7f426f16
-msgid "Ονομασία της διάστασης·"
+#: ../../source/data_model/measures.rst:9 dd061e6ddf8b4fda9d68f5f380269adb
+msgid ":term:`Measure` identifier."
 msgstr ""
 
 #: ../../source/data_model/measures.rst:12 fdeb59097ff34850bee4d6c9a722e663
 msgid "TYPE"
 msgstr ""
 
-#: ../../source/data_model/measures.rst:13 67009d559bca4fcd8320f20e9533fdf2
-msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της μεταβλητής."
+#: ../../source/data_model/measures.rst:12 c3ae6c5e9f9a4dba99b3b249e81ed93d
+msgid ""
+"Provides the allowed values that the **Measure** can take.  See also "
+":doc:`types`."
 msgstr ""
+
+#~ msgid ""
+#~ "Το φύλλο ``MEASURES`` του ``Data Model``"
+#~ " περιγράφει τις μεταβλητές του κάθε "
+#~ "πίνακα.  Για κάθε μεταβλητή δίνονται:"
+#~ msgstr ""
+
+#~ msgid "TABLE"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ονομασία του πίνακα της μεταβλητής που"
+#~ " αποτελεί ταυτόχρονα και σύνδεσμο με "
+#~ "τη σχετική εγγραφή του πίνακα στο "
+#~ "φύλλο ``DSDS`` ·"
+#~ msgstr ""
+
+#~ msgid "Ονομασία της διάστασης·"
+#~ msgstr ""
+
+#~ msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της μεταβλητής."
+#~ msgstr ""
 

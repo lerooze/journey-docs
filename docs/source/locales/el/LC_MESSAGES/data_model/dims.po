@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,35 +21,59 @@ msgstr ""
 msgid "DIMS"
 msgstr ""
 
-#: ../../source/data_model/dims.rst:3 88a517170970466da444c225b5b1a7ad
+#: ../../source/data_model/dims.rst:3 7922b40763d04905931185202f19a0df
 msgid ""
-"Το φύλλο ``DIMS`` του ``Data Model`` περιγράφει τις διαστάσεις του κάθε "
-"πίνακα.  Για κάθε διάσταση δίνονται:"
+"Sheet ``DIMS`` describes the **Dimensions** of the corresponding **Data "
+"Table** and provides the following information:"
 msgstr ""
 
-#: ../../source/data_model/dims.rst:7 def892135c4a4f46b99d84abdd5124f5
-msgid "TABLE"
+#: ../../source/data_model/dims.rst:6 c01c3231bba44fc090a8cbd2b62b7165
+msgid "DATA TABLE"
 msgstr ""
 
-#: ../../source/data_model/dims.rst:6 d5b77366a5f14dfeb98523aeeb9aa9e4
+#: ../../source/data_model/dims.rst:6 ad048c9bc30f4f109723098a50c6974d
 msgid ""
-"Ονομασία του πίνακα της διάστασης που αποτελεί ταυτόχρονα και σύνδεσμο με"
-" τη σχετική εγγραφή του πίνακα στο φύλλο ``DSDS`` ·"
+"**Data Table** identifier which also serves as a link to the **DSD** of "
+"the **Data Table**."
 msgstr ""
 
-#: ../../source/data_model/dims.rst:10 0703e9e6f215489e9b57a516b3e7069a
+#: ../../source/data_model/dims.rst:9 0703e9e6f215489e9b57a516b3e7069a
 msgid "DIMENSION"
 msgstr ""
 
-#: ../../source/data_model/dims.rst:10 ce82cf4cf7bf4a029fd478b870d3a1aa
-msgid "Ονομασία της διάστασης·"
+#: ../../source/data_model/dims.rst:9 200fbd905e0d4eb09f1b42e239035e71
+msgid ":term:`Dimension` identifier."
 msgstr ""
 
 #: ../../source/data_model/dims.rst:12 949965bd80274074b04a765847e0fb2d
 msgid "TYPE"
 msgstr ""
 
-#: ../../source/data_model/dims.rst:13 01967f070ff149ac822d6f64ba891d3d
-msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της διάστασης."
+#: ../../source/data_model/dims.rst:12 edbb65f1f3ad4a1293bef01c8306f533
+msgid ""
+"Provides the allowed values that the **Dimension** can take.  See also "
+":doc:`types`."
 msgstr ""
+
+#~ msgid ""
+#~ "Το φύλλο ``DIMS`` του ``Data Model`` "
+#~ "περιγράφει τις διαστάσεις του κάθε "
+#~ "πίνακα.  Για κάθε διάσταση δίνονται:"
+#~ msgstr ""
+
+#~ msgid "TABLE"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ονομασία του πίνακα της διάστασης που"
+#~ " αποτελεί ταυτόχρονα και σύνδεσμο με "
+#~ "τη σχετική εγγραφή του πίνακα στο "
+#~ "φύλλο ``DSDS`` ·"
+#~ msgstr ""
+
+#~ msgid "Ονομασία της διάστασης·"
+#~ msgstr ""
+
+#~ msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της διάστασης."
+#~ msgstr ""
 

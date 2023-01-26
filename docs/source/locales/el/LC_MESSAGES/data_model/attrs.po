@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,52 +21,83 @@ msgstr ""
 msgid "ATTRS"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:3 27f713e6454d4eae8387dd2b8d97668b
+#: ../../source/data_model/attrs.rst:3 5029d357292f4df98221907fb2c9e8c0
 msgid ""
-"Το φύλλο ``ATTRS`` του ``Data Model`` περιγράφει τις ιδιότητες που "
-"περιγράφουν τις τιμές των μεταβλητών του κάθε πίνακα.  Για κάθε ιδιότητα "
-"δίνονται:"
+"Sheet ``ATTRS`` describes the **Attributes** of each **Measure** of the "
+"corresponding **Data Table** and provides the following information:"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:7 2237d1747c8e4580b701f2f5f21c0f27
+#: ../../source/data_model/attrs.rst:6 2237d1747c8e4580b701f2f5f21c0f27
 msgid "TABLE"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:6 b9f4d2371c484d6caafa6ea4ff2c4c23
+#: ../../source/data_model/attrs.rst:6 31310c43bc444c0b89c86847a7228a9a
 msgid ""
-"Ονομασία του πίνακα της μεταβλητής που αποτελεί ταυτόχρονα και σύνδεσμο "
-"με τη σχετική εγγραφή του πίνακα στο φύλλο ``DSDS`` ·"
+"**Data Table** identifier which also serves as a link to the **DSD** of "
+"the **Data Table**."
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:10 dc0d394ad86b4385a2014edd81e6105c
+#: ../../source/data_model/attrs.rst:9 dc0d394ad86b4385a2014edd81e6105c
 msgid "MEASURE"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:10 d6ffc4925c164551a3e78e44a598c539
-msgid "Ονομασία της μεταβλητής που τις τιμές του περιγράφει η ιδιότητα·"
+#: ../../source/data_model/attrs.rst:9 e96d2596a1c84cc6b69b0379196bfd66
+msgid "**Measure** identifier that the **Attribute** describes."
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:13 3342518b5faf472da269f6e53a8bc026
+#: ../../source/data_model/attrs.rst:12 3342518b5faf472da269f6e53a8bc026
 msgid "ATTRIBUTE"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:13 bc80870dda6242729e7ea528823a6d4a
-msgid "Ονομασία της ιδιότητας·"
+#: ../../source/data_model/attrs.rst:12 6d1cefc03f2043729470d4df2e955e15
+msgid ":term:`Attribute` identifier."
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:16 b4d3754c01b44e7db870838a8537de5c
+#: ../../source/data_model/attrs.rst:15 b4d3754c01b44e7db870838a8537de5c
 msgid "TYPE"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:16 2f4b46ca407a4b79a65204682d75d2d8
-msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της ιδιότητας."
+#: ../../source/data_model/attrs.rst:15 c4ed78b39420488187f76bacb7487222
+msgid ""
+"Provides the allowed values that the **Measure** can take.  See also "
+":doc:`types`."
 msgstr ""
 
 #: ../../source/data_model/attrs.rst:18 e61b4faa0da04e7d932b2f37bd409e22
 msgid "DEFAULT"
 msgstr ""
 
-#: ../../source/data_model/attrs.rst:19 cdd3484591ac4215b85ea0da101c53a2
-msgid "Προκαθορισμένη τιμή της ιδιότητας σε περίπτωση που δεν συμπληρώνεται τιμή."
+#: ../../source/data_model/attrs.rst:18 594a4f85a98d4a58a3ff2ef834cea053
+msgid ""
+"The default value of the **Attribute** in case that its value is not "
+"provided."
 msgstr ""
+
+#~ msgid ""
+#~ "Το φύλλο ``ATTRS`` του ``Data Model``"
+#~ " περιγράφει τις ιδιότητες που περιγράφουν"
+#~ " τις τιμές των μεταβλητών του κάθε"
+#~ " πίνακα.  Για κάθε ιδιότητα δίνονται:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ονομασία του πίνακα της μεταβλητής που"
+#~ " αποτελεί ταυτόχρονα και σύνδεσμο με "
+#~ "τη σχετική εγγραφή του πίνακα στο "
+#~ "φύλλο ``DSDS`` ·"
+#~ msgstr ""
+
+#~ msgid "Ονομασία της μεταβλητής που τις τιμές του περιγράφει η ιδιότητα·"
+#~ msgstr ""
+
+#~ msgid "Ονομασία της ιδιότητας·"
+#~ msgstr ""
+
+#~ msgid "Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της ιδιότητας."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Προκαθορισμένη τιμή της ιδιότητας σε "
+#~ "περίπτωση που δεν συμπληρώνεται τιμή."
+#~ msgstr ""
 

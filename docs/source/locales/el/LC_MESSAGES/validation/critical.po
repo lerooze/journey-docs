@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022–2023 journey developers
+# This file is distributed under the same license as the Journey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Journey \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/validation/critical.rst:2 914a5a583a064624802454e4cb23a8e8
+msgid "Critical Errors"
+msgstr ""
+
+#: ../../source/validation/critical.rst:5 d99441d9489e4bfaa6b464e7c1bf7729
+msgid ""
+"This section describes the critical errors that can occur while an "
+"authorized user submits data on behalf of a RA.  If a critical error "
+"occurs the respective file is not furthered processed and is not loaded "
+"into the system database."
+msgstr ""
+
+#: ../../source/validation/critical.rst:8 641dbfabab3f4adb93ce8c6f679abca8
+msgid "no_header"
+msgstr ""
+
+#: ../../source/validation/critical.rst:8 b878d3b0cff847588c251030425e0de4
+msgid "A file or a list of incoming files that have no headers."
+msgstr ""
+
+#: ../../source/validation/critical.rst:11 0bdfb4faedcd4fc587d1ce7da3ab031d
+msgid "corrupt_excel"
+msgstr ""
+
+#: ../../source/validation/critical.rst:11 d7d1603c53ca4cca925e0bc31b3428fd
+msgid "A list of incoming files that have an **.xlsx** extension but are corrupt"
+msgstr ""
+
+#: ../../source/validation/critical.rst:14 c04da8a249fc4259a1022549ea396c1d
+msgid "not_supported_domain"
+msgstr ""
+
+#: ../../source/validation/critical.rst:14 785f8e89c7c540a79d21e1a852c3c345
+msgid "A list of incoming files that refer to a not supported data domain"
+msgstr ""
+
+#: ../../source/validation/critical.rst:17 e7505b0ec03e4e62a415ec0ddcc31a62
+msgid "corrupt_json"
+msgstr ""
+
+#: ../../source/validation/critical.rst:17 8ea229faadf44782a493bbe071be02fc
+msgid "A list of incoming files that have a **.json** extension but are corrupt"
+msgstr ""
+
+#: ../../source/validation/critical.rst:23 21ca7ffb853f4510933a83c5c534a970
+msgid "submitter_inconsistency"
+msgstr ""
+
+#: ../../source/validation/critical.rst:20 b85611b1581c4227ae35d09c2d078429
+msgid ""
+"For files that have an inconsistency between the submitter from the "
+"filename and the source_person from the header of the file the following "
+"attributes are provided: * filename: the name of the file. * "
+"from_filename: the submitter identifier parsed from the filename. * "
+"from_object: the submitter(source_person) identifier parsed from the "
+"header in the file contents."
+msgstr ""
+
+#: ../../source/validation/critical.rst:28 2e15518626f445f9b84d65fee10c0586
+msgid "unauthorized_submitter"
+msgstr ""
+
+#: ../../source/validation/critical.rst:26 4649f088e04e4cf1ad3a6c3a92697c54
+msgid ""
+"For files that contain data on a domain that the submitter is not "
+"authorized to submit data the following attributes are provided: * "
+"filename: the name of the file * domain: the domain of the data"
+msgstr ""
+
+#: ../../source/validation/critical.rst:30 e29fcd777a514146a3adb54675a5bc77
+msgid "schema_errors"
+msgstr ""
+
+#: ../../source/validation/critical.rst:31 ea69ab33baf84fc6b5de367a62be96e4
+msgid ""
+"A list of errors that occurs when the incoming json file is validated "
+"against its corresponding schema.  If data is transmitted via the excel "
+"channel the incoming excel formatted data are converted by a built-in "
+"method into json formatted data and this json data are validated against "
+"the corresponding schema.  In :doc:`Schema Error<schema_error>` the error"
+" attributes are described."
+msgstr ""
+

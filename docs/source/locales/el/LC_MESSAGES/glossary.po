@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 10:38+0200\n"
+"POT-Creation-Date: 2023-01-26 13:46+0200\n"
 "PO-Revision-Date: 2023-01-20 13:57+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,77 @@ msgstr ""
 msgid "Glossary"
 msgstr "Ευρετήριο"
 
+#: ../../source/glossary.rst:37 7140bb30c7f44dcb98bfb511bde4a482
+msgid "Attribute"
+msgstr ""
+
+#: ../../source/glossary.rst:39 b1f4d7e811f84853a089089dcdbb1565
+msgid "An attribute is a characteristic of a measure as described in SDMX."
+msgstr ""
+
+#: ../../source/glossary.rst:46 ce844d0a6d564e688f35d1ed40d16f97
+msgid "Component"
+msgstr ""
+
+#: ../../source/glossary.rst:48 a80e8d26352b43629273752f171e90d2
+msgid "A component in SDMX can be either a dimension, a measure or an attribute."
+msgstr ""
+
+#: ../../source/glossary.rst:28 8f78864c453a4a3091db3c5d57c82e73
+msgid "Data Category"
+msgstr ""
+
+#: ../../source/glossary.rst:30 ce91081574b04b0fa7da665dcef5932d
+msgid "A set of data that is a subset of a Data Domain."
+msgstr ""
+
+#: ../../source/glossary.rst:25 f81c021d08534aa58aedcbde52be4bea
+msgid "Data Domain"
+msgstr ""
+
+#: ../../source/glossary.rst:27 ee794b3366fd4af09db1ad1c36f9b6a6
+msgid "A set of data that is related based on a concept."
+msgstr ""
+
+#: ../../source/glossary.rst:34 9f1ea3a2602a4109b749825e53b75f69
+msgid "Data Model"
+msgstr ""
+
+#: ../../source/glossary.rst:36 8447797717544056be032324ff7a3677
+msgid ""
+"An excel file with a specific structure that describes the data structure"
+" of a Data Category of a Data Domain."
+msgstr ""
+
+#: ../../source/glossary.rst:31 9f1ea3a2602a4109b749825e53b75f69
+msgid "Data Table"
+msgstr ""
+
+#: ../../source/glossary.rst:33 b05d9a24ad3c4bc1b1ee585fc5e1b0d1
+msgid ""
+"A set of data that is a subset of a Data Category and its structure is "
+"provided by a DSD."
+msgstr ""
+
 #: ../../source/glossary.rst:6 3fb7d6501668432d9d0b73ca0f0c98de
 msgid "Dataset"
 msgstr "Πίνακας Δεδομένων"
 
 #: ../../source/glossary.rst:8 b05d9a24ad3c4bc1b1ee585fc5e1b0d1
 msgid "Used in SDMX to exchange data that its structure is defined by a DSD."
-msgstr "Χρησιμοποιείται στο SDMX για την ανταλλαγή στοιχείων με βάση δομή που ορίζεται από το DSD"
+msgstr ""
+"Χρησιμοποιείται στο SDMX για την ανταλλαγή στοιχείων με βάση δομή που "
+"ορίζεται από το DSD"
+
+#: ../../source/glossary.rst:40 b311a6ac55704a5c9a6928b37532f525
+msgid "Dimension"
+msgstr ""
+
+#: ../../source/glossary.rst:42 ae807cac01e144f297495bffdc9f4b62
+msgid ""
+"A component that fully or together with other dimensions describe on what"
+" the measures provided refer to.  More information can be found in SDMX."
+msgstr ""
 
 #: ../../source/glossary.rst:9 a5c785676ae3425c8592ad4ec9fb7af7
 msgid "DSD"
@@ -41,6 +105,16 @@ msgstr "Data Structure Definition"
 msgid "Used in SDMX to define the structure of some data to be exchanged."
 msgstr "Χρησιμοποιείται στο SDMX για να ορίσει τη δομή πινάκων δεδομένων"
 
+#: ../../source/glossary.rst:43 a21a92d4e80640dba8be79ffc18b0c45
+msgid "Measure"
+msgstr ""
+
+#: ../../source/glossary.rst:45 27ca1ab793e44f48888e9e98a94f56cb
+msgid ""
+"It represents how statistical variables are \"measured\".  More "
+"information can be found in SDMX."
+msgstr ""
+
 #: ../../source/glossary.rst:21 05c34da0a55a459fbddb6a7dae0e3fb5
 msgid "Observed Agent"
 msgstr "Παρατηρούμενη Μονάδα"
@@ -53,7 +127,10 @@ msgstr "ΠΜ"
 msgid ""
 "The agent that due to its activity generates data to be submitted by the "
 "reporting agent which could be the observed agent itself."
-msgstr "Η μονάδα η οποία με βάση την δραστηριότητα της δημιουργεί στοιχεία που υποβάλλονται από την μονάδα παροχή στοιχείων που δύναται να είναι η ίδια η παρατηρούμενη μονάδα."
+msgstr ""
+"Η μονάδα η οποία με βάση την δραστηριότητα της δημιουργεί στοιχεία που "
+"υποβάλλονται από την μονάδα παροχή στοιχείων που δύναται να είναι η ίδια "
+"η παρατηρούμενη μονάδα."
 
 #: ../../source/glossary.rst:17 7e97e16bb8f048b2adceff416c47be29
 msgid "Reporting Agent"
@@ -80,7 +157,10 @@ msgid ""
 "Data exchange standard that its main aim is to facilitate the exchange of"
 " data in a structured way.  More information can be found `here "
 "<http://www.sdmx.org>`_"
-msgstr "Πρότυπο ανταλλαγής στοιχείων με βασικό σκοπό την διευκόλυνση της ανταλλαγής δεδομένων με δομημένο τρόπο. Περισσότερες λεπτομέρειες υπάρχουν `εδώ <http://www.sdmx.org>`_"
+msgstr ""
+"Πρότυπο ανταλλαγής στοιχείων με βασικό σκοπό την διευκόλυνση της "
+"ανταλλαγής δεδομένων με δομημένο τρόπο. Περισσότερες λεπτομέρειες "
+"υπάρχουν `εδώ <http://www.sdmx.org>`_"
 
 #~ msgid "Ευρετήριο"
 #~ msgstr ""
@@ -130,3 +210,4 @@ msgstr "Πρότυπο ανταλλαγής στοιχείων με βασικό
 #~ "στοιχεία IFDat είτε απευθείας είτε μέσω"
 #~ " διαχειρίεστριας εταιρείας."
 #~ msgstr ""
+

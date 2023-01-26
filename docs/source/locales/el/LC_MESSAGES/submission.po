@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 10:21+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,44 +17,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: ../../source/submission.rst:2 871969f2f7dd42479db878245875f94e
-msgid "Αποστολή Στοιχείων"
+#: ../../source/submission.rst:2 5a1d51205054461c9de962f88d480b77
+msgid "Data File Transmission"
 msgstr ""
 
-#: ../../source/submission.rst:4 c384215581114ba4b1915676e4c25983
+#: ../../source/submission.rst:3 04ad39f50d7b4fda9d995f04d9d018ae
 msgid ""
-"Η αποστολή των αρχείων που περιέχουν στοιχεία σύμφωνα με τη συγκεκριμένη "
-"δομή ενός τομέα δεδομένων (:doc:`structure`) πραγματοποιείται από "
-"εξουσιοδοτημένους χρήστες που εκπροσωπούν της ``ΜΠΣ`` είτε με ηλεκτρονικό"
-" μήνυμα προς τις αρμόδιες αρχές είτε με διαδικτυακή εφαρμογή."
+"A file that contain data from a **Data Category** of a **Data Domain** "
+"that its structure is described by a :doc:`data_model` can be submitted "
+"by authorized users that represent a **RA**.  For each file submitted the"
+" authorized user will receive a response that the data file was "
+"succesfully received notifying him also with the name of the file which "
+"will have the following generic format ``F{ID}_{USER}_{NAME}`` where ID "
+"is a unique zero length of 10 padded positive integer, USER is the "
+"identifier of the authorized user, NAME is the original filename "
+"submitted by the user.  For example a received file having a filename "
+"``data_submission.xlsx`` by authorized USER **aloumiotis** with a unique "
+"ID provided given by the system of 5 is renamed as "
+"``F0000000005_aloumiotis_data_submission.xlsx``."
 msgstr ""
 
-#: ../../source/submission.rst:9 4d6b08ccc1024b5ab0eddc19c47b0924
-msgid "Οι επιτρεπτές μορφές των αρχείων είναι οι ακόλουθες:"
-msgstr ""
-
-#: ../../source/submission.rst:11 bc0f7f85b6574333bf1a78f8853044c2
+#: ../../source/submission.rst:5 6813ca2988c24a928514d7dfd8a9978b
 msgid ""
-"Μορφή ``json`` με βάση τα ``json schema`` που προκύπτουν από τη δομή του "
-"κάθε τομέα δεδομένων·"
+"The files submitted must have one of the following extension otherwise "
+"they will not be further processed:"
 msgstr ""
 
-#: ../../source/submission.rst:14 4d49e967ec064623bd6b0ccbee4f82bc
+#: ../../source/submission.rst:7 72ac906dccd649188040236a74026ee5
 msgid ""
-"Μορφή ``excel`` χρησιμοποιώντας τα ``υποδείγματα excel`` που επίσης "
-"προκύπτουν από τη δομή του κάθε τομέα δεδομένων."
+"File with an extension of ``.json``.  This file should be constructed "
+"based on the corresponding ``json schema`` that is constructed from its "
+"**Data Model**."
 msgstr ""
 
-#: ../../source/submission.rst:17 1f594795fb444d4ca282e08b7c85d4f2
+#: ../../source/submission.rst:8 4f4acde8ba784630904a02ecc4ea9fe1
 msgid ""
-"Τα αρχεία είναι δυνατό να αποστέλλονται ένα ή περισσότερα και σε "
-"συμπιεσμένη μορφή ``zip``."
+"File with an extension of ``.xml``.  This file should be constructed "
+"based on the corresponding ``xml schema`` that is constructed from its "
+"**Data Model**."
 msgstr ""
 
-#: ../../source/submission.rst:19 17a4fdf893b24f4b86d6971105d97854
+#: ../../source/submission.rst:10 7aa767f89c694b82b2a98ca52fb560e3
 msgid ""
-"Για κάθε αρχείο (ομάδα αρχείων) δημιουργείται έκθεση εγκυρότητας και "
-"αποστέλλεται στον εξουσιοδοτημένο χρήστη της ``ΜΠΣ`` χρησιμοποιώντας ως "
-"κανάλι επικοινωνίας τον τρόπο υποβολής τους."
+"File with an extension of ``.xlsx``.  This file should be constructed "
+"using the corresponding **Excel Template** of the **Data Model**."
 msgstr ""
+
+#: ../../source/submission.rst:12 a5e1027cd56440e08727564513a27931
+msgid ""
+"File with an extension of ``.zip``.  This file, that has a format which "
+"is a common archive and compression standard, must contain one or more of"
+" the above files in its root directory.  Any other type of files or "
+"directories in the root directory of this file will be ignored."
+msgstr ""
+
+#~ msgid "Αποστολή Στοιχείων"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Η αποστολή των αρχείων που περιέχουν "
+#~ "στοιχεία σύμφωνα με τη συγκεκριμένη δομή"
+#~ " ενός τομέα δεδομένων (:doc:`structure`) "
+#~ "πραγματοποιείται από εξουσιοδοτημένους χρήστες "
+#~ "που εκπροσωπούν της ``ΜΠΣ`` είτε με "
+#~ "ηλεκτρονικό μήνυμα προς τις αρμόδιες "
+#~ "αρχές είτε με διαδικτυακή εφαρμογή."
+#~ msgstr ""
+
+#~ msgid "Οι επιτρεπτές μορφές των αρχείων είναι οι ακόλουθες:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Μορφή ``json`` με βάση τα ``json "
+#~ "schema`` που προκύπτουν από τη δομή "
+#~ "του κάθε τομέα δεδομένων·"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Μορφή ``excel`` χρησιμοποιώντας τα "
+#~ "``υποδείγματα excel`` που επίσης προκύπτουν"
+#~ " από τη δομή του κάθε τομέα "
+#~ "δεδομένων."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Τα αρχεία είναι δυνατό να αποστέλλονται"
+#~ " ένα ή περισσότερα και σε συμπιεσμένη"
+#~ " μορφή ``zip``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Για κάθε αρχείο (ομάδα αρχείων) "
+#~ "δημιουργείται έκθεση εγκυρότητας και "
+#~ "αποστέλλεται στον εξουσιοδοτημένο χρήστη της"
+#~ " ``ΜΠΣ`` χρησιμοποιώντας ως κανάλι "
+#~ "επικοινωνίας τον τρόπο υποβολής τους."
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-16 07:59+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: 2023-01-20 14:12+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,43 +33,65 @@ msgstr "Στην έννοια του Επενδυτικού Οργανισμού
 msgid ""
 "The Undertakings for Collective investment in Transferable Securities "
 "(Directive 2009/65/EC as amended by Directive 2014/91/EU)."
-msgstr "Οι οργανισμοί συλλογικών επενδύσεων σε κινητές αξίες (ΟΣΕΚΑ) με κράτος - μέλος καταγωγής την Ελλάδα καθώς και οι ΟΣΕΚΑ με κράτος - μέλος καταγωγής εκτός Ελλάδος που διαχειρίζονται από εταιρείες που ανήκουν σε όμιλο με έδρα την Ελλάδα (ν. 4099/2012)." 
+msgstr ""
+"Οι οργανισμοί συλλογικών επενδύσεων σε κινητές αξίες (ΟΣΕΚΑ) με κράτος - "
+"μέλος καταγωγής την Ελλάδα καθώς και οι ΟΣΕΚΑ με κράτος - μέλος καταγωγής"
+" εκτός Ελλάδος που διαχειρίζονται από εταιρείες που ανήκουν σε όμιλο με "
+"έδρα την Ελλάδα (ν. 4099/2012)."
 
 #: ../../source/domain/ifdat/regulation.rst:11 a4d63f2bf42b457e846d756dc86759da
 msgid ""
 "Funds identified by the Alternative Fund Managers Directive (Directive "
 "2011/61/EU) and the European Venture Capital Funds Regulation (Regulation"
 " (EU) No 345/2013)."
-msgstr "Οι οργανισμοί εναλλακτικών επενδύσεων (ΟΕΕ) με κράτος - μέλος καταγωγής την Ελλάδα καθώς και οι ΟΕΕ με κράτος - μέλος καταγωγής εκτός Ελλάδος που διαχειρίζονται από εταιρείες που ανήκουν σε όμιλο με έδρα την Ελλάδα (ν. 4209/2013)."
+msgstr ""
+"Οι οργανισμοί εναλλακτικών επενδύσεων (ΟΕΕ) με κράτος - μέλος καταγωγής "
+"την Ελλάδα καθώς και οι ΟΕΕ με κράτος - μέλος καταγωγής εκτός Ελλάδος που"
+" διαχειρίζονται από εταιρείες που ανήκουν σε όμιλο με έδρα την Ελλάδα (ν."
+" 4209/2013)."
 
 #: ../../source/domain/ifdat/regulation.rst:13 8a82bf71a2a3418797ac1f1bd5600cb8
 msgid ""
 "In some countries Real Estate Investment companies are considered "
 "Investment Funds."
-msgstr "Οι Ανώνυμες Εταιρείες Επενδύσεων σε Ακίνητη Περιουσία του ν. 2778/1999 καθώς και οι Ανώνυμες Εταιρείες Επενδύσεων Χαρτοφυλακίου του ν. 3371/2005."
+msgstr ""
+"Οι Ανώνυμες Εταιρείες Επενδύσεων σε Ακίνητη Περιουσία του ν. 2778/1999 "
+"καθώς και οι Ανώνυμες Εταιρείες Επενδύσεων Χαρτοφυλακίου του ν. "
+"3371/2005."
 
 #: ../../source/domain/ifdat/regulation.rst:15 375a81a9b3694285bfe57f336473c534
 msgid ""
 "Every other entity, besides the above, that is considered an Investmeng "
 "Fund according to article 1 of regulation ECB/2013/38."
-msgstr "Κάθε άλλη θεσμική μονάδα, πέρα από τις παραπάνω κατηγορίες, με κατοικία την Ελλάδα (ΕΚ 2533/98) που αποτελεί Επενδυτικό Οργανισμό με βάση το άρθρο 1 του κανονισμού ΕΚΤ/2013/38."
+msgstr ""
+"Κάθε άλλη θεσμική μονάδα, πέρα από τις παραπάνω κατηγορίες, με κατοικία "
+"την Ελλάδα (ΕΚ 2533/98) που αποτελεί Επενδυτικό Οργανισμό με βάση το "
+"άρθρο 1 του κανονισμού ΕΚΤ/2013/38."
 
 #: ../../source/domain/ifdat/regulation.rst:17 c6d2814b9fcd42a5bfc94da4fc705109
+#, fuzzy
 msgid ""
-"An Observed Ageng (OA) is considered an Investment Fund which due to its "
+"An Observed Agent (OA) is considered an Investment Fund which due to its "
 "activities creates data to be submitted of the type described in article "
 "3 with the code name IFDat.  A Reporting Agent (RA) is an agent that "
 "provides IFDat data for one or more Investment Funds.  The RA of every OA"
 " could be the OA itself, the management company of the OA if it has one, "
 "or another agent that is decided by the parent company of the management "
 "company."
-msgstr "Ως Παρατηρούμενη Μονάδα (ΠΜ) νοείται ένας Επενδυτικός Οργανισμός ο οποίος λόγω της δραστηριότητας του παράγει στοιχεία προς αναγγελία που περιγράφονται στο Άρθρο 3.  Ως Μονάδα Παροχής Στοιχείων (ΜΠΣ) νοείται η μονάδα που παρέχει στοιχεία για έναν ή περισσότερους επενδυτικούς οργανισμούς. H ΜΠΣ της κάθε ΠΜ είναι είτε η ΠΜ, είτε η διαχειρίστρια εταιρεία της, είτε μία άλλη θεσμική μονάδα που ορίζεται από τη μητρική της διαχειρίστριας εταιρείας."
+msgstr ""
+"Ως Παρατηρούμενη Μονάδα (ΠΜ) νοείται ένας Επενδυτικός Οργανισμός ο οποίος"
+" λόγω της δραστηριότητας του παράγει στοιχεία προς αναγγελία που "
+"περιγράφονται στο Άρθρο 3.  Ως Μονάδα Παροχής Στοιχείων (ΜΠΣ) νοείται η "
+"μονάδα που παρέχει στοιχεία για έναν ή περισσότερους επενδυτικούς "
+"οργανισμούς. H ΜΠΣ της κάθε ΠΜ είναι είτε η ΠΜ, είτε η διαχειρίστρια "
+"εταιρεία της, είτε μία άλλη θεσμική μονάδα που ορίζεται από τη μητρική "
+"της διαχειρίστριας εταιρείας."
 
-#: ../../source/domain/ifdat/regulation.rst:50 9410df2a78a64fbbad29cd2282b5d946
+#: ../../source/domain/ifdat/regulation.rst:22 9410df2a78a64fbbad29cd2282b5d946
 msgid "Άρθρο 2: Παροχή στοιχείων ανά επενδυτικό οργανισμό"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:51 084c164f477b47bb94d264af31058683
+#: ../../source/domain/ifdat/regulation.rst:23 084c164f477b47bb94d264af31058683
 msgid ""
 "Τα στοιχεία παρέχονται ανά επενδυτικό οργανισμό.  Στην περίπτωση που ένας"
 " ορισμένος επενδυτικός οργανισμός διαχωρίζει τα στοιχεία του ενεργητικού "
@@ -80,11 +102,11 @@ msgid ""
 "επενδυτικός οργανισμός."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:60 cbec3a49317e4e2497e89221b4ba325f
+#: ../../source/domain/ifdat/regulation.rst:32 cbec3a49317e4e2497e89221b4ba325f
 msgid "Άρθρο 3: Παρεχόμενα στοιχεία και προθεσμίες υποβολής τους"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:61 31446758c7344c65be471d2502194390
+#: ../../source/domain/ifdat/regulation.rst:33 31446758c7344c65be471d2502194390
 msgid ""
 "Τα στοιχεία επενδυτικών οργανισμών διαχωρίζονται σε κατηγορίες, η κάθε "
 "κατηγορία περιέχει πίνακες στοιχείων και ο κάθε πίνακας στοιχείων "
@@ -92,11 +114,11 @@ msgid ""
 "επενδυτικών οργανισμών είναι έξι:"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:65 7eafe488ddeb49419d6a39d64119750f
+#: ../../source/domain/ifdat/regulation.rst:37 7eafe488ddeb49419d6a39d64119750f
 msgid "Κατηγορία 1: Πληροφοριακά στοιχεία ιδίου λογαριασμού (self_info)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:66 c82ec37a3e2943cd8bf8e81078fcfb55
+#: ../../source/domain/ifdat/regulation.rst:38 c82ec37a3e2943cd8bf8e81078fcfb55
 msgid ""
 "Παρέχονται πληροφοριακά στοιχεία για την ΠΜ, χρηματοοικονομικών μέσων που"
 " έχει εκδώσει η ΠΜ, για την ΜΠΣ σε περίπτωση που η ΠΜ δεν είναι η ίδια με"
@@ -106,7 +128,7 @@ msgid ""
 "της ΜΠΣ."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:70 dc4a2af4ec624d249e02c563a96acbc3
+#: ../../source/domain/ifdat/regulation.rst:42 dc4a2af4ec624d249e02c563a96acbc3
 msgid ""
 "Τα στοιχεία αποστέλλονται έως και τη δεύτερη εργάσιμη μέρα κάθε μήνα και "
 "αφορούν, πέρα από την αρχική αποστολή, προσθήκες και μεταβολές κατά τη "
@@ -118,20 +140,20 @@ msgid ""
 "υποβάλλεται αρχείο."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:80 a7eb9f18a1b34a4ab0f1a1706aec7e1e
+#: ../../source/domain/ifdat/regulation.rst:52 a7eb9f18a1b34a4ab0f1a1706aec7e1e
 msgid ""
 "Κατηγορία 2: Βασικά στοιχεία χρηματοοικονομικών μέσων ιδίου λογαριασμού "
 "(self_key)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:81 ac0de7e44446470d970061819e609975
+#: ../../source/domain/ifdat/regulation.rst:53 ac0de7e44446470d970061819e609975
 msgid ""
 "Για την ΠΜ παρέχονται βασικά στοιχεία ιδίων χρηματοοικονομικών μέσων όπως"
 " τιμές ιδίων μέσων, συμμετοχές, εξαγορές, δεδουλευμένα επιτόκια, "
 "μερίσματα πληρωτέα, λόγους διάσπασης ή σύμπτυξης μετοχών."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:85 5453d8998cff4f8bb6a748e541c64b62
+#: ../../source/domain/ifdat/regulation.rst:57 5453d8998cff4f8bb6a748e541c64b62
 msgid ""
 "Τα στοιχεία αποστέλλονται έως και τη δεύτερη εργάσιμη μέρα κάθε μήνα και "
 "αναγγέλλονται στοιχεία για κάθε εργάσιμη μέρα του προηγούμενου μήνα που "
@@ -140,11 +162,11 @@ msgid ""
 "αναγγέλλονται στοιχεία έως και την ημερομηνία συγχώνευσης."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:91 8960b64a5fc34dd6a50d33222c0d1d0a
+#: ../../source/domain/ifdat/regulation.rst:63 8960b64a5fc34dd6a50d33222c0d1d0a
 msgid "Κατηγορία 3: Λοιπά πληροφοριακά στοιχεία (other_info)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:92 83a7ae8aea61484da057a7ad4b4d0c77
+#: ../../source/domain/ifdat/regulation.rst:64 83a7ae8aea61484da057a7ad4b4d0c77
 msgid ""
 "Για την ΠΜ παρέχονται (α) πληροφοριακά στοιχεία των χρηματοοικονομικών "
 "μέσων που κατέχει στο χαρτοφυλάκιο της καθώς και των εκδοτών τους, (β) "
@@ -152,7 +174,7 @@ msgid ""
 "των κατόχων των ιδίων χρηματοοικονομικών μέσων της."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:97 00f7e2fa71454a4cb94f4667af85e075
+#: ../../source/domain/ifdat/regulation.rst:69 00f7e2fa71454a4cb94f4667af85e075
 msgid ""
 "Τα στοιχεία αποστέλλονται έως και την δέκατη εργάσιμη μέρα κάθε μήνα και "
 "αφορούν, πέρα από την αρχική αποστολή, προσθήκες και αλλαγές που έγιναν "
@@ -163,21 +185,18 @@ msgid ""
 "προσθήκες, μεταβολές, διορθώσεις δεν υποβάλλεται αρχείο."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:107
-#: cee9c15c3f0a4b74ad29d2e777fcd6df
+#: ../../source/domain/ifdat/regulation.rst:79 cee9c15c3f0a4b74ad29d2e777fcd6df
 msgid "Κατηγορία 4: Βασικά στοιχεία χαρτοφυλακίου (other_key)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:108
-#: e01b9283cc1942528282488bb35a6783
+#: ../../source/domain/ifdat/regulation.rst:80 e01b9283cc1942528282488bb35a6783
 msgid ""
 "Για τα χρηματοοικονομικά μέσα που η ΠΜ κατέχει στο χαρτοφυλάκιο της "
 "παρέχονται βασικά χρηματοοικονομικά στοιχεία όπως τιμές, δεδουλευμένα "
 "επιτόκια, μερίσματα πληρωτέα, λόγους διάσπασης ή σύμπτυξης μετοχών."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:112
-#: 442ae5a25c5644e495624519b713f6de
+#: ../../source/domain/ifdat/regulation.rst:84 442ae5a25c5644e495624519b713f6de
 msgid ""
 "Τα στοιχεία αποστέλλονται έως και τη δέκατη εργάσιμη μέρα κάθε μήνα και "
 "όσον αφορά τις τιμές και τα δεδουλευμένα επιτόκια παρέχονται τελικά "
@@ -191,20 +210,18 @@ msgid ""
 "συμπλήρωση ιστορικών στοιχείων."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:124
-#: 1ef1cb34f95841cd8a85aa89a6bbe9bb
+#: ../../source/domain/ifdat/regulation.rst:96 1ef1cb34f95841cd8a85aa89a6bbe9bb
 msgid "Κατηγορία 5: Στοιχεία λογαριασμών λογιστικής κατάστασης (bsi)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:125
-#: d21c4a5f3be7409dbc9b96d687af7151
+#: ../../source/domain/ifdat/regulation.rst:97 d21c4a5f3be7409dbc9b96d687af7151
 msgid ""
 "Για την ΠΜ παρέχονται αναλυτικά λογιστικά στοιχεία για πιστωτικούς και "
 "χρεωστικούς λογαριασμούς της λογιστικής κατάστασης."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:128
-#: ../../source/domain/ifdat/regulation.rst:139
+#: ../../source/domain/ifdat/regulation.rst:100
+#: ../../source/domain/ifdat/regulation.rst:111
 #: 0b689fecb6cb4d5086aa4233651d9079
 msgid ""
 "Τα στοιχεία αποστέλλονται έως και τη δέκατη-πέμπτη (15) εργάσιμη μέρα του"
@@ -217,22 +234,22 @@ msgid ""
 "ιστορικών στοιχείων."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:136
+#: ../../source/domain/ifdat/regulation.rst:108
 #: 20fb4674deb94b0fae23d10e5e343705
 msgid "Κατηγορία 6: Στοιχεία εισοδήματος (income)"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:137
+#: ../../source/domain/ifdat/regulation.rst:109
 #: e03ae5d473a74ec6a6f39da22a0a09b8
 msgid "Για την ΠΜ παρέχονται στοιχεία εισοδήματος σε δεδουλευμένη βάση."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:147
+#: ../../source/domain/ifdat/regulation.rst:119
 #: 8d223f23d8624aafbb83e3777ac44dad
 msgid "Άρθρο 4: Αναλυτικές οδηγίες"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:148
+#: ../../source/domain/ifdat/regulation.rst:120
 #: 184bc1f4858c4009a936eff1bdc4753f
 msgid ""
 "Τα στοιχεία των επενδυτικών οργανισμών αναγγέλλονται με βάση `αυτές`_ τις"
@@ -240,12 +257,12 @@ msgid ""
 "`εδώ`_."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:152
+#: ../../source/domain/ifdat/regulation.rst:124
 #: 12a11d66601d445c89d80900c557ff24
 msgid "Άρθρο 5: Ημερομηνία εφαρμογής"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:153
+#: ../../source/domain/ifdat/regulation.rst:125
 #: 23f57f4d97164d4ca2957fc93d8ddc4f
 msgid ""
 "Η πρώτη υποβολή στοιχείων θα ξεκινήσει τον ΧΧΧ. Παρέχεται όμως η "
@@ -260,12 +277,12 @@ msgid ""
 " Προσθήκες καθώς και η ημερομηνία μεταβολής εμφανίζονται `εδώ`_."
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:165
+#: ../../source/domain/ifdat/regulation.rst:137
 #: fa0b51f4ba984a71bfb84f5bad76b029
 msgid "Άρθρο 6: Κυρώσεις"
 msgstr ""
 
-#: ../../source/domain/ifdat/regulation.rst:166
+#: ../../source/domain/ifdat/regulation.rst:138
 #: 4e7757a23d5b4a058730fa6759f9a096
 msgid ""
 "Σε περίπτωση ελλιπούς, εσφαλμένης ή εκπρόθεσμης υποβολής των ως άνω "
@@ -598,3 +615,4 @@ msgstr ""
 #~ "άλλη μονάδα που ορίζεται από τη "
 #~ "μητρική της διαχειρίστριας εταιρείας."
 #~ msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 02:28+0200\n"
+"POT-Creation-Date: 2023-01-26 13:19+0200\n"
 "PO-Revision-Date: 2023-01-03 11:36+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,20 +22,59 @@ msgid "DATA DOMAINS"
 msgstr "Τομείς Δεδομένων"
 
 #: ../../source/domain.rst:4 306a322c192c468e9b4d0db1b19543aa
-msgid "The data domains that :mod:`Journey` can handle are the following:"
+#, fuzzy
+msgid "The data domains that :mod:`Journey` can handle are of two types:"
 msgstr "Το :mod:`Journey` μπορεί να διαχειρισθεί τους παρακάτω τομείς δεδομένων:"
 
-#: ../../source/domain.rst:6 20ffaebd246846ee99b25e1e3d2ab958
-msgid ""
-"`DBDat` handles data that are stored directly into :mod:`Journey` "
-"database tables.  For details see section :doc:`domain/dbdat/index`."
-msgstr "Η `DBDat` διαχειρίζεται στοιχεία τα οποία αποθηκεύονται απευθείας στη βάση δεδομένων.  Λεπτομέρειες υπάρχουν στην ενότητα :doc:`domain/dbdat/index`."
+#: ../../source/domain.rst:7 084e5e55855447f4ab1d0f7721271186
+msgid "Structured"
+msgstr ""
 
-#: ../../source/domain.rst:9 6e294dc68f5246bd9ee1496c17b2fab0
+#: ../../source/domain.rst:7 20ffaebd246846ee99b25e1e3d2ab958
 msgid ""
-"`IFDat` handles data coming from Investment Fund units.  For details see "
-"section :doc:`domain/ifdat/index`."
-msgstr "Η `IFDat` διαχειρίζεται στοιχεία επενδυτικών οργανισμών.  Λεπτομέρειες υπάρχουν στην ενότητα :doc:`domain/ifdat/index`."
+"Refers to received data that have a structure defined within "
+":mod:`Journey` as described in section :doc:`data model <data_model>`."
+msgstr ""
+
+#: ../../source/domain.rst:10 e886f8331d664feda77b9c6b219fae7a
+msgid "Unstructured"
+msgstr ""
+
+#: ../../source/domain.rst:10 1de3bd282d504d97b7665395909c9b2b
+msgid ""
+"Refers to received or obtained data that have a structure defined outside"
+" of :mod:`Journey` or do not have a defined structure."
+msgstr ""
+
+#: ../../source/domain.rst:13 7529ba025c7b4c9395706fa5716c1397
+msgid "Structured Data Domains"
+msgstr ""
+
+#: ../../source/domain.rst:15 8c331e18c1844a30a844e2b5f5bb4bc3
+msgid ""
+"`DBDat` handles data that are directly related to the :mod:`Journey` "
+"database tables.  All other domain data whether structured or not are "
+"parsed and converted into **DBDat** domain data and then stored to the "
+"database.  For details see section :doc:`domain/dbdat/index`."
+msgstr ""
+
+#: ../../source/domain.rst:20 44aa9c51f48e4e2abf529853c262fafb
+#, fuzzy
+msgid ""
+"`IFDat` defines a structure that the RAs of Investment Funds use to "
+"submit Investment Fund domain data.handles data coming from Investment "
+"Fund units. For details see section :doc:`domain/ifdat/index`."
+msgstr ""
+"Η `IFDat` διαχειρίζεται στοιχεία επενδυτικών οργανισμών.  Λεπτομέρειες "
+"υπάρχουν στην ενότητα :doc:`domain/ifdat/index`."
+
+#: ../../source/domain.rst:25 3b24c96066814af3a090ca68bf914cc2
+msgid "Unstructured Data Domains"
+msgstr ""
+
+#: ../../source/domain.rst:26 bfadb7b307d948f593772de4a29aa2f3
+msgid "TODO"
+msgstr ""
 
 #~ msgid ""
 #~ "`DBDat` handles data that are stored "
@@ -50,3 +89,15 @@ msgstr "Η `IFDat` διαχειρίζεται στοιχεία επενδυτι�
 #~ "described in the following section "
 #~ ":doc:`domain/ifdat/index`"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "`DBDat` handles data that are stored "
+#~ "directly into :mod:`Journey` database tables."
+#~ "  For details see section "
+#~ ":doc:`domain/dbdat/index`."
+#~ msgstr ""
+#~ "Η `DBDat` διαχειρίζεται στοιχεία τα "
+#~ "οποία αποθηκεύονται απευθείας στη βάση "
+#~ "δεδομένων.  Λεπτομέρειες υπάρχουν στην ενότητα"
+#~ " :doc:`domain/dbdat/index`."
+
