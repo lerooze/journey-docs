@@ -1,13 +1,26 @@
 DIMS
 ====
-Το φύλλο ``DIMS`` του ``Data Model`` περιγράφει τις διαστάσεις του κάθε πίνακα.  Για κάθε διάσταση δίνονται:
+Sheet ``DIMS`` describes the **Dimensions** of the corresponding **Data Table** and provides the following information:
 
-TABLE
-    Ονομασία του πίνακα της διάστασης που αποτελεί ταυτόχρονα και σύνδεσμο με τη σχετική
-    εγγραφή του πίνακα στο φύλλο ``DSDS`` ·
+DATA TABLE
+    **Data Table** identifier which also serves as a link to the **DSD** of the **Data Table**.
 
 DIMENSION
-    Ονομασία της διάστασης·
+    :term:`Dimension` identifier.
 
 TYPE
-    Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της διάστασης.
+    Provides the allowed values that the **Dimension** can take.  See also :doc:`types`. 
+
+.. DIMS
+.. ====
+.. Το φύλλο ``DIMS`` του ``Data Model`` περιγράφει τις διαστάσεις του κάθε πίνακα.  Για κάθε διάσταση δίνονται:
+..
+.. TABLE
+..     Ονομασία του πίνακα της διάστασης που αποτελεί ταυτόχρονα και σύνδεσμο με τη σχετική
+..     εγγραφή του πίνακα στο φύλλο ``DSDS`` ·
+..
+.. DIMENSION
+..     Ονομασία της διάστασης·
+..
+.. TYPE
+..     Σύνδεσμος με την περιγραφή των επιτρεπτών τιμών της διάστασης.
