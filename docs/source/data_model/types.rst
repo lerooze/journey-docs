@@ -14,11 +14,11 @@ STR{LEN}
     String with up to ``LEN`` characters.  All UTF-8 characters are allowed.  For example a permissible value of a ``STR8`` type is ``FOÿ`` and a not permissible value is ``Foo_Foo_Foo``.
     
 ID
-    String with up to 32 characters.  All characters belonging in the range ``[a-zA-z0-9_]`` are allowed.  It is used to create identifiers for various units that are described in :doc:`Identifiers <../id_type>`.
+    String with up to 32 characters.  All characters belonging in the range ``[a-zA-z0-9_]`` are allowed.  It is used to create identifiers for various units that are described in :doc:`Identifiers <../identifiers>`.
     
 
 STR{LEN}_ID
-    String with up to ``LEN`` characters.  All characters belonging in the range ``[a-zA-z0-9_]`` are allowed.  It is used to create identifiers for various units that are described in :doc:`Identifiers <../id_type>`.  For example an allowed value for a ``STR16_ID`` type is ``GR001`` and a not allowed values are ``GR#001``, ``ΓΡ001``, ``GR0000000000AAAAAAAAAAAAA``.
+    String with up to ``LEN`` characters.  All characters belonging in the range ``[a-zA-z0-9_]`` are allowed.  It is used to create identifiers for various units that are described in :doc:`Identifiers <../identifiers>`.  For example an allowed value for a ``STR16_ID`` type is ``GR001`` and a not allowed values are ``GR#001``, ``ΓΡ001``, ``GR0000000000AAAAAAAAAAAAA``.
     
 LATIN_STR{LEN}
     String with up to ``LEN`` characters.  Only latin characters are allowed  belonging in the range ``[a-zA-z0-9_]`` are allowed (``[\x20-\x7E\xA0-\xFF]``).

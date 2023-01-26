@@ -15,6 +15,8 @@ Section :doc:`data submission <submission>` describes the main methods of submit
 
 Section :doc:`data validation <validation>` describes the process of validating incoming data.
 
+Section :doc:`data uploading <uploading>` describes the process of processing and uploading processed incoming data to the database.
+
 Section :doc:`identifiers <identifiers>` describes how to identify each uniquely identifiable kind of unit in :mod:`Journey`. 
 
 Section :doc:`sid` provides the names and the identification codes of the reporting agents.
@@ -30,6 +32,7 @@ Section :doc:`dev` provides details of how to contribute to :mod:`Journey`.
    domain
    submission
    validation
+   uploading
    identifiers
    sid
    whatsnew

@@ -8,3 +8,9 @@ The workflow for uploading files submitted between the time intervals described 
 2. The above incoming data that have been converted to the **DBDat** data model and that are placed in a temporarily storage area are aligned as described in :doc:`alignment <alignment>` and are placed again in the same temporarily storage area.
 
 3. The processed incoming data are then compared to the database data and any new or changed data are loaded into the database.  This process is described in :doc:`database storage <storage>`.
+
+.. toctree::
+   :maxdepth: 1 
+
+   alignment 
+   storage

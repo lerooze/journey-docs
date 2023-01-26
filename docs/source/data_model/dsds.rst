@@ -14,6 +14,7 @@ MEASURES
 
 ATTRS
     Link to sheet **ATTRS** that provides the **Attributes** of each **Measure** of the corresponding **Data Table**.
+
 ..
 .. DSDS
 .. ====

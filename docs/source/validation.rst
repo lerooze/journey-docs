@@ -24,8 +24,8 @@ files
 critical_errors
     A list of critical errors as described in :doc:`Critical Error <validation/critical>` (optional)
 
-standard_errors
-    A list of standard errors as described in :doc:`Critical Error <validation/standard>` (optional)
+.. toctree::
+   :maxdepth: 1 
 
-warnings
-    A list of standard errors as described in :doc:`Critical Error <validation/standard>` (optional)
+   validation/critical
+   validation/schema_error
