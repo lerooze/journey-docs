@@ -12,6 +12,13 @@ What's new?
 .. ============
 
 
+v0.2.1 (2023-03-29)
+-------------------
+
+* In IFDat, BSI, DEPOSIT removed arrears and write-offs
+* Fix OTC_DERIVATIVE BSI stock greek definition
+* Bug fixes
+
 v0.2.0 (2023-01-16)
 -------------------
 

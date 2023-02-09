@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-26 13:19+0200\n"
-"PO-Revision-Date: 2023-01-20 14:12+0200\n"
+"PO-Revision-Date: 2023-03-29 23:42+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,6 @@ msgstr ""
 "άρθρο 1 του κανονισμού ΕΚΤ/2013/38."
 
 #: ../../source/domain/ifdat/regulation.rst:17 c6d2814b9fcd42a5bfc94da4fc705109
-#, fuzzy
 msgid ""
 "An Observed Agent (OA) is considered an Investment Fund which due to its "
 "activities creates data to be submitted of the type described in article "
@@ -615,4 +614,3 @@ msgstr ""
 #~ "άλλη μονάδα που ορίζεται από τη "
 #~ "μητρική της διαχειρίστριας εταιρείας."
 #~ msgstr ""
-

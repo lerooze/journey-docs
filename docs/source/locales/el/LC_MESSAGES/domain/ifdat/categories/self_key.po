@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 08:43+0200\n"
-"PO-Revision-Date: 2023-01-16 08:45+0200\n"
+"PO-Revision-Date: 2023-03-29 23:42+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -313,9 +313,7 @@ msgstr ""
 #: ../../source/domain/ifdat/categories/self_key.rst:107
 #: 185c4a8bf8364ca5bca7e44c0b17a9d2
 msgid "DEBT"
-msgstr ""
-"Χρησιμοποιείται για την παροχή περιοδικών στοιχείων των χρεογράφων που "
-"που έχει εκδώσει η ``ΠΜ``."
+msgstr "DEBT"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:109
 #: 1e90bbffafb34427aeeee511618a2c54
@@ -338,11 +336,7 @@ msgstr ""
 msgid ""
 "Price (closing price) expressed as a percentage of the nominal price.  "
 "For coupon-bonds accrued interest is not included in the price."
-msgstr ""
-"Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής "
-"τιμής.  Για τοκοφόρα χρεόγραφα στη τιμή δεν περιλαμβάνονται οι "
-"δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του "
-"ομολόγου (clean price)·"
+msgstr "Τιμή κλεισίματος (closing price) εκφραζόμενη ως ποσοστό της ονομαστικής τιμής.  Η τιμή του ομολόγου μπορεί να είναι στην ονομαστική αξία (par), με ανατίμηση ως προς την ονοαστική αξία ή με έκπτωση ως προς την ονομαστική αξία.  Για τοκοφόρα χρεόγραφα στην τιμή δεν περιλαμβάνονται οι δεδουλευμένοι τόκοι από τα τοκομερίδια, δίνεται δηλαδή η καθαρή τιμή του ομολόγου (clean price)·"
 
 #: ../../source/domain/ifdat/categories/self_key.rst:130
 #: 306081642fff435e9025f736d574f8ad

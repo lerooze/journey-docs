@@ -20,7 +20,7 @@ ID
     ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -32,7 +32,7 @@ STOCK (STCK)
 
 STOCK IN EURO (EUR_STCK)
     Η cashstock_ in euro·
-    
+
 
 DEPOSIT
 -------
@@ -46,7 +46,7 @@ IID
     Deposit identifier code (:ref:`dep`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -62,12 +62,6 @@ STOCK IN EURO (EUR_STCK)
 ACCRUALS (ACCRLS)
     Accrued interest.
 
-ARREARS (ARRRS)
-    Interest arrears.
-    
-WRITE-OFFS (WRT_OFFS)
-    Write offs, writedowns, haircuts.
-
 ASSET_SFT
 ---------
 
@@ -80,7 +74,7 @@ IID
     Identifier code of the security financing transaction (:ref:`sft`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~
@@ -91,9 +85,9 @@ STOCK (STCK)
     Amount of cash that the ``OA`` has loaned in the transaction.
 
 STOCK IN EURO (EUR_STCK)
-    asftstock_ in euro. 
-    
-    
+    asftstock_ in euro.
+
+
 ASSET_DEBT
 ----------
 
@@ -109,7 +103,7 @@ ID
     ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -126,7 +120,7 @@ STOCK IN EURO (EUR_STCK)
     adbtstock_ in euro.
 
 TRANSACTIONS (TRNSCTNS)
-    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
+    Transactions net of any commissions and/or transaction taxes (**flow measure**).
 
 .. _debt_nominal:
 
@@ -168,7 +162,7 @@ ID
     ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -184,12 +178,12 @@ STOCK (STCK)
     * based on the value of listed shares;
     * based on equity capital value;
     * based on discounting of future profits.
-    
+
 STOCK IN EURO (EUR_STCK)
     shrstock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
+    Transactions net of any commissions and/or transaction taxes (**flow measure**).
 
 .. _share_nominal:
 
@@ -224,7 +218,7 @@ ID
     ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -236,16 +230,16 @@ MEASURES
 
 STOCK (STCK)
     Market value which could fluctuate from positive to negative for futures and forward contracts.
-    Some of the call/put options and future products work with a margin account in which profit and losses are recorded daily and in this case their market value is always zero. 
-    
+    Some of the call/put options and future products work with a margin account in which profit and losses are recorded daily and in this case their market value is always zero.
+
 STOCK IN EURO (EUR_STCK)
-    edrstock_ in euro. 
+    edrstock_ in euro.
 
 GRSS_STCK (GROSS STOCK)
     edrstock_ adding to it any net cumulative profits of call/put options, forward contracts that work with a margin account and in those cases edrstock_ is zero.
 
 TRANSACTIONS (TRNSCTNS)
-    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
+    Transactions net of any commissions and/or transaction taxes (**flow measure**).
 
 QUANTITY (QNTTY)
     Quantity held of the derivative.
@@ -265,7 +259,7 @@ IID
     Identifier code of the over the counter derivative (:ref:`odr`)·
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -277,12 +271,12 @@ MEASURES
 
 STOCK (STCK)
     Market or fair value of the over the counter derivative.
-    
+
 STOCK IN EURO (EUR_STCK)
     odrstock_ in euro·
 
 TRANSACTIONS (TRNSCTNS)
-    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
+    Transactions net of any commissions and/or transaction taxes (**flow measure**).
 
 STRATEGY (STRTGY)
     Investment strategy for the derivative transaction choosing from ``DRVTV_STRTGY_ENUM``.
@@ -301,7 +295,7 @@ IID
     Identifier code of the residential real estate (:ref:`rre`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -341,7 +335,7 @@ IID
     Identifier code of the residential real estate (:ref:`cre`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -387,7 +381,7 @@ ID
     ``OA`` identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -432,11 +426,11 @@ COUNTERGROUP (CNTRGRP)
 
 .. _aremcurrency:
 
-CURRENCY (CRRNCY) 
+CURRENCY (CRRNCY)
     Grouped by currency of the remaining financial asset choosing from ``GEN_CNTRY_ENUM``.
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -463,7 +457,7 @@ IID
     Identifier code of the security financing transaction (:ref:`sft`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 MEASURES
 ~~~~~~~~~~
@@ -475,7 +469,7 @@ STOCK (STCK)
 
 STOCK IN EURO (EUR_STCK)
     lsftstock_ in euro.
-    
+
 
 L_DEBT
 ------
@@ -492,7 +486,7 @@ ID
     Holder identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -509,7 +503,7 @@ STOCK IN EURO (EUR_STCK)
     ldbtstock_ in euro.
 
 TRANSACTIONS (TRNSCTNS)
-    Transactions net of any commissions and/or transaction taxes (**flow measure**). 
+    Transactions net of any commissions and/or transaction taxes (**flow measure**).
 
 NOMINAL STOCK (NMNL_STCK)
     Nominal value.
@@ -533,7 +527,7 @@ IID
     Identifier code of the loan (:ref:`lon`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 
 MEASURES
@@ -576,11 +570,11 @@ COUNTERGROUP (CNTRGRP)
 
 .. _lremcurrency:
 
-CURRENCY (CRRNCY) 
+CURRENCY (CRRNCY)
     Grouped by currency of the remaining financial liability choosing from ``GEN_CNTRY_ENUM``.
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 
 MEASURES
@@ -611,7 +605,7 @@ ID
     Holder identifier code (:ref:`org`).
 
 DATE (DT)
-    Reference date.  For further details see :doc:`../../../generic`. 
+    Reference date.  For further details see :doc:`../../../generic`.
 
 FREQUENCY (FRQNCY)
     Reference period applicable for flow measures. For further details see :doc:`../../../generic`.
@@ -621,14 +615,14 @@ MEASURES
 ~~~~~~~~~~
 
 QUANTITY (QNTTY)
-    Number of shares/investment fund units. 
+    Number of shares/investment fund units.
 
 SUBSCRIPTIONS (SBSCRPTNS)
     Subscriptions gross of any commissions (**flow variable**).
 
 SUBSCRIPTION CHARGES (SUB_CHRGS)
     Subscription commissions (**flow variable**).
-    
+
 REDEMPTIONS (RDMPTNS)
     Redemptions net of any commissions (**flow variable**).
 

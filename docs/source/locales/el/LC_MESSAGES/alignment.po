@@ -8,36 +8,286 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 13:19+0200\n"
+"POT-Creation-Date: 2023-03-29 23:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../source/alignment.rst:2 9a8440e1c7914234b323a17962746517
-msgid "Incoming Data Alignment"
+#: ../../source/alignment.rst:2 604b5f587e28468682337d465e3af04a
+msgid "Overlapping Time Interval Correction, Alignment and Merging"
 msgstr ""
 
-#: ../../source/alignment.rst:5 61cbb049910c4843959fc36983b476de
+#: ../../source/alignment.rst:5 473cd6de760049bca3490453fc274bfd
+msgid "Base Tables"
+msgstr ""
+
+#: ../../source/alignment.rst:6 31e682d8ee5d48a09076f4d01f3fb4ea
 msgid ""
-"The incoming data alignment that takes place will be described by the "
-"type of table and using examples."
+"Base tables are any tables in which the dimensions do not contain any "
+"date dimensions.  They are the tables that generate :doc:`units "
+"<identifiers>`."
 msgstr ""
 
-#: ../../source/alignment.rst:8 473cd6de760049bca3490453fc274bfd
+#: ../../source/alignment.rst:10 ../../source/alignment.rst:52
+#: 1764c3c3f2614c77b2918335d0ce3122 9ba28da1661b49a49d41017d92a5ec23
+msgid "Example"
+msgstr ""
+
+#: ../../source/alignment.rst:11 f13bf2d44baa4d4a8b1a1136d7a300c8
+msgid ""
+"Suppose a user has submitted two files to be validated together that "
+"contain the following data from ORG tables:"
+msgstr ""
+
+#: ../../source/alignment.rst:14 f4ee97e0acbf49d7bab1796c255a6a5c
+msgid "Data from first ORG table:"
+msgstr ""
+
+#: ../../source/alignment.rst:17 ../../source/alignment.rst:27
+#: ../../source/alignment.rst:37 ../../source/alignment.rst:59
+#: ../../source/alignment.rst:69 ../../source/alignment.rst:80
+#: ../../source/alignment.rst:90 ../../source/alignment.rst:102
+#: 21c7bb76f2804d7a806e58291ecb6abd 37d4f8d42f144e31b8c9eaa3afc78d03
+#: 5c826bb4805d47038dec6533fd96ddf3 bd7a270f7cf74a0db11f21f3361efe51
+#: e4ae579b507d441cb5fa9745d6fa2de5 e7165c2611a546e093a206b7bfa74fa5
+#: ecf47b7ae9604b0e86bb2e16d2217c37 f955747d0daf428faae736f8f1357bfe
+msgid "ID"
+msgstr ""
+
+#: ../../source/alignment.rst:17 ../../source/alignment.rst:27
+#: ../../source/alignment.rst:37 8bcff191d0184838a754f952c8323aef
+#: 96fe04836e924b859bf84b41ecafc825 9870e76a37b14e23a4295f3dfbe09e32
+msgid "DT_BRTH"
+msgstr ""
+
+#: ../../source/alignment.rst:19 ../../source/alignment.rst:39
+#: ../../source/alignment.rst:61 ../../source/alignment.rst:63
+#: ../../source/alignment.rst:71 ../../source/alignment.rst:73
+#: ../../source/alignment.rst:82 ../../source/alignment.rst:84
+#: ../../source/alignment.rst:92 ../../source/alignment.rst:94
+#: ../../source/alignment.rst:96 ../../source/alignment.rst:104
+#: ../../source/alignment.rst:106 ../../source/alignment.rst:108
+#: ../../source/alignment.rst:110 03dae75f1989455b8c98b1b3202bca1b
+#: 0e61ef4a1cc04e00ba114c0da1cd9249 0ef8503e2a114fff8ffdbc583664fcca
+#: 4194322a090b4f6ba5396fe73d1f0599 4796c50ff952464cb8bf07ff2458cf91
+#: 48575bd6cf8543c6ba38d89f3c77e81e 614bdd0300674c908e57a67b8a013253
+#: 72234822cf8942578b63da5222c44dcc 790ebdbee27b4f7daabf7de426a330f1
+#: 972d630bf64c465a8c8bf7b8a208ad23 b0fabb3fd2b74aa0bb8102ed30bbd030
+#: b7a53e8c75a147f9ad638f57086fb847 bfaa6d0841fb4020a43c5fd7f7d6b470
+#: e475adc91bc34329946e2f239e0986e7 ead5619da3674c5c952fc98abd3748dd
+msgid "GRFOO"
+msgstr ""
+
+#: ../../source/alignment.rst:19 ../../source/alignment.rst:39
+#: 053ea25e0baa41529b578c803ca2fdcf 7f10b74f20944ce48890fe78b45d58d5
+msgid "1999-01-01"
+msgstr ""
+
+#: ../../source/alignment.rst:21 ../../source/alignment.rst:29
+#: ../../source/alignment.rst:41 54acb69d13ba4b6cbc8080ce4f200b65
+#: 73b52ccb36324489a9919d87eb32b2c8 a339931806504566b50fad3e207e2737
+msgid "GRFAZ"
+msgstr ""
+
+#: ../../source/alignment.rst:21 a4399c5f617740cea81da655303eb1c5
+msgid "2010-01-25"
+msgstr ""
+
+#: ../../source/alignment.rst:24 8f58b08c46a542808b8439c330954ccf
+msgid "Data from second ORG table which is submitted after the first ORG table:"
+msgstr ""
+
+#: ../../source/alignment.rst:27 ../../source/alignment.rst:37
+#: 0d64662a92224a20a827c3d2b5d904a1 761ef252131747ba813727b38bfe280c
+msgid "CNTRY_BRTH"
+msgstr ""
+
+#: ../../source/alignment.rst:29 ../../source/alignment.rst:41
+#: 40d5d7c6132f4bca833d5bc5247a1dc3 e84a1d3c15844deca76069c1e23cbd87
+msgid "2011-01-01"
+msgstr ""
+
+#: ../../source/alignment.rst:29 ../../source/alignment.rst:41
+#: 0c4877c0632c4c40b1544e652e8e659d bc9b897b2da542aaaf586696af96c237
+msgid "GR"
+msgstr ""
+
+#: ../../source/alignment.rst:31 ../../source/alignment.rst:43
+#: 8c5f7d066e0c4622bdc34491849399dd ec5ac2cea025431283ed5a5a2ce906d4
+msgid "GRFEN"
+msgstr ""
+
+#: ../../source/alignment.rst:31 ../../source/alignment.rst:43
+#: 0bab0983eb7c404999286ffcfce753a8 f7498406ba3c4671800bd7323c16854f
+msgid "2022-06-25"
+msgstr ""
+
+#: ../../source/alignment.rst:34 bf5f96a4dc9f41d8828836cada237ca6
+msgid "Merging the two ORG tables gives:"
+msgstr ""
+
+#: ../../source/alignment.rst:48 473cd6de760049bca3490453fc274bfd
 msgid "Static Tables"
 msgstr ""
 
-#: ../../source/alignment.rst:9 04c14b71058f4d8eaa81e96bd026bb12
+#: ../../source/alignment.rst:49 04c14b71058f4d8eaa81e96bd026bb12
 msgid ""
-"Static tables are any tables in which the dimensions include **VLD_FRM** "
-"and **VLD_T**."
+"Static tables are any tables in which the dimensions of the table include"
+" **VLD_FRM** and **VLD_T**."
 msgstr ""
 
-#: ../../source/alignment.rst:11 9c00c1ce4f8d41c194183759093dec10
-msgid "Under Development..."
+#: ../../source/alignment.rst:53 7ca0d5325fa94e4a9a745c47a06cf979
+msgid ""
+"Suppose a user has submitted two files to be validated together that "
+"contain the following data from STATIC_ORG tables:"
 msgstr ""
+
+#: ../../source/alignment.rst:56 085f98536a9e4b698c12c16dd1fc27ae
+msgid "Data from first STATIC_ORG table:"
+msgstr ""
+
+#: ../../source/alignment.rst:59 ../../source/alignment.rst:69
+#: 7436c704c71d4dab8823016de270fefa b31edf014fd94c26aa8a68018aa80a77
+msgid "VALID FROM"
+msgstr ""
+
+#: ../../source/alignment.rst:59 ../../source/alignment.rst:69
+#: b33881f82f3c41a4b3215db0c166a187 ef1728a90aeb4ec0adf2acf854fac0e9
+msgid "VALID TO"
+msgstr ""
+
+#: ../../source/alignment.rst:59 ../../source/alignment.rst:69
+#: 62e6774150984236a262bebbd109f136 e28be2afdb454a04b3620b076398f985
+msgid "SECTOR"
+msgstr ""
+
+#: ../../source/alignment.rst:61 ../../source/alignment.rst:71
+#: ../../source/alignment.rst:104 677025bda2c343f28a8c7e0548cdc712
+#: c5f290985fa94e5591a261af43a4a6e2 da4453bbf45e4dbb8bad9d2e12fd24f8
+msgid "2000-01-01"
+msgstr ""
+
+#: ../../source/alignment.rst:61 2fe8ded4d3de4628bd9539d4ea576a90
+msgid "2010-11-24"
+msgstr ""
+
+#: ../../source/alignment.rst:61 ../../source/alignment.rst:71
+#: ../../source/alignment.rst:104 355506da411c4e808354ea9a94ecb2a1
+#: 9fe0e9425f5c444ebce87fc854373782 eb6aa23a2e634ccab5ad718b786a51e0
+msgid "S125"
+msgstr ""
+
+#: ../../source/alignment.rst:63 ../../source/alignment.rst:71
+#: ../../source/alignment.rst:73 06d7b6da7a744ff8aed57d5348123b99
+#: 41d2c557273d4e878f8b327365a4ed4f f769eb419fbe40e39864da85b5cdf6dc
+msgid "2009-01-25"
+msgstr ""
+
+#: ../../source/alignment.rst:63 ../../source/alignment.rst:73
+#: ../../source/alignment.rst:110 20bceea13e7e41dcb3807a6649b4e87d
+#: 2a922ced2d364454856377dcb8be1ba8 ef1f3140c54c4d53a3742c73fba2ce4f
+msgid "S126"
+msgstr ""
+
+#: ../../source/alignment.rst:66 ../../source/alignment.rst:87
+#: 37472ac744d84369abb5dac452a0408e c964b53348fe445b8e0d5d04c929168a
+msgid ""
+"And after overlapping time interval correction the first STATIC_ORG table"
+" becomes:"
+msgstr ""
+
+#: ../../source/alignment.rst:76 a75c903ce8554c04b01c149b9cab9b48
+msgid ""
+"Data from second STATIC_ORG table which is submitted after the first "
+"STATIC_ORG table:"
+msgstr ""
+
+#: ../../source/alignment.rst:80 ../../source/alignment.rst:90
+#: ../../source/alignment.rst:102 c82ac80b289e45198b302504401baf22
+#: cc809d2d928b4b518e6e389480200cb1 ce6621844aed42348c499dfdbdfd0492
+msgid "VLD_FRM"
+msgstr ""
+
+#: ../../source/alignment.rst:80 ../../source/alignment.rst:90
+#: ../../source/alignment.rst:102 1e4a7ae889664b7db5c7c1c0d8688188
+#: 26ceb606e0cd43468a252dc869140ee6 c4598b79552d40b79f85da0ec0f532ed
+msgid "VLD_T"
+msgstr ""
+
+#: ../../source/alignment.rst:80 ../../source/alignment.rst:90
+#: ../../source/alignment.rst:102 88980ba284654de1bab40a9964a07fd3
+#: a79852533c4d4a74ab30431b98c9b6ec e608fef23c914b57b853ab162e5db297
+msgid "INSTTNL_SCTR"
+msgstr ""
+
+#: ../../source/alignment.rst:80 ../../source/alignment.rst:90
+#: ../../source/alignment.rst:102 04cc7504293e4725807664db4e11b4f7
+#: 38351ca096a04da6a5eb4d34243a6627 b8394cdd6508443d9ccf1629acf3856f
+msgid "IS_LSTD"
+msgstr ""
+
+#: ../../source/alignment.rst:82 ../../source/alignment.rst:92
+#: ../../source/alignment.rst:104 ../../source/alignment.rst:106
+#: 0092fa9b5efc4861a4c85c9065694f34 85c8ef74c31d4fd68605d509ddaa57e8
+#: 943b29ddd87742cea23092ae4c5457e3 f7f23ff4d4c0483997efcdfb10ff8ef2
+msgid "2007-03-30"
+msgstr ""
+
+#: ../../source/alignment.rst:82 ../../source/alignment.rst:94
+#: ../../source/alignment.rst:96 ../../source/alignment.rst:108
+#: ../../source/alignment.rst:110 408bee04e5b249b69c35fd4b3fea08da
+#: 4febd949b54c48b59c5dc9d7bd63e5b9 7969674239074aa0bb866ae0dca07b23
+#: 828ad42db89d4a2aace94a2ba7bb92bc f3439d8d3e23475eb3056930f55e459b
+msgid "2015-05-05"
+msgstr ""
+
+#: ../../source/alignment.rst:82 ../../source/alignment.rst:92
+#: ../../source/alignment.rst:94 ../../source/alignment.rst:106
+#: ../../source/alignment.rst:108 079dbaabcf5d4997b04cea987beb2c20
+#: 373e8ebbabbd4869b9fbb62b6c3a6910 46b4b64fa4e44dc4b7a35ba7f5afc2be
+#: 5a704a07ffe3446b95801472a2ca6eba 8ee062b71ca04d06b081284139f133c4
+msgid "S128"
+msgstr ""
+
+#: ../../source/alignment.rst:84 ../../source/alignment.rst:92
+#: ../../source/alignment.rst:94 ../../source/alignment.rst:106
+#: ../../source/alignment.rst:108 561fb30fa16f4fcf84352a6143b40d87
+#: 9090f300cbea4eb280240709cde87fdb c6f9eac3cf904a5ea1c250d3edaee342
+#: cbf90e5504bc4d95a4db08d3b109d019 f658c9fda5664d73896d2a05c466a02a
+msgid "2014-01-15"
+msgstr ""
+
+#: ../../source/alignment.rst:84 ../../source/alignment.rst:94
+#: ../../source/alignment.rst:96 ../../source/alignment.rst:108
+#: ../../source/alignment.rst:110 26354031a39d4e98a2461aa9f8a94170
+#: 2ab9c82cb0ab4251ab7c30d992ccffa8 52ae4d03e9bd47c98a5ed7b90160abab
+#: d07a551c60d34e928e810571c4f1c5fe ef8837e835d54539a9e43eb2b7bb6bd7
+msgid "True"
+msgstr ""
+
+#: ../../source/alignment.rst:99 4c46a0b7d489491b9cd592766317f95b
+msgid "Aligning the two STATIC_ORG tables gives:"
+msgstr ""
+
+#~ msgid "Incoming Data Alignment"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The incoming data alignment that takes"
+#~ " place will be described by the "
+#~ "type of table and using examples."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Static tables are any tables in "
+#~ "which the dimensions include **VLD_FRM** "
+#~ "and **VLD_T**."
+#~ msgstr ""
+
+#~ msgid "Under Development..."
+#~ msgstr ""
 

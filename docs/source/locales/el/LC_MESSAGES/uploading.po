@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 13:19+0200\n"
+"POT-Creation-Date: 2023-03-29 23:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../source/uploading.rst:2 c003db97b67146ec9652e0c3196c4bbf
 msgid "Uploading to Database"
@@ -23,11 +23,38 @@ msgstr ""
 
 #: ../../source/uploading.rst:4 b5fc1cacc5a8496abcfd2cdcb460fec1
 msgid ""
-"The workflow for uploading files submitted between the time intervals "
-"described in :doc:`validation <validation>` is the following:"
+"The automatic generic steps :mod:`Journey` performs to upload incoming "
+"files submitted between the fixed time intervals described in "
+":doc:`validation <validation>` are the following:"
 msgstr ""
 
-#: ../../source/uploading.rst:6 5e29aee8f00241ae8ea7574548c30aab
+#: ../../source/uploading.rst:6 120c7f44d13348b7aaf48f3ddcf6dee3
+msgid ""
+"A temporary data-storage place is created to hold the processed incoming "
+"data."
+msgstr ""
+
+#: ../../source/uploading.rst:8 68e2ac226171405695228171bf654e0a
+msgid "A parser is chosen based on the data domain."
+msgstr ""
+
+#: ../../source/uploading.rst:10 5e29aee8f00241ae8ea7574548c30aab
+msgid ""
+"The incoming data are converted to the :mod:`Journey` database structured"
+" data.  The structure of the database tables follows the structure of the"
+" data domain :doc:`DBDat <domain/dbdat/index>`.  The conversion steps are"
+" described in the parser section of each :doc:`data domains <domain>`.A "
+"parser is chosen depending on the domain of the incoming data and the "
+"data, the source of the data is determined and the incoming data are "
+"converted so that they satisfy the :doc:`DBDat <domain/dbdat/index>` "
+"**Data Model** and the data are appended in a temporary storage where "
+"latest data received take precedence of earlier data received.  The "
+"conversion process for each specific **Data Domain** is described in "
+"section **Parsing** under the specific **Data Domain** that are described"
+" in :doc:`data domains <domain>`."
+msgstr ""
+
+#: ../../source/uploading.rst:12 5e29aee8f00241ae8ea7574548c30aab
 msgid ""
 "A parser is chosen depending on the domain of the incoming data and the "
 "data, the source of the data is determined and the incoming data are "
@@ -39,7 +66,7 @@ msgid ""
 " in :doc:`data domains <domain>`."
 msgstr ""
 
-#: ../../source/uploading.rst:8 400b18c5088c4f92b683224efaf5ebb9
+#: ../../source/uploading.rst:15 400b18c5088c4f92b683224efaf5ebb9
 msgid ""
 "The above incoming data that have been converted to the **DBDat** data "
 "model and that are placed in a temporarily storage area are aligned as "
@@ -47,10 +74,17 @@ msgid ""
 "same temporarily storage area."
 msgstr ""
 
-#: ../../source/uploading.rst:10 add07e0456cd42b19346360915742a05
+#: ../../source/uploading.rst:17 add07e0456cd42b19346360915742a05
 msgid ""
 "The processed incoming data are then compared to the database data and "
 "any new or changed data are loaded into the database.  This process is "
 "described in :doc:`database storage <storage>`."
 msgstr ""
+
+#~ msgid ""
+#~ "The workflow for uploading files "
+#~ "submitted between the time intervals "
+#~ "described in :doc:`validation <validation>` is"
+#~ " the following:"
+#~ msgstr ""
 

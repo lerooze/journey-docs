@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-16 07:59+0200\n"
-"PO-Revision-Date: 2023-01-16 08:50+0200\n"
+"PO-Revision-Date: 2023-03-29 22:14+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -189,7 +189,7 @@ msgstr "CLOSEDATE (DT_CLS)"
 #: ../../source/domain/ifdat/categories/other_info.rst:139
 #: 3157051facd74ac696c18a910db0278c 468ace0e656b4c92a673235a0b510d31
 msgid "Close date if known and if applicable."
-msgstr "Ημερομηνία λύσης του εκδότη (κατά περίπτωση και αν υπάρχει η πληροφόρηση)·"
+msgstr "Ημερομηνία λύσης (κατά περίπτωση και αν υπάρχει η πληροφόρηση)·"
 
 #: ../../source/domain/ifdat/categories/other_info.rst:41
 #: ../../source/domain/ifdat/categories/other_info.rst:142
