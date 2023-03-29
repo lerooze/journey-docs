@@ -97,18 +97,18 @@
     "HOLDER": [
       {
         "DIMS": {
-          "ID": "I_100_H1"
+          "ID": "I_GRMFMC000_H1"
         },
         "INTRNL_ID": {
-          "VALUE": "100_1"
+          "VALUE": "GRMFMC000_H1"
         }
       },
       {
         "DIMS": {
-          "ID": "I_100_H2"
+          "ID": "I_GRMFMC000_H2"
         },
         "INTRNL_ID": {
-          "VALUE": "100_2"
+          "VALUE": "GRMFMC000_H2"
         }
       },
       {
@@ -123,7 +123,7 @@
     "STATIC_HOLDER": [
       {
         "DIMS": {
-          "ID": "I_100_H1"
+          "ID": "I_GRMFMC000_H1"
         },
         "CNTRY_RSDNC": {
           "VALUE": "GR"
@@ -134,7 +134,7 @@
       },
       {
         "DIMS": {
-          "ID": "I_100_H2"
+          "ID": "I_GRMFMC000_H2"
         },
         "CNTRY_RSDNC": {
           "VALUE": "CY"
@@ -161,16 +161,13 @@
     "DEPOSIT": [
       {
         "DIMS": {
-          "ID": "I_100_GRAK1_1"
+          "ID": "GR8801101230000012300302300"
         },
         "DT_BRTH": {
           "VALUE": "2022-01-27"
         },
         "IBAN_ID": {
           "VALUE": "GR8801101230000012300302300"
-        },
-        "INTRNL_ID": {
-          "VALUE": "100_GRAK1_1"
         },
         "TYP": {
           "VALUE": "OVER"
@@ -186,7 +183,7 @@
     "STATIC_DEPOSIT": [
       {
         "DIMS": {
-          "ID": "I_100_GRAK1_1"
+          "ID": "GR8801101230000012300302300"
         },
         "NMNL_INTRST": {
           "VALUE": 1.0

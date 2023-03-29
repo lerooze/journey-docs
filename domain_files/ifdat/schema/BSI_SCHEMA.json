@@ -253,21 +253,13 @@
         },
         "ACCRLS": {
           "$ref": "#/definitions/Measure_float__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"
-        },
-        "ARRRS": {
-          "$ref": "#/definitions/Measure_float__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"
-        },
-        "WRT_OFFS": {
-          "$ref": "#/definitions/Measure_NonNegativeFloat__GenericStatusConfAttr_AttrObsrvtnSttsEnum__AttrCnfdntltySttsEnum__"
         }
       },
       "required": [
         "DIMS",
         "STCK",
         "EUR_STCK",
-        "ACCRLS",
-        "ARRRS",
-        "WRT_OFFS"
+        "ACCRLS"
       ]
     },
     "SftSeries": {

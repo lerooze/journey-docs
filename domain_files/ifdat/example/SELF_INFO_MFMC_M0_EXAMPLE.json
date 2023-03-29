@@ -231,6 +231,12 @@
         },
         "ASSCTD_WTH": {
           "VALUE": true
+        },
+        "IS_EMPLY_OF": {
+          "VALUE": true
+        },
+        "RSPNSBL_FR_IFDAT": {
+          "VALUE": true
         }
       }
     ]
