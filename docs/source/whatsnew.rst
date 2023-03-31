@@ -12,6 +12,13 @@ What's new?
 .. ============
 
 
+v0.2.2 (2023-03-31)
+-------------------
+
+* In Greek Regulation removed the need to get data from foreign IFs, added data
+  submission concerning to IF sector reclassification or IF type change and
+  some more minor improvements.
+
 v0.2.1 (2023-03-29)
 -------------------
 

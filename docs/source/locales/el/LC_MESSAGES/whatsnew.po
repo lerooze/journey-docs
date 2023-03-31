@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Journey \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 23:55+0300\n"
+"POT-Creation-Date: 2023-03-31 18:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,60 +22,71 @@ msgid "What's new?"
 msgstr ""
 
 #: ../../source/whatsnew.rst:16 8a190e60993f48b9b7e37f375bdd3c7f
-msgid "v0.2.1 (2023-03-29)"
+msgid "v0.2.2 (2023-03-31)"
 msgstr ""
 
-#: ../../source/whatsnew.rst:18 83f446bdbadb497c83659d9b339a0b6b
-msgid "In IFDat, BSI, DEPOSIT removed arrears and write-offs"
-msgstr ""
-
-#: ../../source/whatsnew.rst:19 5d68eed2c43344e3a933be59112306af
-msgid "Fix OTC_DERIVATIVE BSI stock greek definition"
-msgstr ""
-
-#: ../../source/whatsnew.rst:20 8c305523f42449e4b1fe5c4c1d767ad5
-msgid "Bug fixes"
+#: ../../source/whatsnew.rst:18 b90398d235224a5a98ccfcc684bc5699
+msgid ""
+"In Greek Regulation removed the need to get data from foreign IFs, added "
+"data submission concerning to IF sector reclassification or IF type "
+"change and some more minor improvements."
 msgstr ""
 
 #: ../../source/whatsnew.rst:23 8a190e60993f48b9b7e37f375bdd3c7f
+msgid "v0.2.1 (2023-03-29)"
+msgstr ""
+
+#: ../../source/whatsnew.rst:25 83f446bdbadb497c83659d9b339a0b6b
+msgid "In IFDat, BSI, DEPOSIT removed arrears and write-offs"
+msgstr ""
+
+#: ../../source/whatsnew.rst:26 5d68eed2c43344e3a933be59112306af
+msgid "Fix OTC_DERIVATIVE BSI stock greek definition"
+msgstr ""
+
+#: ../../source/whatsnew.rst:27 8c305523f42449e4b1fe5c4c1d767ad5
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../source/whatsnew.rst:30 8a190e60993f48b9b7e37f375bdd3c7f
 msgid "v0.2.0 (2023-01-16)"
 msgstr ""
 
-#: ../../source/whatsnew.rst:25 d4ef51e567c94eacbb868d86e0e37a6b
+#: ../../source/whatsnew.rst:32 d4ef51e567c94eacbb868d86e0e37a6b
 msgid "In IFDat domain new RA tables in self_info category."
 msgstr ""
 
-#: ../../source/whatsnew.rst:26 8638a789bee3495d9dce3108c9544593
+#: ../../source/whatsnew.rst:33 8638a789bee3495d9dce3108c9544593
 msgid ""
 "In IFDat domain introduce DEDUPLICATE OF measures in case of a change in "
 "``RA``."
 msgstr ""
 
-#: ../../source/whatsnew.rst:27 88e3b620106242009724131139777a67
+#: ../../source/whatsnew.rst:34 88e3b620106242009724131139777a67
 msgid "Update documentation to accomodate above changes."
 msgstr ""
 
-#: ../../source/whatsnew.rst:28 79fb1d40df434136bfd9508485109829
+#: ../../source/whatsnew.rst:35 79fb1d40df434136bfd9508485109829
 msgid "Fix syntax and spelling bugs in documentation."
 msgstr ""
 
-#: ../../source/whatsnew.rst:31 8a190e60993f48b9b7e37f375bdd3c7f
+#: ../../source/whatsnew.rst:38 8a190e60993f48b9b7e37f375bdd3c7f
 msgid "v0.1.1 (2023-01-04)"
 msgstr ""
 
-#: ../../source/whatsnew.rst:33 e76de37c2e1f4f8db3d9f47a83afa8cb
+#: ../../source/whatsnew.rst:40 e76de37c2e1f4f8db3d9f47a83afa8cb
 msgid "Introduce License"
 msgstr ""
 
-#: ../../source/whatsnew.rst:34 8c305523f42449e4b1fe5c4c1d767ad5
+#: ../../source/whatsnew.rst:41 8c305523f42449e4b1fe5c4c1d767ad5
 msgid "Documentation fixes"
 msgstr ""
 
-#: ../../source/whatsnew.rst:37 8a190e60993f48b9b7e37f375bdd3c7f
+#: ../../source/whatsnew.rst:44 8a190e60993f48b9b7e37f375bdd3c7f
 msgid "v0.1.0 (2023-01-04)"
 msgstr ""
 
-#: ../../source/whatsnew.rst:39 5a4de6d3765548ac871ea7b7b2147cd7
+#: ../../source/whatsnew.rst:46 5a4de6d3765548ac871ea7b7b2147cd7
 msgid "Pre-release of documentation"
 msgstr ""
 
