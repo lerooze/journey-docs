@@ -12,6 +12,11 @@ What's new?
 .. ============
 
 
+v0.2.3 (2023-04-03)
+-------------------
+
+* Fix bug in restricting Greek IF reporting population.
+
 v0.2.2 (2023-03-31)
 -------------------
 
