@@ -12,7 +12,7 @@ The following entities are considered Investment Funds:
 
 #. In some countries Real Estate Investment companies are considered Investment Funds.
 
-#. Every other entity, besides the above, that is considered an Investmeng Fund according to article 1 of regulation ECB/2013/38.
+#. Every other entity, besides the above, that is considered an Investment Fund according to article 1 of regulation ECB/2013/38.
 
 An Observed Agent (OA) is considered an Investment Fund which due to its
 activities creates data to be submitted of the type described in article 3 with
