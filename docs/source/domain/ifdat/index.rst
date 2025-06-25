@@ -3,10 +3,6 @@ IFDat
 
 This section describes how data are collected from Investment Funds.
 
-:doc:`regulation` provides a template regulation that can be used as a basis
-for the collection of data from Investment Funds by the data collecting
-agencies. 
-
 :doc:`categories` describes in detail the six data categories that are
 contained in the data domain ``IFDat``.
 
@@ -22,7 +18,6 @@ agency are provided.
 .. toctree::
    :maxdepth: 1 
 
-   regulation
    categories
    example
    parsing

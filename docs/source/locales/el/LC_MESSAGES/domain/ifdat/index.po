@@ -27,16 +27,6 @@ msgstr ""
 "Η παρούσα ενότητα περιγράφει πως το :mod:`Journey` διαχειρίζεται τα "
 "στοιχεία επενδυτικών οργανισμών με το ακρώνυμο ``IFDat``."
 
-#: ../../source/domain/ifdat/index.rst:6 950501118bc242a18ff817093b731f01
-msgid ""
-":doc:`regulation` provides a template regulation that can be used as a "
-"basis for the collection of data from Investment Funds by the data "
-"collecting agencies."
-msgstr ""
-"Ο :doc:`κανονισμός <regulation>` είναι ένας πρότυπος  κανονισμός που "
-"μπορεί να χρησιμοποιηθεί ως βάση για τη συλλογή στοιχείων επενδυτικών "
-"οργανισμών από τις αρμόδιες αρχές."
-
 #: ../../source/domain/ifdat/index.rst:10 74ff2816ef8e43e3b807a50028490ac2
 msgid ""
 ":doc:`categories` describes in detail the six data categories that are "
