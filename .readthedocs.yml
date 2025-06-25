@@ -1,9 +1,21 @@
 version: 2
 
+sphinx:
+  configuration: docs/source/conf.py
+
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.12"
+    
 python:
-  version: 3.7
   install:
   - method: pip
     path: .
     extra_requirements:
     - docs
+
+# Build PDF and epub
+formats:
+  - epub
+  - pdf
